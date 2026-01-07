@@ -1,0 +1,46 @@
+name: ASX Prices Snapshot (twice daily)
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Run both AEDT and AEST-compatible UTC times; script self-selects window & dedupes.
+    # Weekdays only.
+    - cron: "5 0 * * 1-5"   # ~11:05 Sydney (AEDT)
+    - cron: "5 1 * * 1-5"   # ~11:05 Sydney (AEST)
+    - cron: "10 5 * * 1-5"  # ~16:10 Sydney (AEDT)
+    - cron: "10 6 * * 1-5"  # ~16:10 Sydney (AEST)
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ensure universe exists
+        run: |
+          test -f asx/tickers_asx.txt || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
+
+      - name: Build snapshot
+        run: |
+          python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add asx/prices_latest.json
+          git diff --staged --quiet || (git commit -m "Update ASX prices snapshot" && git push)

@@ -15,7 +15,7 @@ import exchange_calendars as xcals
 import pandas as pd
 import yfinance as yf
 
-from scripts.common import write_json, utc_now_iso
+from common import write_json, utc_now_iso
 
 DEFAULT_TICKERS_FILE = "asx/tickers_asx.txt"
 DEFAULT_OUT = "asx/prices_latest.json"

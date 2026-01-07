@@ -28,3 +28,7 @@ Point your app to:
 - The universe is sourced from the official ASX "ASXListedCompanies.csv" (free).
 - Price snapshots use `yfinance` bulk download (history), not quote endpoints.
 
+
+
+## Import note
+When running scripts via `python scripts/<name>.py`, imports should be `from common import ...` (not `from scripts.common ...`) because Python sets the script directory on `sys.path`.

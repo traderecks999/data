@@ -1,5 +1,6247 @@
 {
   "dataset": "asx/prices",
-  "asOfUtc": null,
-  "prices": {}
+  "asOfUtc": "2026-01-08T05:21:11Z",
+  "asOfPerth": "2026-01-08 13:21:11 AWST",
+  "window": "close",
+  "source": "yfinance_bulk_history",
+  "countTickers": 1984,
+  "countPrices": 1559,
+  "prices": {
+    "10X.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "14D.AX": {
+      "price": 0.03500000014901161,
+      "currency": "AUD"
+    },
+    "1AD.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "1AE.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "1AI.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "1CG.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "1MC.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "1TT.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "29M.AX": {
+      "price": 0.6470000147819519,
+      "currency": "AUD"
+    },
+    "360.AX": {
+      "price": 32.619998931884766,
+      "currency": "AUD"
+    },
+    "3DA.AX": {
+      "price": 0.33000001311302185,
+      "currency": "AUD"
+    },
+    "3DP.AX": {
+      "price": 0.03799999877810478,
+      "currency": "AUD"
+    },
+    "3PL.AX": {
+      "price": 0.6349999904632568,
+      "currency": "AUD"
+    },
+    "4DS.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "4DX.AX": {
+      "price": 4.599999904632568,
+      "currency": "AUD"
+    },
+    "5EA.AX": {
+      "price": 0.5249999761581421,
+      "currency": "AUD"
+    },
+    "5GG.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "5GN.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "6KA.AX": {
+      "price": 0.800000011920929,
+      "currency": "AUD"
+    },
+    "88E.AX": {
+      "price": 0.020999999716877937,
+      "currency": "AUD"
+    },
+    "8CO.AX": {
+      "price": 0.03200000151991844,
+      "currency": "AUD"
+    },
+    "8IH.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "A11.AX": {
+      "price": 0.21199999749660492,
+      "currency": "AUD"
+    },
+    "A1G.AX": {
+      "price": 0.625,
+      "currency": "AUD"
+    },
+    "A1M.AX": {
+      "price": 0.5950000286102295,
+      "currency": "AUD"
+    },
+    "A1N.AX": {
+      "price": 0.4000000059604645,
+      "currency": "AUD"
+    },
+    "A2M.AX": {
+      "price": 9.1899995803833,
+      "currency": "AUD"
+    },
+    "A3D.AX": {
+      "price": 0.05400000140070915,
+      "currency": "AUD"
+    },
+    "A4N.AX": {
+      "price": 0.8299999833106995,
+      "currency": "AUD"
+    },
+    "A8G.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "AA2.AX": {
+      "price": 0.29499998688697815,
+      "currency": "AUD"
+    },
+    "AAC.AX": {
+      "price": 1.3799999952316284,
+      "currency": "AUD"
+    },
+    "AAI.AX": {
+      "price": 92.87999725341797,
+      "currency": "AUD"
+    },
+    "AAJ.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "AAL.AX": {
+      "price": 0.4300000071525574,
+      "currency": "AUD"
+    },
+    "AAM.AX": {
+      "price": 0.04100000113248825,
+      "currency": "AUD"
+    },
+    "AAP.AX": {
+      "price": 0.052000001072883606,
+      "currency": "AUD"
+    },
+    "AAR.AX": {
+      "price": 0.25999999046325684,
+      "currency": "AUD"
+    },
+    "AAU.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "ABB.AX": {
+      "price": 5.005000114440918,
+      "currency": "AUD"
+    },
+    "ABE.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "ABG.AX": {
+      "price": 1.184999942779541,
+      "currency": "AUD"
+    },
+    "ABR.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "ABV.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "ABX.AX": {
+      "price": 0.07599999755620956,
+      "currency": "AUD"
+    },
+    "ABY.AX": {
+      "price": 1.2549999952316284,
+      "currency": "AUD"
+    },
+    "ACE.AX": {
+      "price": 1.6349999904632568,
+      "currency": "AUD"
+    },
+    "ACF.AX": {
+      "price": 1.0449999570846558,
+      "currency": "AUD"
+    },
+    "ACL.AX": {
+      "price": 2.640000104904175,
+      "currency": "AUD"
+    },
+    "ACM.AX": {
+      "price": 0.0820000022649765,
+      "currency": "AUD"
+    },
+    "ACP.AX": {
+      "price": 0.02500000037252903,
+      "currency": "AUD"
+    },
+    "ACQ.AX": {
+      "price": 0.9549999833106995,
+      "currency": "AUD"
+    },
+    "ACR.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "ACS.AX": {
+      "price": 0.04500000178813934,
+      "currency": "AUD"
+    },
+    "ACU.AX": {
+      "price": 0.07400000095367432,
+      "currency": "AUD"
+    },
+    "ACW.AX": {
+      "price": 0.06800000369548798,
+      "currency": "AUD"
+    },
+    "AD1.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "AD8.AX": {
+      "price": 4.210000038146973,
+      "currency": "AUD"
+    },
+    "ADC.AX": {
+      "price": 0.06300000101327896,
+      "currency": "AUD"
+    },
+    "ADD.AX": {
+      "price": 0.052000001072883606,
+      "currency": "AUD"
+    },
+    "ADG.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "ADH.AX": {
+      "price": 1.8320000171661377,
+      "currency": "AUD"
+    },
+    "ADN.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "ADO.AX": {
+      "price": 0.020999999716877937,
+      "currency": "AUD"
+    },
+    "ADR.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "ADS.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "ADV.AX": {
+      "price": 0.375,
+      "currency": "AUD"
+    },
+    "ADX.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "ADY.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "AEE.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "AEF.AX": {
+      "price": 5.099999904632568,
+      "currency": "AUD"
+    },
+    "AEG.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "AEI.AX": {
+      "price": 0.050999999046325684,
+      "currency": "AUD"
+    },
+    "AEL.AX": {
+      "price": 2.9100000858306885,
+      "currency": "AUD"
+    },
+    "AEM.AX": {
+      "price": 0.5249999761581421,
+      "currency": "AUD"
+    },
+    "AER.AX": {
+      "price": 0.0729999989271164,
+      "currency": "AUD"
+    },
+    "AEU.AX": {
+      "price": 0.3199999928474426,
+      "currency": "AUD"
+    },
+    "AEV.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "AFA.AX": {
+      "price": 0.07500000298023224,
+      "currency": "AUD"
+    },
+    "AFG.AX": {
+      "price": 2.140000104904175,
+      "currency": "AUD"
+    },
+    "AFI.AX": {
+      "price": 7.150000095367432,
+      "currency": "AUD"
+    },
+    "AFL.AX": {
+      "price": 0.18000000715255737,
+      "currency": "AUD"
+    },
+    "AFP.AX": {
+      "price": 2.9800000190734863,
+      "currency": "AUD"
+    },
+    "AGC.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "AGD.AX": {
+      "price": 0.14499999582767487,
+      "currency": "AUD"
+    },
+    "AGE.AX": {
+      "price": 0.03099999949336052,
+      "currency": "AUD"
+    },
+    "AGI.AX": {
+      "price": 1.0049999952316284,
+      "currency": "AUD"
+    },
+    "AGL.AX": {
+      "price": 9.175000190734863,
+      "currency": "AUD"
+    },
+    "AGN.AX": {
+      "price": 0.33000001311302185,
+      "currency": "AUD"
+    },
+    "AGR.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "AGY.AX": {
+      "price": 0.12700000405311584,
+      "currency": "AUD"
+    },
+    "AHC.AX": {
+      "price": 0.38999998569488525,
+      "currency": "AUD"
+    },
+    "AHE.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "AHF.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "AHK.AX": {
+      "price": 0.49000000953674316,
+      "currency": "AUD"
+    },
+    "AHL.AX": {
+      "price": 1.0299999713897705,
+      "currency": "AUD"
+    },
+    "AHN.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "AHX.AX": {
+      "price": 0.8700000047683716,
+      "currency": "AUD"
+    },
+    "AI1.AX": {
+      "price": 0.06199999898672104,
+      "currency": "AUD"
+    },
+    "AIA.AX": {
+      "price": 7.324999809265137,
+      "currency": "AUD"
+    },
+    "AIH.AX": {
+      "price": 0.9700000286102295,
+      "currency": "AUD"
+    },
+    "AII.AX": {
+      "price": 14.149999618530273,
+      "currency": "AUD"
+    },
+    "AIM.AX": {
+      "price": 0.7649999856948853,
+      "currency": "AUD"
+    },
+    "AIQ.AX": {
+      "price": 1.4769999980926514,
+      "currency": "AUD"
+    },
+    "AIS.AX": {
+      "price": 0.6349999904632568,
+      "currency": "AUD"
+    },
+    "AIV.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "AIZ.AX": {
+      "price": 0.5049999952316284,
+      "currency": "AUD"
+    },
+    "AJL.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "AJX.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "AKA.AX": {
+      "price": 0.1469999998807907,
+      "currency": "AUD"
+    },
+    "AKG.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "AKM.AX": {
+      "price": 0.23999999463558197,
+      "currency": "AUD"
+    },
+    "AKN.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "AKO.AX": {
+      "price": 0.08399999886751175,
+      "currency": "AUD"
+    },
+    "AKP.AX": {
+      "price": 6.199999809265137,
+      "currency": "AUD"
+    },
+    "AL3.AX": {
+      "price": 0.18700000643730164,
+      "currency": "AUD"
+    },
+    "ALA.AX": {
+      "price": 0.08699999749660492,
+      "currency": "AUD"
+    },
+    "ALB.AX": {
+      "price": 0.06400000303983688,
+      "currency": "AUD"
+    },
+    "ALC.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "ALD.AX": {
+      "price": 30.15999984741211,
+      "currency": "AUD"
+    },
+    "ALI.AX": {
+      "price": 2.5199999809265137,
+      "currency": "AUD"
+    },
+    "ALK.AX": {
+      "price": 1.3669999837875366,
+      "currency": "AUD"
+    },
+    "ALL.AX": {
+      "price": 56.56999969482422,
+      "currency": "AUD"
+    },
+    "ALM.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "ALQ.AX": {
+      "price": 22.885000228881836,
+      "currency": "AUD"
+    },
+    "ALR.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "ALV.AX": {
+      "price": 0.07699999958276749,
+      "currency": "AUD"
+    },
+    "ALX.AX": {
+      "price": 4.900000095367432,
+      "currency": "AUD"
+    },
+    "ALY.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "AM5.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "AM7.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "AMA.AX": {
+      "price": 0.800000011920929,
+      "currency": "AUD"
+    },
+    "AMC.AX": {
+      "price": 12.569999694824219,
+      "currency": "AUD"
+    },
+    "AMD.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "AMH.AX": {
+      "price": 1.0199999809265137,
+      "currency": "AUD"
+    },
+    "AMI.AX": {
+      "price": 0.27000001072883606,
+      "currency": "AUD"
+    },
+    "AMN.AX": {
+      "price": 0.06400000303983688,
+      "currency": "AUD"
+    },
+    "AMO.AX": {
+      "price": 0.14000000059604645,
+      "currency": "AUD"
+    },
+    "AMP.AX": {
+      "price": 1.8200000524520874,
+      "currency": "AUD"
+    },
+    "AMS.AX": {
+      "price": 0.028999999165534973,
+      "currency": "AUD"
+    },
+    "AMU.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "AMX.AX": {
+      "price": 0.27000001072883606,
+      "currency": "AUD"
+    },
+    "AN1.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "ANG.AX": {
+      "price": 0.2549999952316284,
+      "currency": "AUD"
+    },
+    "ANN.AX": {
+      "price": 33.290000915527344,
+      "currency": "AUD"
+    },
+    "ANO.AX": {
+      "price": 0.9399999976158142,
+      "currency": "AUD"
+    },
+    "ANR.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "ANX.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "ANZ.AX": {
+      "price": 35.790000915527344,
+      "currency": "AUD"
+    },
+    "AOA.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "AOF.AX": {
+      "price": 0.375,
+      "currency": "AUD"
+    },
+    "AOH.AX": {
+      "price": 0.054999999701976776,
+      "currency": "AUD"
+    },
+    "AOK.AX": {
+      "price": 0.0024999999441206455,
+      "currency": "AUD"
+    },
+    "AON.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "AOV.AX": {
+      "price": 8.850000381469727,
+      "currency": "AUD"
+    },
+    "APA.AX": {
+      "price": 8.819999694824219,
+      "currency": "AUD"
+    },
+    "APC.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "APE.AX": {
+      "price": 25.479999542236328,
+      "currency": "AUD"
+    },
+    "APL.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "APW.AX": {
+      "price": 3.0999999046325684,
+      "currency": "AUD"
+    },
+    "APX.AX": {
+      "price": 0.9120000004768372,
+      "currency": "AUD"
+    },
+    "APZ.AX": {
+      "price": 5.650000095367432,
+      "currency": "AUD"
+    },
+    "AQC.AX": {
+      "price": 0.006500000134110451,
+      "currency": "AUD"
+    },
+    "AQD.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "AQI.AX": {
+      "price": 0.1599999964237213,
+      "currency": "AUD"
+    },
+    "AQN.AX": {
+      "price": 0.4399999976158142,
+      "currency": "AUD"
+    },
+    "AQX.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "AQZ.AX": {
+      "price": 1.2100000381469727,
+      "currency": "AUD"
+    },
+    "AR1.AX": {
+      "price": 0.1120000034570694,
+      "currency": "AUD"
+    },
+    "AR3.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "AR9.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "ARA.AX": {
+      "price": 0.550000011920929,
+      "currency": "AUD"
+    },
+    "ARB.AX": {
+      "price": 31.709999084472656,
+      "currency": "AUD"
+    },
+    "ARC.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "ARF.AX": {
+      "price": 3.5999999046325684,
+      "currency": "AUD"
+    },
+    "ARG.AX": {
+      "price": 9.1899995803833,
+      "currency": "AUD"
+    },
+    "ARI.AX": {
+      "price": 0.03099999949336052,
+      "currency": "AUD"
+    },
+    "ARL.AX": {
+      "price": 0.6800000071525574,
+      "currency": "AUD"
+    },
+    "ARN.AX": {
+      "price": 0.44999998807907104,
+      "currency": "AUD"
+    },
+    "ARR.AX": {
+      "price": 0.38999998569488525,
+      "currency": "AUD"
+    },
+    "ART.AX": {
+      "price": 0.32499998807907104,
+      "currency": "AUD"
+    },
+    "ARU.AX": {
+      "price": 0.29499998688697815,
+      "currency": "AUD"
+    },
+    "ARV.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "ARX.AX": {
+      "price": 0.7649999856948853,
+      "currency": "AUD"
+    },
+    "AS1.AX": {
+      "price": 0.0949999988079071,
+      "currency": "AUD"
+    },
+    "AS2.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "ASB.AX": {
+      "price": 7.835000038146973,
+      "currency": "AUD"
+    },
+    "ASG.AX": {
+      "price": 3.809999942779541,
+      "currency": "AUD"
+    },
+    "ASH.AX": {
+      "price": 0.24500000476837158,
+      "currency": "AUD"
+    },
+    "ASK.AX": {
+      "price": 1.5149999856948853,
+      "currency": "AUD"
+    },
+    "ASL.AX": {
+      "price": 2.4200000762939453,
+      "currency": "AUD"
+    },
+    "ASM.AX": {
+      "price": 0.7519999742507935,
+      "currency": "AUD"
+    },
+    "ASN.AX": {
+      "price": 0.07599999755620956,
+      "currency": "AUD"
+    },
+    "ASP.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "ASQ.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "ASV.AX": {
+      "price": 0.04600000008940697,
+      "currency": "AUD"
+    },
+    "ASX.AX": {
+      "price": 52.07500076293945,
+      "currency": "AUD"
+    },
+    "AT1.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "AT4.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "ATA.AX": {
+      "price": 0.6800000071525574,
+      "currency": "AUD"
+    },
+    "ATC.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "ATG.AX": {
+      "price": 0.23999999463558197,
+      "currency": "AUD"
+    },
+    "ATH.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "ATM.AX": {
+      "price": 0.8700000047683716,
+      "currency": "AUD"
+    },
+    "ATP.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "ATR.AX": {
+      "price": 0.7350000143051147,
+      "currency": "AUD"
+    },
+    "ATS.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "ATT.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "ATV.AX": {
+      "price": 0.020999999716877937,
+      "currency": "AUD"
+    },
+    "ATX.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "AU1.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "AUA.AX": {
+      "price": 0.05700000002980232,
+      "currency": "AUD"
+    },
+    "AUB.AX": {
+      "price": 31.09000015258789,
+      "currency": "AUD"
+    },
+    "AUC.AX": {
+      "price": 1.0750000476837158,
+      "currency": "AUD"
+    },
+    "AUE.AX": {
+      "price": 0.6949999928474426,
+      "currency": "AUD"
+    },
+    "AUG.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "AUI.AX": {
+      "price": 11.260000228881836,
+      "currency": "AUD"
+    },
+    "AUK.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "AUQ.AX": {
+      "price": 0.03500000014901161,
+      "currency": "AUD"
+    },
+    "AUR.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "AUV.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "AUZ.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "AV1.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "AVA.AX": {
+      "price": 0.08399999886751175,
+      "currency": "AUD"
+    },
+    "AVD.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "AVE.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "AVG.AX": {
+      "price": 0.10199999809265137,
+      "currency": "AUD"
+    },
+    "AVH.AX": {
+      "price": 1.0299999713897705,
+      "currency": "AUD"
+    },
+    "AVL.AX": {
+      "price": 0.2750000059604645,
+      "currency": "AUD"
+    },
+    "AVM.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "AVR.AX": {
+      "price": 7.340000152587891,
+      "currency": "AUD"
+    },
+    "AVW.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "AW1.AX": {
+      "price": 0.05999999865889549,
+      "currency": "AUD"
+    },
+    "AWJ.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "AX1.AX": {
+      "price": 0.9369999766349792,
+      "currency": "AUD"
+    },
+    "AX8.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "AXE.AX": {
+      "price": 0.44999998807907104,
+      "currency": "AUD"
+    },
+    "AXI.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "AXL.AX": {
+      "price": 0.09099999815225601,
+      "currency": "AUD"
+    },
+    "AXN.AX": {
+      "price": 0.04100000113248825,
+      "currency": "AUD"
+    },
+    "AXP.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "AYA.AX": {
+      "price": 4.590000152587891,
+      "currency": "AUD"
+    },
+    "AYM.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "AYT.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "AZ9.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "AZI.AX": {
+      "price": 0.02800000086426735,
+      "currency": "AUD"
+    },
+    "AZJ.AX": {
+      "price": 3.609999895095825,
+      "currency": "AUD"
+    },
+    "AZY.AX": {
+      "price": 0.625,
+      "currency": "AUD"
+    },
+    "B4P.AX": {
+      "price": 2.4000000953674316,
+      "currency": "AUD"
+    },
+    "BAP.AX": {
+      "price": 2.130000114440918,
+      "currency": "AUD"
+    },
+    "BAS.AX": {
+      "price": 0.05000000074505806,
+      "currency": "AUD"
+    },
+    "BB1.AX": {
+      "price": 0.8550000190734863,
+      "currency": "AUD"
+    },
+    "BBC.AX": {
+      "price": 0.29499998688697815,
+      "currency": "AUD"
+    },
+    "BBL.AX": {
+      "price": 1.590000033378601,
+      "currency": "AUD"
+    },
+    "BBN.AX": {
+      "price": 2.549999952316284,
+      "currency": "AUD"
+    },
+    "BBT.AX": {
+      "price": 0.20499999821186066,
+      "currency": "AUD"
+    },
+    "BC8.AX": {
+      "price": 1.409999966621399,
+      "currency": "AUD"
+    },
+    "BCA.AX": {
+      "price": 0.3799999952316284,
+      "currency": "AUD"
+    },
+    "BCB.AX": {
+      "price": 0.07500000298023224,
+      "currency": "AUD"
+    },
+    "BCC.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "BCI.AX": {
+      "price": 0.4099999964237213,
+      "currency": "AUD"
+    },
+    "BCK.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "BCM.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "BCN.AX": {
+      "price": 3.440000057220459,
+      "currency": "AUD"
+    },
+    "BDM.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "BDX.AX": {
+      "price": 0.10499999672174454,
+      "currency": "AUD"
+    },
+    "BEL.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "BEN.AX": {
+      "price": 10.9350004196167,
+      "currency": "AUD"
+    },
+    "BEO.AX": {
+      "price": 0.12999999523162842,
+      "currency": "AUD"
+    },
+    "BET.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "BEZ.AX": {
+      "price": 0.05999999865889549,
+      "currency": "AUD"
+    },
+    "BFG.AX": {
+      "price": 1.3300000429153442,
+      "currency": "AUD"
+    },
+    "BFL.AX": {
+      "price": 8.329999923706055,
+      "currency": "AUD"
+    },
+    "BGA.AX": {
+      "price": 5.96999979019165,
+      "currency": "AUD"
+    },
+    "BGD.AX": {
+      "price": 1.284999966621399,
+      "currency": "AUD"
+    },
+    "BGE.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "BGL.AX": {
+      "price": 1.6749999523162842,
+      "currency": "AUD"
+    },
+    "BGP.AX": {
+      "price": 5.599999904632568,
+      "currency": "AUD"
+    },
+    "BGT.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "BHD.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "BHL.AX": {
+      "price": 0.3799999952316284,
+      "currency": "AUD"
+    },
+    "BHM.AX": {
+      "price": 1.100000023841858,
+      "currency": "AUD"
+    },
+    "BHP.AX": {
+      "price": 47.26499938964844,
+      "currency": "AUD"
+    },
+    "BIM.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "BIO.AX": {
+      "price": 0.4050000011920929,
+      "currency": "AUD"
+    },
+    "BIS.AX": {
+      "price": 5.349999904632568,
+      "currency": "AUD"
+    },
+    "BIT.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "BKB.AX": {
+      "price": 0.9599999785423279,
+      "currency": "AUD"
+    },
+    "BKI.AX": {
+      "price": 1.7300000190734863,
+      "currency": "AUD"
+    },
+    "BKT.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "BKY.AX": {
+      "price": 0.550000011920929,
+      "currency": "AUD"
+    },
+    "BLG.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "BLU.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "BLX.AX": {
+      "price": 2.7200000286102295,
+      "currency": "AUD"
+    },
+    "BLZ.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "BM1.AX": {
+      "price": 0.6850000023841858,
+      "currency": "AUD"
+    },
+    "BM8.AX": {
+      "price": 0.10499999672174454,
+      "currency": "AUD"
+    },
+    "BMC.AX": {
+      "price": 2.7899999618530273,
+      "currency": "AUD"
+    },
+    "BMG.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "BMH.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "BML.AX": {
+      "price": 0.4650000035762787,
+      "currency": "AUD"
+    },
+    "BMM.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "BMN.AX": {
+      "price": 3.6649999618530273,
+      "currency": "AUD"
+    },
+    "BMO.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "BMR.AX": {
+      "price": 0.3100000023841858,
+      "currency": "AUD"
+    },
+    "BMT.AX": {
+      "price": 0.20000000298023224,
+      "currency": "AUD"
+    },
+    "BNL.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "BNR.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "BNZ.AX": {
+      "price": 1.6299999952316284,
+      "currency": "AUD"
+    },
+    "BOA.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "BOC.AX": {
+      "price": 0.8999999761581421,
+      "currency": "AUD"
+    },
+    "BOE.AX": {
+      "price": 1.6100000143051147,
+      "currency": "AUD"
+    },
+    "BOL.AX": {
+      "price": 1.7000000476837158,
+      "currency": "AUD"
+    },
+    "BOQ.AX": {
+      "price": 6.489999771118164,
+      "currency": "AUD"
+    },
+    "BOT.AX": {
+      "price": 0.14000000059604645,
+      "currency": "AUD"
+    },
+    "BP8.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "BPG.AX": {
+      "price": 0.8399999737739563,
+      "currency": "AUD"
+    },
+    "BPH.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "BPM.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "BPP.AX": {
+      "price": 0.14000000059604645,
+      "currency": "AUD"
+    },
+    "BPT.AX": {
+      "price": 1.0750000476837158,
+      "currency": "AUD"
+    },
+    "BRE.AX": {
+      "price": 4.139999866485596,
+      "currency": "AUD"
+    },
+    "BRG.AX": {
+      "price": 30.25,
+      "currency": "AUD"
+    },
+    "BRI.AX": {
+      "price": 1.409999966621399,
+      "currency": "AUD"
+    },
+    "BRK.AX": {
+      "price": 0.46000000834465027,
+      "currency": "AUD"
+    },
+    "BRL.AX": {
+      "price": 0.6800000071525574,
+      "currency": "AUD"
+    },
+    "BRN.AX": {
+      "price": 0.18700000643730164,
+      "currency": "AUD"
+    },
+    "BRU.AX": {
+      "price": 0.020999999716877937,
+      "currency": "AUD"
+    },
+    "BRX.AX": {
+      "price": 0.0989999994635582,
+      "currency": "AUD"
+    },
+    "BSA.AX": {
+      "price": 0.16500000655651093,
+      "currency": "AUD"
+    },
+    "BSL.AX": {
+      "price": 29.350000381469727,
+      "currency": "AUD"
+    },
+    "BSN.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "BSX.AX": {
+      "price": 0.054999999701976776,
+      "currency": "AUD"
+    },
+    "BTC.AX": {
+      "price": 0.06499999761581421,
+      "currency": "AUD"
+    },
+    "BTE.AX": {
+      "price": 0.05999999865889549,
+      "currency": "AUD"
+    },
+    "BTI.AX": {
+      "price": 1.2300000190734863,
+      "currency": "AUD"
+    },
+    "BTL.AX": {
+      "price": 0.25999999046325684,
+      "currency": "AUD"
+    },
+    "BTM.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "BTN.AX": {
+      "price": 0.07800000160932541,
+      "currency": "AUD"
+    },
+    "BTR.AX": {
+      "price": 0.5199999809265137,
+      "currency": "AUD"
+    },
+    "BUB.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "BUR.AX": {
+      "price": 0.028999999165534973,
+      "currency": "AUD"
+    },
+    "BUS.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "BUX.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "BUY.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "BVR.AX": {
+      "price": 0.7799999713897705,
+      "currency": "AUD"
+    },
+    "BVS.AX": {
+      "price": 2.5250000953674316,
+      "currency": "AUD"
+    },
+    "BWF.AX": {
+      "price": 0.20000000298023224,
+      "currency": "AUD"
+    },
+    "BWN.AX": {
+      "price": 0.45500001311302185,
+      "currency": "AUD"
+    },
+    "BWP.AX": {
+      "price": 3.940000057220459,
+      "currency": "AUD"
+    },
+    "BXB.AX": {
+      "price": 22.709999084472656,
+      "currency": "AUD"
+    },
+    "BXN.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "C1X.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "C29.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "C79.AX": {
+      "price": 7.239999771118164,
+      "currency": "AUD"
+    },
+    "C7A.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "CAA.AX": {
+      "price": 12.149999618530273,
+      "currency": "AUD"
+    },
+    "CAE.AX": {
+      "price": 0.04399999976158142,
+      "currency": "AUD"
+    },
+    "CAF.AX": {
+      "price": 0.41999998688697815,
+      "currency": "AUD"
+    },
+    "CAM.AX": {
+      "price": 0.6949999928474426,
+      "currency": "AUD"
+    },
+    "CAN.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "CAQ.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "CAR.AX": {
+      "price": 30.559999465942383,
+      "currency": "AUD"
+    },
+    "CAT.AX": {
+      "price": 4.260000228881836,
+      "currency": "AUD"
+    },
+    "CAV.AX": {
+      "price": 0.0949999988079071,
+      "currency": "AUD"
+    },
+    "CAY.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "CAZ.AX": {
+      "price": 0.03200000151991844,
+      "currency": "AUD"
+    },
+    "CBA.AX": {
+      "price": 153.25,
+      "currency": "AUD"
+    },
+    "CBE.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "CBL.AX": {
+      "price": 0.061000000685453415,
+      "currency": "AUD"
+    },
+    "CBO.AX": {
+      "price": 3.880000114440918,
+      "currency": "AUD"
+    },
+    "CBY.AX": {
+      "price": 0.02800000086426735,
+      "currency": "AUD"
+    },
+    "CC5.AX": {
+      "price": 0.028999999165534973,
+      "currency": "AUD"
+    },
+    "CC9.AX": {
+      "price": 0.18199999630451202,
+      "currency": "AUD"
+    },
+    "CCA.AX": {
+      "price": 0.07000000029802322,
+      "currency": "AUD"
+    },
+    "CCE.AX": {
+      "price": 0.07999999821186066,
+      "currency": "AUD"
+    },
+    "CCG.AX": {
+      "price": 0.06700000166893005,
+      "currency": "AUD"
+    },
+    "CCL.AX": {
+      "price": 4.400000095367432,
+      "currency": "AUD"
+    },
+    "CCM.AX": {
+      "price": 0.04500000178813934,
+      "currency": "AUD"
+    },
+    "CCO.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "CCP.AX": {
+      "price": 14.199999809265137,
+      "currency": "AUD"
+    },
+    "CCR.AX": {
+      "price": 0.25999999046325684,
+      "currency": "AUD"
+    },
+    "CCV.AX": {
+      "price": 0.3400000035762787,
+      "currency": "AUD"
+    },
+    "CCX.AX": {
+      "price": 0.12200000137090683,
+      "currency": "AUD"
+    },
+    "CD1.AX": {
+      "price": 0.48500001430511475,
+      "currency": "AUD"
+    },
+    "CD2.AX": {
+      "price": 0.7950000166893005,
+      "currency": "AUD"
+    },
+    "CD3.AX": {
+      "price": 1.090000033378601,
+      "currency": "AUD"
+    },
+    "CDA.AX": {
+      "price": 31.549999237060547,
+      "currency": "AUD"
+    },
+    "CDE.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "CDM.AX": {
+      "price": 0.7450000047683716,
+      "currency": "AUD"
+    },
+    "CDO.AX": {
+      "price": 1.9500000476837158,
+      "currency": "AUD"
+    },
+    "CDP.AX": {
+      "price": 5.53000020980835,
+      "currency": "AUD"
+    },
+    "CDR.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "CDT.AX": {
+      "price": 0.05700000002980232,
+      "currency": "AUD"
+    },
+    "CEH.AX": {
+      "price": 0.5149999856948853,
+      "currency": "AUD"
+    },
+    "CEL.AX": {
+      "price": 0.1550000011920929,
+      "currency": "AUD"
+    },
+    "CEN.AX": {
+      "price": 7.940000057220459,
+      "currency": "AUD"
+    },
+    "CF1.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "CG1.AX": {
+      "price": 0.09300000220537186,
+      "currency": "AUD"
+    },
+    "CGF.AX": {
+      "price": 9.40999984741211,
+      "currency": "AUD"
+    },
+    "CGO.AX": {
+      "price": 0.07999999821186066,
+      "currency": "AUD"
+    },
+    "CGR.AX": {
+      "price": 0.07199999690055847,
+      "currency": "AUD"
+    },
+    "CGS.AX": {
+      "price": 2.2200000286102295,
+      "currency": "AUD"
+    },
+    "CHC.AX": {
+      "price": 24.280000686645508,
+      "currency": "AUD"
+    },
+    "CHI.AX": {
+      "price": 2.5299999713897705,
+      "currency": "AUD"
+    },
+    "CHL.AX": {
+      "price": 0.3449999988079071,
+      "currency": "AUD"
+    },
+    "CHM.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "CHN.AX": {
+      "price": 2.559999942779541,
+      "currency": "AUD"
+    },
+    "CHR.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "CHW.AX": {
+      "price": 0.8199999928474426,
+      "currency": "AUD"
+    },
+    "CI1.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "CIA.AX": {
+      "price": 6.510000228881836,
+      "currency": "AUD"
+    },
+    "CIN.AX": {
+      "price": 34.59000015258789,
+      "currency": "AUD"
+    },
+    "CIP.AX": {
+      "price": 3.3399999141693115,
+      "currency": "AUD"
+    },
+    "CIW.AX": {
+      "price": 0.3799999952316284,
+      "currency": "AUD"
+    },
+    "CKA.AX": {
+      "price": 0.0689999982714653,
+      "currency": "AUD"
+    },
+    "CKF.AX": {
+      "price": 10.670000076293945,
+      "currency": "AUD"
+    },
+    "CL8.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "CLA.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "CLE.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "CLG.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "CLU.AX": {
+      "price": 0.06300000101327896,
+      "currency": "AUD"
+    },
+    "CLV.AX": {
+      "price": 0.7900000214576721,
+      "currency": "AUD"
+    },
+    "CLW.AX": {
+      "price": 4.079999923706055,
+      "currency": "AUD"
+    },
+    "CLX.AX": {
+      "price": 2.380000114440918,
+      "currency": "AUD"
+    },
+    "CLZ.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "CMA.AX": {
+      "price": 2.049999952316284,
+      "currency": "AUD"
+    },
+    "CMB.AX": {
+      "price": 0.46000000834465027,
+      "currency": "AUD"
+    },
+    "CMD.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "CMG.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "CML.AX": {
+      "price": 0.1850000023841858,
+      "currency": "AUD"
+    },
+    "CMM.AX": {
+      "price": 14.020000457763672,
+      "currency": "AUD"
+    },
+    "CMO.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "CMP.AX": {
+      "price": 0.3400000035762787,
+      "currency": "AUD"
+    },
+    "CMW.AX": {
+      "price": 0.45500001311302185,
+      "currency": "AUD"
+    },
+    "CMX.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "CNB.AX": {
+      "price": 0.5350000262260437,
+      "currency": "AUD"
+    },
+    "CND.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "CNI.AX": {
+      "price": 1.975000023841858,
+      "currency": "AUD"
+    },
+    "CNJ.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "CNQ.AX": {
+      "price": 0.36500000953674316,
+      "currency": "AUD"
+    },
+    "CNU.AX": {
+      "price": 8.010000228881836,
+      "currency": "AUD"
+    },
+    "COB.AX": {
+      "price": 0.09300000220537186,
+      "currency": "AUD"
+    },
+    "COD.AX": {
+      "price": 0.17499999701976776,
+      "currency": "AUD"
+    },
+    "COF.AX": {
+      "price": 1.1150000095367432,
+      "currency": "AUD"
+    },
+    "COG.AX": {
+      "price": 2.0299999713897705,
+      "currency": "AUD"
+    },
+    "COH.AX": {
+      "price": 263.57000732421875,
+      "currency": "AUD"
+    },
+    "COI.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "COL.AX": {
+      "price": 20.90999984741211,
+      "currency": "AUD"
+    },
+    "COS.AX": {
+      "price": 0.5,
+      "currency": "AUD"
+    },
+    "COV.AX": {
+      "price": 0.6150000095367432,
+      "currency": "AUD"
+    },
+    "COY.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "CP8.AX": {
+      "price": 0.08900000154972076,
+      "currency": "AUD"
+    },
+    "CPM.AX": {
+      "price": 0.05400000140070915,
+      "currency": "AUD"
+    },
+    "CPN.AX": {
+      "price": 0.09799999743700027,
+      "currency": "AUD"
+    },
+    "CPO.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "CPU.AX": {
+      "price": 34.06999969482422,
+      "currency": "AUD"
+    },
+    "CPV.AX": {
+      "price": 0.14499999582767487,
+      "currency": "AUD"
+    },
+    "CQE.AX": {
+      "price": 3.059999942779541,
+      "currency": "AUD"
+    },
+    "CQR.AX": {
+      "price": 4.070000171661377,
+      "currency": "AUD"
+    },
+    "CQT.AX": {
+      "price": 0.05000000074505806,
+      "currency": "AUD"
+    },
+    "CR1.AX": {
+      "price": 0.1599999964237213,
+      "currency": "AUD"
+    },
+    "CR3.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "CR9.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "CRB.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "CRD.AX": {
+      "price": 0.5849999785423279,
+      "currency": "AUD"
+    },
+    "CRI.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "CRN.AX": {
+      "price": 0.36000001430511475,
+      "currency": "AUD"
+    },
+    "CRR.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "CRS.AX": {
+      "price": 0.10499999672174454,
+      "currency": "AUD"
+    },
+    "CSC.AX": {
+      "price": 15.0600004196167,
+      "currency": "AUD"
+    },
+    "CSL.AX": {
+      "price": 174.4600067138672,
+      "currency": "AUD"
+    },
+    "CST.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "CSX.AX": {
+      "price": 0.699999988079071,
+      "currency": "AUD"
+    },
+    "CT1.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "CTD.AX": {
+      "price": 16.06999969482422,
+      "currency": "AUD"
+    },
+    "CTE.AX": {
+      "price": 1.0,
+      "currency": "AUD"
+    },
+    "CTM.AX": {
+      "price": 0.6100000143051147,
+      "currency": "AUD"
+    },
+    "CTN.AX": {
+      "price": 0.07199999690055847,
+      "currency": "AUD"
+    },
+    "CTO.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "CTP.AX": {
+      "price": 0.06199999898672104,
+      "currency": "AUD"
+    },
+    "CTQ.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "CTT.AX": {
+      "price": 0.875,
+      "currency": "AUD"
+    },
+    "CU6.AX": {
+      "price": 3.930000066757202,
+      "currency": "AUD"
+    },
+    "CUE.AX": {
+      "price": 0.11699999868869781,
+      "currency": "AUD"
+    },
+    "CUF.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "CUL.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "CUP.AX": {
+      "price": 1.1050000190734863,
+      "currency": "AUD"
+    },
+    "CUV.AX": {
+      "price": 12.630000114440918,
+      "currency": "AUD"
+    },
+    "CVB.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "CVC.AX": {
+      "price": 2.009999990463257,
+      "currency": "AUD"
+    },
+    "CVL.AX": {
+      "price": 1.725000023841858,
+      "currency": "AUD"
+    },
+    "CVN.AX": {
+      "price": 0.08699999749660492,
+      "currency": "AUD"
+    },
+    "CVR.AX": {
+      "price": 0.33500000834465027,
+      "currency": "AUD"
+    },
+    "CVV.AX": {
+      "price": 0.35499998927116394,
+      "currency": "AUD"
+    },
+    "CVW.AX": {
+      "price": 0.574999988079071,
+      "currency": "AUD"
+    },
+    "CWP.AX": {
+      "price": 8.399999618530273,
+      "currency": "AUD"
+    },
+    "CWY.AX": {
+      "price": 2.5999999046325684,
+      "currency": "AUD"
+    },
+    "CXL.AX": {
+      "price": 1.4149999618530273,
+      "currency": "AUD"
+    },
+    "CXO.AX": {
+      "price": 0.33500000834465027,
+      "currency": "AUD"
+    },
+    "CXU.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "CXZ.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "CY5.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "CYC.AX": {
+      "price": 0.9900000095367432,
+      "currency": "AUD"
+    },
+    "CYG.AX": {
+      "price": 0.5899999737739563,
+      "currency": "AUD"
+    },
+    "CYL.AX": {
+      "price": 7.380000114440918,
+      "currency": "AUD"
+    },
+    "CYM.AX": {
+      "price": 0.5400000214576721,
+      "currency": "AUD"
+    },
+    "CYP.AX": {
+      "price": 0.38499999046325684,
+      "currency": "AUD"
+    },
+    "CYQ.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "CZN.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "CZR.AX": {
+      "price": 0.4650000035762787,
+      "currency": "AUD"
+    },
+    "D3E.AX": {
+      "price": 0.35499998927116394,
+      "currency": "AUD"
+    },
+    "DAF.AX": {
+      "price": 0.01899999938905239,
+      "currency": "AUD"
+    },
+    "DAI.AX": {
+      "price": 0.5400000214576721,
+      "currency": "AUD"
+    },
+    "DAL.AX": {
+      "price": 0.04600000008940697,
+      "currency": "AUD"
+    },
+    "DBF.AX": {
+      "price": 0.8799999952316284,
+      "currency": "AUD"
+    },
+    "DBI.AX": {
+      "price": 4.849999904632568,
+      "currency": "AUD"
+    },
+    "DBO.AX": {
+      "price": 0.02800000086426735,
+      "currency": "AUD"
+    },
+    "DCC.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "DDR.AX": {
+      "price": 10.079999923706055,
+      "currency": "AUD"
+    },
+    "DDT.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "DEL.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "DEM.AX": {
+      "price": 0.10499999672174454,
+      "currency": "AUD"
+    },
+    "DES.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "DEV.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "DGH.AX": {
+      "price": 0.8349999785423279,
+      "currency": "AUD"
+    },
+    "DGL.AX": {
+      "price": 0.5350000262260437,
+      "currency": "AUD"
+    },
+    "DGR.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "DGT.AX": {
+      "price": 2.7750000953674316,
+      "currency": "AUD"
+    },
+    "DJW.AX": {
+      "price": 3.119999885559082,
+      "currency": "AUD"
+    },
+    "DKM.AX": {
+      "price": 0.17499999701976776,
+      "currency": "AUD"
+    },
+    "DLI.AX": {
+      "price": 0.2549999952316284,
+      "currency": "AUD"
+    },
+    "DM1.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "DME.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "DMG.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "DMM.AX": {
+      "price": 0.057999998331069946,
+      "currency": "AUD"
+    },
+    "DMP.AX": {
+      "price": 22.459999084472656,
+      "currency": "AUD"
+    },
+    "DN1.AX": {
+      "price": 101.51000213623047,
+      "currency": "AUD"
+    },
+    "DNL.AX": {
+      "price": 3.359999895095825,
+      "currency": "AUD"
+    },
+    "DOC.AX": {
+      "price": 0.14499999582767487,
+      "currency": "AUD"
+    },
+    "DOW.AX": {
+      "price": 7.945000171661377,
+      "currency": "AUD"
+    },
+    "DPM.AX": {
+      "price": 48.04999923706055,
+      "currency": "AUD"
+    },
+    "DRE.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "DRO.AX": {
+      "price": 3.8399999141693115,
+      "currency": "AUD"
+    },
+    "DRR.AX": {
+      "price": 4.324999809265137,
+      "currency": "AUD"
+    },
+    "DRX.AX": {
+      "price": 0.01899999938905239,
+      "currency": "AUD"
+    },
+    "DSK.AX": {
+      "price": 0.8600000143051147,
+      "currency": "AUD"
+    },
+    "DSM.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "DTI.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "DTL.AX": {
+      "price": 9.539999961853027,
+      "currency": "AUD"
+    },
+    "DTM.AX": {
+      "price": 0.03799999877810478,
+      "currency": "AUD"
+    },
+    "DTR.AX": {
+      "price": 0.2750000059604645,
+      "currency": "AUD"
+    },
+    "DTZ.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "DUB.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "DUG.AX": {
+      "price": 2.0799999237060547,
+      "currency": "AUD"
+    },
+    "DUI.AX": {
+      "price": 5.329999923706055,
+      "currency": "AUD"
+    },
+    "DUN.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "DUR.AX": {
+      "price": 2.0199999809265137,
+      "currency": "AUD"
+    },
+    "DVL.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "DVP.AX": {
+      "price": 4.980000019073486,
+      "currency": "AUD"
+    },
+    "DWG.AX": {
+      "price": 0.0989999994635582,
+      "currency": "AUD"
+    },
+    "DXB.AX": {
+      "price": 0.5450000166893005,
+      "currency": "AUD"
+    },
+    "DXC.AX": {
+      "price": 2.880000114440918,
+      "currency": "AUD"
+    },
+    "DXI.AX": {
+      "price": 2.6649999618530273,
+      "currency": "AUD"
+    },
+    "DXN.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "DXS.AX": {
+      "price": 6.96999979019165,
+      "currency": "AUD"
+    },
+    "DYL.AX": {
+      "price": 2.065000057220459,
+      "currency": "AUD"
+    },
+    "DYM.AX": {
+      "price": 0.44999998807907104,
+      "currency": "AUD"
+    },
+    "E25.AX": {
+      "price": 0.38499999046325684,
+      "currency": "AUD"
+    },
+    "E79.AX": {
+      "price": 0.03099999949336052,
+      "currency": "AUD"
+    },
+    "EAX.AX": {
+      "price": 0.48500001430511475,
+      "currency": "AUD"
+    },
+    "EBO.AX": {
+      "price": 23.530000686645508,
+      "currency": "AUD"
+    },
+    "EBR.AX": {
+      "price": 0.9549999833106995,
+      "currency": "AUD"
+    },
+    "ECF.AX": {
+      "price": 0.6349999904632568,
+      "currency": "AUD"
+    },
+    "ECH.AX": {
+      "price": 0.3449999988079071,
+      "currency": "AUD"
+    },
+    "ECL.AX": {
+      "price": 4.340000152587891,
+      "currency": "AUD"
+    },
+    "ECP.AX": {
+      "price": 1.1100000143051147,
+      "currency": "AUD"
+    },
+    "ECS.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "ECT.AX": {
+      "price": 0.16500000655651093,
+      "currency": "AUD"
+    },
+    "EDE.AX": {
+      "price": 0.06300000101327896,
+      "currency": "AUD"
+    },
+    "EDU.AX": {
+      "price": 0.9100000262260437,
+      "currency": "AUD"
+    },
+    "EDV.AX": {
+      "price": 3.740000009536743,
+      "currency": "AUD"
+    },
+    "EE1.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "EEL.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "EFE.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "EG1.AX": {
+      "price": 0.02800000086426735,
+      "currency": "AUD"
+    },
+    "EGG.AX": {
+      "price": 0.625,
+      "currency": "AUD"
+    },
+    "EGH.AX": {
+      "price": 0.4749999940395355,
+      "currency": "AUD"
+    },
+    "EGL.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "EGR.AX": {
+      "price": 0.38999998569488525,
+      "currency": "AUD"
+    },
+    "EGY.AX": {
+      "price": 0.020999999716877937,
+      "currency": "AUD"
+    },
+    "EHL.AX": {
+      "price": 1.2400000095367432,
+      "currency": "AUD"
+    },
+    "EIQ.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "EL8.AX": {
+      "price": 0.3499999940395355,
+      "currency": "AUD"
+    },
+    "ELD.AX": {
+      "price": 7.329999923706055,
+      "currency": "AUD"
+    },
+    "ELS.AX": {
+      "price": 3.5,
+      "currency": "AUD"
+    },
+    "ELT.AX": {
+      "price": 0.3400000035762787,
+      "currency": "AUD"
+    },
+    "ELV.AX": {
+      "price": 8.90999984741211,
+      "currency": "AUD"
+    },
+    "EM2.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "EM3.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "EMA.AX": {
+      "price": 0.06199999898672104,
+      "currency": "AUD"
+    },
+    "EMB.AX": {
+      "price": 8.079999923706055,
+      "currency": "AUD"
+    },
+    "EMC.AX": {
+      "price": 0.125,
+      "currency": "AUD"
+    },
+    "EMD.AX": {
+      "price": 0.05700000002980232,
+      "currency": "AUD"
+    },
+    "EME.AX": {
+      "price": 0.0820000022649765,
+      "currency": "AUD"
+    },
+    "EMH.AX": {
+      "price": 0.36000001430511475,
+      "currency": "AUD"
+    },
+    "EML.AX": {
+      "price": 0.8949999809265137,
+      "currency": "AUD"
+    },
+    "EMN.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "EMP.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "EMR.AX": {
+      "price": 6.440000057220459,
+      "currency": "AUD"
+    },
+    "EMS.AX": {
+      "price": 0.009960000403225422,
+      "currency": "AUD"
+    },
+    "EMT.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "EMU.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "EMV.AX": {
+      "price": 1.8450000286102295,
+      "currency": "AUD"
+    },
+    "ENL.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "ENN.AX": {
+      "price": 0.8199999928474426,
+      "currency": "AUD"
+    },
+    "ENP.AX": {
+      "price": 0.03200000151991844,
+      "currency": "AUD"
+    },
+    "ENR.AX": {
+      "price": 0.4099999964237213,
+      "currency": "AUD"
+    },
+    "ENT.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "ENV.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "ENX.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "EOL.AX": {
+      "price": 16.510000228881836,
+      "currency": "AUD"
+    },
+    "EOS.AX": {
+      "price": 9.869999885559082,
+      "currency": "AUD"
+    },
+    "EPI.AX": {
+      "price": 0.9100000262260437,
+      "currency": "AUD"
+    },
+    "EPM.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "EPN.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "EPX.AX": {
+      "price": 0.25999999046325684,
+      "currency": "AUD"
+    },
+    "EPY.AX": {
+      "price": 0.1850000023841858,
+      "currency": "AUD"
+    },
+    "EQR.AX": {
+      "price": 0.10199999809265137,
+      "currency": "AUD"
+    },
+    "EQT.AX": {
+      "price": 24.440000534057617,
+      "currency": "AUD"
+    },
+    "EQU.AX": {
+      "price": 0.46000000834465027,
+      "currency": "AUD"
+    },
+    "EQX.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "ERA.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "ERD.AX": {
+      "price": 1.0549999475479126,
+      "currency": "AUD"
+    },
+    "ERE.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "ERG.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "ERL.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "ERM.AX": {
+      "price": 0.29499998688697815,
+      "currency": "AUD"
+    },
+    "ESK.AX": {
+      "price": 0.5649999976158142,
+      "currency": "AUD"
+    },
+    "ESR.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "ETM.AX": {
+      "price": 0.16200000047683716,
+      "currency": "AUD"
+    },
+    "EUR.AX": {
+      "price": 0.24500000476837158,
+      "currency": "AUD"
+    },
+    "EV1.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "EV8.AX": {
+      "price": 0.41999998688697815,
+      "currency": "AUD"
+    },
+    "EVE.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "EVG.AX": {
+      "price": 0.03200000151991844,
+      "currency": "AUD"
+    },
+    "EVN.AX": {
+      "price": 12.779999732971191,
+      "currency": "AUD"
+    },
+    "EVO.AX": {
+      "price": 0.6499999761581421,
+      "currency": "AUD"
+    },
+    "EVR.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "EVT.AX": {
+      "price": 12.649999618530273,
+      "currency": "AUD"
+    },
+    "EVZ.AX": {
+      "price": 0.22499999403953552,
+      "currency": "AUD"
+    },
+    "EWC.AX": {
+      "price": 0.04800000041723251,
+      "currency": "AUD"
+    },
+    "EXL.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "EXP.AX": {
+      "price": 0.125,
+      "currency": "AUD"
+    },
+    "EXR.AX": {
+      "price": 0.07400000095367432,
+      "currency": "AUD"
+    },
+    "EXT.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "EYE.AX": {
+      "price": 0.1550000011920929,
+      "currency": "AUD"
+    },
+    "EZL.AX": {
+      "price": 1.225000023841858,
+      "currency": "AUD"
+    },
+    "EZZ.AX": {
+      "price": 2.1700000762939453,
+      "currency": "AUD"
+    },
+    "FAL.AX": {
+      "price": 0.6549999713897705,
+      "currency": "AUD"
+    },
+    "FAR.AX": {
+      "price": 0.4099999964237213,
+      "currency": "AUD"
+    },
+    "FAU.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "FBR.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "FBU.AX": {
+      "price": 3.2799999713897705,
+      "currency": "AUD"
+    },
+    "FCG.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "FCL.AX": {
+      "price": 3.009999990463257,
+      "currency": "AUD"
+    },
+    "FCT.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "FDR.AX": {
+      "price": 0.36000001430511475,
+      "currency": "AUD"
+    },
+    "FDV.AX": {
+      "price": 0.2750000059604645,
+      "currency": "AUD"
+    },
+    "FEG.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "FEX.AX": {
+      "price": 0.5199999809265137,
+      "currency": "AUD"
+    },
+    "FFG.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "FFI.AX": {
+      "price": 4.699999809265137,
+      "currency": "AUD"
+    },
+    "FFM.AX": {
+      "price": 2.009999990463257,
+      "currency": "AUD"
+    },
+    "FG1.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "FGG.AX": {
+      "price": 1.5499999523162842,
+      "currency": "AUD"
+    },
+    "FGH.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "FGR.AX": {
+      "price": 0.07000000029802322,
+      "currency": "AUD"
+    },
+    "FGX.AX": {
+      "price": 1.3250000476837158,
+      "currency": "AUD"
+    },
+    "FHE.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "FHS.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "FID.AX": {
+      "price": 12.0,
+      "currency": "AUD"
+    },
+    "FIN.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "FL1.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "FLC.AX": {
+      "price": 0.09700000286102295,
+      "currency": "AUD"
+    },
+    "FLG.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "FLN.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "FLT.AX": {
+      "price": 14.914999961853027,
+      "currency": "AUD"
+    },
+    "FLX.AX": {
+      "price": 0.16500000655651093,
+      "currency": "AUD"
+    },
+    "FME.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "FMG.AX": {
+      "price": 22.729999542236328,
+      "currency": "AUD"
+    },
+    "FML.AX": {
+      "price": 3.549999952316284,
+      "currency": "AUD"
+    },
+    "FMR.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "FND.AX": {
+      "price": 1.6399999856948853,
+      "currency": "AUD"
+    },
+    "FNR.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "FNX.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "FOS.AX": {
+      "price": 0.25,
+      "currency": "AUD"
+    },
+    "FPC.AX": {
+      "price": 1.475000023841858,
+      "currency": "AUD"
+    },
+    "FPH.AX": {
+      "price": 33.38999938964844,
+      "currency": "AUD"
+    },
+    "FPR.AX": {
+      "price": 2.950000047683716,
+      "currency": "AUD"
+    },
+    "FRB.AX": {
+      "price": 0.20999999344348907,
+      "currency": "AUD"
+    },
+    "FRE.AX": {
+      "price": 0.06400000303983688,
+      "currency": "AUD"
+    },
+    "FRI.AX": {
+      "price": 0.8450000286102295,
+      "currency": "AUD"
+    },
+    "FRM.AX": {
+      "price": 0.20000000298023224,
+      "currency": "AUD"
+    },
+    "FRS.AX": {
+      "price": 0.375,
+      "currency": "AUD"
+    },
+    "FRW.AX": {
+      "price": 12.239999771118164,
+      "currency": "AUD"
+    },
+    "FRX.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "FSA.AX": {
+      "price": 1.309999942779541,
+      "currency": "AUD"
+    },
+    "FSI.AX": {
+      "price": 1.7699999809265137,
+      "currency": "AUD"
+    },
+    "FTI.AX": {
+      "price": 0.33000001311302185,
+      "currency": "AUD"
+    },
+    "FUL.AX": {
+      "price": 0.09700000286102295,
+      "currency": "AUD"
+    },
+    "FUN.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "FWD.AX": {
+      "price": 2.6500000953674316,
+      "currency": "AUD"
+    },
+    "FXG.AX": {
+      "price": 0.3400000035762787,
+      "currency": "AUD"
+    },
+    "FZR.AX": {
+      "price": 0.1599999964237213,
+      "currency": "AUD"
+    },
+    "G11.AX": {
+      "price": 0.3700000047683716,
+      "currency": "AUD"
+    },
+    "G1C.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "G50.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "G6M.AX": {
+      "price": 2.5,
+      "currency": "AUD"
+    },
+    "G88.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "GA8.AX": {
+      "price": 0.06700000166893005,
+      "currency": "AUD"
+    },
+    "GAL.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "GAP.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "GAS.AX": {
+      "price": 0.02800000086426735,
+      "currency": "AUD"
+    },
+    "GBE.AX": {
+      "price": 0.04699999839067459,
+      "currency": "AUD"
+    },
+    "GBM.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "GBR.AX": {
+      "price": 0.10199999809265137,
+      "currency": "AUD"
+    },
+    "GC1.AX": {
+      "price": 0.47999998927116394,
+      "currency": "AUD"
+    },
+    "GCI.AX": {
+      "price": 2.069999933242798,
+      "currency": "AUD"
+    },
+    "GCM.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "GCR.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "GDF.AX": {
+      "price": 1.1649999618530273,
+      "currency": "AUD"
+    },
+    "GDG.AX": {
+      "price": 5.96999979019165,
+      "currency": "AUD"
+    },
+    "GDI.AX": {
+      "price": 0.6299999952316284,
+      "currency": "AUD"
+    },
+    "GDM.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "GDR.AX": {
+      "price": 0.20999999344348907,
+      "currency": "AUD"
+    },
+    "GED.AX": {
+      "price": 0.06700000166893005,
+      "currency": "AUD"
+    },
+    "GEM.AX": {
+      "price": 0.6899999976158142,
+      "currency": "AUD"
+    },
+    "GEN.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "GES.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "GFL.AX": {
+      "price": 3.619999885559082,
+      "currency": "AUD"
+    },
+    "GG1.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "GG8.AX": {
+      "price": 0.5299999713897705,
+      "currency": "AUD"
+    },
+    "GGE.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "GGP.AX": {
+      "price": 11.380000114440918,
+      "currency": "AUD"
+    },
+    "GGR.AX": {
+      "price": 0.18000000715255737,
+      "currency": "AUD"
+    },
+    "GHM.AX": {
+      "price": 0.75,
+      "currency": "AUD"
+    },
+    "GHY.AX": {
+      "price": 0.39500001072883606,
+      "currency": "AUD"
+    },
+    "GIB.AX": {
+      "price": 0.07400000095367432,
+      "currency": "AUD"
+    },
+    "GL1.AX": {
+      "price": 0.6549999713897705,
+      "currency": "AUD"
+    },
+    "GLB.AX": {
+      "price": 2.549999952316284,
+      "currency": "AUD"
+    },
+    "GLE.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "GLF.AX": {
+      "price": 5.050000190734863,
+      "currency": "AUD"
+    },
+    "GLH.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "GLL.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "GLN.AX": {
+      "price": 0.36500000953674316,
+      "currency": "AUD"
+    },
+    "GLS.AX": {
+      "price": 1.7200000286102295,
+      "currency": "AUD"
+    },
+    "GMD.AX": {
+      "price": 7.429999828338623,
+      "currency": "AUD"
+    },
+    "GMG.AX": {
+      "price": 30.489999771118164,
+      "currency": "AUD"
+    },
+    "GML.AX": {
+      "price": 0.0729999989271164,
+      "currency": "AUD"
+    },
+    "GMN.AX": {
+      "price": 0.06199999898672104,
+      "currency": "AUD"
+    },
+    "GNC.AX": {
+      "price": 7.070000171661377,
+      "currency": "AUD"
+    },
+    "GNE.AX": {
+      "price": 2.119999885559082,
+      "currency": "AUD"
+    },
+    "GNG.AX": {
+      "price": 4.289999961853027,
+      "currency": "AUD"
+    },
+    "GNM.AX": {
+      "price": 0.04600000008940697,
+      "currency": "AUD"
+    },
+    "GNP.AX": {
+      "price": 6.420000076293945,
+      "currency": "AUD"
+    },
+    "GOW.AX": {
+      "price": 2.319999933242798,
+      "currency": "AUD"
+    },
+    "GOZ.AX": {
+      "price": 2.450000047683716,
+      "currency": "AUD"
+    },
+    "GPR.AX": {
+      "price": 0.04899999871850014,
+      "currency": "AUD"
+    },
+    "GPT.AX": {
+      "price": 5.46999979019165,
+      "currency": "AUD"
+    },
+    "GQG.AX": {
+      "price": 1.815000057220459,
+      "currency": "AUD"
+    },
+    "GR8.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "GRE.AX": {
+      "price": 0.1550000011920929,
+      "currency": "AUD"
+    },
+    "GRL.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "GRR.AX": {
+      "price": 0.2919999957084656,
+      "currency": "AUD"
+    },
+    "GRV.AX": {
+      "price": 0.04100000113248825,
+      "currency": "AUD"
+    },
+    "GRX.AX": {
+      "price": 0.871999979019165,
+      "currency": "AUD"
+    },
+    "GSM.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "GSN.AX": {
+      "price": 0.04500000178813934,
+      "currency": "AUD"
+    },
+    "GSS.AX": {
+      "price": 0.23999999463558197,
+      "currency": "AUD"
+    },
+    "GT1.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "GT3.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "GTE.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "GTG.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "GTI.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "GTK.AX": {
+      "price": 7.409999847412109,
+      "currency": "AUD"
+    },
+    "GTN.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "GUE.AX": {
+      "price": 0.07699999958276749,
+      "currency": "AUD"
+    },
+    "GUL.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "GUM.AX": {
+      "price": 0.125,
+      "currency": "AUD"
+    },
+    "GVF.AX": {
+      "price": 1.409999966621399,
+      "currency": "AUD"
+    },
+    "GW1.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "GWA.AX": {
+      "price": 2.5,
+      "currency": "AUD"
+    },
+    "GWR.AX": {
+      "price": 0.12999999523162842,
+      "currency": "AUD"
+    },
+    "GYG.AX": {
+      "price": 21.43000030517578,
+      "currency": "AUD"
+    },
+    "H2G.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "H3E.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "HAL.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "HAR.AX": {
+      "price": 0.20000000298023224,
+      "currency": "AUD"
+    },
+    "HAS.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "HAV.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "HAW.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "HCD.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "HCF.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "HCH.AX": {
+      "price": 1.649999976158142,
+      "currency": "AUD"
+    },
+    "HCL.AX": {
+      "price": 0.3050000071525574,
+      "currency": "AUD"
+    },
+    "HCT.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "HCW.AX": {
+      "price": 0.7319999933242798,
+      "currency": "AUD"
+    },
+    "HDN.AX": {
+      "price": 1.3700000047683716,
+      "currency": "AUD"
+    },
+    "HE8.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "HFR.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "HFY.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "HGH.AX": {
+      "price": 1.0199999809265137,
+      "currency": "AUD"
+    },
+    "HGO.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "HHR.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "HIO.AX": {
+      "price": 0.020999999716877937,
+      "currency": "AUD"
+    },
+    "HIQ.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "HIT.AX": {
+      "price": 1.6349999904632568,
+      "currency": "AUD"
+    },
+    "HLI.AX": {
+      "price": 5.355000019073486,
+      "currency": "AUD"
+    },
+    "HLO.AX": {
+      "price": 1.8700000047683716,
+      "currency": "AUD"
+    },
+    "HLS.AX": {
+      "price": 0.949999988079071,
+      "currency": "AUD"
+    },
+    "HLX.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "HM1.AX": {
+      "price": 3.2100000381469727,
+      "currency": "AUD"
+    },
+    "HMC.AX": {
+      "price": 4.03000020980835,
+      "currency": "AUD"
+    },
+    "HMD.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "HMG.AX": {
+      "price": 0.07000000029802322,
+      "currency": "AUD"
+    },
+    "HMI.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "HMX.AX": {
+      "price": 0.03799999877810478,
+      "currency": "AUD"
+    },
+    "HMY.AX": {
+      "price": 0.8600000143051147,
+      "currency": "AUD"
+    },
+    "HNG.AX": {
+      "price": 0.23999999463558197,
+      "currency": "AUD"
+    },
+    "HOR.AX": {
+      "price": 0.04800000041723251,
+      "currency": "AUD"
+    },
+    "HPC.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "HPG.AX": {
+      "price": 1.215000033378601,
+      "currency": "AUD"
+    },
+    "HPR.AX": {
+      "price": 0.061000000685453415,
+      "currency": "AUD"
+    },
+    "HRE.AX": {
+      "price": 0.04899999871850014,
+      "currency": "AUD"
+    },
+    "HRN.AX": {
+      "price": 0.8550000190734863,
+      "currency": "AUD"
+    },
+    "HRZ.AX": {
+      "price": 1.2300000190734863,
+      "currency": "AUD"
+    },
+    "HSN.AX": {
+      "price": 5.295000076293945,
+      "currency": "AUD"
+    },
+    "HT8.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "HTG.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "HTM.AX": {
+      "price": 0.30000001192092896,
+      "currency": "AUD"
+    },
+    "HUB.AX": {
+      "price": 95.27999877929688,
+      "currency": "AUD"
+    },
+    "HUM.AX": {
+      "price": 0.7400000095367432,
+      "currency": "AUD"
+    },
+    "HVN.AX": {
+      "price": 6.610000133514404,
+      "currency": "AUD"
+    },
+    "HVY.AX": {
+      "price": 0.5049999952316284,
+      "currency": "AUD"
+    },
+    "HWK.AX": {
+      "price": 0.04600000008940697,
+      "currency": "AUD"
+    },
+    "HXL.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "HYD.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "HYT.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "HZN.AX": {
+      "price": 0.2070000022649765,
+      "currency": "AUD"
+    },
+    "HZR.AX": {
+      "price": 0.5350000262260437,
+      "currency": "AUD"
+    },
+    "I88.AX": {
+      "price": 0.2849999964237213,
+      "currency": "AUD"
+    },
+    "IAG.AX": {
+      "price": 7.965000152587891,
+      "currency": "AUD"
+    },
+    "IAM.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "IBC.AX": {
+      "price": 0.4399999976158142,
+      "currency": "AUD"
+    },
+    "IBX.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "ICE.AX": {
+      "price": 0.04899999871850014,
+      "currency": "AUD"
+    },
+    "ICI.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "ICL.AX": {
+      "price": 0.06499999761581421,
+      "currency": "AUD"
+    },
+    "ICN.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "ICR.AX": {
+      "price": 0.02500000037252903,
+      "currency": "AUD"
+    },
+    "ICU.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "ID8.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "IDA.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "IDT.AX": {
+      "price": 0.050999999046325684,
+      "currency": "AUD"
+    },
+    "IDX.AX": {
+      "price": 2.549999952316284,
+      "currency": "AUD"
+    },
+    "IEL.AX": {
+      "price": 5.550000190734863,
+      "currency": "AUD"
+    },
+    "IEQ.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "IFG.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "IFL.AX": {
+      "price": 4.630000114440918,
+      "currency": "AUD"
+    },
+    "IFN.AX": {
+      "price": 0.7950000166893005,
+      "currency": "AUD"
+    },
+    "IFT.AX": {
+      "price": 9.789999961853027,
+      "currency": "AUD"
+    },
+    "IG6.AX": {
+      "price": 0.06400000303983688,
+      "currency": "AUD"
+    },
+    "IGL.AX": {
+      "price": 2.9200000762939453,
+      "currency": "AUD"
+    },
+    "IGN.AX": {
+      "price": 0.75,
+      "currency": "AUD"
+    },
+    "IGO.AX": {
+      "price": 8.774999618530273,
+      "currency": "AUD"
+    },
+    "IIQ.AX": {
+      "price": 0.4000000059604645,
+      "currency": "AUD"
+    },
+    "IKE.AX": {
+      "price": 0.9700000286102295,
+      "currency": "AUD"
+    },
+    "ILA.AX": {
+      "price": 0.44999998807907104,
+      "currency": "AUD"
+    },
+    "ILT.AX": {
+      "price": 0.6200000047683716,
+      "currency": "AUD"
+    },
+    "ILU.AX": {
+      "price": 6.355000019073486,
+      "currency": "AUD"
+    },
+    "IMA.AX": {
+      "price": 0.061000000685453415,
+      "currency": "AUD"
+    },
+    "IMB.AX": {
+      "price": 0.7599999904632568,
+      "currency": "AUD"
+    },
+    "IMC.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "IMD.AX": {
+      "price": 3.634999990463257,
+      "currency": "AUD"
+    },
+    "IME.AX": {
+      "price": 0.4000000059604645,
+      "currency": "AUD"
+    },
+    "IMI.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "IMM.AX": {
+      "price": 0.4449999928474426,
+      "currency": "AUD"
+    },
+    "IMR.AX": {
+      "price": 1.5700000524520874,
+      "currency": "AUD"
+    },
+    "IMU.AX": {
+      "price": 0.3449999988079071,
+      "currency": "AUD"
+    },
+    "INA.AX": {
+      "price": 5.119999885559082,
+      "currency": "AUD"
+    },
+    "IND.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "INF.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "ING.AX": {
+      "price": 2.5450000762939453,
+      "currency": "AUD"
+    },
+    "INR.AX": {
+      "price": 0.2150000035762787,
+      "currency": "AUD"
+    },
+    "INV.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "IOD.AX": {
+      "price": 0.12999999523162842,
+      "currency": "AUD"
+    },
+    "ION.AX": {
+      "price": 0.041999999433755875,
+      "currency": "AUD"
+    },
+    "IOV.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "IPB.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "IPC.AX": {
+      "price": 2.0,
+      "currency": "AUD"
+    },
+    "IPD.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "IPG.AX": {
+      "price": 4.440000057220459,
+      "currency": "AUD"
+    },
+    "IPH.AX": {
+      "price": 3.619999885559082,
+      "currency": "AUD"
+    },
+    "IPT.AX": {
+      "price": 0.05400000140070915,
+      "currency": "AUD"
+    },
+    "IPX.AX": {
+      "price": 6.46999979019165,
+      "currency": "AUD"
+    },
+    "IR1.AX": {
+      "price": 0.2150000035762787,
+      "currency": "AUD"
+    },
+    "IRD.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "IRE.AX": {
+      "price": 8.420000076293945,
+      "currency": "AUD"
+    },
+    "IRI.AX": {
+      "price": 0.33000001311302185,
+      "currency": "AUD"
+    },
+    "IRX.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "IS3.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "ITM.AX": {
+      "price": 0.04800000041723251,
+      "currency": "AUD"
+    },
+    "ITS.AX": {
+      "price": 0.5600000023841858,
+      "currency": "AUD"
+    },
+    "IVG.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "IVR.AX": {
+      "price": 0.1469999998807907,
+      "currency": "AUD"
+    },
+    "IVX.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "IVZ.AX": {
+      "price": 0.16200000047683716,
+      "currency": "AUD"
+    },
+    "IXC.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "IXR.AX": {
+      "price": 0.4869999885559082,
+      "currency": "AUD"
+    },
+    "JAL.AX": {
+      "price": 0.07400000095367432,
+      "currency": "AUD"
+    },
+    "JAN.AX": {
+      "price": 0.25999999046325684,
+      "currency": "AUD"
+    },
+    "JAT.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "JAV.AX": {
+      "price": 0.08299999684095383,
+      "currency": "AUD"
+    },
+    "JAY.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "JBH.AX": {
+      "price": 93.87000274658203,
+      "currency": "AUD"
+    },
+    "JCS.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "JDO.AX": {
+      "price": 1.7799999713897705,
+      "currency": "AUD"
+    },
+    "JGH.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "JHX.AX": {
+      "price": 30.760000228881836,
+      "currency": "AUD"
+    },
+    "JIN.AX": {
+      "price": 10.970000267028809,
+      "currency": "AUD"
+    },
+    "JLL.AX": {
+      "price": 0.6600000262260437,
+      "currency": "AUD"
+    },
+    "JMS.AX": {
+      "price": 0.2770000100135803,
+      "currency": "AUD"
+    },
+    "JNO.AX": {
+      "price": 0.03700000047683716,
+      "currency": "AUD"
+    },
+    "JNS.AX": {
+      "price": 0.05999999865889549,
+      "currency": "AUD"
+    },
+    "JPR.AX": {
+      "price": 0.02500000037252903,
+      "currency": "AUD"
+    },
+    "JYC.AX": {
+      "price": 5.300000190734863,
+      "currency": "AUD"
+    },
+    "KAI.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "KAL.AX": {
+      "price": 0.050999999046325684,
+      "currency": "AUD"
+    },
+    "KAM.AX": {
+      "price": 0.0860000029206276,
+      "currency": "AUD"
+    },
+    "KAR.AX": {
+      "price": 1.4600000381469727,
+      "currency": "AUD"
+    },
+    "KAT.AX": {
+      "price": 1.3300000429153442,
+      "currency": "AUD"
+    },
+    "KAU.AX": {
+      "price": 0.3100000023841858,
+      "currency": "AUD"
+    },
+    "KBC.AX": {
+      "price": 0.04699999839067459,
+      "currency": "AUD"
+    },
+    "KCC.AX": {
+      "price": 1.0800000429153442,
+      "currency": "AUD"
+    },
+    "KCN.AX": {
+      "price": 5.949999809265137,
+      "currency": "AUD"
+    },
+    "KEY.AX": {
+      "price": 0.057999998331069946,
+      "currency": "AUD"
+    },
+    "KFM.AX": {
+      "price": 0.09099999815225601,
+      "currency": "AUD"
+    },
+    "KGD.AX": {
+      "price": 0.061000000685453415,
+      "currency": "AUD"
+    },
+    "KGL.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "KGN.AX": {
+      "price": 3.950000047683716,
+      "currency": "AUD"
+    },
+    "KKC.AX": {
+      "price": 2.319999933242798,
+      "currency": "AUD"
+    },
+    "KKO.AX": {
+      "price": 0.07500000298023224,
+      "currency": "AUD"
+    },
+    "KLI.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "KLR.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "KLS.AX": {
+      "price": 4.349999904632568,
+      "currency": "AUD"
+    },
+    "KLV.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "KM1.AX": {
+      "price": 0.16500000655651093,
+      "currency": "AUD"
+    },
+    "KMD.AX": {
+      "price": 0.24500000476837158,
+      "currency": "AUD"
+    },
+    "KME.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "KNB.AX": {
+      "price": 0.041999999433755875,
+      "currency": "AUD"
+    },
+    "KNG.AX": {
+      "price": 0.09600000083446503,
+      "currency": "AUD"
+    },
+    "KNI.AX": {
+      "price": 0.06800000369548798,
+      "currency": "AUD"
+    },
+    "KNM.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "KNO.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "KOB.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "KOR.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "KOV.AX": {
+      "price": 14.020000457763672,
+      "currency": "AUD"
+    },
+    "KP2.AX": {
+      "price": 0.0560000017285347,
+      "currency": "AUD"
+    },
+    "KPG.AX": {
+      "price": 8.319999694824219,
+      "currency": "AUD"
+    },
+    "KPO.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "KRM.AX": {
+      "price": 0.04399999976158142,
+      "currency": "AUD"
+    },
+    "KRR.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "KSC.AX": {
+      "price": 3.309999942779541,
+      "currency": "AUD"
+    },
+    "KSL.AX": {
+      "price": 1.225000023841858,
+      "currency": "AUD"
+    },
+    "KSN.AX": {
+      "price": 0.13199999928474426,
+      "currency": "AUD"
+    },
+    "KTA.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "KYP.AX": {
+      "price": 0.3050000071525574,
+      "currency": "AUD"
+    },
+    "KZR.AX": {
+      "price": 0.18199999630451202,
+      "currency": "AUD"
+    },
+    "L1G.AX": {
+      "price": 1.0800000429153442,
+      "currency": "AUD"
+    },
+    "L1M.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "LAM.AX": {
+      "price": 0.75,
+      "currency": "AUD"
+    },
+    "LAT.AX": {
+      "price": 0.07800000160932541,
+      "currency": "AUD"
+    },
+    "LAU.AX": {
+      "price": 0.7099999785423279,
+      "currency": "AUD"
+    },
+    "LBL.AX": {
+      "price": 0.625,
+      "currency": "AUD"
+    },
+    "LCE.AX": {
+      "price": 0.8500000238418579,
+      "currency": "AUD"
+    },
+    "LCL.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "LCY.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "LDR.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "LDX.AX": {
+      "price": 0.28999999165534973,
+      "currency": "AUD"
+    },
+    "LEG.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "LEL.AX": {
+      "price": 0.3700000047683716,
+      "currency": "AUD"
+    },
+    "LEX.AX": {
+      "price": 0.26499998569488525,
+      "currency": "AUD"
+    },
+    "LF1.AX": {
+      "price": 1.9950000047683716,
+      "currency": "AUD"
+    },
+    "LFG.AX": {
+      "price": 4.119999885559082,
+      "currency": "AUD"
+    },
+    "LFS.AX": {
+      "price": 1.0399999618530273,
+      "currency": "AUD"
+    },
+    "LGI.AX": {
+      "price": 4.090000152587891,
+      "currency": "AUD"
+    },
+    "LGM.AX": {
+      "price": 0.2199999988079071,
+      "currency": "AUD"
+    },
+    "LGP.AX": {
+      "price": 0.12999999523162842,
+      "currency": "AUD"
+    },
+    "LIB.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "LIC.AX": {
+      "price": 5.550000190734863,
+      "currency": "AUD"
+    },
+    "LIN.AX": {
+      "price": 0.4650000035762787,
+      "currency": "AUD"
+    },
+    "LIO.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "LIS.AX": {
+      "price": 0.16500000655651093,
+      "currency": "AUD"
+    },
+    "LIT.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "LKE.AX": {
+      "price": 0.1550000011920929,
+      "currency": "AUD"
+    },
+    "LKO.AX": {
+      "price": 1.3049999475479126,
+      "currency": "AUD"
+    },
+    "LKY.AX": {
+      "price": 0.2150000035762787,
+      "currency": "AUD"
+    },
+    "LLC.AX": {
+      "price": 5.059999942779541,
+      "currency": "AUD"
+    },
+    "LLM.AX": {
+      "price": 0.33500000834465027,
+      "currency": "AUD"
+    },
+    "LM1.AX": {
+      "price": 0.1599999964237213,
+      "currency": "AUD"
+    },
+    "LM8.AX": {
+      "price": 0.4050000011920929,
+      "currency": "AUD"
+    },
+    "LMG.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "LML.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "LMS.AX": {
+      "price": 0.5,
+      "currency": "AUD"
+    },
+    "LNQ.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "LNW.AX": {
+      "price": 158.4949951171875,
+      "currency": "AUD"
+    },
+    "LOT.AX": {
+      "price": 0.2199999988079071,
+      "currency": "AUD"
+    },
+    "LOV.AX": {
+      "price": 28.920000076293945,
+      "currency": "AUD"
+    },
+    "LPE.AX": {
+      "price": 0.10999999940395355,
+      "currency": "AUD"
+    },
+    "LPM.AX": {
+      "price": 0.1850000023841858,
+      "currency": "AUD"
+    },
+    "LRD.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "LRK.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "LRM.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "LRT.AX": {
+      "price": 2.319999933242798,
+      "currency": "AUD"
+    },
+    "LRV.AX": {
+      "price": 1.2100000381469727,
+      "currency": "AUD"
+    },
+    "LSA.AX": {
+      "price": 0.05999999865889549,
+      "currency": "AUD"
+    },
+    "LSF.AX": {
+      "price": 4.050000190734863,
+      "currency": "AUD"
+    },
+    "LSR.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "LSX.AX": {
+      "price": 1.0099999904632568,
+      "currency": "AUD"
+    },
+    "LTP.AX": {
+      "price": 0.6349999904632568,
+      "currency": "AUD"
+    },
+    "LTR.AX": {
+      "price": 2.049999952316284,
+      "currency": "AUD"
+    },
+    "LU7.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "LVE.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "LYC.AX": {
+      "price": 14.289999961853027,
+      "currency": "AUD"
+    },
+    "LYL.AX": {
+      "price": 14.84000015258789,
+      "currency": "AUD"
+    },
+    "M24.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "M2M.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "M2R.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "M3M.AX": {
+      "price": 0.03099999949336052,
+      "currency": "AUD"
+    },
+    "M4M.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "M79.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "M7T.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "MA1.AX": {
+      "price": 2.009999990463257,
+      "currency": "AUD"
+    },
+    "MAD.AX": {
+      "price": 7.489999771118164,
+      "currency": "AUD"
+    },
+    "MAF.AX": {
+      "price": 10.829999923706055,
+      "currency": "AUD"
+    },
+    "MAG.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "MAH.AX": {
+      "price": 0.6949999928474426,
+      "currency": "AUD"
+    },
+    "MAM.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "MAN.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "MAP.AX": {
+      "price": 0.07500000298023224,
+      "currency": "AUD"
+    },
+    "MAQ.AX": {
+      "price": 68.9800033569336,
+      "currency": "AUD"
+    },
+    "MAT.AX": {
+      "price": 0.12999999523162842,
+      "currency": "AUD"
+    },
+    "MAU.AX": {
+      "price": 1.2799999713897705,
+      "currency": "AUD"
+    },
+    "MAY.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "MBH.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "MBK.AX": {
+      "price": 0.028999999165534973,
+      "currency": "AUD"
+    },
+    "MC2.AX": {
+      "price": 13.0,
+      "currency": "AUD"
+    },
+    "MCA.AX": {
+      "price": 1.0299999713897705,
+      "currency": "AUD"
+    },
+    "MCE.AX": {
+      "price": 0.25999999046325684,
+      "currency": "AUD"
+    },
+    "MCM.AX": {
+      "price": 0.2199999988079071,
+      "currency": "AUD"
+    },
+    "MCO.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "MCP.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "MCY.AX": {
+      "price": 5.539999961853027,
+      "currency": "AUD"
+    },
+    "MDI.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "MDX.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "MEC.AX": {
+      "price": 1.1799999475479126,
+      "currency": "AUD"
+    },
+    "MEG.AX": {
+      "price": 0.03099999949336052,
+      "currency": "AUD"
+    },
+    "MEI.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "MEK.AX": {
+      "price": 0.2750000059604645,
+      "currency": "AUD"
+    },
+    "MEL.AX": {
+      "price": 0.02800000086426735,
+      "currency": "AUD"
+    },
+    "MEM.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "MEU.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "MEX.AX": {
+      "price": 0.19499999284744263,
+      "currency": "AUD"
+    },
+    "MEZ.AX": {
+      "price": 4.809999942779541,
+      "currency": "AUD"
+    },
+    "MFD.AX": {
+      "price": 0.4950000047683716,
+      "currency": "AUD"
+    },
+    "MFF.AX": {
+      "price": 5.050000190734863,
+      "currency": "AUD"
+    },
+    "MFG.AX": {
+      "price": 9.229999542236328,
+      "currency": "AUD"
+    },
+    "MGA.AX": {
+      "price": 0.09000000357627869,
+      "currency": "AUD"
+    },
+    "MGH.AX": {
+      "price": 5.809999942779541,
+      "currency": "AUD"
+    },
+    "MGL.AX": {
+      "price": 0.2199999988079071,
+      "currency": "AUD"
+    },
+    "MGR.AX": {
+      "price": 2.0299999713897705,
+      "currency": "AUD"
+    },
+    "MGT.AX": {
+      "price": 0.05900000035762787,
+      "currency": "AUD"
+    },
+    "MGU.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "MGX.AX": {
+      "price": 0.44999998807907104,
+      "currency": "AUD"
+    },
+    "MHC.AX": {
+      "price": 0.028999999165534973,
+      "currency": "AUD"
+    },
+    "MHJ.AX": {
+      "price": 0.3799999952316284,
+      "currency": "AUD"
+    },
+    "MHK.AX": {
+      "price": 0.11999999731779099,
+      "currency": "AUD"
+    },
+    "MHM.AX": {
+      "price": 0.18000000715255737,
+      "currency": "AUD"
+    },
+    "MI6.AX": {
+      "price": 0.4300000071525574,
+      "currency": "AUD"
+    },
+    "MIN.AX": {
+      "price": 56.72999954223633,
+      "currency": "AUD"
+    },
+    "MIO.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "MIR.AX": {
+      "price": 3.1700000762939453,
+      "currency": "AUD"
+    },
+    "MKR.AX": {
+      "price": 0.125,
+      "currency": "AUD"
+    },
+    "ML8.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "MLG.AX": {
+      "price": 0.8949999809265137,
+      "currency": "AUD"
+    },
+    "MLS.AX": {
+      "price": 0.02500000037252903,
+      "currency": "AUD"
+    },
+    "MLX.AX": {
+      "price": 1.159999966621399,
+      "currency": "AUD"
+    },
+    "MM1.AX": {
+      "price": 0.6449999809265137,
+      "currency": "AUD"
+    },
+    "MM8.AX": {
+      "price": 0.40700000524520874,
+      "currency": "AUD"
+    },
+    "MMA.AX": {
+      "price": 0.4950000047683716,
+      "currency": "AUD"
+    },
+    "MME.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "MMI.AX": {
+      "price": 0.07000000029802322,
+      "currency": "AUD"
+    },
+    "MML.AX": {
+      "price": 0.03200000151991844,
+      "currency": "AUD"
+    },
+    "MMR.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "MMS.AX": {
+      "price": 17.309999465942383,
+      "currency": "AUD"
+    },
+    "MNB.AX": {
+      "price": 0.02500000037252903,
+      "currency": "AUD"
+    },
+    "MNC.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "MND.AX": {
+      "price": 27.3799991607666,
+      "currency": "AUD"
+    },
+    "MOH.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "MOM.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "MOT.AX": {
+      "price": 1.909999966621399,
+      "currency": "AUD"
+    },
+    "MOV.AX": {
+      "price": 0.23000000417232513,
+      "currency": "AUD"
+    },
+    "MP1.AX": {
+      "price": 12.5600004196167,
+      "currency": "AUD"
+    },
+    "MPK.AX": {
+      "price": 0.925000011920929,
+      "currency": "AUD"
+    },
+    "MPL.AX": {
+      "price": 4.789999961853027,
+      "currency": "AUD"
+    },
+    "MPP.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "MPR.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "MPW.AX": {
+      "price": 1.9900000095367432,
+      "currency": "AUD"
+    },
+    "MPX.AX": {
+      "price": 0.14000000059604645,
+      "currency": "AUD"
+    },
+    "MQG.AX": {
+      "price": 209.5,
+      "currency": "AUD"
+    },
+    "MQR.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "MRC.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "MRD.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "MRE.AX": {
+      "price": 2.009999990463257,
+      "currency": "AUD"
+    },
+    "MRQ.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "MRR.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "MRZ.AX": {
+      "price": 0.28700000047683716,
+      "currency": "AUD"
+    },
+    "MSB.AX": {
+      "price": 2.9700000286102295,
+      "currency": "AUD"
+    },
+    "MSG.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "MSI.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "MSV.AX": {
+      "price": 0.3499999940395355,
+      "currency": "AUD"
+    },
+    "MTB.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "MTC.AX": {
+      "price": 0.27000001072883606,
+      "currency": "AUD"
+    },
+    "MTH.AX": {
+      "price": 0.5699999928474426,
+      "currency": "AUD"
+    },
+    "MTL.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "MTM.AX": {
+      "price": 0.8899999856948853,
+      "currency": "AUD"
+    },
+    "MTO.AX": {
+      "price": 3.0799999237060547,
+      "currency": "AUD"
+    },
+    "MTS.AX": {
+      "price": 3.309999942779541,
+      "currency": "AUD"
+    },
+    "MVF.AX": {
+      "price": 0.75,
+      "currency": "AUD"
+    },
+    "MVL.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "MVP.AX": {
+      "price": 0.550000011920929,
+      "currency": "AUD"
+    },
+    "MX1.AX": {
+      "price": 0.08399999886751175,
+      "currency": "AUD"
+    },
+    "MXI.AX": {
+      "price": 2.259999990463257,
+      "currency": "AUD"
+    },
+    "MXO.AX": {
+      "price": 0.0560000017285347,
+      "currency": "AUD"
+    },
+    "MXT.AX": {
+      "price": 1.9850000143051147,
+      "currency": "AUD"
+    },
+    "MYE.AX": {
+      "price": 0.1550000011920929,
+      "currency": "AUD"
+    },
+    "MYG.AX": {
+      "price": 3.190000057220459,
+      "currency": "AUD"
+    },
+    "MYR.AX": {
+      "price": 0.4749999940395355,
+      "currency": "AUD"
+    },
+    "MYS.AX": {
+      "price": 4.570000171661377,
+      "currency": "AUD"
+    },
+    "MYX.AX": {
+      "price": 3.130000114440918,
+      "currency": "AUD"
+    },
+    "N1H.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "NAB.AX": {
+      "price": 41.119998931884766,
+      "currency": "AUD"
+    },
+    "NAC.AX": {
+      "price": 0.6850000023841858,
+      "currency": "AUD"
+    },
+    "NAE.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "NAG.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "NAN.AX": {
+      "price": 4.159999847412109,
+      "currency": "AUD"
+    },
+    "NC1.AX": {
+      "price": 0.18000000715255737,
+      "currency": "AUD"
+    },
+    "NC6.AX": {
+      "price": 0.0560000017285347,
+      "currency": "AUD"
+    },
+    "NCC.AX": {
+      "price": 0.4399999976158142,
+      "currency": "AUD"
+    },
+    "NCK.AX": {
+      "price": 23.649999618530273,
+      "currency": "AUD"
+    },
+    "NDO.AX": {
+      "price": 0.6100000143051147,
+      "currency": "AUD"
+    },
+    "NEC.AX": {
+      "price": 1.121999979019165,
+      "currency": "AUD"
+    },
+    "NEM.AX": {
+      "price": 157.89999389648438,
+      "currency": "AUD"
+    },
+    "NES.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "NEU.AX": {
+      "price": 18.780000686645508,
+      "currency": "AUD"
+    },
+    "NFL.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "NFM.AX": {
+      "price": 0.01899999938905239,
+      "currency": "AUD"
+    },
+    "NGE.AX": {
+      "price": 1.3600000143051147,
+      "currency": "AUD"
+    },
+    "NGI.AX": {
+      "price": 2.9700000286102295,
+      "currency": "AUD"
+    },
+    "NGS.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "NGX.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "NGY.AX": {
+      "price": 0.03200000151991844,
+      "currency": "AUD"
+    },
+    "NH3.AX": {
+      "price": 0.0820000022649765,
+      "currency": "AUD"
+    },
+    "NHC.AX": {
+      "price": 4.014999866485596,
+      "currency": "AUD"
+    },
+    "NHE.AX": {
+      "price": 0.03999999910593033,
+      "currency": "AUD"
+    },
+    "NHF.AX": {
+      "price": 6.789999961853027,
+      "currency": "AUD"
+    },
+    "NIC.AX": {
+      "price": 0.9649999737739563,
+      "currency": "AUD"
+    },
+    "NIM.AX": {
+      "price": 0.05999999865889549,
+      "currency": "AUD"
+    },
+    "NME.AX": {
+      "price": 0.01899999938905239,
+      "currency": "AUD"
+    },
+    "NMG.AX": {
+      "price": 0.04800000041723251,
+      "currency": "AUD"
+    },
+    "NMR.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "NMT.AX": {
+      "price": 0.061000000685453415,
+      "currency": "AUD"
+    },
+    "NNG.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "NNL.AX": {
+      "price": 0.22499999403953552,
+      "currency": "AUD"
+    },
+    "NOL.AX": {
+      "price": 1.5299999713897705,
+      "currency": "AUD"
+    },
+    "NOR.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "NOU.AX": {
+      "price": 0.125,
+      "currency": "AUD"
+    },
+    "NOV.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "NOX.AX": {
+      "price": 0.09099999815225601,
+      "currency": "AUD"
+    },
+    "NPM.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "NRX.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "NRZ.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "NSB.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "NSC.AX": {
+      "price": 0.39500001072883606,
+      "currency": "AUD"
+    },
+    "NSM.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "NSR.AX": {
+      "price": 2.740000009536743,
+      "currency": "AUD"
+    },
+    "NST.AX": {
+      "price": 24.65999984741211,
+      "currency": "AUD"
+    },
+    "NTD.AX": {
+      "price": 0.24500000476837158,
+      "currency": "AUD"
+    },
+    "NTI.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "NTM.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "NTU.AX": {
+      "price": 0.032999999821186066,
+      "currency": "AUD"
+    },
+    "NUC.AX": {
+      "price": 0.13500000536441803,
+      "currency": "AUD"
+    },
+    "NUF.AX": {
+      "price": 2.4000000953674316,
+      "currency": "AUD"
+    },
+    "NUZ.AX": {
+      "price": 0.07999999821186066,
+      "currency": "AUD"
+    },
+    "NVA.AX": {
+      "price": 0.8700000047683716,
+      "currency": "AUD"
+    },
+    "NVO.AX": {
+      "price": 0.14499999582767487,
+      "currency": "AUD"
+    },
+    "NVQ.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "NVU.AX": {
+      "price": 0.09799999743700027,
+      "currency": "AUD"
+    },
+    "NVX.AX": {
+      "price": 0.5099999904632568,
+      "currency": "AUD"
+    },
+    "NWF.AX": {
+      "price": 0.08900000154972076,
+      "currency": "AUD"
+    },
+    "NWH.AX": {
+      "price": 5.309999942779541,
+      "currency": "AUD"
+    },
+    "NWL.AX": {
+      "price": 26.1299991607666,
+      "currency": "AUD"
+    },
+    "NWM.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "NWS.AX": {
+      "price": 45.20500183105469,
+      "currency": "AUD"
+    },
+    "NXD.AX": {
+      "price": 0.28999999165534973,
+      "currency": "AUD"
+    },
+    "NXG.AX": {
+      "price": 16.06999969482422,
+      "currency": "AUD"
+    },
+    "NXL.AX": {
+      "price": 1.8849999904632568,
+      "currency": "AUD"
+    },
+    "NXM.AX": {
+      "price": 0.07199999690055847,
+      "currency": "AUD"
+    },
+    "NXN.AX": {
+      "price": 0.17499999701976776,
+      "currency": "AUD"
+    },
+    "NXS.AX": {
+      "price": 0.14499999582767487,
+      "currency": "AUD"
+    },
+    "NXT.AX": {
+      "price": 12.800000190734863,
+      "currency": "AUD"
+    },
+    "NYM.AX": {
+      "price": 0.03200000151991844,
+      "currency": "AUD"
+    },
+    "NYR.AX": {
+      "price": 1.3700000047683716,
+      "currency": "AUD"
+    },
+    "NZK.AX": {
+      "price": 0.17499999701976776,
+      "currency": "AUD"
+    },
+    "NZM.AX": {
+      "price": 0.9750000238418579,
+      "currency": "AUD"
+    },
+    "OAK.AX": {
+      "price": 0.07999999821186066,
+      "currency": "AUD"
+    },
+    "OB1.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "OBL.AX": {
+      "price": 1.4550000429153442,
+      "currency": "AUD"
+    },
+    "OBM.AX": {
+      "price": 1.5149999856948853,
+      "currency": "AUD"
+    },
+    "OCA.AX": {
+      "price": 0.7599999904632568,
+      "currency": "AUD"
+    },
+    "OCC.AX": {
+      "price": 1.0700000524520874,
+      "currency": "AUD"
+    },
+    "OCL.AX": {
+      "price": 16.18000030517578,
+      "currency": "AUD"
+    },
+    "OCN.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "OCT.AX": {
+      "price": 0.05700000002980232,
+      "currency": "AUD"
+    },
+    "OD6.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "ODA.AX": {
+      "price": 0.0560000017285347,
+      "currency": "AUD"
+    },
+    "ODE.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "ODY.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "OEC.AX": {
+      "price": 0.125,
+      "currency": "AUD"
+    },
+    "OEL.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "OEQ.AX": {
+      "price": 0.1850000023841858,
+      "currency": "AUD"
+    },
+    "OFX.AX": {
+      "price": 0.5149999856948853,
+      "currency": "AUD"
+    },
+    "OIL.AX": {
+      "price": 0.09300000220537186,
+      "currency": "AUD"
+    },
+    "OKJ.AX": {
+      "price": 0.07500000298023224,
+      "currency": "AUD"
+    },
+    "OLH.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "OLI.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "OLL.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "OLY.AX": {
+      "price": 0.0689999982714653,
+      "currency": "AUD"
+    },
+    "OM1.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "OMA.AX": {
+      "price": 0.38999998569488525,
+      "currency": "AUD"
+    },
+    "OMG.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "OMH.AX": {
+      "price": 0.32499998807907104,
+      "currency": "AUD"
+    },
+    "OML.AX": {
+      "price": 1.3350000381469727,
+      "currency": "AUD"
+    },
+    "OMX.AX": {
+      "price": 0.07599999755620956,
+      "currency": "AUD"
+    },
+    "ONE.AX": {
+      "price": 0.3700000047683716,
+      "currency": "AUD"
+    },
+    "OPH.AX": {
+      "price": 3.2200000286102295,
+      "currency": "AUD"
+    },
+    "OPN.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "OPT.AX": {
+      "price": 0.6000000238418579,
+      "currency": "AUD"
+    },
+    "OR3.AX": {
+      "price": 0.061000000685453415,
+      "currency": "AUD"
+    },
+    "ORA.AX": {
+      "price": 2.2100000381469727,
+      "currency": "AUD"
+    },
+    "ORD.AX": {
+      "price": 0.625,
+      "currency": "AUD"
+    },
+    "ORE.AX": {
+      "price": 2.200000047683716,
+      "currency": "AUD"
+    },
+    "ORG.AX": {
+      "price": 11.3149995803833,
+      "currency": "AUD"
+    },
+    "ORI.AX": {
+      "price": 26.0,
+      "currency": "AUD"
+    },
+    "ORN.AX": {
+      "price": 0.02500000037252903,
+      "currency": "AUD"
+    },
+    "ORP.AX": {
+      "price": 0.05299999937415123,
+      "currency": "AUD"
+    },
+    "OSL.AX": {
+      "price": 0.8550000190734863,
+      "currency": "AUD"
+    },
+    "OSM.AX": {
+      "price": 0.699999988079071,
+      "currency": "AUD"
+    },
+    "OSX.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "OVT.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "OZM.AX": {
+      "price": 0.057999998331069946,
+      "currency": "AUD"
+    },
+    "OZZ.AX": {
+      "price": 0.054999999701976776,
+      "currency": "AUD"
+    },
+    "P1E.AX": {
+      "price": 0.07599999755620956,
+      "currency": "AUD"
+    },
+    "PAB.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "PAC.AX": {
+      "price": 10.079999923706055,
+      "currency": "AUD"
+    },
+    "PAR.AX": {
+      "price": 0.35499998927116394,
+      "currency": "AUD"
+    },
+    "PAT.AX": {
+      "price": 0.06400000303983688,
+      "currency": "AUD"
+    },
+    "PBH.AX": {
+      "price": 0.9049999713897705,
+      "currency": "AUD"
+    },
+    "PBL.AX": {
+      "price": 0.08100000023841858,
+      "currency": "AUD"
+    },
+    "PC2.AX": {
+      "price": 0.4300000071525574,
+      "currency": "AUD"
+    },
+    "PCG.AX": {
+      "price": 0.6549999713897705,
+      "currency": "AUD"
+    },
+    "PCI.AX": {
+      "price": 1.1150000095367432,
+      "currency": "AUD"
+    },
+    "PCK.AX": {
+      "price": 0.2849999964237213,
+      "currency": "AUD"
+    },
+    "PCL.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "PCX.AX": {
+      "price": 2.049999952316284,
+      "currency": "AUD"
+    },
+    "PDI.AX": {
+      "price": 0.800000011920929,
+      "currency": "AUD"
+    },
+    "PDN.AX": {
+      "price": 10.930000305175781,
+      "currency": "AUD"
+    },
+    "PE1.AX": {
+      "price": 1.375,
+      "currency": "AUD"
+    },
+    "PEB.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "PEC.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "PEN.AX": {
+      "price": 0.7149999737739563,
+      "currency": "AUD"
+    },
+    "PER.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "PET.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "PEX.AX": {
+      "price": 0.17000000178813934,
+      "currency": "AUD"
+    },
+    "PFE.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "PFG.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "PFM.AX": {
+      "price": 0.020999999716877937,
+      "currency": "AUD"
+    },
+    "PFP.AX": {
+      "price": 4.909999847412109,
+      "currency": "AUD"
+    },
+    "PFT.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "PGC.AX": {
+      "price": 0.24500000476837158,
+      "currency": "AUD"
+    },
+    "PGD.AX": {
+      "price": 0.27000001072883606,
+      "currency": "AUD"
+    },
+    "PGF.AX": {
+      "price": 2.9800000190734863,
+      "currency": "AUD"
+    },
+    "PGM.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "PGO.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "PGY.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "PHO.AX": {
+      "price": 0.14499999582767487,
+      "currency": "AUD"
+    },
+    "PHX.AX": {
+      "price": 0.1599999964237213,
+      "currency": "AUD"
+    },
+    "PIA.AX": {
+      "price": 1.3049999475479126,
+      "currency": "AUD"
+    },
+    "PIC.AX": {
+      "price": 1.2799999713897705,
+      "currency": "AUD"
+    },
+    "PIL.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "PIM.AX": {
+      "price": 0.06300000101327896,
+      "currency": "AUD"
+    },
+    "PIQ.AX": {
+      "price": 0.6850000023841858,
+      "currency": "AUD"
+    },
+    "PKD.AX": {
+      "price": 0.03500000014901161,
+      "currency": "AUD"
+    },
+    "PKP.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "PKY.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "PL3.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "PL8.AX": {
+      "price": 1.4850000143051147,
+      "currency": "AUD"
+    },
+    "PLC.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "PLS.AX": {
+      "price": 4.789999961853027,
+      "currency": "AUD"
+    },
+    "PLY.AX": {
+      "price": 0.2750000059604645,
+      "currency": "AUD"
+    },
+    "PME.AX": {
+      "price": 215.61000061035156,
+      "currency": "AUD"
+    },
+    "PMT.AX": {
+      "price": 0.6650000214576721,
+      "currency": "AUD"
+    },
+    "PMV.AX": {
+      "price": 13.430000305175781,
+      "currency": "AUD"
+    },
+    "PNI.AX": {
+      "price": 17.450000762939453,
+      "currency": "AUD"
+    },
+    "PNM.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "PNN.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "PNR.AX": {
+      "price": 5.190000057220459,
+      "currency": "AUD"
+    },
+    "PNT.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "PNV.AX": {
+      "price": 1.2400000095367432,
+      "currency": "AUD"
+    },
+    "POD.AX": {
+      "price": 0.0860000029206276,
+      "currency": "AUD"
+    },
+    "POL.AX": {
+      "price": 1.309999942779541,
+      "currency": "AUD"
+    },
+    "PPC.AX": {
+      "price": 2.0299999713897705,
+      "currency": "AUD"
+    },
+    "PPE.AX": {
+      "price": 0.8450000286102295,
+      "currency": "AUD"
+    },
+    "PPG.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "PPK.AX": {
+      "price": 0.44999998807907104,
+      "currency": "AUD"
+    },
+    "PPL.AX": {
+      "price": 0.04699999839067459,
+      "currency": "AUD"
+    },
+    "PPM.AX": {
+      "price": 2.069999933242798,
+      "currency": "AUD"
+    },
+    "PPS.AX": {
+      "price": 0.800000011920929,
+      "currency": "AUD"
+    },
+    "PPT.AX": {
+      "price": 19.399999618530273,
+      "currency": "AUD"
+    },
+    "PPY.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "PR1.AX": {
+      "price": 0.2800000011920929,
+      "currency": "AUD"
+    },
+    "PR2.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "PRM.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "PRO.AX": {
+      "price": 0.14000000059604645,
+      "currency": "AUD"
+    },
+    "PRU.AX": {
+      "price": 5.75,
+      "currency": "AUD"
+    },
+    "PSC.AX": {
+      "price": 0.29499998688697815,
+      "currency": "AUD"
+    },
+    "PTL.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "PTR.AX": {
+      "price": 0.28999999165534973,
+      "currency": "AUD"
+    },
+    "PTX.AX": {
+      "price": 0.08799999952316284,
+      "currency": "AUD"
+    },
+    "PUR.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "PV1.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "PVE.AX": {
+      "price": 0.05999999865889549,
+      "currency": "AUD"
+    },
+    "PVL.AX": {
+      "price": 0.1550000011920929,
+      "currency": "AUD"
+    },
+    "PVW.AX": {
+      "price": 0.017999999225139618,
+      "currency": "AUD"
+    },
+    "PWH.AX": {
+      "price": 8.770000457763672,
+      "currency": "AUD"
+    },
+    "PWN.AX": {
+      "price": 0.014000000432133675,
+      "currency": "AUD"
+    },
+    "PWR.AX": {
+      "price": 1.840000033378601,
+      "currency": "AUD"
+    },
+    "PXA.AX": {
+      "price": 13.319999694824219,
+      "currency": "AUD"
+    },
+    "PXR.AX": {
+      "price": 0.0010000000474974513,
+      "currency": "AUD"
+    },
+    "PXX.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "PYC.AX": {
+      "price": 1.6950000524520874,
+      "currency": "AUD"
+    },
+    "QAL.AX": {
+      "price": 3.509999990463257,
+      "currency": "AUD"
+    },
+    "QAN.AX": {
+      "price": 10.539999961853027,
+      "currency": "AUD"
+    },
+    "QBE.AX": {
+      "price": 19.889999389648438,
+      "currency": "AUD"
+    },
+    "QEM.AX": {
+      "price": 0.01600000075995922,
+      "currency": "AUD"
+    },
+    "QGL.AX": {
+      "price": 0.33000001311302185,
+      "currency": "AUD"
+    },
+    "QML.AX": {
+      "price": 0.0560000017285347,
+      "currency": "AUD"
+    },
+    "QOR.AX": {
+      "price": 0.6420000195503235,
+      "currency": "AUD"
+    },
+    "QPM.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "QUB.AX": {
+      "price": 4.78000020980835,
+      "currency": "AUD"
+    },
+    "R8R.AX": {
+      "price": 0.14000000059604645,
+      "currency": "AUD"
+    },
+    "RAC.AX": {
+      "price": 2.809999942779541,
+      "currency": "AUD"
+    },
+    "RAD.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "RAG.AX": {
+      "price": 0.02800000086426735,
+      "currency": "AUD"
+    },
+    "RAN.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "RAS.AX": {
+      "price": 0.027000000700354576,
+      "currency": "AUD"
+    },
+    "RAU.AX": {
+      "price": 0.23499999940395355,
+      "currency": "AUD"
+    },
+    "RB6.AX": {
+      "price": 0.12999999523162842,
+      "currency": "AUD"
+    },
+    "RBR.AX": {
+      "price": 0.024000000208616257,
+      "currency": "AUD"
+    },
+    "RBX.AX": {
+      "price": 0.04899999871850014,
+      "currency": "AUD"
+    },
+    "RC1.AX": {
+      "price": 0.14499999582767487,
+      "currency": "AUD"
+    },
+    "RCE.AX": {
+      "price": 0.6700000166893005,
+      "currency": "AUD"
+    },
+    "RCL.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "RCM.AX": {
+      "price": 0.06800000369548798,
+      "currency": "AUD"
+    },
+    "RCR.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "RCT.AX": {
+      "price": 3.450000047683716,
+      "currency": "AUD"
+    },
+    "RDM.AX": {
+      "price": 0.15000000596046448,
+      "currency": "AUD"
+    },
+    "RDN.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "RDX.AX": {
+      "price": 3.0799999237060547,
+      "currency": "AUD"
+    },
+    "REA.AX": {
+      "price": 183.27999877929688,
+      "currency": "AUD"
+    },
+    "REC.AX": {
+      "price": 0.019999999552965164,
+      "currency": "AUD"
+    },
+    "REE.AX": {
+      "price": 0.028999999165534973,
+      "currency": "AUD"
+    },
+    "REH.AX": {
+      "price": 13.449999809265137,
+      "currency": "AUD"
+    },
+    "REM.AX": {
+      "price": 0.03799999877810478,
+      "currency": "AUD"
+    },
+    "REP.AX": {
+      "price": 0.5699999928474426,
+      "currency": "AUD"
+    },
+    "REV.AX": {
+      "price": 2.0299999713897705,
+      "currency": "AUD"
+    },
+    "REZ.AX": {
+      "price": 0.017000000923871994,
+      "currency": "AUD"
+    },
+    "RF1.AX": {
+      "price": 3.4700000286102295,
+      "currency": "AUD"
+    },
+    "RFF.AX": {
+      "price": 2.0399999618530273,
+      "currency": "AUD"
+    },
+    "RFG.AX": {
+      "price": 1.5049999952316284,
+      "currency": "AUD"
+    },
+    "RFT.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "RG1.AX": {
+      "price": 2.3399999141693115,
+      "currency": "AUD"
+    },
+    "RG8.AX": {
+      "price": 2.7200000286102295,
+      "currency": "AUD"
+    },
+    "RGL.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "RGN.AX": {
+      "price": 2.3499999046325684,
+      "currency": "AUD"
+    },
+    "RGT.AX": {
+      "price": 0.06499999761581421,
+      "currency": "AUD"
+    },
+    "RHC.AX": {
+      "price": 35.619998931884766,
+      "currency": "AUD"
+    },
+    "RHI.AX": {
+      "price": 5.039999961853027,
+      "currency": "AUD"
+    },
+    "RHT.AX": {
+      "price": 0.04699999839067459,
+      "currency": "AUD"
+    },
+    "RHY.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "RIE.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "RIM.AX": {
+      "price": 0.014999999664723873,
+      "currency": "AUD"
+    },
+    "RIO.AX": {
+      "price": 152.9600067138672,
+      "currency": "AUD"
+    },
+    "RIV.AX": {
+      "price": 1.4600000381469727,
+      "currency": "AUD"
+    },
+    "RKN.AX": {
+      "price": 0.5600000023841858,
+      "currency": "AUD"
+    },
+    "RLC.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "RLF.AX": {
+      "price": 0.06800000369548798,
+      "currency": "AUD"
+    },
+    "RLG.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "RLT.AX": {
+      "price": 0.75,
+      "currency": "AUD"
+    },
+    "RMC.AX": {
+      "price": 0.9599999785423279,
+      "currency": "AUD"
+    },
+    "RMD.AX": {
+      "price": 37.220001220703125,
+      "currency": "AUD"
+    },
+    "RMI.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "RML.AX": {
+      "price": 0.05000000074505806,
+      "currency": "AUD"
+    },
+    "RMS.AX": {
+      "price": 4.170000076293945,
+      "currency": "AUD"
+    },
+    "RND.AX": {
+      "price": 2.5899999141693115,
+      "currency": "AUD"
+    },
+    "RNT.AX": {
+      "price": 0.04800000041723251,
+      "currency": "AUD"
+    },
+    "RNU.AX": {
+      "price": 0.08299999684095383,
+      "currency": "AUD"
+    },
+    "RNV.AX": {
+      "price": 0.11500000208616257,
+      "currency": "AUD"
+    },
+    "RNX.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "ROC.AX": {
+      "price": 0.38499999046325684,
+      "currency": "AUD"
+    },
+    "ROG.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "RON.AX": {
+      "price": 0.17499999701976776,
+      "currency": "AUD"
+    },
+    "RPL.AX": {
+      "price": 3.319999933242798,
+      "currency": "AUD"
+    },
+    "RPM.AX": {
+      "price": 0.054999999701976776,
+      "currency": "AUD"
+    },
+    "RRE.AX": {
+      "price": 0.27000001072883606,
+      "currency": "AUD"
+    },
+    "RRL.AX": {
+      "price": 7.489999771118164,
+      "currency": "AUD"
+    },
+    "RRR.AX": {
+      "price": 0.0949999988079071,
+      "currency": "AUD"
+    },
+    "RTG.AX": {
+      "price": 0.03400000184774399,
+      "currency": "AUD"
+    },
+    "RTH.AX": {
+      "price": 0.824999988079071,
+      "currency": "AUD"
+    },
+    "RTR.AX": {
+      "price": 0.04699999839067459,
+      "currency": "AUD"
+    },
+    "RUL.AX": {
+      "price": 4.980000019073486,
+      "currency": "AUD"
+    },
+    "RVT.AX": {
+      "price": 0.07599999755620956,
+      "currency": "AUD"
+    },
+    "RWL.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "RXL.AX": {
+      "price": 0.5099999904632568,
+      "currency": "AUD"
+    },
+    "RXR.AX": {
+      "price": 6.0,
+      "currency": "AUD"
+    },
+    "RYD.AX": {
+      "price": 1.9600000381469727,
+      "currency": "AUD"
+    },
+    "RYM.AX": {
+      "price": 2.5199999809265137,
+      "currency": "AUD"
+    },
+    "S2R.AX": {
+      "price": 0.0689999982714653,
+      "currency": "AUD"
+    },
+    "S32.AX": {
+      "price": 3.825000047683716,
+      "currency": "AUD"
+    },
+    "S66.AX": {
+      "price": 0.25,
+      "currency": "AUD"
+    },
+    "SAN.AX": {
+      "price": 0.010999999940395355,
+      "currency": "AUD"
+    },
+    "SB2.AX": {
+      "price": 0.75,
+      "currency": "AUD"
+    },
+    "SBM.AX": {
+      "price": 0.5699999928474426,
+      "currency": "AUD"
+    },
+    "SBR.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "SCG.AX": {
+      "price": 4.179999828338623,
+      "currency": "AUD"
+    },
+    "SCN.AX": {
+      "price": 0.04100000113248825,
+      "currency": "AUD"
+    },
+    "SCP.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "SCT.AX": {
+      "price": 0.5199999809265137,
+      "currency": "AUD"
+    },
+    "SDF.AX": {
+      "price": 5.304999828338623,
+      "currency": "AUD"
+    },
+    "SDI.AX": {
+      "price": 0.949999988079071,
+      "currency": "AUD"
+    },
+    "SDR.AX": {
+      "price": 6.079999923706055,
+      "currency": "AUD"
+    },
+    "SDV.AX": {
+      "price": 0.4399999976158142,
+      "currency": "AUD"
+    },
+    "SEQ.AX": {
+      "price": 0.28999999165534973,
+      "currency": "AUD"
+    },
+    "SER.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "SFC.AX": {
+      "price": 20.010000228881836,
+      "currency": "AUD"
+    },
+    "SFM.AX": {
+      "price": 0.30000001192092896,
+      "currency": "AUD"
+    },
+    "SGP.AX": {
+      "price": 5.550000190734863,
+      "currency": "AUD"
+    },
+    "SGQ.AX": {
+      "price": 0.10000000149011612,
+      "currency": "AUD"
+    },
+    "SHA.AX": {
+      "price": 6.449999809265137,
+      "currency": "AUD"
+    },
+    "SHG.AX": {
+      "price": 0.27000001072883606,
+      "currency": "AUD"
+    },
+    "SHJ.AX": {
+      "price": 0.675000011920929,
+      "currency": "AUD"
+    },
+    "SHL.AX": {
+      "price": 22.3799991607666,
+      "currency": "AUD"
+    },
+    "SHM.AX": {
+      "price": 0.7850000262260437,
+      "currency": "AUD"
+    },
+    "SHN.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "SHP.AX": {
+      "price": 0.029999999329447746,
+      "currency": "AUD"
+    },
+    "SHV.AX": {
+      "price": 4.960000038146973,
+      "currency": "AUD"
+    },
+    "SIG.AX": {
+      "price": 2.890000104904175,
+      "currency": "AUD"
+    },
+    "SKK.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "SKN.AX": {
+      "price": 0.004999999888241291,
+      "currency": "AUD"
+    },
+    "SLC.AX": {
+      "price": 2.5199999809265137,
+      "currency": "AUD"
+    },
+    "SLX.AX": {
+      "price": 6.829999923706055,
+      "currency": "AUD"
+    },
+    "SLZ.AX": {
+      "price": 0.012000000104308128,
+      "currency": "AUD"
+    },
+    "SM1.AX": {
+      "price": 0.5400000214576721,
+      "currency": "AUD"
+    },
+    "SMN.AX": {
+      "price": 0.39500001072883606,
+      "currency": "AUD"
+    },
+    "SMR.AX": {
+      "price": 2.6600000858306885,
+      "currency": "AUD"
+    },
+    "SMS.AX": {
+      "price": 0.04500000178813934,
+      "currency": "AUD"
+    },
+    "SND.AX": {
+      "price": 0.8899999856948853,
+      "currency": "AUD"
+    },
+    "SNM.AX": {
+      "price": 0.44999998807907104,
+      "currency": "AUD"
+    },
+    "SNS.AX": {
+      "price": 0.0860000029206276,
+      "currency": "AUD"
+    },
+    "SNX.AX": {
+      "price": 0.041999999433755875,
+      "currency": "AUD"
+    },
+    "SNZ.AX": {
+      "price": 10.5,
+      "currency": "AUD"
+    },
+    "SP8.AX": {
+      "price": 0.009999999776482582,
+      "currency": "AUD"
+    },
+    "SPD.AX": {
+      "price": 2.4200000762939453,
+      "currency": "AUD"
+    },
+    "SPG.AX": {
+      "price": 0.41999998688697815,
+      "currency": "AUD"
+    },
+    "SPK.AX": {
+      "price": 1.975000023841858,
+      "currency": "AUD"
+    },
+    "SPL.AX": {
+      "price": 0.36000001430511475,
+      "currency": "AUD"
+    },
+    "SPQ.AX": {
+      "price": 0.007000000216066837,
+      "currency": "AUD"
+    },
+    "SPZ.AX": {
+      "price": 1.2100000381469727,
+      "currency": "AUD"
+    },
+    "SRG.AX": {
+      "price": 2.9700000286102295,
+      "currency": "AUD"
+    },
+    "SRH.AX": {
+      "price": 0.10499999672174454,
+      "currency": "AUD"
+    },
+    "SRK.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "SRL.AX": {
+      "price": 7.690000057220459,
+      "currency": "AUD"
+    },
+    "SRN.AX": {
+      "price": 0.0020000000949949026,
+      "currency": "AUD"
+    },
+    "SRZ.AX": {
+      "price": 0.035999998450279236,
+      "currency": "AUD"
+    },
+    "SSH.AX": {
+      "price": 0.18000000715255737,
+      "currency": "AUD"
+    },
+    "SSM.AX": {
+      "price": 2.2149999141693115,
+      "currency": "AUD"
+    },
+    "STH.AX": {
+      "price": 0.14000000059604645,
+      "currency": "AUD"
+    },
+    "STO.AX": {
+      "price": 5.940000057220459,
+      "currency": "AUD"
+    },
+    "STV.AX": {
+      "price": 0.008999999612569809,
+      "currency": "AUD"
+    },
+    "STX.AX": {
+      "price": 0.10700000077486038,
+      "currency": "AUD"
+    },
+    "SUH.AX": {
+      "price": 0.0430000014603138,
+      "currency": "AUD"
+    },
+    "SUM.AX": {
+      "price": 0.039000000804662704,
+      "currency": "AUD"
+    },
+    "SVG.AX": {
+      "price": 0.02199999988079071,
+      "currency": "AUD"
+    },
+    "SVL.AX": {
+      "price": 0.20999999344348907,
+      "currency": "AUD"
+    },
+    "SVM.AX": {
+      "price": 0.5899999737739563,
+      "currency": "AUD"
+    },
+    "SWM.AX": {
+      "price": 0.125,
+      "currency": "AUD"
+    },
+    "SYR.AX": {
+      "price": 0.33000001311302185,
+      "currency": "AUD"
+    },
+    "T3D.AX": {
+      "price": 0.04500000178813934,
+      "currency": "AUD"
+    },
+    "TAH.AX": {
+      "price": 0.9649999737739563,
+      "currency": "AUD"
+    },
+    "TAL.AX": {
+      "price": 0.07800000160932541,
+      "currency": "AUD"
+    },
+    "TAM.AX": {
+      "price": 0.08500000089406967,
+      "currency": "AUD"
+    },
+    "TAT.AX": {
+      "price": 0.04600000008940697,
+      "currency": "AUD"
+    },
+    "TBR.AX": {
+      "price": 6.03000020980835,
+      "currency": "AUD"
+    },
+    "TCF.AX": {
+      "price": 5.710000038146973,
+      "currency": "AUD"
+    },
+    "TCG.AX": {
+      "price": 0.8019999861717224,
+      "currency": "AUD"
+    },
+    "TEG.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "TEK.AX": {
+      "price": 0.12999999523162842,
+      "currency": "AUD"
+    },
+    "TFL.AX": {
+      "price": 0.006000000052154064,
+      "currency": "AUD"
+    },
+    "TG6.AX": {
+      "price": 0.20999999344348907,
+      "currency": "AUD"
+    },
+    "TGF.AX": {
+      "price": 2.5799999237060547,
+      "currency": "AUD"
+    },
+    "TGM.AX": {
+      "price": 0.20999999344348907,
+      "currency": "AUD"
+    },
+    "TGN.AX": {
+      "price": 0.1899999976158142,
+      "currency": "AUD"
+    },
+    "THL.AX": {
+      "price": 2.1700000762939453,
+      "currency": "AUD"
+    },
+    "TIG.AX": {
+      "price": 0.003000000026077032,
+      "currency": "AUD"
+    },
+    "TIO.AX": {
+      "price": 0.25,
+      "currency": "AUD"
+    },
+    "TIP.AX": {
+      "price": 1.597000002861023,
+      "currency": "AUD"
+    },
+    "TKM.AX": {
+      "price": 0.07100000232458115,
+      "currency": "AUD"
+    },
+    "TMK.AX": {
+      "price": 0.10499999672174454,
+      "currency": "AUD"
+    },
+    "TMS.AX": {
+      "price": 0.00800000037997961,
+      "currency": "AUD"
+    },
+    "TMX.AX": {
+      "price": 0.004000000189989805,
+      "currency": "AUD"
+    },
+    "TNC.AX": {
+      "price": 0.6600000262260437,
+      "currency": "AUD"
+    },
+    "TNE.AX": {
+      "price": 27.579999923706055,
+      "currency": "AUD"
+    },
+    "TNY.AX": {
+      "price": 0.08100000023841858,
+      "currency": "AUD"
+    },
+    "TOE.AX": {
+      "price": 0.5,
+      "currency": "AUD"
+    },
+    "TOK.AX": {
+      "price": 1.399999976158142,
+      "currency": "AUD"
+    },
+    "TON.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "TR2.AX": {
+      "price": 0.3499999940395355,
+      "currency": "AUD"
+    },
+    "TRA.AX": {
+      "price": 7.079999923706055,
+      "currency": "AUD"
+    },
+    "USC.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "VAU.AX": {
+      "price": 5.590000152587891,
+      "currency": "AUD"
+    },
+    "VBX.AX": {
+      "price": 0.5600000023841858,
+      "currency": "AUD"
+    },
+    "VHL.AX": {
+      "price": 0.023000000044703484,
+      "currency": "AUD"
+    },
+    "VVA.AX": {
+      "price": 1.6050000190734863,
+      "currency": "AUD"
+    },
+    "WAK.AX": {
+      "price": 0.026000000536441803,
+      "currency": "AUD"
+    },
+    "WEB.AX": {
+      "price": 4.675000190734863,
+      "currency": "AUD"
+    },
+    "WLE.AX": {
+      "price": 1.3450000286102295,
+      "currency": "AUD"
+    },
+    "XPN.AX": {
+      "price": 0.013000000268220901,
+      "currency": "AUD"
+    },
+    "YRL.AX": {
+      "price": 0.2549999952316284,
+      "currency": "AUD"
+    }
+  }
 }

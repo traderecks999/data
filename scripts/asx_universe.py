@@ -7,6 +7,7 @@ import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import List, Optional
 
@@ -93,20 +94,25 @@ def read_asx_listed_companies(timeout: float = 20.0) -> List[CompanyRow]:
 
 def write_universe_csv(rows: List[CompanyRow], out_csv: Path) -> None:
     out_csv.parent.mkdir(parents=True, exist_ok=True)
-    now_utc = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    now_dt = datetime.now(timezone.utc).replace(microsecond=0)
+    now_utc = now_dt.isoformat().replace("+00:00", "Z")
+    awst = now_dt.astimezone(ZoneInfo("Australia/Perth")).strftime("%Y-%m-%d %H:%M %Z")
     with out_csv.open("w", newline="", encoding="utf-8") as f:
         w = pycsv.writer(f)
-        w.writerow(["code", "yahoo_symbol", "name", "sector", "industry", "last_extracted_utc"])
+        w.writerow(["code", "yahoo_symbol", "name", "sector", "industry", "last_extracted_utc", "last_extracted_awst"])
         for r in rows:
-            w.writerow([r.code, yahoo_symbol(r.code), r.name, r.sector, r.industry, now_utc])
+            w.writerow([r.code, yahoo_symbol(r.code), r.name, r.sector, r.industry, now_utc, awst])
 
 def write_tickers_txt(rows: List[CompanyRow], out_txt: Path) -> None:
     out_txt.parent.mkdir(parents=True, exist_ok=True)
-    now_utc = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    now_dt = datetime.now(timezone.utc).replace(microsecond=0)
+    now_utc = now_dt.isoformat().replace("+00:00", "Z")
+    awst = now_dt.astimezone(ZoneInfo("Australia/Perth")).strftime("%Y-%m-%d %H:%M %Z")
     tickers = sorted({yahoo_symbol(r.code) for r in rows if r.code})
     lines = [
         "# ASX universe tickers (Yahoo symbols, .AX)",
         f"# last_extracted_utc: {now_utc}",
+        f"# last_extracted_awst: {awst}",
         "# one symbol per line",
         *tickers,
     ]

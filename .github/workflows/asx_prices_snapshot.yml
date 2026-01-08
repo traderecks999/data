@@ -35,8 +35,14 @@ jobs:
           test -f asx/tickers_asx.txt || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
 
       - name: Build snapshot
+        shell: bash
         run: |
-          python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "[info] manual run: forcing snapshot now"
+            python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json --force
+          else
+            python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json
+          fi
 
       - name: Commit changes (if any)
         run: |

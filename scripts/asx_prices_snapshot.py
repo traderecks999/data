@@ -8,6 +8,7 @@ import os
 import random
 import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -46,9 +47,12 @@ def is_asx_trading_day(dt_utc: datetime) -> bool:
     return cal.is_session(pd.Timestamp(d))
 
 def within_window_sydney(dt_utc: datetime) -> Optional[str]:
-    # Decide whether this run should do "open+1h" or "close" snapshot.
-    # Windows are generous because cron timing differs across DST.
-    sydney = dt_utc.astimezone(pd.Timestamp.now(tz="Australia/Sydney").tz)  # get tzinfo
+    """Decide whether this run should do an "open+1h" or "close" snapshot.
+
+    Windows are generous because cron timing differs across DST.
+    We compute the window in Australia/Sydney time.
+    """
+    sydney = dt_utc.astimezone(ZoneInfo("Australia/Sydney"))
     hhmm = sydney.strftime("%H:%M")
     # open+1h window: 10:55–11:20
     if "10:55" <= hhmm <= "11:20":
@@ -174,10 +178,12 @@ def main() -> None:
 
     prices = fetch_prices_bulk(tickers, chunk_size=args.chunk_size)
     asof = utc_now_iso()
+    asof_perth = datetime.now(ZoneInfo('Australia/Perth')).strftime('%Y-%m-%d %H:%M:%S %Z')
 
     payload = {
         "dataset": "asx/prices",
         "asOfUtc": asof,
+        "asOfPerth": asof_perth,
         "window": window or "manual",
         "source": "yfinance_bulk_history",
         "countTickers": len(tickers),

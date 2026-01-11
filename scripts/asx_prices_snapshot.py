@@ -19,6 +19,7 @@ import yfinance as yf
 from common import write_json, utc_now_iso
 
 DEFAULT_TICKERS_FILE = "asx/tickers_asx.txt"
+EXTRA_TICKERS_FILE = "asx/tickers_extra.txt"
 DEFAULT_OUT = "asx/prices_latest.json"
 DEFAULT_HISTORY_DIR = "asx/history"
 
@@ -83,49 +84,12 @@ def recent_enough(latest_path: str, max_age_minutes: int) -> bool:
 def chunked(seq: List[str], n: int) -> List[List[str]]:
     return [seq[i:i+n] for i in range(0, len(seq), n)]
 
-def fetch_prices_bulk(
-    tickers: List[str],
-    period: str = "5d",
-    interval: str = "1d",
-    chunk_size: int = 150,
-    second_pass_chunk: int = 60,
-    max_individual: int = 200,
-    sleep_s: float = 0.15,
-) -> Dict[str, Tuple[float, str]]:
-    """Fetch latest close prices for many Yahoo symbols.
-
-    Uses yfinance bulk download first (stable), then a smaller-chunk second pass,
-    then (optionally) an individual-ticker fallback for the remaining misses.
-
-    Returns: {symbol: (price, currency)}. Currency is set to AUD by default.
-    """
+def fetch_prices_bulk(tickers: List[str], period: str="5d", interval: str="1d", chunk_size: int=200) -> Dict[str, Tuple[float, str]]:
     prices: Dict[str, Tuple[float, str]] = {}
-
-    def latest_close_for(df: pd.DataFrame, sym: str) -> Optional[float]:
-        try:
-            if df is None or getattr(df, "empty", True):
-                return None
-            if isinstance(df.columns, pd.MultiIndex):
-                if sym not in df.columns.get_level_values(0):
-                    return None
-                sub = df[sym]
-                if sub is None or getattr(sub, "empty", True):
-                    return None
-                if "Close" not in sub.columns:
-                    return None
-                s = sub["Close"].dropna()
-            else:
-                if "Close" not in df.columns:
-                    return None
-                s = df["Close"].dropna()
-            if s is None or len(s) == 0:
-                return None
-            return float(s.iloc[-1])
-        except Exception:
-            return None
-
-    def bulk_download(batch: List[str]) -> Dict[str, float]:
-        tickers_str = " ".join(batch)
+    # yfinance uses Yahoo under the hood; bulk download is much more stable than quote endpoints.
+    chunks = chunked(tickers, chunk_size)
+    for idx, ch in enumerate(chunks, start=1):
+        tickers_str = " ".join(ch)
         # retry per chunk
         for attempt in range(1, 4):
             try:
@@ -138,62 +102,38 @@ def fetch_prices_bulk(
                     threads=True,
                     progress=False,
                 )
+                # df can be single-index or multi-index
                 if df is None or getattr(df, "empty", True):
                     raise RuntimeError("empty dataframe")
-                out: Dict[str, float] = {}
-                for sym in batch:
-                    v = latest_close_for(df, sym)
-                    if v is not None:
-                        out[sym] = v
-                return out
+
+                def latest_close_for(sym: str) -> Optional[float]:
+                    try:
+                        if isinstance(df.columns, pd.MultiIndex):
+                            sub = df[sym]
+                            series = pd.to_numeric(sub.get("Close"), errors="coerce").dropna()
+                        else:
+                            # single ticker
+                            series = pd.to_numeric(df.get("Close"), errors="coerce").dropna()
+                        if series is None or series.empty:
+                            return None
+                        return float(series.iloc[-1])
+                    except Exception:
+                        return None
+
+                for sym in ch:
+                    px = latest_close_for(sym)
+                    if px is not None and math.isfinite(px) and px > 0:
+                        prices[sym] = (px, "AUD")
+                break
             except Exception as e:
-                if attempt == 3:
-                    print(f"[warn] chunk download failed after 3 attempts: {e}")
+                if attempt >= 3:
+                    print(f"[warn] chunk {idx}/{len(chunks)} failed after retries: {e}")
                 else:
-                    time.sleep(0.5 * attempt + random.random())
-        return {}
-
-    # 1) First pass: bulk download in medium chunks
-    missing: List[str] = []
-    for idx, ch in enumerate(chunked(tickers, chunk_size), start=1):
-        got = bulk_download(ch)
-        for sym, v in got.items():
-            prices[sym] = (float(v), "AUD")
-        for sym in ch:
-            if sym not in prices:
-                missing.append(sym)
-        if idx % 5 == 0:
-            print(f"[info] fetched {len(prices)}/{idx*chunk_size} so far...")
-
-    # 2) Second pass: retry missing in smaller chunks
-    if missing:
-        print(f"[info] second pass for {len(missing)} missing tickers (smaller chunks)")
-        missing2: List[str] = []
-        for ch in chunked(missing, second_pass_chunk):
-            got = bulk_download(ch)
-            for sym, v in got.items():
-                prices[sym] = (float(v), "AUD")
-            for sym in ch:
-                if sym not in prices:
-                    missing2.append(sym)
-        missing = missing2
-
-    # 3) Individual fallback for a bounded number of tickers
-    if missing:
-        todo = missing[:max_individual]
-        print(f"[info] individual fallback for {len(todo)} still-missing tickers (cap={max_individual})")
-        for sym in todo:
-            try:
-                df = yf.Ticker(sym).history(period=period, interval=interval, auto_adjust=True)
-                v = latest_close_for(df, sym)
-                if v is not None:
-                    prices[sym] = (float(v), "AUD")
-            except Exception:
-                pass
-            time.sleep(sleep_s + random.random() * sleep_s)
-
+                    backoff = 1.5 ** attempt + random.random()
+                    time.sleep(backoff)
+        # small pause between chunks to be polite
+        time.sleep(0.4)
     return prices
-
 
 def prune_history(history_dir: str, keep_days: int=45) -> None:
     p = Path(history_dir)
@@ -220,9 +160,12 @@ def main() -> None:
 
     now = datetime.now(timezone.utc)
 
-    if not is_asx_trading_day(now):
+    trading_day = is_asx_trading_day(now)
+    if (not trading_day) and (not args.force):
         print("[skip] not an ASX trading day")
         return
+    if (not trading_day) and args.force:
+        print("[info] forced run on a non-trading day (will snapshot last available prices)")
 
     window = within_window_sydney(now)
     if not args.force and window is None:
@@ -234,6 +177,13 @@ def main() -> None:
         return
 
     tickers = read_tickers(args.tickers)
+
+# Optional manual add-ons (lets you force include symbols like IVV.AX)
+if Path(EXTRA_TICKERS_FILE).exists():
+    extra = read_tickers(EXTRA_TICKERS_FILE)
+    if extra:
+        tickers = sorted(set(tickers + extra))
+        print(f"[info] merged {len(extra)} extra tickers from {EXTRA_TICKERS_FILE} (total {len(tickers)})")
     if not tickers:
         raise RuntimeError("No tickers found")
 

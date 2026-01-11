@@ -1,10 +1,23 @@
 name: ASX Prices Snapshot (twice daily)
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run anytime (ignore trading day / windows / recency checks)"
+        required: false
+        default: "true"
+      chunk_size:
+        description: "Bulk request chunk size (lower = more requests, higher = more partial responses)"
+        required: false
+        default: "120"
+      max_age_minutes:
+        description: "If force=false: skip if snapshot newer than this many minutes"
+        required: false
+        default: "20"
   schedule:
+    # GitHub cron uses UTC. Weekdays only.
     # Run both AEDT and AEST-compatible UTC times; script self-selects window & dedupes.
-    # Weekdays only.
     - cron: "5 0 * * 1-5"   # ~11:05 Sydney (AEDT)
     - cron: "5 1 * * 1-5"   # ~11:05 Sydney (AEST)
     - cron: "10 5 * * 1-5"  # ~16:10 Sydney (AEDT)
@@ -30,24 +43,35 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Rebuild universe (manual)
-        if: ${{ github.event_name == 'workflow_dispatch' }}
+      - name: Ensure universe/tickers exist
+        shell: bash
         run: |
-          python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
-
-      - name: Ensure universe exists
-        run: |
+          test -f asx/universe.csv || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
           test -f asx/tickers_asx.txt || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
 
       - name: Build snapshot
         shell: bash
         run: |
+          FORCE="false"
+          CHUNK="200"
+          MAXAGE="20"
+
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "[info] manual run: forcing snapshot now"
-            python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json --force
-          else
-            python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json
+            FORCE="${{ inputs.force }}"
+            CHUNK="${{ inputs.chunk_size }}"
+            MAXAGE="${{ inputs.max_age_minutes }}"
           fi
+
+          if [ -z "$CHUNK" ]; then CHUNK="200"; fi
+          if [ -z "$MAXAGE" ]; then MAXAGE="20"; fi
+
+          CMD="python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json --chunk-size $CHUNK --max-age-minutes $MAXAGE"
+          if [ "$FORCE" = "true" ]; then
+            CMD="$CMD --force"
+          fi
+
+          echo "[run] $CMD"
+          $CMD
 
       - name: Commit changes (if any)
         run: |

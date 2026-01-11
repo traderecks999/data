@@ -1,0 +1,16 @@
+{
+  "patch": "data_repo_patch_prices_alignment_timestamp_v0.03",
+  "createdUtc": "2026-01-11T13:49:07Z",
+  "files": [
+    {
+      "path": "scripts/asx_prices_snapshot.py",
+      "sha256": "3c2936dc28884cd50d2e3b869d2fab09fe58dc23fcd603834d8d383d12ae3db8",
+      "bytes": 14904
+    },
+    {
+      "path": ".github/workflows/asx_prices_snapshot.yml",
+      "sha256": "4d021844ed7507b6ffef857fc2e9285ed07fa1b1431d44aa7886829d2e5ad7ac",
+      "bytes": 2673
+    }
+  ]
+}

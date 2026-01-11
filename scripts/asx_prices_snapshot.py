@@ -19,7 +19,6 @@ import yfinance as yf
 from common import write_json, utc_now_iso
 
 DEFAULT_TICKERS_FILE = "asx/tickers_asx.txt"
-EXTRA_TICKERS_FILE = "asx/tickers_extra.txt"
 DEFAULT_OUT = "asx/prices_latest.json"
 DEFAULT_HISTORY_DIR = "asx/history"
 
@@ -33,6 +32,14 @@ def read_tickers(path: str) -> List[str]:
         if not s or s.startswith("#"):
             continue
         out.append(s)
+    # Optional extra tickers (hand-curated additions)
+    extra_path = Path("asx/tickers_extra.txt")
+    if extra_path.exists():
+        for line in extra_path.read_text(encoding="utf-8", errors="ignore").splitlines():
+            s2 = line.strip()
+            if not s2 or s2.startswith("#"):
+                continue
+            out.append(s2)
     # dedupe, preserve order
     seen=set()
     final=[]
@@ -155,17 +162,14 @@ def main() -> None:
     ap.add_argument("--keep-history", action="store_true", help="Also write dated snapshots into history/")
     ap.add_argument("--max-age-minutes", type=int, default=20, help="Skip if latest snapshot is newer than this")
     ap.add_argument("--chunk-size", type=int, default=200)
-    ap.add_argument("--force", action="store_true", help="Ignore time window checks")
+    ap.add_argument("--force", action="store_true", help="Run anytime: ignore trading-day, time-window, and recency checks")
     args = ap.parse_args()
 
     now = datetime.now(timezone.utc)
 
-    trading_day = is_asx_trading_day(now)
-    if (not trading_day) and (not args.force):
-        print("[skip] not an ASX trading day")
+    if (not args.force) and (not is_asx_trading_day(now)):
+        print("[skip] not an ASX trading day (use --force to snapshot the last available close anyway)")
         return
-    if (not trading_day) and args.force:
-        print("[info] forced run on a non-trading day (will snapshot last available prices)")
 
     window = within_window_sydney(now)
     if not args.force and window is None:
@@ -177,13 +181,6 @@ def main() -> None:
         return
 
     tickers = read_tickers(args.tickers)
-
-# Optional manual add-ons (lets you force include symbols like IVV.AX)
-if Path(EXTRA_TICKERS_FILE).exists():
-    extra = read_tickers(EXTRA_TICKERS_FILE)
-    if extra:
-        tickers = sorted(set(tickers + extra))
-        print(f"[info] merged {len(extra)} extra tickers from {EXTRA_TICKERS_FILE} (total {len(tickers)})")
     if not tickers:
         raise RuntimeError("No tickers found")
 

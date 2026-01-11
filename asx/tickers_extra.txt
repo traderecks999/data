@@ -1,0 +1,10 @@
+# Optional extra tickers (Yahoo symbols). One per line.
+# Use this to force-include ETFs/ETPs that may not appear in ASXListedCompanies.csv.
+IVV.AX
+VAS.AX
+A200.AX
+IOZ.AX
+VGS.AX
+VGAD.AX
+NDQ.AX
+VDHG.AX

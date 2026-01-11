@@ -3,3 +3,4 @@ pandas==2.2.3
 requests==2.32.3
 exchange-calendars==4.5.5
 python-dateutil==2.9.0.post0
+openpyxl>=3.1.2

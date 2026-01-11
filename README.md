@@ -11,7 +11,7 @@ Design goals:
 
 ### ASX: universe + price snapshots
 Files:
-- `asx/universe.csv` — ASX listed companies (official ASX CSV, with fallback).
+- `asx/universe.csv` — ASX listed companies **plus ETP/ETF codes** (official ASX sources, with fallback).
 - `asx/tickers_asx.txt` — tickers list used for snapshots (Yahoo format like `BHP.AX`).
 - `asx/prices_latest.json` — latest snapshot of prices (bulk).
 - `asx/history/` — optional archived snapshots (pruned automatically).
@@ -25,7 +25,7 @@ Point your app to:
 `https://raw.githubusercontent.com/traderecks999/data/main/asx/prices_latest.json`
 
 ## Notes
-- The universe is sourced from the official ASX "ASXListedCompanies.csv" (free).
+- Universe combines the official ASX "ASXListedCompanies.csv" **plus ETP/ETF codes** from the ASX Investment Products Monthly Report (XLSX).
 - Price snapshots use `yfinance` bulk download (history), not quote endpoints.
 
 

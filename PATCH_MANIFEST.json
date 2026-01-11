@@ -1,0 +1,22 @@
+{
+  "patch": "data_repo_patch_universe_etf_expansion.zip",
+  "created_utc": "2026-01-11T05:43:51Z",
+  "files": [
+    {
+      "path": "scripts/asx_universe.py",
+      "sha256": "f53dfb65aecd957e8c46de52de334c8ad481eb8b0478d2d5b0bbb963367de6f6"
+    },
+    {
+      "path": "scripts/asx_prices_snapshot.py",
+      "sha256": "7966bdc497f49e3abfa4e64908d62073a5432cb6b188116afcc3a278e6ba0881"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c68b4a2a7338e1fb14226c39f991f6ba04b9d8167e3e0bea10bd626dca8580b6"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1ca7c11c5e04d1f0d68f16ac70d552b6f3e0ade790f37fd86e3709c0981974d7"
+    }
+  ]
+}

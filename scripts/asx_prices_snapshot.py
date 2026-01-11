@@ -397,7 +397,6 @@ def main() -> None:
     write_json(args.out, payload)
     print(f"[ok] wrote {args.out} with fresh={len(fresh_records)} backfill={filled_from_prev} missing={len(missing_final)} total={len(tickers)}")
 
-    print(f"[ok] wrote {args.out} with {len(prices)}/{len(tickers)} prices")
 
     if args.keep_history:
         Path(args.history_dir).mkdir(parents=True, exist_ok=True)

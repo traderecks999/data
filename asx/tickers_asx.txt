@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-01-11T13:56:44Z
-# last_extracted_awst: 2026-01-11 21:56 AWST
+# last_extracted_utc: 2026-01-12T04:22:18Z
+# last_extracted_awst: 2026-01-12 12:22 AWST
 # one symbol per line
 10X.AX
 14D.AX

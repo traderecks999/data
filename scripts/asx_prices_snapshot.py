@@ -77,18 +77,20 @@ def is_asx_trading_day(dt_utc: datetime) -> bool:
     return cal.is_session(pd.Timestamp(d))
 
 def within_window_sydney(dt_utc: datetime) -> Optional[str]:
-    """Decide whether this run should do an "open+1h" or "close" snapshot.
+    """Classify the snapshot window in Australia/Sydney time.
 
-    Windows are generous because cron timing differs across DST.
-    We compute the window in Australia/Sydney time.
+    This is *metadata*, not a gate.
+    We rely on GitHub Actions cron for timing, but reruns can happen at any time.
+
+    Windows are generous to tolerate cron drift and DST differences.
     """
     sydney = dt_utc.astimezone(ZoneInfo("Australia/Sydney"))
     hhmm = sydney.strftime("%H:%M")
-    # open+1h window: 10:55–11:20
-    if "10:55" <= hhmm <= "11:20":
-        return "open_plus_1h"
-    # close window: 15:55–16:20
-    if "15:55" <= hhmm <= "16:20":
+    # Mid-session (~13:00 Sydney)
+    if "12:45" <= hhmm <= "13:15":
+        return "mid_session"
+    # End-of-session / close (~16:25 Sydney)
+    if "16:10" <= hhmm <= "16:40":
         return "close"
     return None
 
@@ -312,9 +314,6 @@ def main() -> None:
         return
 
     window = within_window_sydney(now)
-    if not args.force and window is None:
-        print("[skip] outside snapshot windows (Sydney time)")
-        return
 
     if not args.force and recent_enough(args.out, max_age_minutes=args.max_age_minutes):
         print("[skip] latest snapshot is recent; avoiding duplicate run")

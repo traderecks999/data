@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: "Run anytime (ignore trading day / windows / recency checks)"
+        description: "Run anytime (ignore trading day / recency checks)"
         required: false
         default: "true"
       chunk_size:
@@ -16,12 +16,19 @@ on:
         required: false
         default: "20"
   schedule:
-    # GitHub cron uses UTC. Weekdays only.
-    # Run both AEDT and AEST-compatible UTC times; script self-selects window & dedupes.
-    - cron: "5 0 * * 1-5"   # ~11:05 Sydney (AEDT)
-    - cron: "5 1 * * 1-5"   # ~11:05 Sydney (AEST)
-    - cron: "10 5 * * 1-5"  # ~16:10 Sydney (AEDT)
-    - cron: "10 6 * * 1-5"  # ~16:10 Sydney (AEST)
+    # GitHub cron uses UTC.
+    # Target times are based on ASX trading hours (Sydney time).
+    #
+    # AEDT (Sydney summer, UTC+11):
+    # Mid-session (~13:00 Sydney) -> 02:00 UTC
+    - cron: "0 2 * * 1-5"
+    # End-of-session (~16:25 Sydney) -> 05:25 UTC
+    - cron: "25 5 * * 1-5"
+    #
+    # AEST (Sydney winter, UTC+10):
+    # Uncomment these and remove the AEDT lines above if you want winter-perfect timing.
+    # - cron: "0 3 * * 1-5"
+    # - cron: "25 6 * * 1-5"
 
 permissions:
   contents: write
@@ -53,7 +60,7 @@ jobs:
         shell: bash
         run: |
           FORCE="false"
-          CHUNK="200"
+          CHUNK="120"
           MAXAGE="20"
 
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -62,7 +69,7 @@ jobs:
             MAXAGE="${{ inputs.max_age_minutes }}"
           fi
 
-          if [ -z "$CHUNK" ]; then CHUNK="200"; fi
+          if [ -z "$CHUNK" ]; then CHUNK="120"; fi
           if [ -z "$MAXAGE" ]; then MAXAGE="20"; fi
 
           CMD="python scripts/asx_prices_snapshot.py --tickers asx/tickers_asx.txt --out asx/prices_latest.json --chunk-size $CHUNK --max-age-minutes $MAXAGE"

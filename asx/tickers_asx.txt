@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-01-26T04:38:46Z
-# last_extracted_awst: 2026-01-26 12:38 AWST
+# last_extracted_utc: 2026-02-02T05:43:04Z
+# last_extracted_awst: 2026-02-02 13:43 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -420,6 +420,7 @@ BRL.AX
 BRN.AX
 BRU.AX
 BRX.AX
+BRY.AX
 BS1.AX
 BSA.AX
 BSL.AX
@@ -670,7 +671,6 @@ DLI.AX
 DM1.AX
 DME.AX
 DMG.AX
-DMM.AX
 DMN.AX
 DMP.AX
 DN1.AX
@@ -731,7 +731,6 @@ EDE.AX
 EDU.AX
 EDV.AX
 EE1.AX
-EEL.AX
 EFE.AX
 EG1.AX
 EGA.AX
@@ -762,7 +761,6 @@ EML.AX
 EMN.AX
 EMP.AX
 EMR.AX
-EMS.AX
 EMT.AX
 EMU.AX
 EMV.AX
@@ -1398,6 +1396,7 @@ MAQ.AX
 MAT.AX
 MAU.AX
 MAY.AX
+MBG.AX
 MBH.AX
 MBK.AX
 MBL.AX
@@ -1861,6 +1860,7 @@ RAD.AX
 RAG.AX
 RAM.AX
 RAN.AX
+RAP.AX
 RARI.AX
 RAS.AX
 RAU.AX

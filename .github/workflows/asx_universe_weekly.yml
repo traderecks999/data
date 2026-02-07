@@ -34,7 +34,7 @@ jobs:
 
       - name: Build universe
         run: |
-          python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
+          python scripts/asx_universe.py --out-csv asx/universe.csv --out-json asx/universe_latest.json --out-tickers asx/tickers_asx.txt
 
       - name: Commit + push (if changed)
         run: |

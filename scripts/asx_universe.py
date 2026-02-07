@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import csv as pycsv
 import re
 import sys
@@ -46,26 +45,107 @@ MONTHS = {
     "dec": 12, "december": 12,
 }
 
+# NOTE:
+# ASXListedCompanies.csv provides "GICS industry group" (tier-2), not sector (tier-1).
+# We derive sector deterministically from the industry group using the standard GICS structure.
+#
+# If ASX updates/renames any industry group label, we WARN and leave sector blank rather than guess.
+
+_GICS_IG_TO_SECTOR: Dict[str, str] = {
+    # Communication Services
+    "interactive media & services": "Communication Services",
+    "media & entertainment": "Communication Services",
+    "telecommunication services": "Communication Services",
+
+    # Consumer Discretionary
+    "automobiles & components": "Consumer Discretionary",
+    "consumer durables & apparel": "Consumer Discretionary",
+    "consumer services": "Consumer Discretionary",
+    "retailing": "Consumer Discretionary",
+
+    # Consumer Staples
+    "food & staples retailing": "Consumer Staples",
+    "food, beverage & tobacco": "Consumer Staples",
+    "food beverage & tobacco": "Consumer Staples",
+    "household & personal products": "Consumer Staples",
+
+    # Energy
+    "energy": "Energy",
+
+    # Financials
+    "banks": "Financials",
+    "diversified financials": "Financials",
+    "insurance": "Financials",
+
+    # Health Care
+    "health care equipment & services": "Health Care",
+    "pharmaceuticals, biotechnology & life sciences": "Health Care",
+    "pharmaceuticals biotechnology & life sciences": "Health Care",
+
+    # Industrials
+    "capital goods": "Industrials",
+    "commercial & professional services": "Industrials",
+    "transportation": "Industrials",
+
+    # Information Technology
+    "semiconductors & semiconductor equipment": "Information Technology",
+    "software & services": "Information Technology",
+    "technology hardware & equipment": "Information Technology",
+
+    # Materials
+    "materials": "Materials",
+
+    # Real Estate
+    "real estate": "Real Estate",
+
+    # Utilities
+    "utilities": "Utilities",
+}
+
+# Some ASX files (or future GICS versions) might supply sector names directly.
+_GICS_SECTOR_NAMES = {
+    "communication services",
+    "consumer discretionary",
+    "consumer staples",
+    "energy",
+    "financials",
+    "health care",
+    "industrials",
+    "information technology",
+    "materials",
+    "real estate",
+    "utilities",
+}
+
+
+def _norm_gics_label(s: str) -> str:
+    s = (s or "").strip()
+    s = re.sub(r"\s+", " ", s)
+    s = s.replace("–", "-").replace("—", "-")
+    return s.lower()
+
+
+def derive_gics_sector_from_industry_group(industry_group: str) -> str:
+    ig = _norm_gics_label(industry_group)
+    if not ig:
+        return ""
+    if ig in _GICS_IG_TO_SECTOR:
+        return _GICS_IG_TO_SECTOR[ig]
+    if ig in _GICS_SECTOR_NAMES:
+        # If ASX ever gives tier-1 sector directly, accept it.
+        return industry_group.strip()
+    # Do not guess. Warn once per unknown label.
+    return ""
+
 
 @dataclass
 class CompanyRow:
     code: str
     name: str
-
-    # Back-compat columns (existing universe.csv layout)
-    # - For equities from ASXListedCompanies.csv: `sector` holds the ASX "GICS industry group" text.
-    # - For investment products from the monthly report: `sector` is "ETF/ETP" and `industry` is product type/sheet name.
-    sector: str = ""
-    industry: str = ""
-
-    # Enrichment fields (new)
-    # Derived from ASX GICS Code Table (ReferencePoint notice 01/23) at the Industry Group tier.
-    gics_sector: str = ""
-    gics_sector_code: str = ""             # 2-digit string (e.g. "20")
-    gics_industry_group: str = ""
-    gics_industry_group_code: str = ""     # 8-digit string (e.g. "20100000")
-    asset_type: str = ""                   # EQUITY / ETF_ETP / MFUND / UNKNOWN
-    source: str = ""                       # row origin
+    sector: str = ""       # We keep the legacy column name but store GICS sector (tier-1) for equities.
+    industry: str = ""     # We keep the legacy column name but store GICS industry group (tier-2) for equities.
+    asset_type: str = ""   # e.g. EQUITY / ETF/ETP
+    source: str = ""       # e.g. ASXListedCompanies.csv / ASXInvestmentProductsMonthlyReport
 
 
 def normalize_code(code: str) -> str:
@@ -80,104 +160,6 @@ def yahoo_symbol(code: str) -> str:
     return f"{c}.AX" if c and not c.endswith(".AX") else c
 
 
-# --- GICS enrichment (Industry Group -> Sector + codes) -----------------------
-# ASXListedCompanies.csv only provides the "GICS industry group" (2nd tier).
-# We derive the GICS Sector (1st tier) + the official 8-digit Industry Group code
-# using ASX Information Services Notice 01/23 attachment:
-# "GICS Code Table (source: ASX ReferencePoint Master List Specification Manual)".
-#
-# Notes:
-# - Some labels in ASXListedCompanies.csv are abbreviated (e.g. "Not Applic", "Class Pend")
-#   or use "&" instead of "and". We normalize to match.
-# - If ASX introduces a new/renamed industry group, the universe build will warn and
-#   leave the derived fields blank (so your pipeline doesn't silently lie).
-
-def _norm_gics_label(s: str) -> str:
-    s = (s or "").strip().lower()
-    # normalize ampersands and punctuation
-    s = s.replace("&", "and")
-    s = re.sub(r"[()]", " ", s)
-    s = re.sub(r"[^a-z0-9]+", " ", s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-# Mapping keyed by normalized Industry Group label -> (Sector label, Industry Group code)
-# (The sector code is the first two digits of the Industry Group code.)
-_GICS_IG_TO_SECTOR_AND_CODE: Dict[str, Tuple[str, str]] = {
-    # Energy (10)
-    _norm_gics_label("Energy"): ("Energy", "10100000"),
-
-    # Materials (15)
-    _norm_gics_label("Materials"): ("Materials", "15100000"),
-
-    # Industrials (20)
-    _norm_gics_label("Capital Goods"): ("Industrials", "20100000"),
-    _norm_gics_label("Commercial & Professional Services"): ("Industrials", "20200000"),
-    _norm_gics_label("Transportation"): ("Industrials", "20300000"),
-
-    # Consumer Discretionary (25)
-    _norm_gics_label("Automobile & Components"): ("Consumer Discretionary", "25100000"),
-    _norm_gics_label("Automobiles & Components"): ("Consumer Discretionary", "25100000"),
-    _norm_gics_label("Consumer Durables & Apparel"): ("Consumer Discretionary", "25200000"),
-    _norm_gics_label("Consumer Services"): ("Consumer Discretionary", "25300000"),
-    _norm_gics_label("Consumer Discretionary Distribution & Retail"): ("Consumer Discretionary", "25500000"),
-
-    # Consumer Staples (30)
-    _norm_gics_label("Consumer Staples Distribution & Retail"): ("Consumer Staples", "30100000"),
-    _norm_gics_label("Food, Beverage & Tobacco"): ("Consumer Staples", "30200000"),
-    _norm_gics_label("Food Beverage & Tobacco"): ("Consumer Staples", "30200000"),
-    _norm_gics_label("Household & Personal Products"): ("Consumer Staples", "30300000"),
-
-    # Health Care (35)
-    _norm_gics_label("Health Care Equipment & Services"): ("Health Care", "35100000"),
-    _norm_gics_label("Pharmaceuticals, Biotechnology & Life Sciences"): ("Health Care", "35200000"),
-
-    # Financials (40)
-    _norm_gics_label("Banks"): ("Financials", "40100000"),
-    _norm_gics_label("Financial Services"): ("Financials", "40200000"),
-    _norm_gics_label("Insurance"): ("Financials", "40300000"),
-
-    # Information Technology (45)
-    _norm_gics_label("Software & Services"): ("Information Technology", "45100000"),
-    _norm_gics_label("Technology Hardware & Equipment"): ("Information Technology", "45200000"),
-    _norm_gics_label("Semiconductors & Semiconductor Equipment"): ("Information Technology", "45300000"),
-
-    # Communication Services (50)
-    _norm_gics_label("Telecommunication Services"): ("Communication Services", "50100000"),
-    _norm_gics_label("Media and Entertainment"): ("Communication Services", "50200000"),
-    _norm_gics_label("Media & Entertainment"): ("Communication Services", "50200000"),
-
-    # Utilities (55)
-    _norm_gics_label("Utilities"): ("Utilities", "55100000"),
-
-    # Real Estate (60)
-    _norm_gics_label("Equity Real Estate Investment Trusts REITs"): ("Real Estate", "60100000"),
-    _norm_gics_label("Equity Real Estate Investment Trusts (REITs)"): ("Real Estate", "60100000"),
-    _norm_gics_label("Real Estate Management & Development"): ("Real Estate", "60200000"),
-
-    # Special / internal
-    _norm_gics_label("ASX Internal Classification Pending"): ("Classification Pending", "99999999"),
-    _norm_gics_label("Class Pend"): ("Classification Pending", "99999999"),
-    _norm_gics_label("Classification Pending"): ("Classification Pending", "99999999"),
-    _norm_gics_label("Not Applicable"): ("Not Applicable", "00000000"),
-    _norm_gics_label("Not Applic"): ("Not Applicable", "00000000"),
-}
-
-def derive_gics_from_industry_group(industry_group: str) -> Tuple[str, str, str]:
-    """Return (gics_sector, gics_sector_code, gics_industry_group_code) for a given industry group label."""
-    ig = (industry_group or "").strip()
-    if not ig:
-        return ("", "", "")
-    key = _norm_gics_label(ig)
-    rec = _GICS_IG_TO_SECTOR_AND_CODE.get(key)
-    if not rec:
-        # unknown group — don't guess
-        return ("", "", "")
-    sector, ig_code = rec
-    sector_code = ig_code[:2] if ig_code and len(ig_code) >= 2 else ""
-    return (sector, sector_code, ig_code)
-
-
 def _http_get(url: str, timeout: int = 30) -> requests.Response:
     """HTTP GET with headers that the ASX site is happy with.
 
@@ -185,7 +167,6 @@ def _http_get(url: str, timeout: int = 30) -> requests.Response:
     We use a mainstream UA string + basic accept headers to reduce 403/400.
     """
     headers = {
-        # Browser-like UA; ASX has been known to block non-browser UA strings.
         "User-Agent": (
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -243,55 +224,40 @@ def read_asx_listed_companies() -> List[CompanyRow]:
 
     col_name = find_col(["company name", "name"])
     col_code = find_col(["asx code", "asxcode", "code"])
-    col_sector = find_col(["gics industry group", "gics sector", "sector"])
-    col_industry = find_col(["gics industry", "industry"])
+
+    # ASX provides "GICS industry group" (tier-2).
+    col_ig = find_col(["gics industry group"])
+
+    unknown_igs: Dict[str, int] = {}
 
     for r in rows_iter:
         code = normalize_code(str(r.get(col_code, "") if col_code else ""))
         name = str(r.get(col_name, "") if col_name else "").strip()
-        industry_group = str(r.get(col_sector, "") if col_sector else "").strip()
-
-        industry = str(r.get(col_industry, "") if col_industry else "").strip()
-
-
-        gics_sector, gics_sector_code, gics_ig_code = derive_gics_from_industry_group(industry_group)
-
-        if industry_group and not gics_sector:
-
-            print(f"[warn] unknown GICS industry group '{industry_group}' for {code}", file=sys.stderr)
-
+        industry_group = str(r.get(col_ig, "") if col_ig else "").strip()
 
         if not code:
-
             continue
 
+        sector = derive_gics_sector_from_industry_group(industry_group)
+        if industry_group and not sector:
+            k = industry_group.strip()
+            unknown_igs[k] = unknown_igs.get(k, 0) + 1
+
         rows.append(
-
             CompanyRow(
-
                 code=code,
-
                 name=name,
-
-                sector=industry_group,
-
-                industry=industry,
-
-                gics_sector=gics_sector,
-
-                gics_sector_code=gics_sector_code,
-
-                gics_industry_group=industry_group,
-
-                gics_industry_group_code=gics_ig_code,
-
+                sector=sector,
+                industry=industry_group,  # keep legacy column name; store industry GROUP here for equities
                 asset_type="EQUITY",
-
                 source="ASXListedCompanies.csv",
-
             )
-
         )
+
+    if unknown_igs:
+        top = sorted(unknown_igs.items(), key=lambda kv: (-kv[1], kv[0]))[:20]
+        msg = "; ".join([f"{k} (n={v})" for k, v in top])
+        print(f"[warn] Unknown GICS industry group labels (sector left blank): {msg}", file=sys.stderr)
 
     return rows
 
@@ -383,7 +349,6 @@ def _http_get_with_retries(url: str, timeout: int = 30, retries: int = 3, backof
             last_err = e
             if i < retries - 1:
                 import time
-
                 time.sleep(backoff_s * (i + 1))
     assert last_err is not None
     raise last_err
@@ -501,11 +466,9 @@ def _parse_investment_products_xlsx_bytes(xlsx_bytes: bytes) -> List[CompanyRow]
             raw_type = ws.cell(row=r, column=type_col).value if type_col else None
             ptype = ("" if raw_type is None else str(raw_type)).strip()
 
-            sector = "ETF/ETP"
+            # IMPORTANT: user wants sector blank for ETFs; asset_type carries "ETF/ETP".
+            sector = ""
             industry = (ptype or ws.title).strip()
-
-            ptype_l = (ptype or "").lower().replace("-", "").replace(" ", "")
-            asset_type = "MFUND" if "mfund" in ptype_l else "ETF_ETP"
 
             rows.append(
                 CompanyRow(
@@ -513,8 +476,8 @@ def _parse_investment_products_xlsx_bytes(xlsx_bytes: bytes) -> List[CompanyRow]
                     name=name,
                     sector=sector,
                     industry=industry,
-                    asset_type=asset_type,
-                    source="ASX Investment Products Monthly Report",
+                    asset_type="ETF/ETP",
+                    source="ASXInvestmentProductsMonthlyReport",
                 )
             )
 
@@ -539,7 +502,6 @@ def read_asx_investment_products() -> List[CompanyRow]:
 
         for xlsx_url in urls:
             try:
-                # Prefer XLSX-appropriate accept header on this request
                 resp = _http_get_with_retries(xlsx_url, timeout=90)
                 xlsx_bytes = resp.content
             except Exception:
@@ -586,51 +548,54 @@ def _read_extra_tickers(extra_path: Path) -> List[str]:
     return out
 
 
-def write_universe_csv(rows: List[CompanyRow], out_csv: Path) -> None:
+def write_universe_csv(rows: List[CompanyRow], out_csv: Path, now_utc: str, awst: str) -> None:
     out_csv.parent.mkdir(parents=True, exist_ok=True)
-    now_dt = datetime.now(timezone.utc).replace(microsecond=0)
-    now_utc = now_dt.isoformat().replace("+00:00", "Z")
-    awst = now_dt.astimezone(ZoneInfo("Australia/Perth")).strftime("%Y-%m-%d %H:%M %Z")
     with out_csv.open("w", newline="", encoding="utf-8") as f:
         w = pycsv.writer(f)
-        w.writerow(["code","yahoo_symbol","name","sector","industry","last_extracted_utc","last_extracted_awst","gics_sector","gics_sector_code","gics_industry_group","gics_industry_group_code","asset_type","source"])
+        # Keep existing schema first, append new columns at end to avoid breaking positional readers.
+        w.writerow([
+            "code",
+            "yahoo_symbol",
+            "name",
+            "sector",
+            "industry",
+            "last_extracted_utc",
+            "last_extracted_awst",
+            "asset_type",
+            "source",
+        ])
         for r in rows:
-            w.writerow([r.code, yahoo_symbol(r.code), r.name, r.sector, r.industry, now_utc, awst, r.gics_sector, r.gics_sector_code, r.gics_industry_group, r.gics_industry_group_code, r.asset_type, r.source])
+            w.writerow([r.code, yahoo_symbol(r.code), r.name, r.sector, r.industry, now_utc, awst, r.asset_type, r.source])
 
 
-
-def write_universe_json(rows: List[CompanyRow], out_json: Path) -> None:
-    """App-friendly universe payload (stable keys, easy to join on yahoo_symbol)."""
+def write_universe_json(rows: List[CompanyRow], out_json: Path, now_utc: str, awst: str) -> None:
+    """Write a 'latest' JSON mirror of the CSV contents for app-friendly consumption."""
     out_json.parent.mkdir(parents=True, exist_ok=True)
-    now_dt = datetime.now(timezone.utc).replace(microsecond=0)
-    now_utc = now_dt.isoformat().replace("+00:00", "Z")
-    awst = now_dt.astimezone(ZoneInfo("Australia/Perth")).strftime("%Y-%m-%d %H:%M %Z")
-
     payload = {
         "dataset": "asx/universe",
         "asOfUtc": now_utc,
         "asOfPerth": awst,
-        "count": len(rows),
+        "countTickers": len(rows),
         "rows": [
             {
                 "code": r.code,
                 "yahoo_symbol": yahoo_symbol(r.code),
                 "name": r.name,
-                # Back-compat / legacy fields
                 "sector": r.sector,
                 "industry": r.industry,
-                # Enrichment
-                "gics_sector": r.gics_sector,
-                "gics_sector_code": r.gics_sector_code,
-                "gics_industry_group": r.gics_industry_group,
-                "gics_industry_group_code": r.gics_industry_group_code,
+                "last_extracted_utc": now_utc,
+                "last_extracted_awst": awst,
                 "asset_type": r.asset_type,
                 "source": r.source,
             }
             for r in rows
         ],
     }
-    out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp = out_json.with_suffix(out_json.suffix + ".tmp")
+    import json as _json
+    tmp.write_text(_json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(out_json)
+
 
 def write_tickers_txt(rows: List[CompanyRow], out_txt: Path) -> None:
     out_txt.parent.mkdir(parents=True, exist_ok=True)
@@ -671,11 +636,14 @@ def main() -> None:
     final = list(merged.values())
     final.sort(key=lambda r: r.code)
 
-    write_universe_csv(final, Path(args.out_csv))
-    if args.out_json:
-        write_universe_json(final, Path(args.out_json))
+    now_dt = datetime.now(timezone.utc).replace(microsecond=0)
+    now_utc = now_dt.isoformat().replace("+00:00", "Z")
+    awst = now_dt.astimezone(ZoneInfo("Australia/Perth")).strftime("%Y-%m-%d %H:%M %Z")
+
+    write_universe_csv(final, Path(args.out_csv), now_utc=now_utc, awst=awst)
+    write_universe_json(final, Path(args.out_json), now_utc=now_utc, awst=awst)
     write_tickers_txt(final, Path(args.out_tickers))
-    print(f"[ok] wrote {args.out_csv}, {args.out_tickers}, {args.out_json} ({len(final)} tickers)")
+    print(f"[ok] wrote {args.out_csv}, {args.out_json} and {args.out_tickers} ({len(final)} tickers)")
 
 
 if __name__ == "__main__":

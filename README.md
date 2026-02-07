@@ -12,27 +12,38 @@ Design goals:
 ### ASX: universe + price snapshots
 Files:
 - `asx/universe.csv` — ASX listed companies **plus ETP/ETF codes** (official ASX sources, with fallback).
-- `asx/universe_latest.json` — same universe as a JSON payload (app-friendly, stable keys).
-  - Includes **GICS sector** derived from the ASX "GICS industry group" (ASXListedCompanies.csv only provides tier-2).
-  - CSV columns added: `gics_sector`, `gics_sector_code`, `gics_industry_group`, `gics_industry_group_code`, `asset_type`, `source`.
-
+- `asx/universe_latest.json` — JSON mirror of `asx/universe.csv` (same rows; easier for apps to consume).
 - `asx/tickers_asx.txt` — tickers list used for snapshots (Yahoo format like `BHP.AX`).
 - `asx/prices_latest.json` — latest snapshot of prices (bulk).
 - `asx/history/` — optional archived snapshots (pruned automatically).
 
 Workflows:
-- **Universe (weekly):** updates `universe.csv` + `tickers_asx.txt`
+- **Universe (weekly):** updates `universe.csv` + `universe_latest.json` + `tickers_asx.txt`
 - **Prices (twice daily):** updates `prices_latest.json` on ASX trading days
 
-## How Much integration (private app)
-Point your app to:
-`https://raw.githubusercontent.com/traderecks999/data/main/asx/prices_latest.json`
+### Universe fields
+`asx/universe.csv` keeps the legacy column names (`sector`, `industry`) but with upgraded meanings:
+
+For **equities**:
+- `sector` = **GICS Sector** (tier-1, derived from industry group)
+- `industry` = **GICS Industry Group** (tier-2, from ASXListedCompanies.csv)
+- `asset_type` = `EQUITY`
+- `source` = `ASXListedCompanies.csv`
+
+For **ETP/ETF codes**:
+- `asset_type` = `ETF/ETP`
+- `sector` = blank (by design)
+- `industry` = product type / sheet name (best available descriptor)
+- `source` = `ASXInvestmentProductsMonthlyReport`
+
+## How Much / FortuneValley integration
+Point your apps to:
+- `https://raw.githubusercontent.com/traderecks999/data/main/asx/prices_latest.json`
+- `https://raw.githubusercontent.com/traderecks999/data/main/asx/universe_latest.json`
 
 ## Notes
 - Universe combines the official ASX "ASXListedCompanies.csv" **plus ETP/ETF codes** from the ASX Investment Products Monthly Report (XLSX).
 - Price snapshots use `yfinance` bulk download (history), not quote endpoints.
-
-
 
 ## Import note
 When running scripts via `python scripts/<name>.py`, imports should be `from common import ...` (not `from scripts.common ...`) because Python sets the script directory on `sys.path`.

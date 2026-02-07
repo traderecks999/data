@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-02-02T05:43:04Z
-# last_extracted_awst: 2026-02-02 13:43 AWST
+# last_extracted_utc: 2026-02-07T16:49:57Z
+# last_extracted_awst: 2026-02-08 00:49 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -19,6 +19,7 @@
 3DA.AX
 3DP.AX
 3PL.AX
+49M.AX
 4DI01.AX
 4DS.AX
 4DX.AX
@@ -390,7 +391,6 @@ BMH.AX
 BML.AX
 BMM.AX
 BMN.AX
-BMO.AX
 BMR.AX
 BMT.AX
 BNDS.AX
@@ -525,7 +525,6 @@ CKF.AX
 CL8.AX
 CLA.AX
 CLDD.AX
-CLE.AX
 CLG.AX
 CLNE.AX
 CLU.AX
@@ -1104,6 +1103,7 @@ IBAL.AX
 IBC.AX
 IBIT.AX
 IBK.AX
+IBR.AX
 IBX.AX
 ICE.AX
 ICI.AX
@@ -1261,7 +1261,6 @@ KCN.AX
 KEY.AX
 KFM.AX
 KFW.AX
-KGD.AX
 KGL.AX
 KGN.AX
 KI1.AX
@@ -1309,6 +1308,7 @@ LCN.AX
 LCY.AX
 LDR.AX
 LDX.AX
+LED.AX
 LEG.AX
 LEL.AX
 LEND.AX
@@ -2332,6 +2332,7 @@ VRX.AX
 VSL.AX
 VSO.AX
 VSR.AX
+VTA.AX
 VTM.AX
 VTS.AX
 VTX.AX

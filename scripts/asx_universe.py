@@ -62,9 +62,11 @@ _GICS_IG_TO_SECTOR: Dict[str, str] = {
     "consumer durables & apparel": "Consumer Discretionary",
     "consumer services": "Consumer Discretionary",
     "retailing": "Consumer Discretionary",
+    "consumer discretionary distribution & retail": "Consumer Discretionary",
 
     # Consumer Staples
     "food & staples retailing": "Consumer Staples",
+    "consumer staples distribution & retail": "Consumer Staples",
     "food, beverage & tobacco": "Consumer Staples",
     "food beverage & tobacco": "Consumer Staples",
     "household & personal products": "Consumer Staples",
@@ -75,6 +77,7 @@ _GICS_IG_TO_SECTOR: Dict[str, str] = {
     # Financials
     "banks": "Financials",
     "diversified financials": "Financials",
+    "financial services": "Financials",
     "insurance": "Financials",
 
     # Health Care
@@ -97,6 +100,10 @@ _GICS_IG_TO_SECTOR: Dict[str, str] = {
 
     # Real Estate
     "real estate": "Real Estate",
+    "equity real estate investment trusts (reits)": "Real Estate",
+    "equity real estate investment trusts": "Real Estate",
+    "real estate management & development": "Real Estate",
+    "spotlight a-reits list": "Real Estate",
 
     # Utilities
     "utilities": "Utilities",

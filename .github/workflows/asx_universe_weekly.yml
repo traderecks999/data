@@ -41,7 +41,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add asx/universe.csv asx/tickers_asx.txt
+          git add asx/universe.csv asx/universe_latest.json asx/tickers_asx.txt
 
           if git diff --staged --quiet; then
             echo "[info] no changes"

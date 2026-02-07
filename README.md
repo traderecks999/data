@@ -12,6 +12,10 @@ Design goals:
 ### ASX: universe + price snapshots
 Files:
 - `asx/universe.csv` — ASX listed companies **plus ETP/ETF codes** (official ASX sources, with fallback).
+- `asx/universe_latest.json` — same universe as a JSON payload (app-friendly, stable keys).
+  - Includes **GICS sector** derived from the ASX "GICS industry group" (ASXListedCompanies.csv only provides tier-2).
+  - CSV columns added: `gics_sector`, `gics_sector_code`, `gics_industry_group`, `gics_industry_group_code`, `asset_type`, `source`.
+
 - `asx/tickers_asx.txt` — tickers list used for snapshots (Yahoo format like `BHP.AX`).
 - `asx/prices_latest.json` — latest snapshot of prices (bulk).
 - `asx/history/` — optional archived snapshots (pruned automatically).

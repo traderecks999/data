@@ -55,6 +55,13 @@ QS_MODULES = [
     "calendarEvents",
 ]
 
+# Optional annual statements (heavier payloads)
+STATEMENT_MODULES = [
+    "incomeStatementHistory",
+    "balanceSheetHistory",
+    "cashflowStatementHistory",
+]
+
 # -----------------------------------------------------------------------------
 # Helpers
 # -----------------------------------------------------------------------------
@@ -222,14 +229,14 @@ def request_json(
 # -----------------------------------------------------------------------------
 # Fetches
 # -----------------------------------------------------------------------------
-def fetch_bulk_quote(sess: requests.Session, symbols: List[str], crumb: Optional[str]) -> Dict[str, Dict[str, Any]]:
+def fetch_bulk_quote(sess: requests.Session, symbols: List[str], crumb: Optional[str], quote_chunk: int) -> Dict[str, Dict[str, Any]]:
     """
     Uses v7 quote endpoint which is batch-friendly.
     Returns dict keyed by symbol.
     """
     out: Dict[str, Dict[str, Any]] = {}
-    for i in range(0, len(symbols), DEFAULT_QUOTE_CHUNK):
-        chunk = symbols[i:i + DEFAULT_QUOTE_CHUNK]
+    for i in range(0, len(symbols), quote_chunk):
+        chunk = symbols[i:i + quote_chunk]
         params = {"symbols": ",".join(chunk), "region": "AU", "lang": "en-AU"}
         js, status, err = request_json(sess, YF_QUOTE_URL, params, timeout=30, retries=3, crumb=crumb)
         if not js:
@@ -292,6 +299,9 @@ def fetch_quote_summary_for_symbol(
     put(prof, "sector", "sector_yahoo")
     put(prof, "industry", "industry_yahoo")
     put(prof, "longBusinessSummary", "businessSummary")
+    put(prof, "website", "website")
+    put(prof, "country", "country")
+    put(prof, "fullTimeEmployees", "fullTimeEmployees")
 
     # FinancialData
     for k in [
@@ -301,6 +311,13 @@ def fetch_quote_summary_for_symbol(
         "returnOnAssets", "returnOnEquity",
         "totalCash", "totalDebt", "debtToEquity",
         "currentRatio", "quickRatio",
+        "earningsGrowth",
+        "targetMeanPrice",
+        "targetHighPrice",
+        "targetLowPrice",
+        "recommendationMean",
+        "recommendationKey",
+        "numberOfAnalystOpinions",
     ]:
         put(fd, k)
 
@@ -312,6 +329,13 @@ def fetch_quote_summary_for_symbol(
         "pegRatio",
         "heldPercentInsiders", "heldPercentInstitutions",
         "beta",
+        "shortPercentOfFloat",
+        "shortRatio",
+        "sharesShort",
+        "sharesShortPriorMonth",
+        "dateShortInterest",
+        "heldPercentInsiders",
+        "heldPercentInstitutions",
     ]:
         put(ks, k)
 
@@ -336,6 +360,31 @@ def fetch_quote_summary_for_symbol(
         row["earningsDateEnd"] = yf_raw((earnings.get("earningsDate")[1] or {}).get("raw"))
     else:
         row["earningsDateEnd"] = None
+
+    # Optional annual statements (only present if modules requested)
+    bsh = qs0.get('balanceSheetHistory') or {}
+    bal_list = bsh.get('balanceSheetStatements') or []
+    if bal_list:
+        bs0 = bal_list[0] or {}
+        row['bs_totalAssets'] = yf_raw(bs0.get('totalAssets'))
+        row['bs_totalLiab'] = yf_raw(bs0.get('totalLiab'))
+        row['bs_totalStockholderEquity'] = yf_raw(bs0.get('totalStockholderEquity'))
+        row['bs_netTangibleAssets'] = yf_raw(bs0.get('netTangibleAssets'))
+
+    ish = qs0.get('incomeStatementHistory') or {}
+    inc_list = ish.get('incomeStatementHistory') or []
+    if inc_list:
+        is0 = inc_list[0] or {}
+        row['is_totalRevenue'] = yf_raw(is0.get('totalRevenue'))
+        row['is_operatingIncome'] = yf_raw(is0.get('operatingIncome'))
+        row['is_netIncome'] = yf_raw(is0.get('netIncome'))
+
+    cfh = qs0.get('cashflowStatementHistory') or {}
+    cf_list = cfh.get('cashflowStatements') or []
+    if cf_list:
+        cf0 = cf_list[0] or {}
+        row['cf_operatingCashflow'] = yf_raw(cf0.get('totalCashFromOperatingActivities'))
+        row['cf_capex'] = yf_raw(cf0.get('capitalExpenditures'))
 
     return row
 
@@ -443,22 +492,36 @@ def apply_price_consistency(row: Dict[str, Any], price_info: Optional[Dict[str, 
 # -----------------------------------------------------------------------------
 def main() -> int:
     ap = argparse.ArgumentParser(description="ASX fundamentals snapshot (Yahoo + cache + universe enrichment).")
+    ap.add_argument("--repo-root", "--repo_root", dest="repo_root", default=".", help="Repo root to resolve default paths.")
     ap.add_argument("--tickers", default=DEFAULT_TICKERS_FILE)
-    ap.add_argument("--universe_csv", default=DEFAULT_UNIVERSE_CSV)
-    ap.add_argument("--prices_latest", default=DEFAULT_PRICES_LATEST)
-    ap.add_argument("--out_json", default=DEFAULT_OUT_JSON)
-    ap.add_argument("--out_csv", default=DEFAULT_OUT_CSV)
-    ap.add_argument("--out_xlsx", default=DEFAULT_OUT_XLSX)
+    ap.add_argument("--universe-csv", "--universe_csv", dest="universe_csv", default=DEFAULT_UNIVERSE_CSV)
+    ap.add_argument("--prices-latest", "--prices_latest", dest="prices_latest", default=DEFAULT_PRICES_LATEST)
+    ap.add_argument("--out-json", "--out_json", dest="out_json", default=DEFAULT_OUT_JSON)
+    ap.add_argument("--out-csv", "--out_csv", dest="out_csv", default=DEFAULT_OUT_CSV)
+    ap.add_argument("--out-xlsx", "--out_xlsx", dest="out_xlsx", default=DEFAULT_OUT_XLSX)
     ap.add_argument("--cache", default=DEFAULT_CACHE)
 
     ap.add_argument("--mode", choices=["rotate", "full"], default=DEFAULT_MODE)
-    ap.add_argument("--summary_per_run", type=int, default=DEFAULT_SUMMARY_PER_RUN)
-    ap.add_argument("--quote_chunk", type=int, default=DEFAULT_QUOTE_CHUNK)
+    ap.add_argument("--summary-per-run", "--summary_per_run", dest="summary_per_run", type=int, default=DEFAULT_SUMMARY_PER_RUN)
+    ap.add_argument("--quote-chunk", "--quote_chunk", dest="quote_chunk", type=int, default=DEFAULT_QUOTE_CHUNK)
     ap.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY)
-    ap.add_argument("--min_success_rate", type=float, default=DEFAULT_MIN_SUCCESS_RATE)
-    ap.add_argument("--fail_on_low_success", type=str, default=str(DEFAULT_FAIL_ON_LOW_SUCCESS).lower())
+    ap.add_argument("--min-success-rate", "--min_success_rate", dest="min_success_rate", type=float, default=DEFAULT_MIN_SUCCESS_RATE)
+    ap.add_argument("--fail-on-low-success", "--fail_on_low_success", dest="fail_on_low_success", type=str, default=str(DEFAULT_FAIL_ON_LOW_SUCCESS).lower())
+    ap.add_argument("--include-statements", "--include_statements", dest="include_statements", action="store_true", default=DEFAULT_INCLUDE_STATEMENTS)
 
     args = ap.parse_args()
+
+    rr = Path(args.repo_root).resolve()
+    def _rp(p: str) -> str:
+        pp = Path(p)
+        return str((rr / pp).resolve()) if not pp.is_absolute() else str(pp)
+    args.tickers = _rp(args.tickers)
+    args.universe_csv = _rp(args.universe_csv)
+    args.prices_latest = _rp(args.prices_latest)
+    args.out_json = _rp(args.out_json)
+    args.out_csv = _rp(args.out_csv)
+    args.out_xlsx = _rp(args.out_xlsx)
+    args.cache = _rp(args.cache)
 
     tickers = read_tickers(args.tickers)
     universe = load_universe(args.universe_csv)
@@ -467,9 +530,7 @@ def main() -> int:
     sess, crumb = build_yahoo_session()
 
     # Bulk quote for everyone (cheap-ish). Note: some fields are still price-derived, but useful.
-    global DEFAULT_QUOTE_CHUNK
-    DEFAULT_QUOTE_CHUNK = int(args.quote_chunk)
-    quote_map = fetch_bulk_quote(sess, tickers, crumb=crumb)
+    quote_map = fetch_bulk_quote(sess, tickers, crumb=crumb, quote_chunk=int(args.quote_chunk))
 
     # Cache (deep fundamentals)
     cache = load_cache(args.cache)
@@ -502,9 +563,10 @@ def main() -> int:
     status_counts: Dict[str, int] = {}
     http_counts: Dict[str, int] = {}
 
+    modules = QS_MODULES + (STATEMENT_MODULES if args.include_statements else [])
     def worker(sym: str) -> Tuple[str, Dict[str, Any]]:
         # Always include timestamp & symbol
-        res = fetch_quote_summary_for_symbol(sess, sym, crumb=crumb, modules=QS_MODULES)
+        res = fetch_quote_summary_for_symbol(sess, sym, crumb=crumb, modules=modules)
         res["fundamentalsFetchedAtUtc"] = utc_now_iso()
         res["symbol"] = sym
         return sym, res
@@ -650,24 +712,44 @@ def main() -> int:
 
         # Add extracted deep values if present
         for k in [
-            # From financialData
             "freeCashflow", "operatingCashflow",
             "ebitda", "totalRevenue", "revenueGrowth",
             "grossMargins", "ebitdaMargins", "operatingMargins", "profitMargins",
             "returnOnAssets", "returnOnEquity",
             "totalCash", "totalDebt", "debtToEquity",
             "currentRatio", "quickRatio",
-            # From key stats / summary detail
             "enterpriseValue", "pegRatio",
             "bookValue",
             "heldPercentInsiders", "heldPercentInstitutions",
             "payoutRatio", "exDividendDate",
             "trailingAnnualDividendRate", "trailingAnnualDividendYield",
             "fiveYearAvgDividendYield",
-            # profile
             "sector_yahoo", "industry_yahoo", "businessSummary",
-            # calendar
             "earningsDateStart", "earningsDateEnd",
+            "earningsGrowth",
+            "targetMeanPrice",
+            "targetHighPrice",
+            "targetLowPrice",
+            "recommendationMean",
+            "recommendationKey",
+            "numberOfAnalystOpinions",
+            "shortPercentOfFloat",
+            "shortRatio",
+            "sharesShort",
+            "sharesShortPriorMonth",
+            "dateShortInterest",
+            "website",
+            "country",
+            "fullTimeEmployees",
+            "bs_totalAssets",
+            "bs_totalLiab",
+            "bs_totalStockholderEquity",
+            "bs_netTangibleAssets",
+            "is_totalRevenue",
+            "is_operatingIncome",
+            "is_netIncome",
+            "cf_operatingCashflow",
+            "cf_capex",
         ]:
             if k in deep and deep.get(k) is not None:
                 row[k] = deep.get(k)

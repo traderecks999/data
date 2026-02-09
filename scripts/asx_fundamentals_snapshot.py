@@ -22,7 +22,8 @@ from common import write_json, utc_now_iso
 # Yahoo endpoints (unofficial; may rate-limit)
 # -----------------------------------------------------------------------------
 YF_QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote"
-YF_QS_URL = "https://query1.finance.yahoo.com/v10/finance/quoteSummary/{symbol}"
+YF_QS_URL = "https://query2.finance.yahoo.com/v10/finance/quoteSummary/{symbol}"
+YF_QS_URL_FALLBACK = "https://query1.finance.yahoo.com/v10/finance/quoteSummary/{symbol}"
 YF_CRUMB_URL = "https://query1.finance.yahoo.com/v1/test/getcrumb"
 YF_COOKIE_SEED = "https://fc.yahoo.com"
 
@@ -255,9 +256,26 @@ def fetch_quote_summary_for_symbol(
     crumb: Optional[str],
     modules: List[str],
 ) -> Dict[str, Any]:
-    url = YF_QS_URL.format(symbol=symbol)
-    params = {"modules": ",".join(modules), "region": "AU", "lang": "en-AU"}
-    js, status, err = request_json(sess, url, params, timeout=30, retries=4, crumb=crumb)
+    urls = [
+        YF_QS_URL.format(symbol=symbol),
+        YF_QS_URL_FALLBACK.format(symbol=symbol),
+    ]
+    params = {"modules": ",".join(modules), "region": "AU", "lang": "en-AU", "ssl": "true"}
+
+    js: Optional[dict] = None
+    status: int = 0
+    err: Optional[str] = None
+
+    # Try quoteSummary without crumb first (often works and avoids "invalid crumb" problems).
+    for u in urls:
+        js, status, err = request_json(sess, u, params, timeout=30, retries=4, crumb=None)
+        if js:
+            break
+
+    # If still blocked and we managed to obtain a crumb, try once more with crumb attached.
+    if not js and crumb:
+        js, status, err = request_json(sess, urls[0], params, timeout=30, retries=2, crumb=crumb)
+
     row: Dict[str, Any] = {
         "fundamentalsFetchHttpStatus": status if status else None,
         "fundamentalsFetchError": err,

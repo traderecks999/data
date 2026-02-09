@@ -1,0 +1,95 @@
+name: ASX Fundamentals Snapshot (daily)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "rotate (default) or full (WARNING: can hit Yahoo rate-limits)"
+        required: false
+        default: "rotate"
+      summary_per_run:
+        description: "How many tickers to refresh deep fundamentals this run (rotate mode). Default 220"
+        required: false
+        default: "220"
+      quote_chunk:
+        description: "How many symbols per Yahoo quote batch request (Tier A). Default 120"
+        required: false
+        default: "120"
+      concurrency:
+        description: "Max concurrent quoteSummary requests (Tier B). Default 12"
+        required: false
+        default: "12"
+      include_statements:
+        description: "Also fetch statements modules (heavier). true/false"
+        required: false
+        default: "false"
+  schedule:
+    # Daily. GitHub cron uses UTC.
+    - cron: "30 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fundamentals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ensure universe/tickers exist
+        shell: bash
+        run: |
+          test -f asx/universe.csv || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
+          test -f asx/tickers_asx.txt || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
+
+      - name: Build fundamentals snapshot
+        shell: bash
+        run: |
+          MODE="rotate"
+          SUMMARY="220"
+          QCHUNK="120"
+          CONC="12"
+          STMT="false"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ inputs.mode }}"
+            SUMMARY="${{ inputs.summary_per_run }}"
+            QCHUNK="${{ inputs.quote_chunk }}"
+            CONC="${{ inputs.concurrency }}"
+            STMT="${{ inputs.include_statements }}"
+          fi
+
+          if [ -z "$MODE" ]; then MODE="rotate"; fi
+          if [ -z "$SUMMARY" ]; then SUMMARY="220"; fi
+          if [ -z "$QCHUNK" ]; then QCHUNK="120"; fi
+          if [ -z "$CONC" ]; then CONC="12"; fi
+          if [ -z "$STMT" ]; then STMT="false"; fi
+
+          CMD="python scripts/asx_fundamentals_snapshot.py --tickers asx/tickers_asx.txt --prices-latest asx/prices_latest.json --out-json asx/fundamentals_latest.json --out-csv asx/fundamentals_latest.csv --out-xlsx asx/fundamentals_latest.xlsx --cache asx/fundamentals_cache.json --mode $MODE --summary-per-run $SUMMARY --quote-chunk $QCHUNK --concurrency $CONC"
+
+          if [ "$STMT" = "true" ]; then
+            CMD="$CMD --include-statements"
+          fi
+
+          echo "[run] $CMD"
+          $CMD
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add asx/fundamentals_latest.json asx/fundamentals_latest.csv asx/fundamentals_latest.xlsx asx/fundamentals_cache.json
+          git diff --staged --quiet || (git commit -m "Update ASX fundamentals snapshot" && git push)

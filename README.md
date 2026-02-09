@@ -21,6 +21,22 @@ Workflows:
 - **Universe (weekly):** updates `universe.csv` + `universe_latest.json` + `tickers_asx.txt`
 - **Prices (twice daily):** updates `prices_latest.json` on ASX trading days
 
+
+
+### ASX: fundamentals snapshots
+Files:
+- `asx/fundamentals_latest.json` — latest fundamentals snapshot (wide; includes a `fieldMap` and per-ticker `fundamentalsFetchedAtUtc`).
+- `asx/fundamentals_latest.csv` — CSV mirror of the snapshot (nested/huge text fields removed).
+- `asx/fundamentals_latest.xlsx` — Excel workbook with two tabs: `fundamentals` and `field_map`.
+- `asx/fundamentals_cache.json` — cache used to refresh deep fundamentals in **rotate** mode without hammering Yahoo.
+
+Workflow:
+- **Fundamentals (daily):** refreshes fundamentals on a daily schedule.
+  - Default mode is `rotate` (refreshes a slice each run and advances a cursor stored in `fundamentals_cache.json`).
+  - Manual runs can override `summary_per_run` on the Actions page.
+  - Price-derived fields (e.g. market cap, yield, PE) are overwritten/derived using `asx/prices_latest.json` for consistency.
+
+
 ### Universe fields
 `asx/universe.csv` keeps the legacy column names (`sector`, `industry`) but with upgraded meanings:
 

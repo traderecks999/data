@@ -4,43 +4,41 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Mode: rotate (default) refreshes a slice and merges cache; full tries all tickers (risk of rate limits)."
+        description: "Mode: rotate (default) refreshes a slice and merges cache; full tries all tickers."
         required: false
         default: "rotate"
         type: choice
-        options:
-          - rotate
-          - full
+        options: [rotate, full]
       summary_per_run:
         description: "How many tickers to refresh via quoteSummary each run (rotate mode). Default 220."
         required: false
         default: "220"
       concurrency:
-        description: "Max concurrent HTTP requests for quoteSummary (lower = gentler). Default 4."
+        description: "Concurrent quoteSummary workers. Default 1 (safest against 429)."
         required: false
-        default: "4"
+        default: "1"
+      qs_rate_per_min:
+        description: "Global quoteSummary request rate (req/min). Default 8. Lower = fewer 429s."
+        required: false
+        default: "8"
       min_success_rate:
-        description: "Minimum ok-rate for refreshed slice before cursor advances (0.0-1.0). Default 0.30."
+        description: "Minimum ok-rate (based on attempted requests) to advance cursor. Default 0.30."
         required: false
         default: "0.30"
       fail_on_low_success:
-        description: "Fail the workflow if ok-rate is below min_success_rate (recommended)."
+        description: "Fail workflow if ok-rate below min_success_rate."
         required: false
         default: "true"
         type: choice
-        options:
-          - "true"
-          - "false"
+        options: ["true","false"]
       include_statements:
-        description: "Also fetch annual statement modules for refreshed tickers (heavier)."
+        description: "Also fetch annual statement modules (heavier)."
         required: false
         default: "false"
         type: choice
-        options:
-          - "true"
-          - "false"
+        options: ["true","false"]
       quote_chunk:
-        description: "How many symbols per Yahoo quote batch request (Tier A). Default 120."
+        description: "Workflow compatibility knob (accepted). Not used by hardened build (Tier A disabled)."
         required: false
         default: "120"
 
@@ -72,6 +70,7 @@ jobs:
           MODE: ${{ inputs.mode }}
           SUMMARY_PER_RUN: ${{ inputs.summary_per_run }}
           CONCURRENCY: ${{ inputs.concurrency }}
+          QS_RATE_PER_MIN: ${{ inputs.qs_rate_per_min }}
           MIN_SUCCESS_RATE: ${{ inputs.min_success_rate }}
           FAIL_ON_LOW_SUCCESS: ${{ inputs.fail_on_low_success }}
           INCLUDE_STATEMENTS: ${{ inputs.include_statements }}
@@ -83,7 +82,7 @@ jobs:
             EXTRA="--include_statements"
           fi
 
-          python scripts/asx_fundamentals_snapshot.py             --repo-root .             --mode "${MODE:-rotate}"             --summary-per-run "${SUMMARY_PER_RUN:-220}"             --concurrency "${CONCURRENCY:-4}"             --min-success-rate "${MIN_SUCCESS_RATE:-0.30}"             --fail-on-low-success "${FAIL_ON_LOW_SUCCESS:-true}"             --quote-chunk "${QUOTE_CHUNK:-120}"             $EXTRA
+          python scripts/asx_fundamentals_snapshot.py             --repo-root .             --mode "${MODE:-rotate}"             --summary-per-run "${SUMMARY_PER_RUN:-220}"             --concurrency "${CONCURRENCY:-1}"             --qs-rate-per-min "${QS_RATE_PER_MIN:-8}"             --min-success-rate "${MIN_SUCCESS_RATE:-0.30}"             --fail-on-low-success "${FAIL_ON_LOW_SUCCESS:-true}"             --quote-chunk "${QUOTE_CHUNK:-120}"             $EXTRA
 
       - name: Commit changes
         run: |

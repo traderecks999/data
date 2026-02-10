@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
 """
-ASX Fundamentals Snapshot (Yahoo Finance) - hardened for GitHub Actions reliability
+ASX Fundamentals Snapshot (Yahoo Finance)
 
-This patch focuses on:
-- Avoiding 40+ minute "silent timeout" runs that end with 0.000 success_rate
-- Capturing WHY fetches fail (http status / timeout / missing_modules)
-- Seeding Yahoo cookies + crumb (helps on GitHub runner IPs)
-- Endpoint fallback (query2 -> query1)
-- Fail-fast after N consecutive failures with 0 successes
+This version is engineered specifically to stop the "0% success + 429 rate-limit" death spiral on GitHub Actions.
+
+Key design changes vs earlier iterations:
+- Tier B (quoteSummary) is the ONLY mandatory network layer.
+  Tier A (bulk quote) is optional and OFF by default to avoid burning Yahoo rate limits.
+- Global rate limiter for quoteSummary requests (default 8 req/min). Concurrency >1 is allowed but rate limiter
+  enforces spacing so requests don't burst.
+- 429 handling: honours Retry-After when present; otherwise cools down with exponential backoff and retries.
+- Accurate success_rate denominator: based on attempted requests, not planned slice size.
+- Cursor only advances when success_rate >= min_success_rate, and only by the number attempted in this run.
+- Writes rich per-ticker telemetry so nulls are explainable.
 
 Outputs:
-- asx/fundamentals_latest.{json,csv,xlsx}
+- asx/fundamentals_latest.json
+- asx/fundamentals_latest.csv
+- asx/fundamentals_latest.xlsx (tabs: fundamentals, field_map)
 - asx/fundamentals_cache.json (cursor + per-ticker cached deep fundamentals + telemetry)
 
-Also enriches each ticker with:
-- name, sector, industry, asset_type, universe_source (from asx/universe.csv/json)
-- canonical price from asx/prices_latest.json and recomputes price-derived ratios for consistency
+Enrichment:
+- name, sector, industry, asset_type, universe_source (from asx/universe.csv)
+- canonical price + price timestamp from asx/prices_latest.json; recomputes price-derived fields for consistency
 """
 
 from __future__ import annotations
@@ -26,6 +33,7 @@ import json
 import os
 import random
 import sys
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Tuple
@@ -34,7 +42,7 @@ import httpx
 import pandas as pd
 
 
-YF_QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote"
+# ----------------- Yahoo endpoints -----------------
 YF_QS_URLS = [
     "https://query2.finance.yahoo.com/v10/finance/quoteSummary/{symbol}",
     "https://query1.finance.yahoo.com/v10/finance/quoteSummary/{symbol}",
@@ -61,52 +69,27 @@ STATEMENT_MODULES = [
     "cashflowStatementHistory",
 ]
 
-QUOTE_FIELDS = [
-    "symbol",
-    "quoteType",
-    "shortName",
-    "longName",
-    "currency",
-    "exchange",
-    "fullExchangeName",
-    "marketState",
-    "marketCap",
-    "sharesOutstanding",
-    "floatShares",
-    "trailingPE",
-    "forwardPE",
-    "epsTrailingTwelveMonths",
-    "epsForward",
-    "dividendRate",
-    "dividendYield",
-    "beta",
-    "bookValue",
-    "priceToBook",
-]
-
 FIELD_MAP: List[Dict[str, str]] = [
     {"field": "freeCashflow", "used_for": "DCF (FCF-based)", "source": "quoteSummary:financialData"},
-    {"field": "dividendRate", "used_for": "DDM; Dividend yield (with price)", "source": "quote/quoteSummary"},
-    {"field": "totalRevenue", "used_for": "EPV; Screens", "source": "quoteSummary:financialData/statements"},
-    {"field": "ebitda", "used_for": "EPV; EV/EBITDA", "source": "quoteSummary:financialData"},
-    {"field": "bookValue", "used_for": "Residual income; Asset based", "source": "quote/quoteSummary"},
-    {"field": "returnOnEquity", "used_for": "Residual income; Quality", "source": "quoteSummary:financialData"},
-    {"field": "earningsGrowth", "used_for": "PEG; Growth assumptions", "source": "quoteSummary:financialData"},
-    {"field": "marketCap", "used_for": "Size; EV bridge; Screens", "source": "quote/recomputed from prices_latest"},
-    {"field": "trailingPE", "used_for": "Multiples; Screens", "source": "quote/recomputed from prices_latest"},
-    {"field": "dividendYield", "used_for": "Dividend yield", "source": "quote/recomputed from prices_latest"},
+    {"field": "operatingCashflow", "used_for": "Cashflow quality screens", "source": "quoteSummary:financialData"},
+    {"field": "ebitda", "used_for": "EV/EBITDA; EPV", "source": "quoteSummary:financialData"},
+    {"field": "totalDebt", "used_for": "Balance sheet risk; EV", "source": "quoteSummary:financialData"},
+    {"field": "totalCash", "used_for": "Net debt; EV", "source": "quoteSummary:financialData"},
+    {"field": "dividendRate", "used_for": "DDM; yield (with price)", "source": "quoteSummary:summaryDetail"},
+    {"field": "bookValue", "used_for": "P/B; asset-based", "source": "quoteSummary:defaultKeyStatistics"},
+    {"field": "earningsGrowth", "used_for": "PEG; growth assumptions", "source": "quoteSummary:financialData"},
+    {"field": "revenueGrowth", "used_for": "Growth assumptions", "source": "quoteSummary:financialData"},
+    {"field": "returnOnEquity", "used_for": "Residual income; quality", "source": "quoteSummary:financialData"},
+    {"field": "sharesOutstanding", "used_for": "Market cap recompute", "source": "quoteSummary:defaultKeyStatistics"},
+    {"field": "marketCap", "used_for": "Size; EV bridge", "source": "recomputed from prices_latest + shares"},
+    {"field": "trailingPE", "used_for": "Multiples", "source": "recomputed from prices_latest + EPS"},
+    {"field": "dividendYield", "used_for": "Yield", "source": "recomputed from prices_latest + dividendRate"},
 ]
 
 
+# ----------------- Helpers -----------------
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
-
-def read_lines(path: str) -> List[str]:
-    if not os.path.exists(path):
-        return []
-    with open(path, "r", encoding="utf-8") as f:
-        return [ln.strip() for ln in f if ln.strip()]
 
 
 def load_json(path: str) -> Any:
@@ -123,8 +106,20 @@ def save_json(path: str, payload: Any) -> None:
     os.replace(tmp, path)
 
 
-def chunks(lst: List[str], n: int) -> List[List[str]]:
-    return [lst[i : i + n] for i in range(0, len(lst), n)]
+def read_lines(path: str) -> List[str]:
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        return [ln.strip() for ln in f if ln.strip()]
+
+
+def safe_float(x: Any) -> Optional[float]:
+    try:
+        if x is None:
+            return None
+        return float(x)
+    except Exception:
+        return None
 
 
 def yf_raw(v: Any) -> Any:
@@ -151,19 +146,11 @@ def get_path(d: Any, path: List[Any], default=None):
     return cur if cur is not None else default
 
 
-def safe_float(x: Any) -> Optional[float]:
-    try:
-        if x is None:
-            return None
-        return float(x)
-    except Exception:
-        return None
-
-
 def parse_bool_str(v: str) -> bool:
     return str(v).strip().lower() in {"1", "true", "yes", "y", "on"}
 
 
+# ----------------- Universe / tickers / prices -----------------
 def load_universe(repo_root: str) -> Dict[str, Dict[str, Any]]:
     uni_csv = os.path.join(repo_root, "asx", "universe.csv")
     uni_json = os.path.join(repo_root, "asx", "universe_latest.json")
@@ -224,14 +211,35 @@ def load_prices_latest(repo_root: str) -> Dict[str, Dict[str, Any]]:
     return {}
 
 
+# ----------------- Rate limiter -----------------
+class AsyncRateLimiter:
+    """
+    Simple global rate limiter: enforces a minimum spacing between acquisitions.
+    Good enough to avoid 429 bursts on GitHub runners.
+    """
+    def __init__(self, rate_per_min: float):
+        self.rate_per_min = max(0.1, float(rate_per_min))
+        self.min_interval = 60.0 / self.rate_per_min
+        self._lock = asyncio.Lock()
+        self._next_allowed = 0.0  # monotonic time
+
+    async def acquire(self):
+        async with self._lock:
+            now = time.monotonic()
+            if now < self._next_allowed:
+                await asyncio.sleep(self._next_allowed - now)
+            self._next_allowed = max(self._next_allowed, time.monotonic()) + self.min_interval
+
+
+# ----------------- Yahoo session seeding -----------------
 async def seed_yahoo_session(client: httpx.AsyncClient) -> Tuple[Optional[str], str]:
+    notes = []
     headers = {
         "User-Agent": client.headers.get("User-Agent", "Mozilla/5.0"),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
         "Connection": "keep-alive",
     }
-    notes = []
     for url in COOKIE_SEED_URLS:
         try:
             await client.get(url, headers=headers, timeout=20)
@@ -265,24 +273,19 @@ async def seed_yahoo_session(client: httpx.AsyncClient) -> Tuple[Optional[str], 
     return crumb, ";".join(notes)
 
 
+# ----------------- Networking -----------------
 @dataclass
 class FetchResult:
     ok: bool
     http_status: Optional[int]
     error: Optional[str]
     payload: Optional[Dict[str, Any]]
-
-
-async def fetch_quote_batch(client: httpx.AsyncClient, symbols: List[str], timeout_s: float) -> List[Dict[str, Any]]:
-    params = {"symbols": ",".join(symbols)}
-    r = await client.get(YF_QUOTE_URL, params=params, timeout=timeout_s)
-    r.raise_for_status()
-    data = r.json()
-    return (data.get("quoteResponse") or {}).get("result") or []
+    retry_after_s: Optional[int] = None
 
 
 async def fetch_qs_one(
     client: httpx.AsyncClient,
+    limiter: AsyncRateLimiter,
     symbol: str,
     modules: List[str],
     crumb: Optional[str],
@@ -302,10 +305,14 @@ async def fetch_qs_one(
         "Connection": "keep-alive",
     }
 
-    last_err = None
     last_status = None
+    last_err = None
+    retry_after = None
 
     for attempt in range(max_retries + 1):
+        # global rate limit spacing
+        await limiter.acquire()
+        # jitter to avoid lockstep
         await asyncio.sleep(random.uniform(jitter_ms[0], jitter_ms[1]) / 1000.0)
 
         for base in YF_QS_URLS:
@@ -317,7 +324,13 @@ async def fetch_qs_one(
                 if r.status_code == 404:
                     return FetchResult(False, 404, "not_found", None)
 
-                if r.status_code in (401, 403, 429):
+                if r.status_code == 429:
+                    ra = r.headers.get("Retry-After")
+                    retry_after = int(ra) if ra and ra.isdigit() else None
+                    last_err = "http_429"
+                    continue
+
+                if r.status_code in (401, 403):
                     last_err = f"http_{r.status_code}"
                     continue
 
@@ -335,20 +348,18 @@ async def fetch_qs_one(
             except Exception as e:
                 last_err = type(e).__name__
 
-        await asyncio.sleep(min(8.0, 1.5 ** attempt))
+        # Backoff (especially for 429)
+        if last_err == "http_429":
+            # honour Retry-After if provided, else exponential with cap
+            wait_s = retry_after if retry_after is not None else min(120, 10 * (attempt + 1))
+        else:
+            wait_s = min(30, 3 * (attempt + 1))
+        await asyncio.sleep(wait_s)
 
-    return FetchResult(False, last_status, last_err or "unknown_error", None)
-
-
-def extract_quote_fields(q: Dict[str, Any]) -> Dict[str, Any]:
-    row: Dict[str, Any] = {}
-    for f in QUOTE_FIELDS:
-        row[f] = q.get(f)
-    row["yahoo_symbol"] = q.get("symbol")
-    row["quoteFetchedAtUtc"] = utc_now_iso()
-    return row
+    return FetchResult(False, last_status, last_err or "unknown_error", None, retry_after_s=retry_after)
 
 
+# ----------------- Extraction -----------------
 def extract_qs_fields(qs_result: Dict[str, Any]) -> Dict[str, Any]:
     out: Dict[str, Any] = {}
 
@@ -357,7 +368,9 @@ def extract_qs_fields(qs_result: Dict[str, Any]) -> Dict[str, Any]:
     financial_data = qs_result.get("financialData") or {}
     profile = qs_result.get("summaryProfile") or {}
     cal = qs_result.get("calendarEvents") or {}
+    price_mod = qs_result.get("price") or {}
 
+    # summaryDetail
     for k in [
         "payoutRatio",
         "fiveYearAvgDividendYield",
@@ -371,6 +384,7 @@ def extract_qs_fields(qs_result: Dict[str, Any]) -> Dict[str, Any]:
     ]:
         out[k] = yf_raw(summary_detail.get(k))
 
+    # defaultKeyStatistics
     for k in [
         "enterpriseValue",
         "enterpriseToEbitda",
@@ -386,9 +400,12 @@ def extract_qs_fields(qs_result: Dict[str, Any]) -> Dict[str, Any]:
         "dateShortInterest",
         "bookValue",
         "priceToBook",
+        "trailingEps",
+        "forwardEps",
     ]:
         out[k] = yf_raw(default_stats.get(k))
 
+    # financialData
     for k in [
         "freeCashflow",
         "operatingCashflow",
@@ -415,6 +432,7 @@ def extract_qs_fields(qs_result: Dict[str, Any]) -> Dict[str, Any]:
     ]:
         out[k] = yf_raw(financial_data.get(k))
 
+    # profile extras (Yahoo non-GICS)
     out["sector_yahoo"] = profile.get("sector")
     out["industry_yahoo"] = profile.get("industry")
     out["website"] = profile.get("website")
@@ -422,12 +440,19 @@ def extract_qs_fields(qs_result: Dict[str, Any]) -> Dict[str, Any]:
     out["fullTimeEmployees"] = yf_raw(profile.get("fullTimeEmployees"))
     out["longBusinessSummary"] = profile.get("longBusinessSummary")
 
+    # price module extras (often includes currency/market info)
+    out["currency"] = price_mod.get("currency")
+    out["exchangeName"] = price_mod.get("exchangeName")
+    out["quoteType"] = price_mod.get("quoteType")
+
+    # earnings date
     earnings = get_path(cal, ["earnings", "earningsDate"], default=None)
     if isinstance(earnings, list) and earnings:
         out["earningsDate"] = yf_raw(earnings[0])
     else:
         out["earningsDate"] = None
 
+    # derived
     cash = safe_float(out.get("totalCash"))
     debt = safe_float(out.get("totalDebt"))
     out["netDebt"] = (debt - cash) if (cash is not None and debt is not None) else None
@@ -438,6 +463,7 @@ def extract_qs_fields(qs_result: Dict[str, Any]) -> Dict[str, Any]:
 def recompute_price_derived_fields(row: Dict[str, Any], price: Optional[float]) -> None:
     if price is None:
         return
+
     row["regularMarketPrice"] = price
 
     shares = safe_float(row.get("sharesOutstanding"))
@@ -448,11 +474,12 @@ def recompute_price_derived_fields(row: Dict[str, Any], price: Optional[float]) 
     if div_rate is not None and price != 0:
         row["dividendYield"] = div_rate / price
 
-    eps_ttm = safe_float(row.get("epsTrailingTwelveMonths"))
+    # EPS values can come from qs trailingEps/forwardEps
+    eps_ttm = safe_float(row.get("trailingEps")) or safe_float(row.get("epsTrailingTwelveMonths"))
     if eps_ttm is not None and eps_ttm != 0:
         row["trailingPE"] = price / eps_ttm
 
-    eps_fwd = safe_float(row.get("epsForward"))
+    eps_fwd = safe_float(row.get("forwardEps")) or safe_float(row.get("epsForward"))
     if eps_fwd is not None and eps_fwd != 0:
         row["forwardPE"] = price / eps_fwd
 
@@ -471,6 +498,7 @@ def recompute_price_derived_fields(row: Dict[str, Any], price: Optional[float]) 
             row["enterpriseToEbitda"] = ev / ebitda
 
 
+# ----------------- Cache -----------------
 def load_cache(path: str) -> Dict[str, Any]:
     if not os.path.exists(path):
         return {"_meta": {"schema_version": 2, "cursor": 0}, "bySymbol": {}}
@@ -490,10 +518,8 @@ def choose_refresh_symbols(symbols: List[str], cache: Dict[str, Any], mode: str,
     if mode == "full":
         return symbols
     cursor = int((cache.get("_meta") or {}).get("cursor", 0))
-    out = []
-    for i in range(min(n, len(symbols))):
-        out.append(symbols[(cursor + i) % len(symbols)])
-    return out
+    n = max(0, min(n, len(symbols)))
+    return [symbols[(cursor + i) % len(symbols)] for i in range(n)]
 
 
 def advance_cursor(cache: Dict[str, Any], symbols_count: int, step: int) -> None:
@@ -502,6 +528,7 @@ def advance_cursor(cache: Dict[str, Any], symbols_count: int, step: int) -> None
     meta["cursor"] = (cur + step) % max(1, symbols_count)
 
 
+# ----------------- Main -----------------
 async def main_async(args: argparse.Namespace) -> int:
     repo_root = args.repo_root
     asx_dir = os.path.join(repo_root, "asx")
@@ -520,84 +547,92 @@ async def main_async(args: argparse.Namespace) -> int:
     if args.include_statements:
         modules += STATEMENT_MODULES
 
-    refresh_syms = choose_refresh_symbols(symbols, cache, args.mode, args.summary_per_run)
+    planned_refresh = choose_refresh_symbols(symbols, cache, args.mode, args.summary_per_run)
 
+    # IMPORTANT: Reduce burn. Only attempt deep fundamentals; no bulk quote by default.
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123 Safari/537.36",
         "Accept-Language": "en-US,en;q=0.9",
     }
 
-    quote_results: Dict[str, Dict[str, Any]] = {}
+    limiter = AsyncRateLimiter(args.qs_rate_per_min)
 
     ok_count = 0
+    attempted = 0
     fail_counts: Dict[str, int] = {}
     http_counts: Dict[str, int] = {}
-    consecutive_fail = 0
 
-    async with httpx.AsyncClient(headers=headers, follow_redirects=True) as client:
+    start = time.monotonic()
+    max_run_s = args.max_run_minutes * 60
+
+    async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=None) as client:
         crumb, seed_note = await seed_yahoo_session(client)
         meta["yahooSeedNote"] = seed_note
         meta["yahooCrumbPresent"] = bool(crumb)
 
-        # Tier A quote
-        try:
-            for batch in chunks(symbols, args.quote_chunk):
-                lst = await fetch_quote_batch(client, batch, timeout_s=args.quote_timeout_s)
-                for q in lst:
-                    sym = q.get("symbol")
-                    if sym:
-                        quote_results[sym] = q
-        except Exception as e:
-            meta["tierAQuoteError"] = f"{type(e).__name__}:{e}"
+        # Work queue with bounded concurrency
+        q: asyncio.Queue[str] = asyncio.Queue()
+        for s in planned_refresh:
+            q.put_nowait(s)
 
-        # Tier B quoteSummary
         sem = asyncio.Semaphore(args.concurrency)
 
-        async def run_one(sym: str) -> Tuple[str, FetchResult]:
-            async with sem:
-                fr = await fetch_qs_one(
-                    client,
-                    sym,
-                    modules,
-                    crumb=crumb,
-                    timeout_s=args.qs_timeout_s,
-                    max_retries=args.max_retries,
-                    jitter_ms=(args.jitter_min_ms, args.jitter_max_ms),
-                )
-                return sym, fr
+        async def worker():
+            nonlocal ok_count, attempted
+            while True:
+                if time.monotonic() - start > max_run_s:
+                    return
+                try:
+                    sym = q.get_nowait()
+                except asyncio.QueueEmpty:
+                    return
 
-        tasks = [run_one(sym) for sym in refresh_syms]
-        results = await asyncio.gather(*tasks)
+                async with sem:
+                    fr = await fetch_qs_one(
+                        client=client,
+                        limiter=limiter,
+                        symbol=sym,
+                        modules=modules,
+                        crumb=crumb,
+                        timeout_s=args.qs_timeout_s,
+                        max_retries=args.max_retries,
+                        jitter_ms=(args.jitter_min_ms, args.jitter_max_ms),
+                    )
 
-        for sym, fr in results:
-            bysym = cache.setdefault("bySymbol", {}).setdefault(sym, {})
-            bysym["fundamentalsFetchedAtUtc"] = utc_now_iso()
-            bysym["fundamentalsFetchHttpStatus"] = fr.http_status
+                attempted += 1
+                bysym = cache.setdefault("bySymbol", {}).setdefault(sym, {})
+                bysym["fundamentalsFetchedAtUtc"] = utc_now_iso()
+                bysym["fundamentalsFetchHttpStatus"] = fr.http_status
 
-            if fr.ok:
-                bysym["fundamentalsFetchStatus"] = "ok"
-                bysym["fundamentalsFetchError"] = None
-                bysym["summary"] = extract_qs_fields(fr.payload or {})
-                ok_count += 1
-                consecutive_fail = 0
-            else:
-                status = fr.error or "error"
-                bysym["fundamentalsFetchStatus"] = "http_error" if status.startswith("http_") else status
-                bysym["fundamentalsFetchError"] = status
-                consecutive_fail += 1
-                fail_counts[status] = fail_counts.get(status, 0) + 1
-                if fr.http_status is not None:
-                    http_counts[str(fr.http_status)] = http_counts.get(str(fr.http_status), 0) + 1
+                if fr.ok:
+                    ok_count += 1
+                    bysym["fundamentalsFetchStatus"] = "ok"
+                    bysym["fundamentalsFetchError"] = None
+                    bysym["summary"] = extract_qs_fields(fr.payload or {})
+                else:
+                    status = fr.error or "error"
+                    bysym["fundamentalsFetchStatus"] = "http_error" if status.startswith("http_") else status
+                    bysym["fundamentalsFetchError"] = status
+                    fail_counts[status] = fail_counts.get(status, 0) + 1
+                    if fr.http_status is not None:
+                        http_counts[str(fr.http_status)] = http_counts.get(str(fr.http_status), 0) + 1
 
-            if ok_count == 0 and consecutive_fail >= args.fail_fast_after:
-                meta["failFastTriggered"] = True
-                meta["failFastReason"] = f"{consecutive_fail} consecutive failures with 0 successes"
-                break
+                # progress every 20 attempts
+                if attempted % 20 == 0:
+                    elapsed = time.monotonic() - start
+                    print(f"[progress] attempted={attempted} ok={ok_count} elapsed={elapsed:.1f}s")
 
-    requested = len(refresh_syms)
-    success_rate = (ok_count / requested) if requested else 1.0
+                q.task_done()
 
+        workers = [asyncio.create_task(worker()) for _ in range(max(1, args.concurrency))]
+        await asyncio.gather(*workers)
+
+    success_rate = (ok_count / attempted) if attempted else 0.0
+
+    # Output rows by merging: universe + cached summary + canonical price recompute
     rows: List[Dict[str, Any]] = []
+    bysym_all = cache.get("bySymbol") or {}
+
     for sym in symbols:
         row: Dict[str, Any] = {"yahoo_symbol": sym}
 
@@ -605,20 +640,12 @@ async def main_async(args: argparse.Namespace) -> int:
         if u:
             row.update(u)
 
-        q = quote_results.get(sym)
-        if q:
-            row.update(extract_quote_fields(q))
-        else:
-            row["quoteFetchedAtUtc"] = utc_now_iso()
-
-        bysym = (cache.get("bySymbol") or {}).get(sym) or {}
-        row["fundamentalsFetchedAtUtc"] = bysym.get("fundamentalsFetchedAtUtc")
-        row["fundamentalsFetchStatus"] = bysym.get("fundamentalsFetchStatus")
-        row["fundamentalsFetchHttpStatus"] = bysym.get("fundamentalsFetchHttpStatus")
-        row["fundamentalsFetchError"] = bysym.get("fundamentalsFetchError")
-
-        summary = bysym.get("summary") or {}
-        row.update(summary)
+        c = bysym_all.get(sym) or {}
+        row["fundamentalsFetchedAtUtc"] = c.get("fundamentalsFetchedAtUtc")
+        row["fundamentalsFetchStatus"] = c.get("fundamentalsFetchStatus")
+        row["fundamentalsFetchHttpStatus"] = c.get("fundamentalsFetchHttpStatus")
+        row["fundamentalsFetchError"] = c.get("fundamentalsFetchError")
+        row.update(c.get("summary") or {})
 
         pinfo = prices_latest.get(sym) or {}
         price = pinfo.get("price")
@@ -630,35 +657,39 @@ async def main_async(args: argparse.Namespace) -> int:
 
         row["priceSource"] = "prices_latest.json" if price_val is not None else None
         row["priceFetchedAtUtc"] = price_fetched
+
         recompute_price_derived_fields(row, price_val)
 
         rows.append(row)
 
     df = pd.DataFrame(rows)
 
+    # JSON
     json_path = os.path.join(asx_dir, "fundamentals_latest.json")
     payload = {
         "asOfUtc": utc_now_iso(),
         "meta": {
             "mode": args.mode,
-            "summaryPerRun": args.summary_per_run,
-            "refreshedTickers": requested,
+            "summaryPerRunPlanned": len(planned_refresh),
+            "attempted": attempted,
             "successCount": ok_count,
             "successRate": round(success_rate, 6),
             "minSuccessRate": args.min_success_rate,
+            "qsRatePerMin": args.qs_rate_per_min,
             "failCounts": fail_counts,
             "httpCounts": http_counts,
             "cursorBefore": int(meta.get("cursor", 0)),
-            "cursorAdvanced": False,
         },
         "fieldMap": FIELD_MAP,
         "data": rows,
     }
     save_json(json_path, payload)
 
+    # CSV/XLSX (drop long summary text for portability)
     df_csv = df.copy()
     if "longBusinessSummary" in df_csv.columns:
         df_csv = df_csv.drop(columns=["longBusinessSummary"])
+
     csv_path = os.path.join(asx_dir, "fundamentals_latest.csv")
     df_csv.to_csv(csv_path, index=False)
 
@@ -668,30 +699,33 @@ async def main_async(args: argparse.Namespace) -> int:
         df_csv.to_excel(w, sheet_name="fundamentals", index=False)
         df_map.to_excel(w, sheet_name="field_map", index=False)
 
-    # cursor advance decision
+    # Cursor advance / failure policy
     should_advance = True
-    if args.mode != "full" and requested > 0 and success_rate < args.min_success_rate:
+    if args.mode != "full" and attempted > 0 and success_rate < args.min_success_rate:
         should_advance = False
 
     if should_advance and args.mode != "full":
         before = int(meta.get("cursor", 0))
-        advance_cursor(cache, symbols_count=len(symbols), step=requested)
+        advance_cursor(cache, symbols_count=len(symbols), step=attempted)
         meta["cursorAfter"] = int(meta.get("cursor", 0))
-        payload["meta"]["cursorBefore"] = before
-        payload["meta"]["cursorAfter"] = meta["cursorAfter"]
-        payload["meta"]["cursorAdvanced"] = True
-        save_json(json_path, payload)
+        meta["cursorAdvanced"] = True
+        meta["cursorBefore"] = before
     else:
-        payload["meta"]["cursorAfter"] = int(meta.get("cursor", 0))
-        save_json(json_path, payload)
+        meta["cursorAfter"] = int(meta.get("cursor", 0))
+        meta["cursorAdvanced"] = False
 
     save_json(cache_path, cache)
 
-    print(f"Deep fundamentals ok={ok_count}/{requested} success_rate={success_rate:.3f} (min={args.min_success_rate:.3f})")
+    # Log summary
+    print(f"Deep fundamentals ok={ok_count}/{attempted} success_rate={success_rate:.3f} (min={args.min_success_rate:.3f})")
     if http_counts:
         print(f"HTTP status counts: {http_counts}")
     if fail_counts:
         print(f"Failure counts: {fail_counts}")
+
+    if attempted == 0:
+        print("No tickers attempted (time budget too low or empty universe).", file=sys.stderr)
+        return 1
 
     if not should_advance:
         msg = (
@@ -701,8 +735,9 @@ async def main_async(args: argparse.Namespace) -> int:
         if args.fail_on_low_success:
             print(msg + " Failing run so you notice.", file=sys.stderr)
             return 1
-        print(msg + " Continuing (fail_on_low_success=false).")
-        return 0
+        else:
+            print(msg + " Continuing (fail_on_low_success=false).")
+            return 0
 
     return 0
 
@@ -713,19 +748,28 @@ def build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("--mode", default="rotate", choices=["rotate", "full"], help="rotate or full")
 
     p.add_argument("--summary-per-run", "--summary_per_run", dest="summary_per_run", type=int, default=220)
-    p.add_argument("--quote-chunk", "--quote_chunk", dest="quote_chunk", type=int, default=120)
-    p.add_argument("--concurrency", type=int, default=4)
+    p.add_argument("--concurrency", type=int, default=1)
 
+    p.add_argument("--qs-rate-per-min", "--qs_rate_per_min", dest="qs_rate_per_min", type=float, default=8.0,
+                   help="Global quoteSummary request rate limit (req/min). Lower reduces 429s.")
     p.add_argument("--min-success-rate", "--min_success_rate", dest="min_success_rate", type=float, default=0.30)
     p.add_argument("--fail-on-low-success", "--fail_on_low_success", dest="fail_on_low_success", default="true")
+
     p.add_argument("--include-statements", "--include_statements", dest="include_statements", action="store_true")
 
-    p.add_argument("--qs-timeout-s", "--qs_timeout_s", dest="qs_timeout_s", type=float, default=18.0)
-    p.add_argument("--quote-timeout-s", "--quote_timeout_s", dest="quote_timeout_s", type=float, default=18.0)
-    p.add_argument("--max-retries", "--max_retries", dest="max_retries", type=int, default=1)
-    p.add_argument("--jitter-min-ms", "--jitter_min_ms", dest="jitter_min_ms", type=int, default=60)
-    p.add_argument("--jitter-max-ms", "--jitter_max_ms", dest="jitter_max_ms", type=int, default=220)
-    p.add_argument("--fail-fast-after", "--fail_fast_after", dest="fail_fast_after", type=int, default=25)
+    # network tuning
+    p.add_argument("--qs-timeout-s", "--qs_timeout_s", dest="qs_timeout_s", type=float, default=20.0)
+    p.add_argument("--max-retries", "--max_retries", dest="max_retries", type=int, default=4)
+    p.add_argument("--jitter-min-ms", "--jitter_min_ms", dest="jitter_min_ms", type=int, default=250)
+    p.add_argument("--jitter-max-ms", "--jitter_max_ms", dest="jitter_max_ms", type=int, default=1200)
+
+    # safety budget
+    p.add_argument("--max-run-minutes", "--max_run_minutes", dest="max_run_minutes", type=int, default=80,
+                   help="Stop attempting new tickers after this many minutes.")
+
+    # workflow compatibility (accepted but unused in this hardened build)
+    p.add_argument("--quote-chunk", "--quote_chunk", dest="quote_chunk", type=int, default=120)
+
     return p
 
 
@@ -738,5 +782,4 @@ def parse_args() -> argparse.Namespace:
 
 if __name__ == "__main__":
     args = parse_args()
-    rc = asyncio.run(main_async(args))
-    raise SystemExit(rc)
+    raise SystemExit(asyncio.run(main_async(args)))

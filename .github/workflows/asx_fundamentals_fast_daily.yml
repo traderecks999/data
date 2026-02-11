@@ -6,7 +6,7 @@ on:
       quote_chunk:
         description: "How many symbols per Yahoo bulk quote request. Default 120"
         required: false
-        default: "120"
+        default: "60"
       timeout_s:
         description: "HTTP timeout seconds. Default 20"
         required: false
@@ -21,7 +21,7 @@ permissions:
 jobs:
   fast_fundamentals:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4

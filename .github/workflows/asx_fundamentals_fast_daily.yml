@@ -1,0 +1,78 @@
+name: ASX Fundamentals FAST (daily)
+
+on:
+  workflow_dispatch:
+    inputs:
+      quote_chunk:
+        description: "How many symbols per Yahoo bulk quote request. Default 120"
+        required: false
+        default: "120"
+      timeout_s:
+        description: "HTTP timeout seconds. Default 20"
+        required: false
+        default: "20"
+  schedule:
+    # GitHub cron uses UTC. This runs daily at 06:10 UTC.
+    - cron: "10 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fast_fundamentals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ensure universe/tickers exist
+        shell: bash
+        run: |
+          test -f asx/universe.csv || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
+          test -f asx/tickers_asx.txt || python scripts/asx_universe.py --out-csv asx/universe.csv --out-tickers asx/tickers_asx.txt
+          test -f asx/prices_latest.json || echo "[warn] asx/prices_latest.json missing; price enrichment will be empty"
+
+      - name: Build FAST fundamentals snapshot
+        shell: bash
+        run: |
+          QUOTE_CHUNK="120"
+          TIMEOUT_S="20"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            QUOTE_CHUNK="${{ inputs.quote_chunk }}"
+            TIMEOUT_S="${{ inputs.timeout_s }}"
+          fi
+
+          if [ -z "$QUOTE_CHUNK" ]; then QUOTE_CHUNK="120"; fi
+          if [ -z "$TIMEOUT_S" ]; then TIMEOUT_S="20"; fi
+
+          CMD="python scripts/asx_fundamentals_fast_snapshot.py \
+            --tickers asx/tickers_asx.txt \
+            --universe-csv asx/universe.csv \
+            --prices-latest asx/prices_latest.json \
+            --out-json asx/fundamentals_fast_latest.json \
+            --out-csv asx/fundamentals_fast_latest.csv \
+            --quote-chunk $QUOTE_CHUNK \
+            --timeout-s $TIMEOUT_S"
+
+          echo "[run] $CMD"
+          eval $CMD
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add asx/fundamentals_fast_latest.json asx/fundamentals_fast_latest.csv
+          git commit -m "Update fast fundamentals snapshot" || echo "No changes to commit"
+          git push

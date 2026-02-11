@@ -1,0 +1,18 @@
+{
+  "patch_version": "v0.09",
+  "purpose": "Add fast fundamentals snapshot via Yahoo bulk quote endpoint + daily GitHub Actions workflow",
+  "adds": [
+    "scripts/asx_fundamentals_fast_snapshot.py",
+    ".github/workflows/asx_fundamentals_fast_daily.yml"
+  ],
+  "outputs": [
+    "asx/fundamentals_fast_latest.json",
+    "asx/fundamentals_fast_latest.csv"
+  ],
+  "notes": [
+    "Uses existing requests dependency; no changes to requirements.txt.",
+    "Reads asx/universe.csv for name/sector/industry/asset_type enrichment.",
+    "Reads asx/prices_latest.json for canonical price enrichment when present.",
+    "Workflow runs daily at 06:10 UTC and can be manually dispatched with a custom quote_chunk."
+  ]
+}

@@ -153,7 +153,7 @@ def yahoo_seed_session(session: requests.Session, timeout_s: float) -> Optional[
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
         "Connection": "keep-alive",
-        "Referer": f"https://finance.yahoo.com/quote/{symbols[0] if symbols else '' }",
+        "Referer": "https://finance.yahoo.com/",
     }
     crumb: Optional[str] = None
 

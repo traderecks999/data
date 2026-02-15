@@ -1,0 +1,40 @@
+{
+  "runId": "20260215T084830Z",
+  "runDir": "/repo/asx/_runs/20260215T084830Z",
+  "mode": "rotate",
+  "summaryPerRun": 1000,
+  "qsRatePerMin": 6.0,
+  "plannedRefresh": 1000,
+  "attempted": 481,
+  "ok": 468,
+  "successRate": 0.972972972972973,
+  "elapsedSeconds": 4811.184,
+  "httpStatusCounts": {
+    "404": 13
+  },
+  "failureCounts": {
+    "not_found": 13
+  },
+  "notFoundSymbols": [
+    "BW6.AX",
+    "CASH.AX",
+    "CIM.AX",
+    "D10.AX",
+    "DA8.AX",
+    "DA9.AX",
+    "DAM.AX",
+    "DAT.AX",
+    "DXA.AX",
+    "FM1.AX",
+    "FM2.AX",
+    "FM3.AX",
+    "FM5.AX"
+  ],
+  "notFoundCount": 13,
+  "quarantineCount": 13,
+  "cursorBefore": 440,
+  "cursorAfter": 921,
+  "cursorAdvanced": true,
+  "generatedAtUtc": "2026-02-15T08:48:34Z",
+  "abortReason": null
+}

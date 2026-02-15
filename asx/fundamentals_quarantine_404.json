@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "schema_version": 1
+  },
+  "bySymbol": {
+    "BW6.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T07:29:17Z",
+      "nextTryUtc": "2026-03-17T07:29:17Z"
+    },
+    "CASH.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T07:32:07Z",
+      "nextTryUtc": "2026-03-17T07:32:07Z"
+    },
+    "CIM.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T07:41:18Z",
+      "nextTryUtc": "2026-03-17T07:41:18Z"
+    },
+    "D10.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T07:59:39Z",
+      "nextTryUtc": "2026-03-17T07:59:39Z"
+    },
+    "DA8.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T07:59:58Z",
+      "nextTryUtc": "2026-03-17T07:59:58Z"
+    },
+    "DA9.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:00:09Z",
+      "nextTryUtc": "2026-03-17T08:00:09Z"
+    },
+    "DAM.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:00:59Z",
+      "nextTryUtc": "2026-03-17T08:00:59Z"
+    },
+    "DAT.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:01:18Z",
+      "nextTryUtc": "2026-03-17T08:01:18Z"
+    },
+    "DXA.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:12:19Z",
+      "nextTryUtc": "2026-03-17T08:12:19Z"
+    },
+    "FM1.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:39:00Z",
+      "nextTryUtc": "2026-03-17T08:39:00Z"
+    },
+    "FM2.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:39:10Z",
+      "nextTryUtc": "2026-03-17T08:39:10Z"
+    },
+    "FM3.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:39:20Z",
+      "nextTryUtc": "2026-03-17T08:39:20Z"
+    },
+    "FM5.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-15T08:39:30Z",
+      "nextTryUtc": "2026-03-17T08:39:30Z"
+    }
+  }
+}

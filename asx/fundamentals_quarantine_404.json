@@ -807,6 +807,26 @@
       "count": 1,
       "last404Utc": "2026-02-15T20:10:55Z",
       "nextTryUtc": "2026-03-17T20:10:55Z"
+    },
+    "# last_extracted_awst: 2026-02-16 11:18 AWST": {
+      "count": 1,
+      "last404Utc": "2026-02-18T16:28:01Z",
+      "nextTryUtc": "2026-03-20T16:28:01Z"
+    },
+    "# last_extracted_utc: 2026-02-16T03:18:57Z": {
+      "count": 1,
+      "last404Utc": "2026-02-18T16:28:12Z",
+      "nextTryUtc": "2026-03-20T16:28:12Z"
+    },
+    "AC3.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-18T16:37:42Z",
+      "nextTryUtc": "2026-03-20T16:37:42Z"
+    },
+    "PUV.AX": {
+      "count": 1,
+      "last404Utc": "2026-02-18T21:09:25Z",
+      "nextTryUtc": "2026-03-20T21:09:25Z"
     }
   }
 }

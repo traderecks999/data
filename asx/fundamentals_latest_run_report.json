@@ -1,6 +1,6 @@
 {
-  "runId": "20260221T164831Z",
-  "runDir": "/repo/asx/_runs/20260221T164831Z",
+  "runId": "20260221T173251Z",
+  "runDir": "/repo/asx/_runs/20260221T173251Z",
   "mode": "rotate",
   "summaryPerRun": 60,
   "qsRatePerMin": 6.0,
@@ -8,15 +8,15 @@
   "attempted": 60,
   "ok": 60,
   "successRate": 1.0,
-  "elapsedSeconds": 1843.995,
+  "elapsedSeconds": 1803.05,
   "httpStatusCounts": {},
   "failureCounts": {},
   "notFoundSymbols": [],
   "notFoundCount": 0,
   "quarantineCount": 165,
-  "cursorBefore": 1201,
-  "cursorAfter": 1261,
+  "cursorBefore": 1261,
+  "cursorAfter": 1321,
   "cursorAdvanced": true,
-  "generatedAtUtc": "2026-02-21T16:48:37Z",
+  "generatedAtUtc": "2026-02-21T17:32:57Z",
   "abortReason": null
 }

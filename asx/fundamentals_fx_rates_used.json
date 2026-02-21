@@ -1,6 +1,6 @@
 {
-  "runId": "20260221T173251Z",
-  "generatedAtUtc": "2026-02-21T17:32:51Z",
+  "runId": "20260221T181720Z",
+  "generatedAtUtc": "2026-02-21T18:17:20Z",
   "addAudConversions": true,
   "ratesAudPerUnit": {},
   "pairsUsed": [],
@@ -11,5 +11,16 @@
     "PGK",
     "USD"
   ],
-  "fetchErrors": []
+  "fetchErrors": [
+    {
+      "source": "open.er-api.com",
+      "base": "AUD",
+      "error": "TypeError"
+    },
+    {
+      "source": "open.er-api.com",
+      "base": "USD",
+      "error": "TypeError"
+    }
+  ]
 }

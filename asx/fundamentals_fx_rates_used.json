@@ -1,7 +1,26 @@
 {
-  "runId": "20260221T142840Z",
-  "generatedAtUtc": "2026-02-21T14:28:40Z",
+  "runId": "20260221T154129Z",
+  "generatedAtUtc": "2026-02-21T15:41:29Z",
   "addAudConversions": true,
   "ratesAudPerUnit": {},
-  "pairsUsed": []
+  "pairsUsed": [],
+  "wantedCurrencies": [
+    "AUD",
+    "NZD",
+    "USD"
+  ],
+  "fetchErrors": [
+    {
+      "currency": "NZD",
+      "pair": "AUDNZD=X",
+      "error": "RuntimeError",
+      "httpStatus": null
+    },
+    {
+      "currency": "USD",
+      "pair": "AUDUSD=X",
+      "error": "RuntimeError",
+      "httpStatus": null
+    }
+  ]
 }

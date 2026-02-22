@@ -1,19 +1,20 @@
 {
-  "runId": "20260221T184754Z",
-  "generatedAtUtc": "2026-02-21T18:47:54Z",
+  "runId": "20260222T063446Z",
+  "generatedAtUtc": "2026-02-22T06:34:46Z",
   "addAudConversions": true,
+  "audColumnsFilledForAud": true,
   "ratesAudPerUnit": {
-    "CAD": 1.0334592775706266,
-    "NZD": 0.8440998266218956,
-    "PGK": 0.32807677783985717,
-    "USD": 1.4142631264832084
+    "CAD": 1.033842845549048,
+    "NZD": 0.84419958904364,
+    "PGK": 0.3280468582132272,
+    "USD": 1.4150356022957538
   },
   "pairsUsed": [
     {
       "source": "open.er-api.com",
       "base": "AUD",
       "url": "https://open.er-api.com/v6/latest/AUD",
-      "generatedAtUtc": "2026-02-21T18:47:54Z"
+      "generatedAtUtc": "2026-02-22T06:34:45Z"
     }
   ],
   "wantedCurrencies": [

@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-02-16T03:18:57Z
-# last_extracted_awst: 2026-02-16 11:18 AWST
+# last_extracted_utc: 2026-02-23T03:19:00Z
+# last_extracted_awst: 2026-02-23 11:19 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -1005,7 +1005,6 @@ GTG.AX
 GTI.AX
 GTK.AX
 GTN.AX
-GUE.AX
 GUL.AX
 GUM.AX
 GVF.AX
@@ -1191,7 +1190,6 @@ IR1.AX
 IRD.AX
 IRE.AX
 IRI.AX
-IRX.AX
 IS3.AX
 ISEC.AX
 ISLM.AX
@@ -1263,6 +1261,7 @@ KGL.AX
 KGN.AX
 KI1.AX
 KIG.AX
+KIT.AX
 KKC.AX
 KKO.AX
 KLI.AX
@@ -1608,6 +1607,7 @@ NWH.AX
 NWL.AX
 NWM.AX
 NWS.AX
+NX1.AX
 NXD.AX
 NXG.AX
 NXL.AX
@@ -1950,7 +1950,6 @@ RSSL.AX
 RTG.AX
 RTH.AX
 RTR.AX
-RUL.AX
 RVT.AX
 RWC.AX
 RWD.AX
@@ -2264,6 +2263,7 @@ UYLD.AX
 VACF.AX
 VAE.AX
 VAF.AX
+VAL.AX
 VAP.AX
 VAR.AX
 VAS.AX

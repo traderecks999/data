@@ -837,6 +837,21 @@
       "count": 1,
       "last404Utc": "2026-02-24T04:39:07Z",
       "nextTryUtc": "2026-03-26T04:39:07Z"
+    },
+    "# last_extracted_awst: 2026-03-09 11:14 AWST": {
+      "count": 1,
+      "last404Utc": "2026-03-14T16:30:38Z",
+      "nextTryUtc": "2026-04-13T16:30:38Z"
+    },
+    "# last_extracted_utc: 2026-03-09T03:14:55Z": {
+      "count": 1,
+      "last404Utc": "2026-03-14T16:30:47Z",
+      "nextTryUtc": "2026-04-13T16:30:47Z"
+    },
+    "HC1.AX": {
+      "count": 1,
+      "last404Utc": "2026-03-15T00:37:11Z",
+      "nextTryUtc": "2026-04-14T00:37:11Z"
     }
   }
 }

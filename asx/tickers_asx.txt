@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-03-30T03:38:00Z
-# last_extracted_awst: 2026-03-30 11:38 AWST
+# last_extracted_utc: 2026-04-06T03:39:08Z
+# last_extracted_awst: 2026-04-06 11:39 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -623,6 +623,7 @@ CYQ.AX
 CZN.AX
 CZR.AX
 D10.AX
+D11.AX
 D3E.AX
 DA8.AX
 DA9.AX
@@ -1103,7 +1104,6 @@ IBK.AX
 IBR.AX
 IBX.AX
 ICE.AX
-ICI.AX
 ICL.AX
 ICME.AX
 ICOR.AX
@@ -1682,6 +1682,7 @@ PA2.AX
 PA3.AX
 PA4.AX
 PA5.AX
+PA6.AX
 PAB.AX
 PAC.AX
 PAR.AX

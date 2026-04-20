@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-04-13T03:51:43Z
-# last_extracted_awst: 2026-04-13 11:51 AWST
+# last_extracted_utc: 2026-04-20T03:51:00Z
+# last_extracted_awst: 2026-04-20 11:51 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -1283,6 +1283,7 @@ KSL.AX
 KSM.AX
 KSN.AX
 KTA.AX
+KTK.AX
 KYP.AX
 KZR.AX
 L1G.AX
@@ -1949,7 +1950,6 @@ RWC.AX
 RWD.AX
 RWL.AX
 RXL.AX
-RXR.AX
 RYD.AX
 RYM.AX
 RZI.AX

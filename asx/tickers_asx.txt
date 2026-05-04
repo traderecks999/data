@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-04-27T03:59:12Z
-# last_extracted_awst: 2026-04-27 11:59 AWST
+# last_extracted_utc: 2026-05-04T04:07:30Z
+# last_extracted_awst: 2026-05-04 12:07 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -32,7 +32,6 @@
 8CO.AX
 8IH.AX
 A11.AX
-A1G.AX
 A1M.AX
 A1N.AX
 A200.AX
@@ -1116,7 +1115,6 @@ IESG.AX
 IEU.AX
 IF1.AX
 IFG.AX
-IFL.AX
 IFN.AX
 IFRA.AX
 IFT.AX
@@ -1566,7 +1564,6 @@ NME.AX
 NMG.AX
 NMR.AX
 NMT.AX
-NNG.AX
 NNL.AX
 NNUK.AX
 NNWH.AX
@@ -1780,6 +1777,7 @@ PPY.AX
 PR1.AX
 PR2.AX
 PR4.AX
+PR5.AX
 PRG.AX
 PRM.AX
 PRN.AX
@@ -2061,6 +2059,7 @@ SP3.AX
 SP4.AX
 SP5.AX
 SP6.AX
+SP7.AX
 SP8.AX
 SPA.AX
 SPD.AX

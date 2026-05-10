@@ -927,6 +927,26 @@
       "count": 1,
       "last404Utc": "2026-05-02T16:30:48Z",
       "nextTryUtc": "2026-06-01T16:30:48Z"
+    },
+    "# last_extracted_awst: 2026-05-04 12:07 AWST": {
+      "count": 1,
+      "last404Utc": "2026-05-09T16:30:36Z",
+      "nextTryUtc": "2026-06-08T16:30:36Z"
+    },
+    "# last_extracted_utc: 2026-05-04T04:07:30Z": {
+      "count": 1,
+      "last404Utc": "2026-05-09T16:30:46Z",
+      "nextTryUtc": "2026-06-08T16:30:46Z"
+    },
+    "PR5.AX": {
+      "count": 1,
+      "last404Utc": "2026-05-10T06:26:26Z",
+      "nextTryUtc": "2026-06-09T06:26:26Z"
+    },
+    "SP7.AX": {
+      "count": 1,
+      "last404Utc": "2026-05-10T08:36:13Z",
+      "nextTryUtc": "2026-06-09T08:36:13Z"
     }
   }
 }

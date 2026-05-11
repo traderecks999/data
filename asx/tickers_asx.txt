@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-05-04T04:07:30Z
-# last_extracted_awst: 2026-05-04 12:07 AWST
+# last_extracted_utc: 2026-05-11T04:34:22Z
+# last_extracted_awst: 2026-05-11 12:34 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -658,6 +658,7 @@ DJRE.AX
 DJW.AX
 DKM.AX
 DLI.AX
+DLY.AX
 DM1.AX
 DME.AX
 DMG.AX
@@ -1644,7 +1645,6 @@ OMX.AX
 ONE.AX
 OOO.AX
 OPH.AX
-OPN.AX
 OPPT.AX
 OPT.AX
 OR2.AX
@@ -2201,7 +2201,6 @@ TSO.AX
 TSR.AX
 TT1.AX
 TT2.AX
-TT6.AX
 TTM.AX
 TTT.AX
 TTX.AX

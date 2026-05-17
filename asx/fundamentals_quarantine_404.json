@@ -889,14 +889,14 @@
       "nextTryUtc": "2026-05-11T16:30:46Z"
     },
     "D11.AX": {
-      "count": 1,
-      "last404Utc": "2026-04-11T21:21:10Z",
-      "nextTryUtc": "2026-05-11T21:21:10Z"
+      "count": 2,
+      "last404Utc": "2026-05-16T21:20:43Z",
+      "nextTryUtc": "2026-06-15T21:20:43Z"
     },
     "PA6.AX": {
-      "count": 1,
-      "last404Utc": "2026-04-12T05:40:34Z",
-      "nextTryUtc": "2026-05-12T05:40:34Z"
+      "count": 2,
+      "last404Utc": "2026-05-17T05:41:07Z",
+      "nextTryUtc": "2026-06-16T05:41:07Z"
     },
     "# last_extracted_awst: 2026-04-13 11:51 AWST": {
       "count": 1,
@@ -947,6 +947,16 @@
       "count": 1,
       "last404Utc": "2026-05-10T08:36:13Z",
       "nextTryUtc": "2026-06-09T08:36:13Z"
+    },
+    "# last_extracted_awst: 2026-05-11 12:34 AWST": {
+      "count": 1,
+      "last404Utc": "2026-05-16T16:30:39Z",
+      "nextTryUtc": "2026-06-15T16:30:39Z"
+    },
+    "# last_extracted_utc: 2026-05-11T04:34:22Z": {
+      "count": 1,
+      "last404Utc": "2026-05-16T16:30:48Z",
+      "nextTryUtc": "2026-06-15T16:30:48Z"
     }
   }
 }

@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-05-18T04:40:33Z
-# last_extracted_awst: 2026-05-18 12:40 AWST
+# last_extracted_utc: 2026-05-25T04:49:13Z
+# last_extracted_awst: 2026-05-25 12:49 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -766,7 +766,6 @@ ENP.AX
 ENR.AX
 ENT.AX
 ENV.AX
-ENX.AX
 EOL.AX
 EOS.AX
 EPI.AX
@@ -866,6 +865,7 @@ FM5.AX
 FME.AX
 FMG.AX
 FML.AX
+FMN.AX
 FMR.AX
 FND.AX
 FNR.AX
@@ -1361,7 +1361,6 @@ LSF.AX
 LSGE.AX
 LSR.AX
 LSX.AX
-LT9.AX
 LTP.AX
 LTR.AX
 LU7.AX
@@ -1451,6 +1450,7 @@ MLX.AX
 MM1.AX
 MM2.AX
 MM4.AX
+MM5.AX
 MM8.AX
 MMA.AX
 MME.AX
@@ -1560,6 +1560,7 @@ NH3.AX
 NHC.AX
 NHE.AX
 NHF.AX
+NHU.AX
 NIC.AX
 NIM.AX
 NME.AX
@@ -2385,7 +2386,6 @@ WOT.AX
 WOW.AX
 WPR.AX
 WQG.AX
-WR1.AX
 WRK.AX
 WRLD.AX
 WRX.AX

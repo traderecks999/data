@@ -987,6 +987,16 @@
       "count": 1,
       "last404Utc": "2026-05-31T04:12:17Z",
       "nextTryUtc": "2026-06-30T04:12:17Z"
+    },
+    "# last_extracted_awst: 2026-06-01 13:14 AWST": {
+      "count": 1,
+      "last404Utc": "2026-06-06T16:30:37Z",
+      "nextTryUtc": "2026-07-06T16:30:37Z"
+    },
+    "# last_extracted_utc: 2026-06-01T05:14:51Z": {
+      "count": 1,
+      "last404Utc": "2026-06-06T16:30:47Z",
+      "nextTryUtc": "2026-07-06T16:30:47Z"
     }
   }
 }

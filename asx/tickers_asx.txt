@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-06-01T05:14:51Z
-# last_extracted_awst: 2026-06-01 13:14 AWST
+# last_extracted_utc: 2026-06-08T05:00:37Z
+# last_extracted_awst: 2026-06-08 13:00 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -287,6 +287,7 @@ AXI.AX
 AXL.AX
 AXN.AX
 AXP.AX
+AXQ.AX
 AXW01.AX
 AXW02.AX
 AXW04.AX
@@ -1768,6 +1769,7 @@ POH.AX
 POI.AX
 POL.AX
 POT.AX
+PP2.AX
 PPC.AX
 PPE.AX
 PPG.AX

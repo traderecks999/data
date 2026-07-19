@@ -939,14 +939,14 @@
       "nextTryUtc": "2026-06-08T16:30:46Z"
     },
     "PR5.AX": {
-      "count": 2,
-      "last404Utc": "2026-06-14T06:30:46Z",
-      "nextTryUtc": "2026-07-14T06:30:46Z"
+      "count": 3,
+      "last404Utc": "2026-07-19T06:30:09Z",
+      "nextTryUtc": "2026-08-18T06:30:09Z"
     },
     "SP7.AX": {
-      "count": 2,
-      "last404Utc": "2026-06-14T08:41:02Z",
-      "nextTryUtc": "2026-07-14T08:41:02Z"
+      "count": 3,
+      "last404Utc": "2026-07-19T08:41:25Z",
+      "nextTryUtc": "2026-08-18T08:41:25Z"
     },
     "# last_extracted_awst: 2026-05-11 12:34 AWST": {
       "count": 1,
@@ -1009,9 +1009,9 @@
       "nextTryUtc": "2026-07-13T16:30:45Z"
     },
     "PP2.AX": {
-      "count": 1,
-      "last404Utc": "2026-06-14T06:25:05Z",
-      "nextTryUtc": "2026-07-14T06:25:05Z"
+      "count": 2,
+      "last404Utc": "2026-07-19T06:24:29Z",
+      "nextTryUtc": "2026-08-18T06:24:29Z"
     },
     "# last_extracted_awst: 2026-06-15 13:26 AWST": {
       "count": 1,
@@ -1087,6 +1087,16 @@
       "count": 1,
       "last404Utc": "2026-07-12T11:18:37Z",
       "nextTryUtc": "2026-08-11T11:18:37Z"
+    },
+    "# last_extracted_awst: 2026-07-13 11:57 AWST": {
+      "count": 1,
+      "last404Utc": "2026-07-18T16:30:38Z",
+      "nextTryUtc": "2026-08-17T16:30:38Z"
+    },
+    "# last_extracted_utc: 2026-07-13T03:57:24Z": {
+      "count": 1,
+      "last404Utc": "2026-07-18T16:30:49Z",
+      "nextTryUtc": "2026-08-17T16:30:49Z"
     }
   }
 }

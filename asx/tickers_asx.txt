@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-07-13T03:57:24Z
-# last_extracted_awst: 2026-07-13 11:57 AWST
+# last_extracted_utc: 2026-07-20T04:01:10Z
+# last_extracted_awst: 2026-07-20 12:01 AWST
 # one symbol per line
 10X.AX
 14D.AX
@@ -197,7 +197,6 @@ APX.AX
 APZ.AX
 AQC.AX
 AQD.AX
-AQI.AX
 AQLT.AX
 AQN.AX
 AQTY.AX
@@ -399,7 +398,6 @@ BRK.AX
 BRL.AX
 BRN.AX
 BRU.AX
-BRX.AX
 BRY.AX
 BS1.AX
 BSA.AX
@@ -849,7 +847,6 @@ FLOT.AX
 FLT.AX
 FLX.AX
 FM1.AX
-FM2.AX
 FM3.AX
 FM5.AX
 FME.AX
@@ -1982,6 +1979,7 @@ SFV.AX
 SFX.AX
 SFY.AX
 SGA.AX
+SGC.AX
 SGH.AX
 SGI.AX
 SGL.AX
@@ -2241,6 +2239,7 @@ VACF.AX
 VAE.AX
 VAF.AX
 VAL.AX
+VAN.AX
 VAP.AX
 VAR.AX
 VAS.AX

@@ -1,40 +1,22 @@
 {
-  "runId": "20260726T114901Z",
-  "generatedAtUtc": "2026-07-26T11:49:01Z",
+  "runId": "20260801T212532Z",
+  "generatedAtUtc": "2026-08-01T21:25:32Z",
   "addAudConversions": true,
   "audColumnsFilledForAud": true,
   "ratesAudPerUnit": {
-    "CAD": 1.0162405400708727,
-    "EUR": 1.6295881053105017,
-    "GBP": 1.907985491678321,
-    "HKD": 0.18259770803356876,
-    "IDR": 7.982582660483816e-05,
-    "MYR": 0.3500225239494162,
-    "NZD": 0.8287949901000438,
-    "PGK": 0.32052422377847417,
-    "SGD": 1.10907165157405,
-    "USD": 1.4324656888655876
+    "SGD": 1.1098126303336209
   },
   "pairsUsed": [
     {
       "source": "open.er-api.com",
       "base": "AUD",
       "url": "https://open.er-api.com/v6/latest/AUD",
-      "generatedAtUtc": "2026-07-26T11:49:01Z"
+      "generatedAtUtc": "2026-08-01T21:25:32Z"
     }
   ],
   "wantedCurrencies": [
     "AUD",
-    "CAD",
-    "EUR",
-    "GBP",
-    "HKD",
-    "IDR",
-    "MYR",
-    "NZD",
-    "PGK",
-    "SGD",
-    "USD"
+    "SGD"
   ],
   "fetchErrors": []
 }

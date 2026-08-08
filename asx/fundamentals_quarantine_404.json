@@ -9,9 +9,9 @@
       "nextTryUtc": "2026-08-03T19:57:27Z"
     },
     "CASH.AX": {
-      "count": 5,
-      "last404Utc": "2026-07-04T20:05:36Z",
-      "nextTryUtc": "2026-08-03T20:05:36Z"
+      "count": 6,
+      "last404Utc": "2026-08-08T17:10:20Z",
+      "nextTryUtc": "2026-09-07T17:10:20Z"
     },
     "CIM.AX": {
       "count": 5,
@@ -69,9 +69,9 @@
       "nextTryUtc": "2026-08-03T23:24:06Z"
     },
     "# ASX universe tickers (Yahoo symbols, .AX)": {
-      "count": 5,
-      "last404Utc": "2026-07-04T16:30:36Z",
-      "nextTryUtc": "2026-08-03T16:30:36Z"
+      "count": 6,
+      "last404Utc": "2026-08-08T16:30:39Z",
+      "nextTryUtc": "2026-09-07T16:30:39Z"
     },
     "# last_extracted_awst: 2026-02-09 13:48 AWST": {
       "count": 1,
@@ -84,9 +84,9 @@
       "nextTryUtc": "2026-03-17T13:22:56Z"
     },
     "# one symbol per line": {
-      "count": 5,
-      "last404Utc": "2026-07-04T16:31:06Z",
-      "nextTryUtc": "2026-08-03T16:31:06Z"
+      "count": 6,
+      "last404Utc": "2026-08-08T16:31:08Z",
+      "nextTryUtc": "2026-09-07T16:31:08Z"
     },
     "AC2.AX": {
       "count": 5,
@@ -769,14 +769,14 @@
       "nextTryUtc": "2026-08-04T11:46:03Z"
     },
     "XIFAI.AX": {
-      "count": 5,
-      "last404Utc": "2026-07-05T11:48:13Z",
-      "nextTryUtc": "2026-08-04T11:48:13Z"
+      "count": 6,
+      "last404Utc": "2026-08-08T21:22:22Z",
+      "nextTryUtc": "2026-09-07T21:22:22Z"
     },
     "XJOAI.AX": {
-      "count": 5,
-      "last404Utc": "2026-07-05T11:48:23Z",
-      "nextTryUtc": "2026-08-04T11:48:23Z"
+      "count": 6,
+      "last404Utc": "2026-08-08T21:22:32Z",
+      "nextTryUtc": "2026-09-07T21:22:32Z"
     },
     "XNC.AX": {
       "count": 5,
@@ -784,14 +784,14 @@
       "nextTryUtc": "2026-08-04T11:49:03Z"
     },
     "XPJAI.AX": {
-      "count": 5,
-      "last404Utc": "2026-07-05T11:49:43Z",
-      "nextTryUtc": "2026-08-04T11:49:43Z"
+      "count": 6,
+      "last404Utc": "2026-08-08T21:23:12Z",
+      "nextTryUtc": "2026-09-07T21:23:12Z"
     },
     "XSOAI.AX": {
-      "count": 5,
-      "last404Utc": "2026-07-05T11:52:52Z",
-      "nextTryUtc": "2026-08-04T11:52:52Z"
+      "count": 6,
+      "last404Utc": "2026-08-08T21:23:22Z",
+      "nextTryUtc": "2026-09-07T21:23:22Z"
     },
     "XVG.AX": {
       "count": 5,
@@ -1122,6 +1122,21 @@
       "count": 1,
       "last404Utc": "2026-08-01T16:30:48Z",
       "nextTryUtc": "2026-08-31T16:30:48Z"
+    },
+    "# last_extracted_awst: 2026-08-03 11:51 AWST": {
+      "count": 1,
+      "last404Utc": "2026-08-08T16:30:49Z",
+      "nextTryUtc": "2026-09-07T16:30:49Z"
+    },
+    "# last_extracted_utc: 2026-08-03T03:51:47Z": {
+      "count": 1,
+      "last404Utc": "2026-08-08T16:30:59Z",
+      "nextTryUtc": "2026-09-07T16:30:59Z"
+    },
+    "MHG.AX": {
+      "count": 1,
+      "last404Utc": "2026-08-08T19:26:27Z",
+      "nextTryUtc": "2026-09-07T19:26:27Z"
     }
   }
 }

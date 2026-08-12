@@ -1,7 +1,7 @@
 {
   "dataset": "asx/prices",
-  "asOfUtc": "2026-08-12T04:11:58Z",
-  "asOfPerth": "2026-08-12 12:11:58 AWST",
+  "asOfUtc": "2026-08-12T06:49:17Z",
+  "asOfPerth": "2026-08-12 14:49:17 AWST",
   "window": "manual",
   "source": "yfinance_bulk_history_resilient",
   "countTickers": 596,
@@ -26,546 +26,546 @@
       "price": 51.279998779296875,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "28BB.AX": {
       "price": 24.84000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "29BB.AX": {
       "price": 24.700000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "30BB.AX": {
-      "price": 24.59000015258789,
+      "price": 24.56999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "31BB.AX": {
       "price": 25.31999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "5GOV.AX": {
-      "price": 51.630001068115234,
+      "price": 51.619998931884766,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "8IH.AX": {
       "price": 0.013000000268220901,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "A200.AX": {
-      "price": 153.17999267578125,
+      "price": 153.41000366210938,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "A300.AX": {
       "price": 53.380001068115234,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AAA.AX": {
       "price": 50.130001068115234,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AASF.AX": {
-      "price": 3.990000009536743,
+      "price": 4.0,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ABG.AX": {
       "price": 0.9100000262260437,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ACDC.AX": {
-      "price": 131.3300018310547,
+      "price": 131.64999389648438,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ACQ.AX": {
       "price": 0.8999999761581421,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ADEF.AX": {
       "price": 6.320000171661377,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AEBD.AX": {
-      "price": 49.939998626708984,
+      "price": 49.97999954223633,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AESG.AX": {
-      "price": 96.5999984741211,
+      "price": 96.6500015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AFI.AX": {
-      "price": 6.815000057220459,
+      "price": 6.860000133514404,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AGGG.AX": {
-      "price": 99.58000183105469,
+      "price": 99.63999938964844,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AGVT.AX": {
-      "price": 40.689998626708984,
+      "price": 40.68000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AGX1.AX": {
       "price": 6.369999885559082,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AINF.AX": {
       "price": 18.139999389648438,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AIQ.AX": {
       "price": 1.3700000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ALFA.AX": {
-      "price": 23.059999465942383,
+      "price": 23.09000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ALI.AX": {
       "price": 2.630000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ALPH.AX": {
       "price": 11.819999694824219,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ALTB.AX": {
-      "price": 93.30000305175781,
+      "price": 93.2699966430664,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ALX.AX": {
-      "price": 4.954999923706055,
+      "price": 4.960000038146973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AMH.AX": {
-      "price": 0.9049999713897705,
+      "price": 0.9100000262260437,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "APA.AX": {
-      "price": 10.069999694824219,
+      "price": 10.0600004196167,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "APW.AX": {
       "price": 3.9200000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "APZ.AX": {
-      "price": 5.130000114440918,
+      "price": 5.150000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AQLT.AX": {
-      "price": 36.09000015258789,
+      "price": 36.11000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AQTY.AX": {
-      "price": 20.719999313354492,
+      "price": 20.739999771118164,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ARF.AX": {
-      "price": 2.3450000286102295,
+      "price": 2.3399999141693115,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ARG.AX": {
-      "price": 9.399999618530273,
+      "price": 9.430000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ARMR.AX": {
-      "price": 25.260000228881836,
+      "price": 25.239999771118164,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ASAO.AX": {
       "price": 1.3849999904632568,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ASIA.AX": {
-      "price": 20.290000915527344,
+      "price": 20.25,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ASUS.AX": {
       "price": 19.670000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ATEC.AX": {
-      "price": 23.59000015258789,
+      "price": 23.520000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ATOM.AX": {
-      "price": 21.200000762939453,
+      "price": 21.170000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AUDS.AX": {
-      "price": 6.559999942779541,
+      "price": 6.545000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AUI.AX": {
-      "price": 11.800000190734863,
+      "price": 11.710000038146973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AUMF.AX": {
       "price": 39.880001068115234,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AUST.AX": {
       "price": 18.360000610351562,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AVNG.AX": {
       "price": 11.649999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AVSV.AX": {
       "price": 12.300000190734863,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AVTE.AX": {
-      "price": 11.569999694824219,
+      "price": 11.600000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "AYLD.AX": {
       "price": 10.5,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "B1SM.AX": {
       "price": 6.909999847412109,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BANK.AX": {
-      "price": 9.880000114440918,
+      "price": 9.890000343322754,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BAOR.AX": {
       "price": 2.309999942779541,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BBAB.AX": {
       "price": 21.579999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BBFD.AX": {
       "price": 20.850000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BBOZ.AX": {
-      "price": 19.610000610351562,
+      "price": 19.520000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BBUS.AX": {
-      "price": 21.920000076293945,
+      "price": 21.899999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BCOM.AX": {
-      "price": 12.5600004196167,
+      "price": 12.569999694824219,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BDCI.AX": {
       "price": 20.309999465942383,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BEAR.AX": {
-      "price": 7.130000114440918,
+      "price": 7.114999771118164,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BEL.AX": {
       "price": 0.009999999776482582,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BEMG.AX": {
-      "price": 37.11000061035156,
+      "price": 37.06999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BEST.AX": {
       "price": 12.75,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BGBL.AX": {
-      "price": 86.5,
+      "price": 86.4000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BHD.AX": {
       "price": 0.23499999940395355,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BHYB.AX": {
-      "price": 9.850000381469727,
+      "price": 9.84000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BILL.AX": {
-      "price": 100.4800033569336,
+      "price": 100.45999908447266,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BKI.AX": {
-      "price": 1.9700000286102295,
+      "price": 1.9500000476837158,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BNDS.AX": {
-      "price": 23.139999389648438,
+      "price": 23.1200008392334,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BNKS.AX": {
-      "price": 14.3149995803833,
+      "price": 14.329999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BOND.AX": {
-      "price": 25.270000457763672,
+      "price": 25.25,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BSUB.AX": {
-      "price": 25.690000534057617,
+      "price": 25.700000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BTI.AX": {
-      "price": 1.065000057220459,
+      "price": 1.0499999523162842,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BTXX.AX": {
       "price": 19.649999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BUGG.AX": {
-      "price": 14.25,
+      "price": 14.260000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BWF.AX": {
       "price": 0.14499999582767487,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "BWP.AX": {
-      "price": 3.859999895095825,
+      "price": 3.869999885559082,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CAM.AX": {
-      "price": 0.6850000023841858,
+      "price": 0.6800000071525574,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CASH.AX": {
@@ -579,301 +579,301 @@
       "price": 0.26499998569488525,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CD2.AX": {
       "price": 0.28999999165534973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CD3.AX": {
       "price": 0.7900000214576721,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CDM.AX": {
       "price": 0.7900000214576721,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CDO.AX": {
-      "price": 2.3399999141693115,
+      "price": 2.319999933242798,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CDP.AX": {
-      "price": 5.460000038146973,
+      "price": 5.46999979019165,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CETF.AX": {
-      "price": 62.86000061035156,
+      "price": 62.68000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CFLO.AX": {
-      "price": 20.934999465942383,
+      "price": 20.950000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CGHE.AX": {
       "price": 1.4800000190734863,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CGUN.AX": {
       "price": 1.4450000524520874,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CHC.AX": {
-      "price": 23.5,
+      "price": 23.559999465942383,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CIIH.AX": {
-      "price": 1.4850000143051147,
+      "price": 1.4900000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CIN.AX": {
       "price": 35.70000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CIP.AX": {
-      "price": 3.075000047683716,
+      "price": 3.0899999141693115,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CIVH.AX": {
       "price": 1.1200000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CLDD.AX": {
-      "price": 15.420000076293945,
+      "price": 15.449999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CLNE.AX": {
-      "price": 8.649999618530273,
+      "price": 8.670000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CLW.AX": {
-      "price": 3.7699999809265137,
+      "price": 3.7899999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CMW.AX": {
       "price": 0.4350000023841858,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CNEW.AX": {
-      "price": 8.149999618530273,
+      "price": 8.130000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "COF.AX": {
-      "price": 0.8820000290870667,
+      "price": 0.8849999904632568,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "COMP.AX": {
       "price": 50.08000183105469,
       "currency": "AUD",
       "marketDate": "2026-08-10",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CORE.AX": {
-      "price": 11.989999771118164,
+      "price": 11.979999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CPPR.AX": {
-      "price": 11.119999885559082,
+      "price": 11.069999694824219,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CQE.AX": {
-      "price": 2.549999952316284,
+      "price": 2.5299999713897705,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CQR.AX": {
-      "price": 4.179999828338623,
+      "price": 4.170000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CRED.AX": {
       "price": 22.719999313354492,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CRYP.AX": {
-      "price": 7.110000133514404,
+      "price": 7.119999885559082,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CUIV.AX": {
       "price": 1.3250000476837158,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "CURE.AX": {
-      "price": 76.5,
+      "price": 76.37999725341797,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DACE.AX": {
-      "price": 19.459999084472656,
+      "price": 19.469999313354492,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DAOR.AX": {
       "price": 1.9199999570846558,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DAVA.AX": {
-      "price": 31.729999542236328,
+      "price": 31.75,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DBBF.AX": {
       "price": 26.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DCOR.AX": {
       "price": 51.88999938964844,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DFGH.AX": {
-      "price": 44.43000030517578,
+      "price": 44.540000915527344,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DFND.AX": {
-      "price": 36.880001068115234,
+      "price": 36.91999816894531,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DGCE.AX": {
-      "price": 32.619998931884766,
+      "price": 32.650001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DGGF.AX": {
       "price": 28.90999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DGSM.AX": {
       "price": 39.52000045776367,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DGT.AX": {
-      "price": 2.680000066757202,
+      "price": 2.7200000286102295,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DGVA.AX": {
-      "price": 30.75,
+      "price": 30.770000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DHHF.AX": {
-      "price": 42.47999954223633,
+      "price": 42.65999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DHOF.AX": {
@@ -885,213 +885,213 @@
       "stale": true
     },
     "DIFF.AX": {
-      "price": 10.119999885559082,
+      "price": 10.100000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DIVI.AX": {
-      "price": 11.720000267028809,
+      "price": 11.75,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DJRE.AX": {
-      "price": 22.110000610351562,
+      "price": 22.1200008392334,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DJW.AX": {
-      "price": 2.950000047683716,
+      "price": 2.940000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DN1.AX": {
-      "price": 99.33999633789062,
+      "price": 99.98999786376953,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DRGN.AX": {
-      "price": 12.0600004196167,
+      "price": 12.0,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DRIV.AX": {
       "price": 10.850000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DRUG.AX": {
-      "price": 8.930000305175781,
+      "price": 8.920000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DTEC.AX": {
-      "price": 17.18000030517578,
+      "price": 17.209999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DXC.AX": {
-      "price": 2.7300000190734863,
+      "price": 2.7200000286102295,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DXI.AX": {
-      "price": 2.390000104904175,
+      "price": 2.3499999046325684,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DXS.AX": {
-      "price": 5.994999885559082,
+      "price": 6.019999980926514,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "DZZF.AX": {
-      "price": 31.65999984741211,
+      "price": 31.6200008392334,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "E200.AX": {
-      "price": 27.81999969482422,
+      "price": 27.84000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EAFZ.AX": {
       "price": 8.380000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EARN.AX": {
-      "price": 19.989999771118164,
+      "price": 20.010000228881836,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EBND.AX": {
       "price": 10.720000267028809,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ECL.AX": {
       "price": 0.9399999976158142,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ECP.AX": {
       "price": 0.7599999904632568,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ECRD.AX": {
-      "price": 24.959999084472656,
+      "price": 24.950000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EIGA.AX": {
-      "price": 3.8399999141693115,
+      "price": 3.8499999046325684,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EMKT.AX": {
-      "price": 34.869998931884766,
+      "price": 34.810001373291016,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EMXC.AX": {
-      "price": 40.84000015258789,
+      "price": 40.45000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EQIN.AX": {
       "price": 3.940000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ERTH.AX": {
-      "price": 10.5,
+      "price": 10.479999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ESGI.AX": {
-      "price": 38.290000915527344,
+      "price": 38.220001220703125,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ESPO.AX": {
-      "price": 14.880000114440918,
+      "price": 14.850000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ESTX.AX": {
-      "price": 111.83999633789062,
+      "price": 111.6500015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ETHI.AX": {
-      "price": 17.239999771118164,
+      "price": 17.229999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ETPMAG.AX": {
       "price": 84.45999908447266,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ETPMPD.AX": {
@@ -1119,633 +1119,633 @@
       "stale": true
     },
     "EX20.AX": {
-      "price": 23.309999465942383,
+      "price": 23.350000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "EXUS.AX": {
-      "price": 38.47999954223633,
+      "price": 38.54999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "F100.AX": {
-      "price": 15.4399995803833,
+      "price": 15.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FAIR.AX": {
-      "price": 19.270000457763672,
+      "price": 19.299999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FANG.AX": {
-      "price": 36.04999923706055,
+      "price": 36.0,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FASI.AX": {
-      "price": 11.420000076293945,
+      "price": 11.380000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FCAP.AX": {
-      "price": 12.050000190734863,
+      "price": 12.029999732971191,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FEIF.AX": {
       "price": 1.125,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FEMX.AX": {
-      "price": 7.400000095367432,
+      "price": 7.389999866485596,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FGG.AX": {
-      "price": 1.6699999570846558,
+      "price": 1.6649999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FGSE.AX": {
       "price": 3.700000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FGX.AX": {
-      "price": 1.371999979019165,
+      "price": 1.3700000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FHCO.AX": {
-      "price": 6.46999979019165,
+      "price": 6.460000038146973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FHNG.AX": {
-      "price": 13.239999771118164,
+      "price": 13.220000267028809,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FIIN.AX": {
-      "price": 7.920000076293945,
+      "price": 7.840000152587891,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FIRE.AX": {
       "price": 11.65999984741211,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FLOT.AX": {
       "price": 24.979999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FOOD.AX": {
-      "price": 7.940000057220459,
+      "price": 7.929999828338623,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FPC.AX": {
       "price": 1.3200000524520874,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FRAR.AX": {
       "price": 1.0449999570846558,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FRGG.AX": {
       "price": 1.565000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FSCF.AX": {
       "price": 100.4000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FSI.AX": {
       "price": 1.3270000219345093,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FSML.AX": {
-      "price": 2.109999895095825,
+      "price": 2.0999999046325684,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FSUB.AX": {
-      "price": 24.889999389648438,
+      "price": 24.860000610351562,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FUEL.AX": {
-      "price": 8.65999984741211,
+      "price": 8.640000343322754,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "FUTR.AX": {
       "price": 37.130001068115234,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "G200.AX": {
-      "price": 32.84000015258789,
+      "price": 32.93000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GAME.AX": {
-      "price": 15.319999694824219,
+      "price": 15.300000190734863,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GARP.AX": {
-      "price": 12.699999809265137,
+      "price": 12.670000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GBND.AX": {
-      "price": 20.18000030517578,
+      "price": 20.190000534057617,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GC1.AX": {
       "price": 0.41999998688697815,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GCAP.AX": {
       "price": 8.899999618530273,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GCI.AX": {
-      "price": 2.065000057220459,
+      "price": 2.059999942779541,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GCQF.AX": {
-      "price": 4.409999847412109,
+      "price": 4.429999828338623,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GDF.AX": {
       "price": 1.090000033378601,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GDI.AX": {
-      "price": 0.6399999856948853,
+      "price": 0.6449999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GDX.AX": {
-      "price": 111.47000122070312,
+      "price": 110.75,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GEAR.AX": {
-      "price": 38.56999969482422,
+      "price": 38.689998626708984,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GFL.AX": {
       "price": 2.950000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GFXD.AX": {
       "price": 29.8700008392334,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GGAB.AX": {
       "price": 19.049999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GGBL.AX": {
-      "price": 28.200000762939453,
+      "price": 28.219999313354492,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GGFD.AX": {
       "price": 18.549999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GGOV.AX": {
       "price": 12.470000267028809,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GGUS.AX": {
-      "price": 63.709999084472656,
+      "price": 63.66999816894531,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GHHF.AX": {
-      "price": 37.45000076293945,
+      "price": 37.47999954223633,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GHIF.AX": {
       "price": 13.329999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GHLD.AX": {
-      "price": 67.97000122070312,
+      "price": 67.77999877929688,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GHRP.AX": {
       "price": 50.599998474121094,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GIVE.AX": {
       "price": 2.990000009536743,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GLDN.AX": {
-      "price": 49.560001373291016,
+      "price": 49.459999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GLIN.AX": {
-      "price": 30.329999923706055,
+      "price": 30.34000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GLOB.AX": {
-      "price": 4.670000076293945,
+      "price": 4.650000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GLPR.AX": {
-      "price": 28.479999542236328,
+      "price": 28.34000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GLS.AX": {
-      "price": 2.059999942779541,
+      "price": 2.0399999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GMG.AX": {
-      "price": 29.674999237060547,
+      "price": 29.729999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GMTL.AX": {
       "price": 13.020000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GMVW.AX": {
-      "price": 42.02000045776367,
+      "price": 42.16999816894531,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GNDQ.AX": {
-      "price": 38.52000045776367,
+      "price": 38.5099983215332,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GOAT.AX": {
-      "price": 26.350000381469727,
+      "price": 26.3799991607666,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GOLD.AX": {
-      "price": 57.06999969482422,
+      "price": 56.86000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GOOD.AX": {
       "price": 50.33000183105469,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GOVT.AX": {
-      "price": 24.15999984741211,
+      "price": 24.139999389648438,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GOZ.AX": {
-      "price": 2.2100000381469727,
+      "price": 2.2200000286102295,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GPEQ.AX": {
-      "price": 20.315000534057617,
+      "price": 20.350000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GPT.AX": {
-      "price": 5.170000076293945,
+      "price": 5.190000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GRIN.AX": {
       "price": 19.260000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GRNV.AX": {
-      "price": 32.47999954223633,
+      "price": 32.25,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GROW.AX": {
-      "price": 4.079999923706055,
+      "price": 4.059999942779541,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GRPA.AX": {
       "price": 26.639999389648438,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GSCF.AX": {
       "price": 18.479999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GSUS.AX": {
       "price": 14.270000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GTUM.AX": {
-      "price": 23.59000015258789,
+      "price": 23.639999389648438,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GVF.AX": {
-      "price": 1.3650000095367432,
+      "price": 1.3700000047683716,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GWTH.AX": {
-      "price": 20.81999969482422,
+      "price": 20.93000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GXAI.AX": {
-      "price": 16.549999237060547,
+      "price": 16.5,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "GXLD.AX": {
-      "price": 62.209999084472656,
+      "price": 62.0,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "H100.AX": {
-      "price": 13.890000343322754,
+      "price": 13.880000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HACK.AX": {
-      "price": 18.139999389648438,
+      "price": 18.09000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HBRD.AX": {
-      "price": 10.069999694824219,
+      "price": 10.074999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HCF.AX": {
       "price": 0.029999999329447746,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HCRD.AX": {
-      "price": 25.350000381469727,
+      "price": 25.3700008392334,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HCW.AX": {
-      "price": 0.722000002861023,
+      "price": 0.7149999737739563,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HDN.AX": {
-      "price": 1.2699999809265137,
+      "price": 1.274999976158142,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HETH.AX": {
-      "price": 17.489999771118164,
+      "price": 17.520000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HEUR.AX": {
-      "price": 18.8799991607666,
+      "price": 18.899999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HGBL.AX": {
-      "price": 87.25,
+      "price": 87.26000213623047,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HGCQ.AX": {
-      "price": 5.369999885559082,
+      "price": 5.389999866485596,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HGEN.AX": {
-      "price": 9.970000267028809,
+      "price": 9.975000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HHIF.AX": {
@@ -1757,738 +1757,738 @@
       "stale": true
     },
     "HJHI.AX": {
-      "price": 1.0950000286102295,
+      "price": 1.0850000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HJPN.AX": {
-      "price": 31.239999771118164,
+      "price": 31.31999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HJZP.AX": {
       "price": 0.7699999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-06",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HLTH.AX": {
-      "price": 12.0,
+      "price": 12.010000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HM1.AX": {
       "price": 3.009999990463257,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HMC.AX": {
-      "price": 3.0950000286102295,
+      "price": 3.069999933242798,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HMND.AX": {
-      "price": 46.40999984741211,
+      "price": 47.5,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HNDQ.AX": {
-      "price": 56.70000076293945,
+      "price": 56.7400016784668,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HQLT.AX": {
-      "price": 35.72999954223633,
+      "price": 35.720001220703125,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HQUS.AX": {
-      "price": 51.68000030517578,
+      "price": 51.77000045776367,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HUGE.AX": {
-      "price": 12.970000267028809,
+      "price": 12.8100004196167,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HVLU.AX": {
-      "price": 41.93000030517578,
+      "price": 41.939998626708984,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HVST.AX": {
-      "price": 13.630000114440918,
+      "price": 13.640000343322754,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HYGG.AX": {
       "price": 6.019999980926514,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "HYLD.AX": {
-      "price": 33.9900016784668,
+      "price": 34.060001373291016,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IAA.AX": {
-      "price": 191.7100067138672,
+      "price": 190.0500030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IACT.AX": {
-      "price": 30.8799991607666,
+      "price": 30.93000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IAF.AX": {
-      "price": 101.31999969482422,
+      "price": 101.36000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IBAL.AX": {
       "price": 31.209999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IBC.AX": {
       "price": 0.4449999928474426,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IBIT.AX": {
       "price": 17.149999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ICME.AX": {
       "price": 99.87999725341797,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ICOR.AX": {
-      "price": 94.47000122070312,
+      "price": 94.48999786376953,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IEM.AX": {
-      "price": 94.37999725341797,
+      "price": 94.13999938964844,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IESG.AX": {
-      "price": 32.31999969482422,
+      "price": 32.369998931884766,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IEU.AX": {
-      "price": 100.55000305175781,
+      "price": 100.36000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IFRA.AX": {
-      "price": 25.309999465942383,
+      "price": 25.290000915527344,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IGB.AX": {
-      "price": 96.9000015258789,
+      "price": 96.95999908447266,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IGRO.AX": {
-      "price": 37.33000183105469,
+      "price": 37.290000915527344,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IHCB.AX": {
       "price": 91.04000091552734,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IHD.AX": {
-      "price": 17.420000076293945,
+      "price": 17.440000534057617,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IHEB.AX": {
-      "price": 76.75,
+      "price": 76.76000213623047,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IHHY.AX": {
-      "price": 92.91000366210938,
+      "price": 92.91999816894531,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IHOO.AX": {
-      "price": 249.91000366210938,
+      "price": 249.6199951171875,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IHVV.AX": {
-      "price": 67.63999938964844,
+      "price": 67.62999725341797,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IHWL.AX": {
-      "price": 66.1500015258789,
+      "price": 66.16000366210938,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IIGF.AX": {
-      "price": 3.009999990463257,
+      "price": 2.990000009536743,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IIND.AX": {
-      "price": 10.1899995803833,
+      "price": 10.069999694824219,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IISV.AX": {
       "price": 3.190000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IJH.AX": {
-      "price": 55.04999923706055,
+      "price": 55.0,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IJP.AX": {
-      "price": 134.75,
+      "price": 135.02999877929688,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IJR.AX": {
-      "price": 210.4600067138672,
+      "price": 210.4499969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IKO.AX": {
-      "price": 243.02000427246094,
+      "price": 241.92999267578125,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ILB.AX": {
-      "price": 126.27999877929688,
+      "price": 126.2699966430664,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ILC.AX": {
-      "price": 35.59000015258789,
+      "price": 35.66999816894531,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IMLC.AX": {
       "price": 3.880000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IMPQ.AX": {
       "price": 4.429999828338623,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "INA.AX": {
       "price": 4.260000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "INCM.AX": {
       "price": 20.579999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "INES.AX": {
       "price": 3.3299999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "INIF.AX": {
-      "price": 2.9000000953674316,
+      "price": 2.869999885559082,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IOO.AX": {
-      "price": 202.14999389648438,
+      "price": 202.2899932861328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IOZ.AX": {
-      "price": 36.80500030517578,
+      "price": 36.86000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ISEC.AX": {
-      "price": 100.47000122070312,
+      "price": 100.45999908447266,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ISLM.AX": {
-      "price": 1.159999966621399,
+      "price": 1.1449999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ISO.AX": {
       "price": 5.269999980926514,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ITEK.AX": {
-      "price": 33.9900016784668,
+      "price": 33.88999938964844,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IUSG.AX": {
       "price": 99.1500015258789,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IVE.AX": {
-      "price": 150.3300018310547,
+      "price": 150.61000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IVV.AX": {
       "price": 72.9000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IWLD.AX": {
-      "price": 72.16000366210938,
+      "price": 72.19000244140625,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IXI.AX": {
-      "price": 96.80000305175781,
+      "price": 96.91000366210938,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IXJ.AX": {
-      "price": 144.2899932861328,
+      "price": 144.25999450683594,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IYLD.AX": {
       "price": 99.31999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "IZZ.AX": {
-      "price": 49.59000015258789,
+      "price": 49.34000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "J100.AX": {
-      "price": 55.69499969482422,
+      "price": 56.029998779296875,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JEGA.AX": {
-      "price": 46.29999923706055,
+      "price": 46.459999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JEME.AX": {
       "price": 82.4800033569336,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JEPI.AX": {
-      "price": 49.40999984741211,
+      "price": 49.43000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JGLO.AX": {
-      "price": 60.81999969482422,
+      "price": 60.86000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JHGA.AX": {
       "price": 45.63999938964844,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JHLO.AX": {
       "price": 62.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JHPI.AX": {
-      "price": 46.310001373291016,
+      "price": 46.439998626708984,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JNDQ.AX": {
       "price": 21.600000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JPEQ.AX": {
-      "price": 59.88999938964844,
+      "price": 59.939998626708984,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JPHQ.AX": {
       "price": 55.83000183105469,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JREG.AX": {
-      "price": 88.56999969482422,
+      "price": 88.38999938964844,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "JRHG.AX": {
-      "price": 76.05999755859375,
+      "price": 75.9800033569336,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "KAT.AX": {
       "price": 1.409999966621399,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "KIT.AX": {
-      "price": 1.7949999570846558,
+      "price": 1.7999999523162842,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "KKC.AX": {
       "price": 2.130000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "L1HI.AX": {
       "price": 5.800000190734863,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "L1IF.AX": {
-      "price": 6.53000020980835,
+      "price": 6.579999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LED.AX": {
-      "price": 0.5350000262260437,
+      "price": 0.5299999713897705,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LEND.AX": {
-      "price": 15.449999809265137,
+      "price": 15.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LEVR.AX": {
-      "price": 1.559999942779541,
+      "price": 1.565000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LF1.AX": {
-      "price": 1.8849999904632568,
+      "price": 1.9049999713897705,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LGF.AX": {
-      "price": 2.194999933242798,
+      "price": 2.200000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LHGG.AX": {
       "price": 1.7999999523162842,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LNAS.AX": {
-      "price": 12.130000114440918,
+      "price": 12.170000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LNYN.AX": {
       "price": 1.975000023841858,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LPGD.AX": {
-      "price": 5.880000114440918,
+      "price": 5.840000152587891,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LPHD.AX": {
-      "price": 10.529999732971191,
+      "price": 10.550000190734863,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LRT.AX": {
-      "price": 2.319999933242798,
+      "price": 2.25,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LSF.AX": {
-      "price": 4.599999904632568,
+      "price": 4.579999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LSGE.AX": {
       "price": 1.965000033378601,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "LSX.AX": {
-      "price": 0.8849999904632568,
+      "price": 0.8899999856948853,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MA1.AX": {
-      "price": 1.9919999837875366,
+      "price": 1.9900000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MAET.AX": {
       "price": 5.440000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MCCL.AX": {
-      "price": 17.860000610351562,
+      "price": 17.850000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MCGG.AX": {
-      "price": 14.739999771118164,
+      "price": 14.75,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MEC.AX": {
       "price": 1.2050000429153442,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MFF.AX": {
-      "price": 5.329999923706055,
+      "price": 5.360000133514404,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MFOA.AX": {
       "price": 10.279999732971191,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MGR.AX": {
-      "price": 1.7669999599456787,
+      "price": 1.7699999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MHG.AX": {
@@ -2503,1624 +2503,1624 @@
       "price": 130.72000122070312,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MICH.AX": {
       "price": 3.069999933242798,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MIDS.AX": {
       "price": 10.619999885559082,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MIR.AX": {
-      "price": 2.5999999046325684,
+      "price": 2.609999895095825,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MKAX.AX": {
       "price": 2.9200000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MMKT.AX": {
-      "price": 50.099998474121094,
+      "price": 50.09000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MNRS.AX": {
-      "price": 14.78499984741211,
+      "price": 14.720000267028809,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MOAT.AX": {
-      "price": 122.0,
+      "price": 121.80000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MOGL.AX": {
-      "price": 4.230000019073486,
+      "price": 4.28000020980835,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MONY.AX": {
       "price": 50.150001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MOON.AX": {
-      "price": 37.79999923706055,
+      "price": 37.900001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MOT.AX": {
-      "price": 1.6069999933242798,
+      "price": 1.6100000143051147,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQAE.AX": {
-      "price": 12.420000076293945,
+      "price": 12.4399995803833,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQDB.AX": {
       "price": 10.609999656677246,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQEG.AX": {
-      "price": 14.260000228881836,
+      "price": 14.279999732971191,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQHG.AX": {
-      "price": 11.470000267028809,
+      "price": 11.489999771118164,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQIO.AX": {
       "price": 10.630000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQSD.AX": {
-      "price": 50.34000015258789,
+      "price": 50.349998474121094,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQWS.AX": {
-      "price": 8.34000015258789,
+      "price": 8.3100004196167,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQXS.AX": {
       "price": 31.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MQYM.AX": {
-      "price": 49.61000061035156,
+      "price": 49.619998931884766,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MRE.AX": {
-      "price": 1.809999942779541,
+      "price": 1.8200000524520874,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MSTR.AX": {
-      "price": 8.779999732971191,
+      "price": 8.760000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MTUM.AX": {
-      "price": 28.770000457763672,
+      "price": 28.65999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MVA.AX": {
-      "price": 23.760000228881836,
+      "price": 23.790000915527344,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MVB.AX": {
-      "price": 43.70000076293945,
+      "price": 43.90999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MVE.AX": {
-      "price": 45.81999969482422,
+      "price": 45.7599983215332,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MVOL.AX": {
       "price": 36.59000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MVR.AX": {
-      "price": 49.08000183105469,
+      "price": 48.900001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MVS.AX": {
-      "price": 22.030000686645508,
+      "price": 21.989999771118164,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MVW.AX": {
-      "price": 39.79999923706055,
+      "price": 39.81999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "MXT.AX": {
-      "price": 1.9320000410079956,
+      "price": 1.934999942779541,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NAC.AX": {
-      "price": 0.5849999785423279,
+      "price": 0.5799999833106995,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NCC.AX": {
-      "price": 0.4749999940395355,
+      "price": 0.46000000834465027,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NDIA.AX": {
-      "price": 60.880001068115234,
+      "price": 60.369998931884766,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NDQ.AX": {
-      "price": 60.93000030517578,
+      "price": 60.9900016784668,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NGE.AX": {
       "price": 1.2999999523162842,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NNUK.AX": {
       "price": 2.259999990463257,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NNWH.AX": {
       "price": 1.340000033378601,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NSC.AX": {
-      "price": 0.3199999928474426,
+      "price": 0.32499998807907104,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "NUGG.AX": {
-      "price": 61.83000183105469,
+      "price": 61.599998474121094,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OEQ.AX": {
       "price": 0.1899999976158142,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OOO.AX": {
-      "price": 8.5600004196167,
+      "price": 8.539999961853027,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OPH.AX": {
-      "price": 2.5399999618530273,
+      "price": 2.5199999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OPPT.AX": {
-      "price": 1.7100000381469727,
+      "price": 1.7050000429153442,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OZBD.AX": {
-      "price": 43.70000076293945,
+      "price": 43.65999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OZF.AX": {
-      "price": 31.020000457763672,
+      "price": 31.1299991607666,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OZR.AX": {
-      "price": 18.350000381469727,
+      "price": 18.260000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "OZXX.AX": {
       "price": 10.260000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PAVE.AX": {
       "price": 14.220000267028809,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PAXX.AX": {
-      "price": 5.840000152587891,
+      "price": 5.809999942779541,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PCI.AX": {
-      "price": 1.090000033378601,
+      "price": 1.100000023841858,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PCX.AX": {
-      "price": 1.9769999980926514,
+      "price": 1.9900000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PE1.AX": {
-      "price": 1.409999966621399,
+      "price": 1.3899999856948853,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PGA1.AX": {
       "price": 15.210000038146973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PGF.AX": {
       "price": 3.440000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PGI2.AX": {
       "price": 11.430000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PIA.AX": {
-      "price": 1.1299999952316284,
+      "price": 1.125,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PIC.AX": {
-      "price": 1.2100000381469727,
+      "price": 1.225000023841858,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PIXX.AX": {
       "price": 5.090000152587891,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PL8.AX": {
       "price": 1.4299999475479126,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PLUS.AX": {
       "price": 16.809999465942383,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "PMGOLD.AX": {
       "price": 61.619998931884766,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QAU.AX": {
-      "price": 33.04999923706055,
+      "price": 32.959999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QBTC.AX": {
-      "price": 17.649999618530273,
+      "price": 17.639999389648438,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QETH.AX": {
-      "price": 18.520000457763672,
+      "price": 18.6299991607666,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QFN.AX": {
-      "price": 18.299999237060547,
+      "price": 18.389999389648438,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QGFH.AX": {
       "price": 5.349999904632568,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QGRU.AX": {
       "price": 4.010000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QHAL.AX": {
-      "price": 57.54999923706055,
+      "price": 57.599998474121094,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QHSM.AX": {
-      "price": 35.060001373291016,
+      "price": 35.09000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QLTY.AX": {
-      "price": 34.04999923706055,
+      "price": 33.869998931884766,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QMAX.AX": {
-      "price": 29.829999923706055,
+      "price": 29.799999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QMIX.AX": {
-      "price": 36.13999938964844,
+      "price": 36.11000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QNDQ.AX": {
-      "price": 18.65999984741211,
+      "price": 18.6299991607666,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QOZ.AX": {
-      "price": 19.700000762939453,
+      "price": 19.709999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QPON.AX": {
-      "price": 26.299999237060547,
+      "price": 26.31999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QRE.AX": {
-      "price": 10.529999732971191,
+      "price": 10.489999771118164,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QRI.AX": {
       "price": 1.5549999475479126,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QSML.AX": {
       "price": 32.84000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QUAL.AX": {
-      "price": 63.369998931884766,
+      "price": 63.349998474121094,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QUS.AX": {
-      "price": 57.060001373291016,
+      "price": 57.119998931884766,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "QYLD.AX": {
-      "price": 10.819999694824219,
+      "price": 10.850000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "R3AL.AX": {
       "price": 1.5750000476837158,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RARI.AX": {
       "price": 29.8799991607666,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RBTZ.AX": {
-      "price": 15.050000190734863,
+      "price": 15.039999961853027,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RCAP.AX": {
-      "price": 1.8700000047683716,
+      "price": 1.8650000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RCB.AX": {
       "price": 19.799999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RCKT.AX": {
-      "price": 10.460000038146973,
+      "price": 10.430000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RDV.AX": {
-      "price": 35.27000045776367,
+      "price": 35.31999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "REIT.AX": {
-      "price": 17.010000228881836,
+      "price": 16.979999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "REP.AX": {
-      "price": 0.41999998688697815,
+      "price": 0.41499999165534973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "REV.AX": {
-      "price": 1.9800000190734863,
+      "price": 1.9900000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RF1.AX": {
-      "price": 3.609999895095825,
+      "price": 3.5899999141693115,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RFF.AX": {
       "price": 2.1600000858306885,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RG1.AX": {
-      "price": 2.640000104904175,
+      "price": 2.6500000953674316,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RG8.AX": {
-      "price": 2.5999999046325684,
+      "price": 2.609999895095825,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RGB.AX": {
       "price": 18.799999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RGN.AX": {
-      "price": 2.390000104904175,
+      "price": 2.4000000953674316,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RGOS.AX": {
-      "price": 22.200000762939453,
+      "price": 22.299999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RIIF.AX": {
-      "price": 1.2549999952316284,
+      "price": 1.2649999856948853,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RMBS.AX": {
       "price": 24.959999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ROAR.AX": {
       "price": 10.3100004196167,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ROBO.AX": {
-      "price": 95.91000366210938,
+      "price": 95.8499984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ROYL.AX": {
       "price": 13.630000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RSM.AX": {
-      "price": 20.309999465942383,
+      "price": 20.31999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RSSL.AX": {
-      "price": 11.880000114440918,
+      "price": 11.859999656677246,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "RYD.AX": {
       "price": 2.0799999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "S3GO.AX": {
-      "price": 6.699999809265137,
+      "price": 6.710000038146973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SB2.AX": {
       "price": 0.5950000286102295,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SCG.AX": {
-      "price": 3.9149999618530273,
+      "price": 3.880000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SEC.AX": {
-      "price": 2.3299999237060547,
+      "price": 2.3399999141693115,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SEMI.AX": {
-      "price": 36.2400016784668,
+      "price": 36.220001220703125,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SET.AX": {
       "price": 2.1700000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SFIF.AX": {
       "price": 10.770000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SFY.AX": {
-      "price": 79.79000091552734,
+      "price": 80.0999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SGP.AX": {
-      "price": 4.264999866485596,
+      "price": 4.269999980926514,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SKUK.AX": {
       "price": 0.9599999785423279,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SLF.AX": {
-      "price": 12.619999885559082,
+      "price": 12.630000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SLVM.AX": {
-      "price": 40.310001373291016,
+      "price": 40.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SMLL.AX": {
-      "price": 4.460000038146973,
+      "price": 4.440000057220459,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SNAS.AX": {
       "price": 10.520000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SNC.AX": {
-      "price": 0.7350000143051147,
+      "price": 0.7099999785423279,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SPHX.AX": {
       "price": 10.920000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SPY.AX": {
-      "price": 1092.4300537109375,
+      "price": 1092.6400146484375,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SSO.AX": {
-      "price": 15.210000038146973,
+      "price": 15.1899995803833,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "STW.AX": {
-      "price": 82.05999755859375,
+      "price": 82.19999694824219,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SUBD.AX": {
       "price": 25.219999313354492,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SVNP.AX": {
       "price": 1.8550000190734863,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SWTZ.AX": {
       "price": 2.4600000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "SYI.AX": {
-      "price": 31.299999237060547,
+      "price": 31.420000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "T3MP.AX": {
       "price": 77.3499984741211,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TBIL.AX": {
-      "price": 47.439998626708984,
+      "price": 47.43000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TCAP.AX": {
       "price": 10.020000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TCF.AX": {
-      "price": 5.760000228881836,
+      "price": 5.730000019073486,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TCL.AX": {
-      "price": 14.470000267028809,
+      "price": 14.630000114440918,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TECH.AX": {
-      "price": 121.73999786376953,
+      "price": 121.55000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TEK.AX": {
       "price": 0.09399999678134918,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TGF.AX": {
-      "price": 2.680000066757202,
+      "price": 2.700000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TOLL.AX": {
-      "price": 26.770000457763672,
+      "price": 26.649999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TOP.AX": {
       "price": 0.574999988079071,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TOT.AX": {
-      "price": 0.4099999964237213,
+      "price": 0.41499999165534973,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "TVL.AX": {
       "price": 0.057999998331069946,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "U100.AX": {
-      "price": 16.469999313354492,
+      "price": 16.450000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ULTB.AX": {
-      "price": 84.5199966430664,
+      "price": 84.9000015258789,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "UMAX.AX": {
-      "price": 26.600000381469727,
+      "price": 26.579999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "URAN.AX": {
-      "price": 16.420000076293945,
+      "price": 16.440000534057617,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "URF.AX": {
       "price": 0.16500000655651093,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "URNM.AX": {
-      "price": 10.600000381469727,
+      "price": 10.579999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "US10.AX": {
-      "price": 49.349998474121094,
+      "price": 49.33000183105469,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "USD.AX": {
       "price": 14.430000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "USHY.AX": {
-      "price": 9.930000305175781,
+      "price": 9.899999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "USIG.AX": {
       "price": 9.140000343322754,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "USTB.AX": {
-      "price": 8.760000228881836,
+      "price": 8.770000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "UTIP.AX": {
       "price": 25.479999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "UWC.AX": {
       "price": 0.054999999701976776,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "UYLD.AX": {
-      "price": 10.460000038146973,
+      "price": 10.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "V1AC.AX": {
-      "price": 2.809999942779541,
+      "price": 2.799999952316284,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "V500.AX": {
-      "price": 56.439998626708984,
+      "price": 56.40999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "V5AH.AX": {
-      "price": 56.52000045776367,
+      "price": 56.4900016784668,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VACF.AX": {
-      "price": 51.09000015258789,
+      "price": 51.060001373291016,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VAE.AX": {
-      "price": 110.0,
+      "price": 109.81999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VAF.AX": {
-      "price": 45.369998931884766,
+      "price": 45.34000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VAP.AX": {
-      "price": 92.8499984741211,
+      "price": 92.63999938964844,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VAS.AX": {
-      "price": 113.83000183105469,
+      "price": 114.06999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VBAL.AX": {
       "price": 20.31999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VBLD.AX": {
-      "price": 74.9800033569336,
+      "price": 74.94000244140625,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VBND.AX": {
-      "price": 39.279998779296875,
+      "price": 39.2599983215332,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VBTC.AX": {
-      "price": 18.270000457763672,
+      "price": 18.260000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VCF.AX": {
-      "price": 36.439998626708984,
+      "price": 36.45000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VCX.AX": {
-      "price": 2.674999952316284,
+      "price": 2.6700000762939453,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VDAL.AX": {
-      "price": 59.2599983215332,
+      "price": 59.33000183105469,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VDBA.AX": {
-      "price": 60.52000045776367,
+      "price": 60.599998474121094,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VDCO.AX": {
-      "price": 55.2400016784668,
+      "price": 55.150001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VDGR.AX": {
-      "price": 69.19000244140625,
+      "price": 69.11000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VDHG.AX": {
-      "price": 77.76000213623047,
+      "price": 77.83000183105469,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VDIF.AX": {
-      "price": 53.93000030517578,
+      "price": 53.97999954223633,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VEFI.AX": {
-      "price": 42.33000183105469,
+      "price": 42.34000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VEQ.AX": {
-      "price": 92.72000122070312,
+      "price": 92.5999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VESG.AX": {
-      "price": 120.36000061035156,
+      "price": 120.29000091552734,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VETH.AX": {
-      "price": 70.23999786376953,
+      "price": 70.55000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VEU.AX": {
-      "price": 120.7699966430664,
+      "price": 120.80000305175781,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VGAD.AX": {
-      "price": 132.86000061035156,
+      "price": 132.99000549316406,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VGB.AX": {
-      "price": 45.84000015258789,
+      "price": 45.81999969482422,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VGE.AX": {
-      "price": 94.2300033569336,
+      "price": 94.27999877929688,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VGRO.AX": {
       "price": 20.760000228881836,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VGS.AX": {
-      "price": 163.3300018310547,
+      "price": 163.3699951171875,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VHGR.AX": {
       "price": 20.90999984741211,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VHY.AX": {
-      "price": 86.12000274658203,
+      "price": 86.33000183105469,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VIF.AX": {
-      "price": 35.81999969482422,
+      "price": 35.790000915527344,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VIHY.AX": {
-      "price": 55.58000183105469,
+      "price": 55.54999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VISM.AX": {
-      "price": 76.62000274658203,
+      "price": 76.62999725341797,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VLC.AX": {
-      "price": 92.9000015258789,
+      "price": 93.11000061035156,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VLUE.AX": {
-      "price": 38.02000045776367,
+      "price": 38.029998779296875,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VMIN.AX": {
-      "price": 62.52000045776367,
+      "price": 62.290000915527344,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VNGS.AX": {
-      "price": 3.9200000762939453,
+      "price": 3.950000047683716,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VOLT.AX": {
       "price": 6.710000038146973,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VSO.AX": {
-      "price": 76.30999755859375,
+      "price": 76.26000213623047,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VTEK.AX": {
-      "price": 64.9800033569336,
+      "price": 64.44999694824219,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VTKH.AX": {
-      "price": 64.2300033569336,
+      "price": 64.16999816894531,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VTS.AX": {
-      "price": 540.0900268554688,
+      "price": 540.2000122070312,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "VVLU.AX": {
-      "price": 82.69999694824219,
+      "price": 82.6500015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WAA.AX": {
-      "price": 1.065000057220459,
+      "price": 1.059999942779541,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WAM.AX": {
-      "price": 1.559999942779541,
+      "price": 1.5449999570846558,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WAR.AX": {
-      "price": 1.1549999713897705,
+      "price": 1.1449999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WAX.AX": {
       "price": 1.0499999523162842,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WBND.AX": {
-      "price": 49.43000030517578,
+      "price": 49.400001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WCMQ.AX": {
-      "price": 10.289999961853027,
+      "price": 10.229999542236328,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WDIV.AX": {
       "price": 21.520000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WDMF.AX": {
-      "price": 55.939998626708984,
+      "price": 55.959999084472656,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WEMG.AX": {
-      "price": 29.020000457763672,
+      "price": 29.040000915527344,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WGB.AX": {
-      "price": 2.2300000190734863,
+      "price": 2.2100000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WHF.AX": {
-      "price": 4.989999771118164,
+      "price": 4.980000019073486,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WHI.AX": {
       "price": 1.2899999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WIRE.AX": {
-      "price": 24.950000762939453,
+      "price": 24.770000457763672,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WLE.AX": {
-      "price": 1.350000023841858,
+      "price": 1.3550000190734863,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WMA.AX": {
-      "price": 0.9950000047683716,
+      "price": 0.9900000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WMI.AX": {
-      "price": 1.399999976158142,
+      "price": 1.3949999809265137,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WMX.AX": {
-      "price": 1.684999942779541,
+      "price": 1.6799999475479126,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WOT.AX": {
       "price": 0.5899999737739563,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WPR.AX": {
-      "price": 2.484999895095825,
+      "price": 2.5,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WQG.AX": {
-      "price": 2.069999933242798,
+      "price": 2.0799999237060547,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WRLD.AX": {
-      "price": 24.09000015258789,
+      "price": 24.110000610351562,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WVOL.AX": {
       "price": 46.400001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WWWW.AX": {
       "price": 14.720000267028809,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WXHG.AX": {
-      "price": 29.559999465942383,
+      "price": 29.43000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WXOZ.AX": {
-      "price": 51.45000076293945,
+      "price": 51.43000030517578,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "WYNC.AX": {
       "price": 26.149999618530273,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "XALG.AX": {
-      "price": 10.4399995803833,
+      "price": 10.369999885559082,
       "currency": "AUD",
-      "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "marketDate": "2026-08-12",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "XARO.AX": {
-      "price": 25.299999237060547,
+      "price": 25.239999771118164,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "XASG.AX": {
       "price": 6.900000095367432,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "XGOV.AX": {
       "price": 49.650001525878906,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "XIFAI.AX": {
@@ -4138,10 +4138,10 @@
       "source": "missing"
     },
     "XMET.AX": {
-      "price": 15.569999694824219,
+      "price": 15.59000015258789,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "XPJAI.AX": {
@@ -4162,42 +4162,42 @@
       "price": 1.3350000381469727,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "YANK.AX": {
-      "price": 10.239999771118164,
+      "price": 10.25,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "YMAX.AX": {
-      "price": 7.570000171661377,
+      "price": 7.579999923706055,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ZILR.AX": {
       "price": 4.300000190734863,
       "currency": "AUD",
       "marketDate": "2026-08-11",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ZYAU.AX": {
-      "price": 10.390000343322754,
+      "price": 10.420000076293945,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     },
     "ZYUS.AX": {
-      "price": 14.779999732971191,
+      "price": 14.789999961853027,
       "currency": "AUD",
       "marketDate": "2026-08-12",
-      "fetchedAtUtc": "2026-08-12T04:11:58Z",
+      "fetchedAtUtc": "2026-08-12T06:49:17Z",
       "source": "bulk"
     }
   }

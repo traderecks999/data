@@ -1,37 +1,29 @@
 {
-  "runId": "20260808T212622Z",
-  "runDir": "/repo/asx/_runs/20260808T212622Z",
+  "runId": "20260815T212500Z",
+  "runDir": "/repo/asx/_runs/20260815T212500Z",
   "mode": "full",
   "summaryPerRun": 0,
   "qsRatePerMin": 6.0,
-  "plannedRefresh": 599,
-  "attempted": 599,
+  "plannedRefresh": 591,
+  "attempted": 591,
   "ok": 589,
-  "successRate": 0.9833055091819699,
-  "elapsedSeconds": 17750.202,
+  "successRate": 0.9966159052453468,
+  "elapsedSeconds": 17671.081,
   "httpStatusCounts": {
-    "404": 10
+    "404": 2
   },
   "failureCounts": {
-    "not_found": 10
+    "not_found": 2
   },
   "notFoundSymbols": [
-    "# ASX universe tickers (Yahoo symbols, .AX)",
-    "# last_extracted_awst: 2026-08-03 11:51 AWST",
-    "# last_extracted_utc: 2026-08-03T03:51:47Z",
-    "# one symbol per line",
-    "CASH.AX",
-    "MHG.AX",
-    "XIFAI.AX",
-    "XJOAI.AX",
-    "XPJAI.AX",
-    "XSOAI.AX"
+    "# last_extracted_awst: 2026-08-10 10:31 AWST",
+    "# last_extracted_utc: 2026-08-10T02:31:51Z"
   ],
-  "notFoundCount": 10,
-  "quarantineCount": 227,
+  "notFoundCount": 2,
+  "quarantineCount": 229,
   "cursorBefore": 1411,
   "cursorAfter": 1451,
   "cursorAdvanced": false,
-  "generatedAtUtc": "2026-08-08T21:26:24Z",
+  "generatedAtUtc": "2026-08-15T21:25:02Z",
   "abortReason": null
 }

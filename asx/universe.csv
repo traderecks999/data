@@ -1,597 +1,597 @@
 code,yahoo_symbol,name,sector,industry,last_extracted_utc,last_extracted_awst,asset_type,source
-1GOV,1GOV.AX,VanEck 1-5 Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-28BB,28BB.AX,Betashares 2028 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-29BB,29BB.AX,Betashares 2029 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-30BB,30BB.AX,Betashares 2030 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-31BB,31BB.AX,BetaShares 2031 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-5GOV,5GOV.AX,VanEck 5-10 Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-8IH,8IH.AX,8I Holdings Ltd,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-A200,A200.AX,Betashares Australia 200 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-A300,A300.AX,Global X Australia 300 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AAA,AAA.AX,Betashares Australian High Interest Cash ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AASF,AASF.AX,Airlie Australian Share Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ABG,ABG.AX,Abacus Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ACDC,ACDC.AX,Global X Battery Tech & Lithium ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ACQ,ACQ.AX,Acorn Capital Investment Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ADEF,ADEF.AX,Apostle Dundas Global Equity Fund - Class D Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AEBD,AEBD.AX,Betashares Ethical Australian Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AESG,AESG.AX,iShares Global Aggregate Bond ESG (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AFI,AFI.AX,Australian Foundation Investment Company Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AGGG,AGGG.AX,iShares Core Global Aggregate Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AGVT,AGVT.AX,Betashares Australian Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AGX1,AGX1.AX,Antipodes Global Value Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AINF,AINF.AX,Global X AI Infrastructure ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AIQ,AIQ.AX,Alternative Investment Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ALFA,ALFA.AX,VanEck Australian Long Short Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ALI,ALI.AX,Argo Global Listed Infrastructure Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ALPH,ALPH.AX,Schroder Global Equity Alpha Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ALTB,ALTB.AX,iShares 15+ Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ALX,ALX.AX,Atlas Arteria,,Spotlight Infra  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AMH,AMH.AX,AMCIL Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-APA,APA.AX,APA Group,,Spotlight Infra  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-APW,APW.AX,Aims Property Securities Fund,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-APZ,APZ.AX,Aspen Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AQLT,AQLT.AX,Betashares Australian Quality ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AQTY,AQTY.AX,VanEck MSCI Australian Quality Plus ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ARF,ARF.AX,Arena REIT.,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ARG,ARG.AX,Argo Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ARMR,ARMR.AX,Betashares Global Defence ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ASAO,ASAO.AX,abrdn Sustainable Asian Opportunities Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ASIA,ASIA.AX,Betashares Asia Technology Tigers ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ASUS,ASUS.AX,Ausbil Active Sustainable Equity Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ATEC,ATEC.AX,Betashares S&P/ASX Australian Technology ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ATOM,ATOM.AX,Global X Uranium ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AUDS,AUDS.AX,Betashares Strong Australian Dollar Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AUI,AUI.AX,Australian United Investment Company Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AUMF,AUMF.AX,iShares Edge MSCI Australia Multifactor ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AUST,AUST.AX,Betashares Managed Risk Australian Shares Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AVNG,AVNG.AX,Avantis Global Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AVSV,AVSV.AX,Avantis Global Small Cap Value Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AVTE,AVTE.AX,Avantis Emerging Markets Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-AYLD,AYLD.AX,Global X S&P/ASX 200 Covered Call ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-B1SM,B1SM.AX,Bell Global Emerging Companies Class A Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BANK,BANK.AX,Global X Australian Bank Credit ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BAOR,BAOR.AX,Aoris Int Fund (Class B) (Unhedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BBAB,BBAB.AX,Betashares Geared Short Australian Government Bond Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BBFD,BBFD.AX,Betashares Geared Short US Treasury Bond Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BBOZ,BBOZ.AX,Betashares Australian Equities Strong Bear Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BBUS,BBUS.AX,Betashares US Equities Strong Bear Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BCOM,BCOM.AX,Global X Bloomberg Commodity Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BDCI,BDCI.AX,Muzinich BDC Income Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BEAR,BEAR.AX,BetaShares Australian Equities BEAR Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BEL,BEL.AX,Bentley Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BEMG,BEMG.AX,Betashares MSCI Emerging Markets Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BEST,BEST.AX,ETFS US Quality ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BGBL,BGBL.AX,Betashares Global Shares ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BHD,BHD.AX,Benjamin Hornigold Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BHYB,BHYB.AX,Betashares Australian Major Bank Hybrids Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BILL,BILL.AX,iShares Core Cash ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BKI,BKI.AX,BKI Investment Company Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BNDS,BNDS.AX,BetaShares Western Asset Aus Bond Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BNKS,BNKS.AX,Betashares Global Banks ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BOND,BOND.AX,SPDR S&P/ASX Australian Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BSUB,BSUB.AX,Australian Major Bank Subordinated Debt ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BTI,BTI.AX,Bailador Technology Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BTXX,BTXX.AX,DigitalX Bitcoin ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BUGG,BUGG.AX,Global X Cybersecurity ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BWF,BWF.AX,Blackwall Limited,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-BWP,BWP.AX,BWP Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CAM,CAM.AX,Clime Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CASH,CASH.AX,ASX investment product,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CD1,CD1.AX,Cd Private Equity Fund I,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CD2,CD2.AX,Cd Private Equity Fund II,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CD3,CD3.AX,Cd Private Equity Fund III,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CDM,CDM.AX,Cadence Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CDO,CDO.AX,Cadence Opportunities Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CDP,CDP.AX,Carindale Property Trust,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CETF,CETF.AX,VanEck FTSE China A50 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CFLO,CFLO.AX,Betashares Global Cash Flow Kings ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CGHE,CGHE.AX,Claremont Global Fund (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CGUN,CGUN.AX,Claremont Global Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CHC,CHC.AX,Charter Hall Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CIIH,CIIH.AX,CB Global Infrastructure Income (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CIN,CIN.AX,Carlton Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CIP,CIP.AX,Centuria Industrial REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CIVH,CIVH.AX,CB GLBL Infrastructure Value (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CLDD,CLDD.AX,Betashares Cloud Computing ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CLNE,CLNE.AX,VanEck Global Clean Energy ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CLW,CLW.AX,Charter Hall Long Wale REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CMW,CMW.AX,Cromwell Property Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CNEW,CNEW.AX,VanEck China New Economy ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-COF,COF.AX,Centuria Office REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-COMP,COMP.AX,Betashares Bloomberg Ausbond Composite ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CORE,CORE.AX,Schroder Global Core Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CPPR,CPPR.AX,ETFS Global Pure Play Copper Miners ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CQE,CQE.AX,Charter Hall Social Infrastructure REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CQR,CQR.AX,Charter Hall Retail REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CRED,CRED.AX,Betashares Australian Investment Grade Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CRYP,CRYP.AX,Betashares Crypto Innovators ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CUIV,CUIV.AX,CB GLBL Infrastructure Value Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-CURE,CURE.AX,Global X S&P Biotech ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DACE,DACE.AX,Dimensional Australian Core Equity Trust – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DAOR,DAOR.AX,Aoris Int Fund (Class D) (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DAVA,DAVA.AX,Dimensional Australian Value Trust - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DBBF,DBBF.AX,Betashares Ethical Diversified Balanced ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DCOR,DCOR.AX,Daintree Core Income Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DFGH,DFGH.AX,Dimensional Global Core Equity Trust (AUD Hedged Class) – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DFND,DFND.AX,VanEck Global Defence ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DGCE,DGCE.AX,Dimensional Global Core Equity Trust (Unhedged Class) – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DGGF,DGGF.AX,Betashares Ethical Diversified Growth ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DGSM,DGSM.AX,Dimensional Global Small Company - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DGT,DGT.AX,DigiCo Infrastructure REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DGVA,DGVA.AX,Dimensional Global Value Trust - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DHHF,DHHF.AX,Betashares Diversified All Growth ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DHOF,DHOF.AX,Daintree Hybrid Opportunities Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DIFF,DIFF.AX,Perpetual Diversified Income Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DIVI,DIVI.AX,Ausbil Active Dividend Income Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DJRE,DJRE.AX,SPDR Dow Jones Global Real Estate ESG Tilted ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DJW,DJW.AX,Djerriwarrh Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DN1,DN1.AX,Dominion Income Trust 1,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DRGN,DRGN.AX,Global X China Tech ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DRIV,DRIV.AX,Betashares Electric Vehicles and Future Mobility ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DRUG,DRUG.AX,Betashares Global Healthcare ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DTEC,DTEC.AX,Global X Defence Tech ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DXC,DXC.AX,Dexus Convenience Retail REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DXI,DXI.AX,Dexus Industria REIT.,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DXS,DXS.AX,Dexus,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-DZZF,DZZF.AX,Betashares Ethical High Growth ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-E200,E200.AX,SPDR S&P/ASX 200 ESG ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EAFZ,EAFZ.AX,Ellerston Asia Growth Fund Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EARN,EARN.AX,PIMCO Short Term Active Yield Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EBND,EBND.AX,VanEck Vectors Emerging Income Opportunities Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ECL,ECL.AX,Excelsior Capital Ltd,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ECP,ECP.AX,ECP Emerging Growth Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ECRD,ECRD.AX,Betashares Enhanced Credit (Geared) Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EIGA,EIGA.AX,Perennial Income Generator Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EMKT,EMKT.AX,Vaneck MSCI Multifactor Emerging Markets Equity ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EMXC,EMXC.AX,iShares MSCI Emerging Markets ex China ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EQIN,EQIN.AX,Investors Mutual Equity Income Fund - Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ERTH,ERTH.AX,Betashares Climate Change Innovation ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ESGI,ESGI.AX,Vaneck MSCI International Sustainable Equity ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ESPO,ESPO.AX,VanEck Video Gaming and Esports ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ESTX,ESTX.AX,Global X EURO STOXX 50 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ETHI,ETHI.AX,Betashares Global Sustainability Leaders ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ETPMAG,ETPMAG.AX,Global X Physical Silver,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ETPMPD,ETPMPD.AX,Global X Physical Palladium,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ETPMPM,ETPMPM.AX,Global X Physical Precious Metals Basket,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ETPMPT,ETPMPT.AX,Global X Physical Platinum,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EX20,EX20.AX,Betashares Australian Ex-20 Portfolio Diversifier ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-EXUS,EXUS.AX,Betashares Global Shares EX US ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-F100,F100.AX,Betashares FTSE 100 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FAIR,FAIR.AX,Betashares Australian Sustainability Leaders ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FANG,FANG.AX,Global X FANG+ ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FASI,FASI.AX,Fidelity Asia Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FCAP,FCAP.AX,Fidelity Global Leaders Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FEIF,FEIF.AX,Western Asset Enhanced Income Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FEMX,FEMX.AX,Fidelity Global Emerging Markets Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FGG,FGG.AX,Future Generation Global Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FGSE,FGSE.AX,Franklin Global Systematic Equity FD - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FGX,FGX.AX,Future Generation Australia Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FHCO,FHCO.AX,Fidelity Australian High Conviction Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FHNG,FHNG.AX,FANG+ (Currency Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FIIN,FIIN.AX,Fidelity India Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FIRE,FIRE.AX,Firetrail Alpha Plus Fund – Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FLOT,FLOT.AX,VanEck Australian Floating Rate ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FOOD,FOOD.AX,Betashares Global Agriculture Companies ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FPC,FPC.AX,Fat Prophets Global Contrarian Fund Ltd,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FRAR,FRAR.AX,Franklin Australian Absolute Return Bond Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FRGG,FRGG.AX,Franklin Global Growth Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FSCF,FSCF.AX,First Sentier Active Cash Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FSI,FSI.AX,Flagship Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FSML,FSML.AX,Firetrail Australian Small Companies Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FSUB,FSUB.AX,Vaneck Australian Fixed Rate Subordinated Debt ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FUEL,FUEL.AX,Betashares Global Energy Companies Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-FUTR,FUTR.AX,Janus Henderson Global Sustainable Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-G200,G200.AX,Betashares Wealthbuilder Aus200 Geared Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GAME,GAME.AX,Betashares Video Games and Esports ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GARP,GARP.AX,Global X S&P World ex Australia GARP ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GBND,GBND.AX,Betashares Sustainability leaders Diversified Bond ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GC1,GC1.AX,Glennon Small Companies Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GCAP,GCAP.AX,VanEck Bentham Global Capital Securities Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GCI,GCI.AX,Gryphon Capital Income Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GCQF,GCQF.AX,GCQ Global Equities Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GDF,GDF.AX,Garda Property Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GDI,GDI.AX,GDI Property Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GDX,GDX.AX,VanEck Gold Miners ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GEAR,GEAR.AX,Betashares Geared Australian Equities Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GFL,GFL.AX,Global Masters Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GFXD,GFXD.AX,Coolabah Active Global Bond Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GGAB,GGAB.AX,Betashares Geared Long Australian Government Bond Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GGBL,GGBL.AX,Betashares WealthBuilder Global Geared Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GGFD,GGFD.AX,Geared Long US Treasury Bond Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GGOV,GGOV.AX,Betashares U.S. Treasury Bond20+ Year ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GGUS,GGUS.AX,Betashares Geared US Equities Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GHHF,GHHF.AX,Betashares Wealthbuilder All Gr Geared Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GHIF,GHIF.AX,Ausbil Global Essential Infrastructure Fund (Hedged) – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GHLD,GHLD.AX,Global X Gold Bullion (Currency Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GHRP,GHRP.AX,Global X S&P World ex Australia GARP (Currency Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GIVE,GIVE.AX,Perpetual ESG Australian Share Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GLDN,GLDN.AX,iShares Physical Gold ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GLIN,GLIN.AX,iShares Core FTSE Global Infrastructure (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GLOB,GLOB.AX,Barrow Hanley Global Share Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GLPR,GLPR.AX,iShares Core FTSE Global Property Ex Australia (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GLS,GLS.AX,L1 Global Long Short Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GMG,GMG.AX,Goodman Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GMTL,GMTL.AX,Global X Green Metal Miners ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GMVW,GMVW.AX,VanEck Geared Australian Equal Weight Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GNDQ,GNDQ.AX,Betashares Wealth Builder Nasdaq 100 Geared (30-40% LVR) Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GOAT,GOAT.AX,VanEck Morningstar International Wide Moat ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GOLD,GOLD.AX,Global X Physical Gold,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GOOD,GOOD.AX,Janus Henderson Sustainable Credit Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GOVT,GOVT.AX,SPDR S&P/ASX Australian Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GOZ,GOZ.AX,Growthpoint Properties Australia,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GPEQ,GPEQ.AX,VanEck Global Listed Private Equity ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GPT,GPT.AX,GPT Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GRIN,GRIN.AX,VanEck India Growth Leaders ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GRNV,GRNV.AX,VanEck MSCI Australian Sustainable Equity ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GROW,GROW.AX,Schroder Real Return Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GRPA,GRPA.AX,Global X S&P Australia GARP ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GSCF,GSCF.AX,Ausbil Global SmallCap Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GSUS,GSUS.AX,Candriam Sustainable Global Equity Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GTUM,GTUM.AX,Betashares Global Momentum ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GVF,GVF.AX,Staude Capital Global Value Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GWTH,GWTH.AX,VanEck MSCI International Growth ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GXAI,GXAI.AX,Global X Artificial Intelligence ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-GXLD,GXLD.AX,Global X Gold Bullion ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-H100,H100.AX,Betashares FTSE 100 Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HACK,HACK.AX,Betashares Global Cybersecurity ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HBRD,HBRD.AX,BetaShares Australian Hybrids Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HCF,HCF.AX,H&G High Conviction Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HCRD,HCRD.AX,Betashares Interest Rate Hedged Australian Grade Corporate Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HCW,HCW.AX,Healthco Healthcare and Wellness REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HDN,HDN.AX,Homeco Daily Needs REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HETH,HETH.AX,Betashares Global Sustainability Leaders ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HEUR,HEUR.AX,Betashares Europe ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HGBL,HGBL.AX,Betashares Global Shares Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HGCQ,HGCQ.AX,GCQ Global Equities Hedged Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HGEN,HGEN.AX,Global X Hydrogen ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HHIF,HHIF.AX,Hejaz High Innovation Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HJHI,HJHI.AX,Hejaz High Income Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HJPN,HJPN.AX,Betashares Japan Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HJZP,HJZP.AX,Hejaz Property Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HLTH,HLTH.AX,VanEck Global Healthcare Leaders ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HM1,HM1.AX,Hearts and Minds Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HMC,HMC.AX,HMC Capital Limited,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HMND,HMND.AX,Global X Humanoid Robotics ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HNDQ,HNDQ.AX,Betashares NASDAQ 100 ETF - Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HQLT,HQLT.AX,Betashares Global Quality Leaders ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HQUS,HQUS.AX,Betashares S&P 500 Equal Weight Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HUGE,HUGE.AX,ETFS Magnificent 7+ ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HVLU,HVLU.AX,VanEck MSCI International Value (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HVST,HVST.AX,BetaShares Aus Dividend Harvester Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HYGG,HYGG.AX,Hyperion Global Growth Companies Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-HYLD,HYLD.AX,Betashares S&P Australian Shares High Yield ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IAA,IAA.AX,iShares Asia 50 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IACT,IACT.AX,Ishares U.S. Factor Rotation Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IAF,IAF.AX,iShares Core Composite Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IBAL,IBAL.AX,iShares Balanced ESG ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IBC,IBC.AX,Ironbark Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IBIT,IBIT.AX,iShares Bitcoin ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ICME,ICME.AX,iShares Credit Income Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ICOR,ICOR.AX,iShares Core Corporate Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IEM,IEM.AX,iShares MSCI Emerging Markets ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IESG,IESG.AX,iShares Core MSCI Australia ESG ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IEU,IEU.AX,iShares Europe ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IFRA,IFRA.AX,VanEck FTSE Global Infrastructure (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IGB,IGB.AX,iShares Treasury ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IGRO,IGRO.AX,iShares High Growth ESG ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IHCB,IHCB.AX,iShares Core Global Corporate Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IHD,IHD.AX,iShares S&P/ASX Dividend Opportunities ESG Screened ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IHEB,IHEB.AX,iShares J.P.Morgan USD Emerging Markets Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IHHY,IHHY.AX,iShares Global High Yield Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IHOO,IHOO.AX,iShares Global 100 AUD Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IHVV,IHVV.AX,iShares S&P 500 AUD Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IHWL,IHWL.AX,iShares Core MSCI World ex Australia ESG (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IIGF,IIGF.AX,Intelligent Investor Australian Equity Income Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IIND,IIND.AX,Betashares India Quality ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IISV,IISV.AX,Intell Investor Select Value Share Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IJH,IJH.AX,iShares S&P Midcap ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IJP,IJP.AX,iShares MSCI Japan ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IJR,IJR.AX,iShares S&P Small-Cap ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IKO,IKO.AX,iShares MSCI South Korea ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ILB,ILB.AX,iShares Government Inflation ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ILC,ILC.AX,iShares S&P/ASX 20 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IMLC,IMLC.AX,Investors Mutual Concentrated Australian Share Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IMPQ,IMPQ.AX,Perennial Better Future Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-INA,INA.AX,Ingenia Communities Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-INCM,INCM.AX,Betashares S&P Global High Dividend Aristocrats ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-INES,INES.AX,Intelligent Investor Ethical Share Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-INIF,INIF.AX,Intelligent Investor Australian Equity - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IOO,IOO.AX,iShares Global 100 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IOZ,IOZ.AX,iShares Core S&P/ASX 200 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ISEC,ISEC.AX,iShares Enhanced Cash ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ISLM,ISLM.AX,Hejaz Equities Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ISO,ISO.AX,iShares S&P/ASX Small Ordinaries ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ITEK,ITEK.AX,iShares Future Tech Innovators ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IUSG,IUSG.AX,iShares U.S. Treasury Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IVE,IVE.AX,iShares MSCI EAFE ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IVV,IVV.AX,iShares S&P 500 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IWLD,IWLD.AX,iShares Core MSCI World ex Australia ESG ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IXI,IXI.AX,iShares Global Consumer Staples ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IXJ,IXJ.AX,iShares Global Healthcare ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IYLD,IYLD.AX,iShares Yield Plus ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-IZZ,IZZ.AX,iShares China Large-Cap ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-J100,J100.AX,Global X Japan Topix 100 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JEGA,JEGA.AX,JPMorgan Global Equity Premium Income Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JEME,JEME.AX,JPMorgan EM Research Enhanced IDX EQTY Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JEPI,JEPI.AX,JPMorgan Equity Premium Income Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JGLO,JGLO.AX,JPMorgan Global Select Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JHGA,JHGA.AX,JPMorgan Global Equity Premium Income (Hedged) Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JHLO,JHLO.AX,JPMorgan Global Select Equity (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JHPI,JHPI.AX,JPMorgan Equity Premium Income Active ETF (Hedged),,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JNDQ,JNDQ.AX,BetaShares NASDAQ Next Gen 100 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JPEQ,JPEQ.AX,JPMorgan US 100Q Equity Premium Income Active ETF (Hedged),,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JPHQ,JPHQ.AX,JPMorgan US 100Q Equity Premium Income Active ETF (Hedged),,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JREG,JREG.AX,JPMorgan Global Research Enhanced Index Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-JRHG,JRHG.AX,JPMorgan Global Research Enhanced Index Equity (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-KAT,KAT.AX,Katana Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-KIT,KIT.AX,Kapstream Investment Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-KKC,KKC.AX,KKR Credit Income Fund,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-L1HI,L1HI.AX,L1 Capital International (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-L1IF,L1IF.AX,L1 Capital International (Unhedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LED,LED.AX,Ldr Capital Property Fund,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LEND,LEND.AX,VanEck Global Listed Private Credit (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LEVR,LEVR.AX,First Sentier Geared Australian Share Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LF1,LF1.AX,La Trobe Private Credit Fund,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LGF,LGF.AX,L1 Gold Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LHGG,LHGG.AX,Lakehouse Global Growth Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LNAS,LNAS.AX,Global X Ultra Long Nasdaq 100 Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LNYN,LNYN.AX,Lanyon Investment Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LPGD,LPGD.AX,Loftus Peak Global Disruption Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LPHD,LPHD.AX,Loftus Peak Global Disruption Hedged Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LRT,LRT.AX,Lowell Resources Fund,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LSF,LSF.AX,L1 Long Short Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LSGE,LSGE.AX,Loomis Sayles Global Equity Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-LSX,LSX.AX,Lion Selection Group Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MA1,MA1.AX,MA Credit Income Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MAET,MAET.AX,Munro Global Growth Fund Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MCCL,MCCL.AX,Munro Climate Change Leaders Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MCGG,MCGG.AX,Munro Concentrated Global Growth Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MEC,MEC.AX,Morphic Ethical Equities Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MFF,MFF.AX,MFF Capital Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MFOA,MFOA.AX,Milford Australian Absolute Growth Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MGR,MGR.AX,Mirvac Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MHG,MHG.AX,Magellan Global Eq Fund (Currencyhdg) - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MHOT,MHOT.AX,VanEck Morningstar Wide Moat (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MICH,MICH.AX,Magellan Infra Fund (Currency Hedged) - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MIDS,MIDS.AX,Antipodes Global SMID Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MIR,MIR.AX,Mirrabooka Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MKAX,MKAX.AX,Montaka Global Extension Fund - Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MMKT,MMKT.AX,Betashares Australian Cash Plus Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MNRS,MNRS.AX,Betashares Global Gold Miners ETF - Currency Hedged,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MOAT,MOAT.AX,VanEck Morningstar Wide Moat ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MOGL,MOGL.AX,Montaka Global Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MONY,MONY.AX,Vaneck Cash Plus Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MOON,MOON.AX,Global X Space Tech ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MOT,MOT.AX,Metrics Income Opportunities Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQAE,MQAE.AX,Macquarie Core Australian Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQDB,MQDB.AX,Macquarie Dynamic Bond Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQEG,MQEG.AX,Macquarie Core Global Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQHG,MQHG.AX,Macquarie Core Global Equity (Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQIO,MQIO.AX,Macquarie Income Opportunities Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQSD,MQSD.AX,Macquarie Subordinated Debt Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQWS,MQWS.AX,Macquarie Walter Scott Global Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQXS,MQXS.AX,Macquarie Global Small Companies Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MQYM,MQYM.AX,Macquarie Global Yield Maximiser Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MRE,MRE.AX,Metrics Real Estate Multi-Strategy Fund,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MSTR,MSTR.AX,Morningstar International Shares Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MTUM,MTUM.AX,Betashares Australian Momentum ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MVA,MVA.AX,VanEck Australian Property ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MVB,MVB.AX,VanEck Australian Banks ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MVE,MVE.AX,VanEck S&P/ASX MidCap ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MVOL,MVOL.AX,iShares Edge MSCI Australia Minimum Volatility ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MVR,MVR.AX,VanEck Australian Resources ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MVS,MVS.AX,VanEck Small Companies Masters ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MVW,MVW.AX,VanEck Australian Equal Weight ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-MXT,MXT.AX,Metrics Master Income Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NAC,NAC.AX,Naos Ex-50 Opportunities Company Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NCC,NCC.AX,Naos Emerging Opportunities Company Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NDIA,NDIA.AX,Global X India Nifty 50 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NDQ,NDQ.AX,Betashares NASDAQ 100 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NGE,NGE.AX,NGE Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NNUK,NNUK.AX,Nanuk New World Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NNWH,NNWH.AX,Nanuk New World Fund (Currency Hedged) Active EFT,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NSC,NSC.AX,Naos Small Cap Opportunities Company Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-NUGG,NUGG.AX,VanEck Gold Bullion ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OEQ,OEQ.AX,Orion Equities Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OOO,OOO.AX,Betashares Crude Crude Oil Index Currncy Hdg Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OPH,OPH.AX,Ophir High Conviction Fund,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OPPT,OPPT.AX,Magellan Global Opportunities Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OZBD,OZBD.AX,Betashares Australian Composite Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OZF,OZF.AX,SPDR S&P/ASX 200 Financials ex AREIT ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OZR,OZR.AX,SPDR S&P/ASX 200 Resources ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-OZXX,OZXX.AX,Global X Australia Ex Financials & Resources ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PAVE,PAVE.AX,Global X US Infrastructure Development ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PAXX,PAXX.AX,Platinum Asia Fund Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PCI,PCI.AX,Perpetual Credit Income Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PCX,PCX.AX,Pengana Global Private Credit Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PE1,PE1.AX,Pengana Private Equity Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PGA1,PGA1.AX,Plato Global Alpha Fund Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PGF,PGF.AX,PM Capital Global Opportunities Fund Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PGI2,PGI2.AX,Plato Global Shares Income Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PIA,PIA.AX,Pengana International Equities Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PIC,PIC.AX,Perpetual Equity Investment Company Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PIXX,PIXX.AX,Platinum International Fund Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PL8,PL8.AX,Plato Income Maximiser Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PLUS,PLUS.AX,VanEck Australian Corporate Bond Plus ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-PMGOLD,PMGOLD.AX,Perth Mint Gold,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QAU,QAU.AX,Betashares Gold Bullion ETF (Currency Hedged),,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QBTC,QBTC.AX,Betashares Bitcoin ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QETH,QETH.AX,Betashares Ethereum ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QFN,QFN.AX,Betashares Financials Sector ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QGFH,QGFH.AX,Quay Global Real Estate Fund (AUD Hedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QGRU,QGRU.AX,Quay Global Real Estate Fund (Unhedged) Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QHAL,QHAL.AX,VanEck MSCI International Quality (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QHSM,QHSM.AX,VanEck MSCI International Small Companies Quality (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QLTY,QLTY.AX,Betashares Global Quality Leaders ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QMAX,QMAX.AX,Betashares Nasdaq 100 Yield Maximiser Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QMIX,QMIX.AX,SPDR MSCI World Quality Mix ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QNDQ,QNDQ.AX,BetaShares NASDAQ 100 Equal Weight ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QOZ,QOZ.AX,Betashares FTSE RAFI Australia 200 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QPON,QPON.AX,Betashares Australian Bank Senior Floating Rate Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QRE,QRE.AX,Betashares Resources Sector ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QRI,QRI.AX,Qualitas Real Estate Income Fund,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QSML,QSML.AX,VanEck MSCI International Small Companies Quality ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QUAL,QUAL.AX,VanEck MSCI International Quality ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QUS,QUS.AX,Betashares S&P 500 Equal Weight ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-QYLD,QYLD.AX,Global X Nasdaq 100 Covered Call ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-R3AL,R3AL.AX,Martin Currie Real Income Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RARI,RARI.AX,Russell Investments Australian Responsible Investment ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RBTZ,RBTZ.AX,Betashares Global Robotics and Artificial Intelligence ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RCAP,RCAP.AX,Resolution Capital Global Property Securities Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RCB,RCB.AX,Russell Investments Australian Select Corporate Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RCKT,RCKT.AX,Betashares Space Industry ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RDV,RDV.AX,Russell Investments High Dividend Australian Shares ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-REIT,REIT.AX,VanEck FTSE International Property (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-REP,REP.AX,Ram Essential Services Property Fund,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-REV,REV.AX,Revolution Private Credit Income Trust,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RF1,RF1.AX,Regal Investment Fund,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RFF,RFF.AX,Rural Funds Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RG1,RG1.AX,Regal Partners Global Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RG8,RG8.AX,Regal Asian Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RGB,RGB.AX,Russell Investments Australian Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RGN,RGN.AX,Region Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RGOS,RGOS.AX,Russell Sust Global Opportunities Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RIIF,RIIF.AX,Resolution Capital Global Listed Infrastructure Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RMBS,RMBS.AX,VanEck Australian RMBS ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ROAR,ROAR.AX,Lion Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ROBO,ROBO.AX,Global X ROBO Global Robotics & Automation ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ROYL,ROYL.AX,Betashares Global Royalties ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RSM,RSM.AX,Russell Investments Australian Semi-Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RSSL,RSSL.AX,Global X Russell 2000 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-RYD,RYD.AX,Ryder Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-S3GO,S3GO.AX,Firetrail S3 Global Opportunities Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SB2,SB2.AX,Salter Brothers Emerging Companies Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SCG,SCG.AX,Scentre Group,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SEC,SEC.AX,Spheria Emerging Companies Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SEMI,SEMI.AX,Global X Semiconductor ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SET,SET.AX,Solaris Australian Equity Income Plus Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SFIF,SFIF.AX,Seed Financial Income Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SFY,SFY.AX,SPDR S&P/ASX 50 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SGP,SGP.AX,Stockland,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SKUK,SKUK.AX,Hejaz Sukuk Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SLF,SLF.AX,SPDR S&P/ASX 200 Listed Property ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SLVM,SLVM.AX,Global X Silver Miners ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SMLL,SMLL.AX,Betashares Australian Small Companies Select ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SNAS,SNAS.AX,Global X Ultra Short Nasdaq 100 Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SNC,SNC.AX,Sandon Capital Investments Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SPHX,SPHX.AX,Spheria Australian Smaller Companies Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SPY,SPY.AX,SPDR S&P 500 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SSO,SSO.AX,SPDR S&P/ASX Small Ordinaries ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-STW,STW.AX,SPDR S&P/ASX 200 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SUBD,SUBD.AX,VanEck Australian Subordinated Debt ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SVNP,SVNP.AX,Savana US Small Caps Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SWTZ,SWTZ.AX,Switzer Dividend Growth Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-SYI,SYI.AX,SPDR MSCI Australia Select High Dividend Yield ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-T3MP,T3MP.AX,JPMorgan Climate Change Solutions Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TBIL,TBIL.AX,VanEck 1-3 Month US Treasury Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TCAP,TCAP.AX,Ten Cap Alpha Plus Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TCF,TCF.AX,360 Capital Mortgage REIT,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TCL,TCL.AX,Transurban Group,,Spotlight Infra  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TECH,TECH.AX,Global X Morningstar Global Technology ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TEK,TEK.AX,Thorney Technologies Ltd,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TGF,TGF.AX,Tribeca Global Natural Resources Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TOLL,TOLL.AX,Betashares FTSE Global Infrastructure Shares Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TOP,TOP.AX,Thorney Opportunities Ltd,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TOT,TOT.AX,360 Capital REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-TVL,TVL.AX,Touch Ventures Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-U100,U100.AX,Global X US 100 ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ULTB,ULTB.AX,iShares 20+ Year U.S. Treasury Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-UMAX,UMAX.AX,Betashares S&P 500 Yield Maximiser Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-URAN,URAN.AX,VanEck Uranium and Energy Innovation ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-URF,URF.AX,US Masters Residential Property Fund,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-URNM,URNM.AX,Betashares Global Uranium ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-US10,US10.AX,Betashares U.S. Treasury Bond 7-10 Year Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-USD,USD.AX,Betashares U.S Dollar ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-USHY,USHY.AX,Global X USD High Yield Bond ETF (Currency Hedged),,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-USIG,USIG.AX,Global X USD Corporate Bond ETF (Currency Hedged),,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-USTB,USTB.AX,Global X US Treasury Bond ETF (Currency Hedged),,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-UTIP,UTIP.AX,Betashares Inflation-Protected U.S. Treasury Bond Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-UWC,UWC.AX,Underwood Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-UYLD,UYLD.AX,Global X S&P 500 Covered Call ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-V1AC,V1AC.AX,Vinva Global Alpha Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-V500,V500.AX,Vanguard S&P 500 US Shares Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-V5AH,V5AH.AX,Vanguard S&P 500 US Shares Index (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VACF,VACF.AX,Vanguard Australian Corporate Fixed Interest Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VAE,VAE.AX,Vanguard FTSE Asia Ex-Japan Shares Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VAF,VAF.AX,Vanguard Australian Fixed Interest Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VAP,VAP.AX,Vanguard Australian Property Securities Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VAS,VAS.AX,Vanguard Australian Shares Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VBAL,VBAL.AX,VanEck Core+ Diversified Balanced Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VBLD,VBLD.AX,Vanguard Global Infrastructure Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VBND,VBND.AX,Vanguard Global Aggregate Bond Index (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VBTC,VBTC.AX,VanEck Bitcoin ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VCF,VCF.AX,Vanguard International Credit Securities Index (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VCX,VCX.AX,Vicinity Centres,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VDAL,VDAL.AX,Vanguard Diversified All Growth Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VDBA,VDBA.AX,Vanguard Diversified Balanced Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VDCO,VDCO.AX,Vanguard Diversified Conservative Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VDGR,VDGR.AX,Vanguard Diversified Growth Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VDHG,VDHG.AX,Vanguard Diversified High Growth Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VDIF,VDIF.AX,Vanguard Diversified Income ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VEFI,VEFI.AX,Vanguard Ethically Conscious Global Aggregate Bond Index (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VEQ,VEQ.AX,Vanguard FTSE Europe Shares ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VESG,VESG.AX,Vanguard Ethically Conscious International Shares Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VETH,VETH.AX,Vanguard Ethically Conscious Australian Shares ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VEU,VEU.AX,Vanguard All-World ex US Shares Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VGAD,VGAD.AX,Vanguard MSCI Index International Shares (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VGB,VGB.AX,Vanguard Australian Government Bond Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VGE,VGE.AX,Vanguard FTSE Emerging Markets Shares ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VGRO,VGRO.AX,VanEck Core+ Diversified Growth Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VGS,VGS.AX,Vanguard MSCI Index International Shares ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VHGR,VHGR.AX,VanEck Core+ Diversified High Growth Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VHY,VHY.AX,Vanguard Australian Shares High Yield ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VIF,VIF.AX,Vanguard International Fixed Interest Index (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VIHY,VIHY.AX,Vanguard International Shares High Yield ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VISM,VISM.AX,Vanguard MSCI International Small Companies Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VLC,VLC.AX,Vanguard MSCI Australian Large Companies Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VLUE,VLUE.AX,VanEck MSCI International Value ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VMIN,VMIN.AX,Vanguard Global Minimum Volatility Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VNGS,VNGS.AX,Vaughan Nelson Global Equity SMID Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VOLT,VOLT.AX,ETFS Global Lithium Miners ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VSO,VSO.AX,Vanguard MSCI Australian Small Companies Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VTEK,VTEK.AX,Vanguard Global Technology Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VTKH,VTKH.AX,Vanguard Global Technology Index (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VTS,VTS.AX,Vanguard US Total Market Shares Index ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-VVLU,VVLU.AX,Vanguard Global Value Equity Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WAA,WAA.AX,WAM Active Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WAM,WAM.AX,WAM Capital Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WAR,WAR.AX,WAM Strategic Value Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WAX,WAX.AX,WAM Research Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WBND,WBND.AX,Betashares Global Aggregate Bond Currency Hedged ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WCMQ,WCMQ.AX,WCM Quality Global Growth Fund – Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WDIV,WDIV.AX,SPDR S&P Global Dividend ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WDMF,WDMF.AX,iShares Edge MSCI World Multifactor ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WEMG,WEMG.AX,SPDR S&P Emerging Markets Carbon Aware ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WGB,WGB.AX,WAM Global Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WHF,WHF.AX,Whitefield Industrials Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WHI,WHI.AX,Whitefield Income Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WIRE,WIRE.AX,Global X Copper Miners ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WLE,WLE.AX,WAM Leaders Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WMA,WMA.AX,WAM Alternative Assets Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WMI,WMI.AX,WAM Microcap Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WMX,WMX.AX,WAM Income Maximiser Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WOT,WOT.AX,Wotso,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WPR,WPR.AX,Waypoint REIT,,Spotlight A-REITS  List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WQG,WQG.AX,WCM Global Growth Limited,,Spotlight LIC List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WRLD,WRLD.AX,Betashares Managed Risk Global Shares Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WVOL,WVOL.AX,iShares Edge MSCI World Minimum Volatility ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WWWW,WWWW.AX,ETFS US Technology ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WXHG,WXHG.AX,SPDR S&P World ex Australia Carbon Aware (Hedged) ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WXOZ,WXOZ.AX,SPDR S&P World ex Australia Carbon Aware ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-WYNC,WYNC.AX,iShares World Equity High Income Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XALG,XALG.AX,Alphinity Global Equity Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XARO,XARO.AX,Ardea Real Outcome Bond Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XASG,XASG.AX,Alphinity Global Sustainable Equity Fund - Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XGOV,XGOV.AX,VanEck 10+ Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XIFAI,XIFAI.AX,S&P/ASX Infrastructure Index Accumulation,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XJOAI,XJOAI.AX,S&P/ASX 200 Accumulation,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XMET,XMET.AX,Betashares Energy Transition Metals ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XPJAI,XPJAI.AX,S&P/ASX 200 A-REIT Accumulation,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XSOAI,XSOAI.AX,S&P/ASX Small Ords Accumulation,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-XX20,XX20.AX,First Sentier ex-20 Australian Share Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-YANK,YANK.AX,Betashares Strong Us Dollar Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-YMAX,YMAX.AX,Betashares Australian Top 20 Equities Yield Maximiser Complex ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ZILR,ZILR.AX,Ziller Global Fund Active ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ZYAU,ZYAU.AX,Global X S&P/ASX 200 High Dividend ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
-ZYUS,ZYUS.AX,Global X S&P 500 High Yield Low Volatility ETF,,Spotlight ETP List,2026-08-10T02:31:51Z,2026-08-10 10:31 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+1GOV,1GOV.AX,VanEck 1-5 Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+28BB,28BB.AX,Betashares 2028 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+29BB,29BB.AX,Betashares 2029 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+30BB,30BB.AX,Betashares 2030 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+31BB,31BB.AX,BetaShares 2031 Fixed Term Corporate Bond Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+5GOV,5GOV.AX,VanEck 5-10 Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+8IH,8IH.AX,8I Holdings Ltd,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+A200,A200.AX,Betashares Australia 200 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+A300,A300.AX,Global X Australia 300 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AAA,AAA.AX,Betashares Australian High Interest Cash ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AASF,AASF.AX,Airlie Australian Share Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ABG,ABG.AX,Abacus Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ACDC,ACDC.AX,Global X Battery Tech & Lithium ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ACQ,ACQ.AX,Acorn Capital Investment Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ADEF,ADEF.AX,Apostle Dundas Global Equity Fund - Class D Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AEBD,AEBD.AX,Betashares Ethical Australian Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AESG,AESG.AX,iShares Global Aggregate Bond ESG (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AFI,AFI.AX,Australian Foundation Investment Company Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AGGG,AGGG.AX,iShares Core Global Aggregate Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AGVT,AGVT.AX,Betashares Australian Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AGX1,AGX1.AX,Antipodes Global Value Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AINF,AINF.AX,Global X AI Infrastructure ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AIQ,AIQ.AX,Alternative Investment Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AIX,AIX.AX,AI Private Opportunities Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ALFA,ALFA.AX,VanEck Australian Long Short Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ALI,ALI.AX,Argo Global Listed Infrastructure Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ALPH,ALPH.AX,Schroder Global Equity Alpha Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ALTB,ALTB.AX,iShares 15+ Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ALX,ALX.AX,Atlas Arteria,,Spotlight Infra  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AMH,AMH.AX,AMCIL Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+APA,APA.AX,APA Group,,Spotlight Infra  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+APW,APW.AX,Aims Property Securities Fund,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+APZ,APZ.AX,Aspen Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AQLT,AQLT.AX,Betashares Australian Quality ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AQTY,AQTY.AX,VanEck MSCI Australian Quality Plus ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ARF,ARF.AX,Arena REIT.,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ARG,ARG.AX,Argo Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ARMR,ARMR.AX,Betashares Global Defence ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ASAO,ASAO.AX,abrdn Sustainable Asian Opportunities Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ASIA,ASIA.AX,Betashares Asia Technology Tigers ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ASUS,ASUS.AX,Ausbil Active Sustainable Equity Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ATEC,ATEC.AX,Betashares S&P/ASX Australian Technology ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ATOM,ATOM.AX,Global X Uranium ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AUDS,AUDS.AX,Betashares Strong Australian Dollar Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AUI,AUI.AX,Australian United Investment Company Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AUMF,AUMF.AX,iShares Edge MSCI Australia Multifactor ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AUST,AUST.AX,Betashares Managed Risk Australian Shares Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AVNG,AVNG.AX,Avantis Global Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AVSV,AVSV.AX,Avantis Global Small Cap Value Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AVTE,AVTE.AX,Avantis Emerging Markets Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+AYLD,AYLD.AX,Global X S&P/ASX 200 Covered Call ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+B1SM,B1SM.AX,Bell Global Emerging Companies Class A Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BANK,BANK.AX,Global X Australian Bank Credit ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BAOR,BAOR.AX,Aoris Int Fund (Class B) (Unhedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BBAB,BBAB.AX,Betashares Geared Short Australian Government Bond Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BBFD,BBFD.AX,Betashares Geared Short US Treasury Bond Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BBOZ,BBOZ.AX,Betashares Australian Equities Strong Bear Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BBUS,BBUS.AX,Betashares US Equities Strong Bear Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BCOM,BCOM.AX,Global X Bloomberg Commodity Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BDCI,BDCI.AX,Muzinich BDC Income Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BEAR,BEAR.AX,BetaShares Australian Equities BEAR Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BEL,BEL.AX,Bentley Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BEMG,BEMG.AX,Betashares MSCI Emerging Markets Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BEST,BEST.AX,ETFS US Quality ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BGBL,BGBL.AX,Betashares Global Shares ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BHD,BHD.AX,Benjamin Hornigold Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BHYB,BHYB.AX,Betashares Australian Major Bank Hybrids Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BILL,BILL.AX,iShares Core Cash ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BKI,BKI.AX,BKI Investment Company Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BNDS,BNDS.AX,BetaShares Western Asset Aus Bond Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BNKS,BNKS.AX,Betashares Global Banks ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BOND,BOND.AX,SPDR S&P/ASX Australian Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BSUB,BSUB.AX,Australian Major Bank Subordinated Debt ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BTI,BTI.AX,Bailador Technology Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BTXX,BTXX.AX,DigitalX Bitcoin ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BUGG,BUGG.AX,Global X Cybersecurity ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BWF,BWF.AX,Blackwall Limited,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+BWP,BWP.AX,BWP Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CAM,CAM.AX,Clime Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CASH,CASH.AX,ASX investment product,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CD1,CD1.AX,Cd Private Equity Fund I,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CD2,CD2.AX,Cd Private Equity Fund II,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CD3,CD3.AX,Cd Private Equity Fund III,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CDM,CDM.AX,Cadence Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CDO,CDO.AX,Cadence Opportunities Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CDP,CDP.AX,Carindale Property Trust,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CETF,CETF.AX,VanEck FTSE China A50 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CFLO,CFLO.AX,Betashares Global Cash Flow Kings ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CGHE,CGHE.AX,Claremont Global Fund (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CGUN,CGUN.AX,Claremont Global Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CHC,CHC.AX,Charter Hall Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CIEM,CIEM.AX,Colchester Emerging Markets Bond Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CIIH,CIIH.AX,CB Global Infrastructure Income (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CIN,CIN.AX,Carlton Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CIP,CIP.AX,Centuria Industrial REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CISB,CISB.AX,Colchester Global Government Bond Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CIVH,CIVH.AX,CB GLBL Infrastructure Value (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CLDD,CLDD.AX,Betashares Cloud Computing ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CLNE,CLNE.AX,VanEck Global Clean Energy ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CLW,CLW.AX,Charter Hall Long Wale REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CMW,CMW.AX,Cromwell Property Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CNEW,CNEW.AX,VanEck China New Economy ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+COF,COF.AX,Centuria Office REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+COMP,COMP.AX,Betashares Bloomberg Ausbond Composite ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CORE,CORE.AX,Schroder Global Core Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CPPR,CPPR.AX,ETFS Global Pure Play Copper Miners ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CQE,CQE.AX,Charter Hall Social Infrastructure REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CQR,CQR.AX,Charter Hall Retail REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CRED,CRED.AX,Betashares Australian Investment Grade Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CRYP,CRYP.AX,Betashares Crypto Innovators ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CUIV,CUIV.AX,CB GLBL Infrastructure Value Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+CURE,CURE.AX,Global X S&P Biotech ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DACE,DACE.AX,Dimensional Australian Core Equity Trust – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DAOR,DAOR.AX,Aoris Int Fund (Class D) (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DAVA,DAVA.AX,Dimensional Australian Value Trust - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DBBF,DBBF.AX,Betashares Ethical Diversified Balanced ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DCOR,DCOR.AX,Daintree Core Income Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DFGH,DFGH.AX,Dimensional Global Core Equity Trust (AUD Hedged Class) – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DFND,DFND.AX,VanEck Global Defence ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DGCE,DGCE.AX,Dimensional Global Core Equity Trust (Unhedged Class) – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DGGF,DGGF.AX,Betashares Ethical Diversified Growth ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DGSM,DGSM.AX,Dimensional Global Small Company - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DGT,DGT.AX,DigiCo Infrastructure REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DGVA,DGVA.AX,Dimensional Global Value Trust - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DHHF,DHHF.AX,Betashares Diversified All Growth ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DIFF,DIFF.AX,Perpetual Diversified Income Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DIVI,DIVI.AX,Ausbil Active Dividend Income Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DJRE,DJRE.AX,SPDR Dow Jones Global Real Estate ESG Tilted ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DJW,DJW.AX,Djerriwarrh Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DN1,DN1.AX,Dominion Income Trust 1,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DRGN,DRGN.AX,Global X China Tech ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DRIV,DRIV.AX,Betashares Electric Vehicles and Future Mobility ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DRUG,DRUG.AX,Betashares Global Healthcare ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DTEC,DTEC.AX,Global X Defence Tech ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DXC,DXC.AX,Dexus Convenience Retail REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DXI,DXI.AX,Dexus Industria REIT.,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DXS,DXS.AX,Dexus,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+DZZF,DZZF.AX,Betashares Ethical High Growth ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+E200,E200.AX,SPDR S&P/ASX 200 ESG ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EAFZ,EAFZ.AX,Ellerston Asia Growth Fund Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EARN,EARN.AX,PIMCO Short Term Active Yield Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EBND,EBND.AX,VanEck Vectors Emerging Income Opportunities Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ECL,ECL.AX,Excelsior Capital Ltd,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ECP,ECP.AX,ECP Emerging Growth Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ECRD,ECRD.AX,Betashares Enhanced Credit (Geared) Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EIGA,EIGA.AX,Perennial Income Generator Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EMKT,EMKT.AX,Vaneck MSCI Multifactor Emerging Markets Equity ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EMXC,EMXC.AX,iShares MSCI Emerging Markets ex China ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EQIN,EQIN.AX,Investors Mutual Equity Income Fund - Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ERTH,ERTH.AX,Betashares Climate Change Innovation ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ESGI,ESGI.AX,Vaneck MSCI International Sustainable Equity ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ESPO,ESPO.AX,VanEck Video Gaming and Esports ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ESTX,ESTX.AX,Global X EURO STOXX 50 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ETHI,ETHI.AX,Betashares Global Sustainability Leaders ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ETPMAG,ETPMAG.AX,Global X Physical Silver,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ETPMPD,ETPMPD.AX,Global X Physical Palladium,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ETPMPM,ETPMPM.AX,Global X Physical Precious Metals Basket,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ETPMPT,ETPMPT.AX,Global X Physical Platinum,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EX20,EX20.AX,Betashares Australian Ex-20 Portfolio Diversifier ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+EXUS,EXUS.AX,Betashares Global Shares EX US ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+F100,F100.AX,Betashares FTSE 100 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FAIR,FAIR.AX,Betashares Australian Sustainability Leaders ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FANG,FANG.AX,Global X FANG+ ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FASI,FASI.AX,Fidelity Asia Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FCAP,FCAP.AX,Fidelity Global Leaders Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FEIF,FEIF.AX,Western Asset Enhanced Income Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FEMX,FEMX.AX,Fidelity Global Emerging Markets Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FGG,FGG.AX,Future Generation Global Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FGSE,FGSE.AX,Franklin Global Systematic Equity FD - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FGX,FGX.AX,Future Generation Australia Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FHCO,FHCO.AX,Fidelity Australian High Conviction Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FHNG,FHNG.AX,FANG+ (Currency Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FIIN,FIIN.AX,Fidelity India Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FIRE,FIRE.AX,Firetrail Alpha Plus Fund – Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FLOT,FLOT.AX,VanEck Australian Floating Rate ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FOOD,FOOD.AX,Betashares Global Agriculture Companies ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FPC,FPC.AX,Fat Prophets Global Contrarian Fund Ltd,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FRAR,FRAR.AX,Franklin Australian Absolute Return Bond Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FRGG,FRGG.AX,Franklin Global Growth Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FSCF,FSCF.AX,First Sentier Active Cash Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FSI,FSI.AX,Flagship Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FSML,FSML.AX,Firetrail Australian Small Companies Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FSUB,FSUB.AX,Vaneck Australian Fixed Rate Subordinated Debt ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FUEL,FUEL.AX,Betashares Global Energy Companies Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+FUTR,FUTR.AX,Janus Henderson Global Sustainable Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+G200,G200.AX,Betashares Wealthbuilder Aus200 Geared Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GAME,GAME.AX,Betashares Video Games and Esports ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GARP,GARP.AX,Global X S&P World ex Australia GARP ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GBND,GBND.AX,Betashares Sustainability leaders Diversified Bond ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GC1,GC1.AX,Glennon Small Companies Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GCAP,GCAP.AX,VanEck Bentham Global Capital Securities Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GCI,GCI.AX,Gryphon Capital Income Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GCQF,GCQF.AX,GCQ Global Equities Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GDF,GDF.AX,Garda Property Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GDI,GDI.AX,GDI Property Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GDX,GDX.AX,VanEck Gold Miners ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GEAR,GEAR.AX,Betashares Geared Australian Equities Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GFL,GFL.AX,Global Masters Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GFXD,GFXD.AX,Coolabah Active Global Bond Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GGAB,GGAB.AX,Betashares Geared Long Australian Government Bond Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GGBL,GGBL.AX,Betashares WealthBuilder Global Geared Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GGFD,GGFD.AX,Geared Long US Treasury Bond Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GGOV,GGOV.AX,Betashares U.S. Treasury Bond20+ Year ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GGUS,GGUS.AX,Betashares Geared US Equities Currency Hedged Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GHHF,GHHF.AX,Betashares Wealthbuilder All Gr Geared Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GHIF,GHIF.AX,Ausbil Global Essential Infrastructure Fund (Hedged) – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GHLD,GHLD.AX,Global X Gold Bullion (Currency Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GHRP,GHRP.AX,Global X S&P World ex Australia GARP (Currency Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GIVE,GIVE.AX,Perpetual ESG Australian Share Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GLDN,GLDN.AX,iShares Physical Gold ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GLIN,GLIN.AX,iShares Core FTSE Global Infrastructure (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GLOB,GLOB.AX,Barrow Hanley Global Share Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GLPR,GLPR.AX,iShares Core FTSE Global Property Ex Australia (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GLS,GLS.AX,L1 Global Long Short Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GMG,GMG.AX,Goodman Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GMTL,GMTL.AX,Global X Green Metal Miners ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GMVW,GMVW.AX,VanEck Geared Australian Equal Weight Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GNDQ,GNDQ.AX,Betashares Wealth Builder Nasdaq 100 Geared (30-40% LVR) Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GOAT,GOAT.AX,VanEck Morningstar International Wide Moat ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GOLD,GOLD.AX,Global X Physical Gold,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GOOD,GOOD.AX,Janus Henderson Sustainable Credit Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GOVT,GOVT.AX,SPDR S&P/ASX Australian Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GOZ,GOZ.AX,Growthpoint Properties Australia,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GPEQ,GPEQ.AX,VanEck Global Listed Private Equity ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GPT,GPT.AX,GPT Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GRIN,GRIN.AX,VanEck India Growth Leaders ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GRNV,GRNV.AX,VanEck MSCI Australian Sustainable Equity ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GROW,GROW.AX,Schroder Real Return Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GRPA,GRPA.AX,Global X S&P Australia GARP ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GSCF,GSCF.AX,Ausbil Global SmallCap Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GSUS,GSUS.AX,Candriam Sustainable Global Equity Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GTUM,GTUM.AX,Betashares Global Momentum ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GVF,GVF.AX,Staude Capital Global Value Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GWTH,GWTH.AX,VanEck MSCI International Growth ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GXAI,GXAI.AX,Global X Artificial Intelligence ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+GXLD,GXLD.AX,Global X Gold Bullion ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+H100,H100.AX,Betashares FTSE 100 Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HACK,HACK.AX,Betashares Global Cybersecurity ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HBRD,HBRD.AX,BetaShares Australian Hybrids Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HCF,HCF.AX,H&G High Conviction Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HCRD,HCRD.AX,Betashares Interest Rate Hedged Australian Grade Corporate Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HCW,HCW.AX,Healthco Healthcare and Wellness REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HDN,HDN.AX,Homeco Daily Needs REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HETH,HETH.AX,Betashares Global Sustainability Leaders ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HEUR,HEUR.AX,Betashares Europe ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HGBL,HGBL.AX,Betashares Global Shares Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HGCQ,HGCQ.AX,GCQ Global Equities Hedged Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HGEN,HGEN.AX,Global X Hydrogen ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HJHI,HJHI.AX,Hejaz High Income Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HJPN,HJPN.AX,Betashares Japan Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HLTH,HLTH.AX,VanEck Global Healthcare Leaders ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HM1,HM1.AX,Hearts and Minds Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HMC,HMC.AX,HMC Capital Limited,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HMND,HMND.AX,Global X Humanoid Robotics ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HNDQ,HNDQ.AX,Betashares NASDAQ 100 ETF - Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HQLT,HQLT.AX,Betashares Global Quality Leaders ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HQUS,HQUS.AX,Betashares S&P 500 Equal Weight Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HUGE,HUGE.AX,ETFS Magnificent 7+ ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HVLU,HVLU.AX,VanEck MSCI International Value (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HVST,HVST.AX,BetaShares Aus Dividend Harvester Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HYGG,HYGG.AX,Hyperion Global Growth Companies Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+HYLD,HYLD.AX,Betashares S&P Australian Shares High Yield ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IAA,IAA.AX,iShares Asia 50 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IACT,IACT.AX,Ishares U.S. Factor Rotation Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IAF,IAF.AX,iShares Core Composite Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IBAL,IBAL.AX,iShares Balanced ESG ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IBC,IBC.AX,Ironbark Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IBIT,IBIT.AX,iShares Bitcoin ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ICME,ICME.AX,iShares Credit Income Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ICOR,ICOR.AX,iShares Core Corporate Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IEM,IEM.AX,iShares MSCI Emerging Markets ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IESG,IESG.AX,iShares Core MSCI Australia ESG ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IEU,IEU.AX,iShares Europe ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IFRA,IFRA.AX,VanEck FTSE Global Infrastructure (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IGB,IGB.AX,iShares Treasury ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IGRO,IGRO.AX,iShares High Growth ESG ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IHCB,IHCB.AX,iShares Core Global Corporate Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IHD,IHD.AX,iShares S&P/ASX Dividend Opportunities ESG Screened ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IHEB,IHEB.AX,iShares J.P.Morgan USD Emerging Markets Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IHHY,IHHY.AX,iShares Global High Yield Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IHOO,IHOO.AX,iShares Global 100 AUD Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IHVV,IHVV.AX,iShares S&P 500 AUD Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IHWL,IHWL.AX,iShares Core MSCI World ex Australia ESG (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IIGF,IIGF.AX,Intelligent Investor Australian Equity Income Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IIND,IIND.AX,Betashares India Quality ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IISV,IISV.AX,Intell Investor Select Value Share Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IJH,IJH.AX,iShares S&P Midcap ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IJP,IJP.AX,iShares MSCI Japan ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IJR,IJR.AX,iShares S&P Small-Cap ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IKO,IKO.AX,iShares MSCI South Korea ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ILB,ILB.AX,iShares Government Inflation ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ILC,ILC.AX,iShares S&P/ASX 20 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IMLC,IMLC.AX,Investors Mutual Concentrated Australian Share Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IMPQ,IMPQ.AX,Perennial Better Future Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+INA,INA.AX,Ingenia Communities Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+INCM,INCM.AX,Betashares S&P Global High Dividend Aristocrats ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+INES,INES.AX,Intelligent Investor Ethical Share Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+INIF,INIF.AX,Intelligent Investor Australian Equity - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IOO,IOO.AX,iShares Global 100 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IOZ,IOZ.AX,iShares Core S&P/ASX 200 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ISEC,ISEC.AX,iShares Enhanced Cash ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ISLM,ISLM.AX,Hejaz Equities Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ISMD,ISMD.AX,Global X MSCI International Small and Mid Cap ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ISO,ISO.AX,iShares S&P/ASX Small Ordinaries ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ITEK,ITEK.AX,iShares Future Tech Innovators ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IUSG,IUSG.AX,iShares U.S. Treasury Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IVE,IVE.AX,iShares MSCI EAFE ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IVV,IVV.AX,iShares S&P 500 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IWLD,IWLD.AX,iShares Core MSCI World ex Australia ESG ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IXI,IXI.AX,iShares Global Consumer Staples ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IXJ,IXJ.AX,iShares Global Healthcare ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IYLD,IYLD.AX,iShares Yield Plus ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+IZZ,IZZ.AX,iShares China Large-Cap ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+J100,J100.AX,Global X Japan Topix 100 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JEGA,JEGA.AX,JPMorgan Global Equity Premium Income Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JEME,JEME.AX,JPMorgan EM Research Enhanced IDX EQTY Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JEPI,JEPI.AX,JPMorgan Equity Premium Income Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JGLO,JGLO.AX,JPMorgan Global Select Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JHGA,JHGA.AX,JPMorgan Global Equity Premium Income (Hedged) Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JHLO,JHLO.AX,JPMorgan Global Select Equity (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JHPI,JHPI.AX,JPMorgan Equity Premium Income Active ETF (Hedged),,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JNDQ,JNDQ.AX,BetaShares NASDAQ Next Gen 100 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JPEQ,JPEQ.AX,JPMorgan US 100Q Equity Premium Income Active ETF (Hedged),,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JPHQ,JPHQ.AX,JPMorgan US 100Q Equity Premium Income Active ETF (Hedged),,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JREG,JREG.AX,JPMorgan Global Research Enhanced Index Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+JRHG,JRHG.AX,JPMorgan Global Research Enhanced Index Equity (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+KAT,KAT.AX,Katana Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+KIT,KIT.AX,Kapstream Investment Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+KKC,KKC.AX,KKR Credit Income Fund,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+L1HI,L1HI.AX,L1 Capital International (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+L1IF,L1IF.AX,L1 Capital International (Unhedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LED,LED.AX,Ldr Capital Property Fund,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LEND,LEND.AX,VanEck Global Listed Private Credit (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LEVR,LEVR.AX,First Sentier Geared Australian Share Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LF1,LF1.AX,La Trobe Private Credit Fund,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LGF,LGF.AX,L1 Gold Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LHGG,LHGG.AX,Lakehouse Global Growth Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LNAS,LNAS.AX,Global X Ultra Long Nasdaq 100 Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LNYN,LNYN.AX,Lanyon Investment Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LPGD,LPGD.AX,Loftus Peak Global Disruption Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LPHD,LPHD.AX,Loftus Peak Global Disruption Hedged Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LRT,LRT.AX,Lowell Resources Fund,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LSF,LSF.AX,L1 Long Short Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LSGE,LSGE.AX,Loomis Sayles Global Equity Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+LSX,LSX.AX,Lion Selection Group Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MA1,MA1.AX,MA Credit Income Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MAET,MAET.AX,Munro Global Growth Fund Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MCCL,MCCL.AX,Munro Climate Change Leaders Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MCGG,MCGG.AX,Munro Concentrated Global Growth Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MEC,MEC.AX,Morphic Ethical Equities Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MFF,MFF.AX,MFF Capital Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MFOA,MFOA.AX,Milford Australian Absolute Growth Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MGR,MGR.AX,Mirvac Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MHOT,MHOT.AX,VanEck Morningstar Wide Moat (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MICH,MICH.AX,Magellan Infra Fund (Currency Hedged) - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MIDS,MIDS.AX,Antipodes Global SMID Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MIR,MIR.AX,Mirrabooka Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MKAX,MKAX.AX,Montaka Global Extension Fund - Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MMKT,MMKT.AX,Betashares Australian Cash Plus Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MNRS,MNRS.AX,Betashares Global Gold Miners ETF - Currency Hedged,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MOAT,MOAT.AX,VanEck Morningstar Wide Moat ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MOGL,MOGL.AX,Montaka Global Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MONY,MONY.AX,Vaneck Cash Plus Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MOON,MOON.AX,Global X Space Tech ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MOT,MOT.AX,Metrics Income Opportunities Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQAE,MQAE.AX,Macquarie Core Australian Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQDB,MQDB.AX,Macquarie Dynamic Bond Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQEG,MQEG.AX,Macquarie Core Global Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQHG,MQHG.AX,Macquarie Core Global Equity (Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQIO,MQIO.AX,Macquarie Income Opportunities Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQSD,MQSD.AX,Macquarie Subordinated Debt Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQWS,MQWS.AX,Macquarie Walter Scott Global Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQXS,MQXS.AX,Macquarie Global Small Companies Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MQYM,MQYM.AX,Macquarie Global Yield Maximiser Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MRE,MRE.AX,Metrics Real Estate Multi-Strategy Fund,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MSTR,MSTR.AX,Morningstar International Shares Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MTUM,MTUM.AX,Betashares Australian Momentum ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MVA,MVA.AX,VanEck Australian Property ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MVB,MVB.AX,VanEck Australian Banks ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MVE,MVE.AX,VanEck S&P/ASX MidCap ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MVOL,MVOL.AX,iShares Edge MSCI Australia Minimum Volatility ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MVR,MVR.AX,VanEck Australian Resources ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MVS,MVS.AX,VanEck Small Companies Masters ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MVW,MVW.AX,VanEck Australian Equal Weight ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+MXT,MXT.AX,Metrics Master Income Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NAC,NAC.AX,Naos Ex-50 Opportunities Company Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NCC,NCC.AX,Naos Emerging Opportunities Company Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NDIA,NDIA.AX,Global X India Nifty 50 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NDQ,NDQ.AX,Betashares NASDAQ 100 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NGE,NGE.AX,NGE Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NNUK,NNUK.AX,Nanuk New World Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NNWH,NNWH.AX,Nanuk New World Fund (Currency Hedged) Active EFT,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NSC,NSC.AX,Naos Small Cap Opportunities Company Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+NUGG,NUGG.AX,VanEck Gold Bullion ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OEQ,OEQ.AX,Orion Equities Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OOO,OOO.AX,Betashares Crude Crude Oil Index Currncy Hdg Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OPH,OPH.AX,Ophir High Conviction Fund,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OPPT,OPPT.AX,Magellan Global Opportunities Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OZBD,OZBD.AX,Betashares Australian Composite Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OZF,OZF.AX,SPDR S&P/ASX 200 Financials ex AREIT ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OZR,OZR.AX,SPDR S&P/ASX 200 Resources ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+OZXX,OZXX.AX,Global X Australia Ex Financials & Resources ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PAVE,PAVE.AX,Global X US Infrastructure Development ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PAXX,PAXX.AX,Platinum Asia Fund Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PCI,PCI.AX,Perpetual Credit Income Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PCX,PCX.AX,Pengana Global Private Credit Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PE1,PE1.AX,Pengana Private Equity Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PGA1,PGA1.AX,Plato Global Alpha Fund Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PGF,PGF.AX,PM Capital Global Opportunities Fund Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PGI2,PGI2.AX,Plato Global Shares Income Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PIA,PIA.AX,Pengana International Equities Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PIC,PIC.AX,Perpetual Equity Investment Company Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PIXX,PIXX.AX,Platinum International Fund Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PL8,PL8.AX,Plato Income Maximiser Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PLUS,PLUS.AX,VanEck Australian Corporate Bond Plus ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+PMGOLD,PMGOLD.AX,Perth Mint Gold,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QAU,QAU.AX,Betashares Gold Bullion ETF (Currency Hedged),,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QBTC,QBTC.AX,Betashares Bitcoin ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QETH,QETH.AX,Betashares Ethereum ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QFN,QFN.AX,Betashares Financials Sector ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QGFH,QGFH.AX,Quay Global Real Estate Fund (AUD Hedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QGRU,QGRU.AX,Quay Global Real Estate Fund (Unhedged) Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QHAL,QHAL.AX,VanEck MSCI International Quality (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QHSM,QHSM.AX,VanEck MSCI International Small Companies Quality (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QLTY,QLTY.AX,Betashares Global Quality Leaders ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QMAX,QMAX.AX,Betashares Nasdaq 100 Yield Maximiser Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QMIX,QMIX.AX,SPDR MSCI World Quality Mix ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QNDQ,QNDQ.AX,BetaShares NASDAQ 100 Equal Weight ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QOZ,QOZ.AX,Betashares FTSE RAFI Australia 200 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QPON,QPON.AX,Betashares Australian Bank Senior Floating Rate Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QRE,QRE.AX,Betashares Resources Sector ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QRI,QRI.AX,Qualitas Real Estate Income Fund,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QSML,QSML.AX,VanEck MSCI International Small Companies Quality ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QUAL,QUAL.AX,VanEck MSCI International Quality ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QUS,QUS.AX,Betashares S&P 500 Equal Weight ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+QYLD,QYLD.AX,Global X Nasdaq 100 Covered Call ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+R3AL,R3AL.AX,Martin Currie Real Income Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RARI,RARI.AX,Russell Investments Australian Responsible Investment ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RBTZ,RBTZ.AX,Betashares Global Robotics and Artificial Intelligence ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RCAP,RCAP.AX,Resolution Capital Global Property Securities Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RCB,RCB.AX,Russell Investments Australian Select Corporate Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RCKT,RCKT.AX,Betashares Space Industry ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RDV,RDV.AX,Russell Investments High Dividend Australian Shares ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+REIT,REIT.AX,VanEck FTSE International Property (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+REP,REP.AX,Ram Essential Services Property Fund,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+REV,REV.AX,Revolution Private Credit Income Trust,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RF1,RF1.AX,Regal Investment Fund,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RFF,RFF.AX,Rural Funds Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RG1,RG1.AX,Regal Partners Global Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RG8,RG8.AX,Regal Asian Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RGB,RGB.AX,Russell Investments Australian Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RGN,RGN.AX,Region Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RGOS,RGOS.AX,Russell Sust Global Opportunities Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RIIF,RIIF.AX,Resolution Capital Global Listed Infrastructure Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RMBS,RMBS.AX,VanEck Australian RMBS ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ROAR,ROAR.AX,Lion Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ROBO,ROBO.AX,Global X ROBO Global Robotics & Automation ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ROYL,ROYL.AX,Betashares Global Royalties ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RSM,RSM.AX,Russell Investments Australian Semi-Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RSSL,RSSL.AX,Global X Russell 2000 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+RYD,RYD.AX,Ryder Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+S3GO,S3GO.AX,Firetrail S3 Global Opportunities Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SB2,SB2.AX,Salter Brothers Emerging Companies Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SCG,SCG.AX,Scentre Group,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SEC,SEC.AX,Spheria Emerging Companies Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SEMI,SEMI.AX,Global X Semiconductor ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SET,SET.AX,Solaris Australian Equity Income Plus Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SFIF,SFIF.AX,Seed Financial Income Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SFY,SFY.AX,SPDR S&P/ASX 50 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SGP,SGP.AX,Stockland,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SKUK,SKUK.AX,Hejaz Sukuk Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SLF,SLF.AX,SPDR S&P/ASX 200 Listed Property ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SLVM,SLVM.AX,Global X Silver Miners ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SMLL,SMLL.AX,Betashares Australian Small Companies Select ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SNAS,SNAS.AX,Global X Ultra Short Nasdaq 100 Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SNC,SNC.AX,Sandon Capital Investments Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SPHX,SPHX.AX,Spheria Australian Smaller Companies Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SPY,SPY.AX,SPDR S&P 500 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SSO,SSO.AX,SPDR S&P/ASX Small Ordinaries ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+STW,STW.AX,SPDR S&P/ASX 200 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SUBD,SUBD.AX,VanEck Australian Subordinated Debt ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SVNP,SVNP.AX,Savana US Small Caps Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SWTZ,SWTZ.AX,Switzer Dividend Growth Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+SYI,SYI.AX,SPDR MSCI Australia Select High Dividend Yield ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+T3MP,T3MP.AX,JPMorgan Climate Change Solutions Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TBIL,TBIL.AX,VanEck 1-3 Month US Treasury Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TCAP,TCAP.AX,Ten Cap Alpha Plus Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TCF,TCF.AX,360 Capital Mortgage REIT,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TCL,TCL.AX,Transurban Group,,Spotlight Infra  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TECH,TECH.AX,Global X Morningstar Global Technology ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TEK,TEK.AX,Thorney Technologies Ltd,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TGF,TGF.AX,Tribeca Global Natural Resources Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TOLL,TOLL.AX,Betashares FTSE Global Infrastructure Shares Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TOP,TOP.AX,Thorney Opportunities Ltd,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TOT,TOT.AX,360 Capital REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+TVL,TVL.AX,Touch Ventures Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+U100,U100.AX,Global X US 100 ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ULTB,ULTB.AX,iShares 20+ Year U.S. Treasury Bond (AUD Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+UMAX,UMAX.AX,Betashares S&P 500 Yield Maximiser Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+URAN,URAN.AX,VanEck Uranium and Energy Innovation ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+URF,URF.AX,US Masters Residential Property Fund,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+URNM,URNM.AX,Betashares Global Uranium ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+US10,US10.AX,Betashares U.S. Treasury Bond 7-10 Year Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+USD,USD.AX,Betashares U.S Dollar ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+USHY,USHY.AX,Global X USD High Yield Bond ETF (Currency Hedged),,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+USIG,USIG.AX,Global X USD Corporate Bond ETF (Currency Hedged),,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+USTB,USTB.AX,Global X US Treasury Bond ETF (Currency Hedged),,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+UTIP,UTIP.AX,Betashares Inflation-Protected U.S. Treasury Bond Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+UWC,UWC.AX,Underwood Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+UYLD,UYLD.AX,Global X S&P 500 Covered Call ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+V1AC,V1AC.AX,Vinva Global Alpha Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+V500,V500.AX,Vanguard S&P 500 US Shares Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+V5AH,V5AH.AX,Vanguard S&P 500 US Shares Index (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VACF,VACF.AX,Vanguard Australian Corporate Fixed Interest Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VAE,VAE.AX,Vanguard FTSE Asia Ex-Japan Shares Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VAF,VAF.AX,Vanguard Australian Fixed Interest Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VAP,VAP.AX,Vanguard Australian Property Securities Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VAS,VAS.AX,Vanguard Australian Shares Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VBAL,VBAL.AX,VanEck Core+ Diversified Balanced Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VBLD,VBLD.AX,Vanguard Global Infrastructure Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VBND,VBND.AX,Vanguard Global Aggregate Bond Index (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VBTC,VBTC.AX,VanEck Bitcoin ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VCF,VCF.AX,Vanguard International Credit Securities Index (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VCX,VCX.AX,Vicinity Centres,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VDAL,VDAL.AX,Vanguard Diversified All Growth Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VDBA,VDBA.AX,Vanguard Diversified Balanced Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VDCO,VDCO.AX,Vanguard Diversified Conservative Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VDGR,VDGR.AX,Vanguard Diversified Growth Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VDHG,VDHG.AX,Vanguard Diversified High Growth Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VDIF,VDIF.AX,Vanguard Diversified Income ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VEFI,VEFI.AX,Vanguard Ethically Conscious Global Aggregate Bond Index (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VEQ,VEQ.AX,Vanguard FTSE Europe Shares ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VESG,VESG.AX,Vanguard Ethically Conscious International Shares Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VETH,VETH.AX,Vanguard Ethically Conscious Australian Shares ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VEU,VEU.AX,Vanguard All-World ex US Shares Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VGAD,VGAD.AX,Vanguard MSCI Index International Shares (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VGB,VGB.AX,Vanguard Australian Government Bond Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VGE,VGE.AX,Vanguard FTSE Emerging Markets Shares ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VGRO,VGRO.AX,VanEck Core+ Diversified Growth Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VGS,VGS.AX,Vanguard MSCI Index International Shares ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VHGR,VHGR.AX,VanEck Core+ Diversified High Growth Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VHY,VHY.AX,Vanguard Australian Shares High Yield ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VIF,VIF.AX,Vanguard International Fixed Interest Index (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VIHY,VIHY.AX,Vanguard International Shares High Yield ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VISM,VISM.AX,Vanguard MSCI International Small Companies Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VLC,VLC.AX,Vanguard MSCI Australian Large Companies Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VLUE,VLUE.AX,VanEck MSCI International Value ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VMIN,VMIN.AX,Vanguard Global Minimum Volatility Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VNGS,VNGS.AX,Vaughan Nelson Global Equity SMID Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VOLT,VOLT.AX,ETFS Global Lithium Miners ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VSO,VSO.AX,Vanguard MSCI Australian Small Companies Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VTEK,VTEK.AX,Vanguard Global Technology Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VTKH,VTKH.AX,Vanguard Global Technology Index (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VTS,VTS.AX,Vanguard US Total Market Shares Index ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+VVLU,VVLU.AX,Vanguard Global Value Equity Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WAA,WAA.AX,WAM Active Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WAM,WAM.AX,WAM Capital Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WAR,WAR.AX,WAM Strategic Value Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WAX,WAX.AX,WAM Research Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WBND,WBND.AX,Betashares Global Aggregate Bond Currency Hedged ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WCMQ,WCMQ.AX,WCM Quality Global Growth Fund – Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WDIV,WDIV.AX,SPDR S&P Global Dividend ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WDMF,WDMF.AX,iShares Edge MSCI World Multifactor ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WEMG,WEMG.AX,SPDR S&P Emerging Markets Carbon Aware ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WGB,WGB.AX,WAM Global Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WHF,WHF.AX,Whitefield Industrials Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WHI,WHI.AX,Whitefield Income Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WIRE,WIRE.AX,Global X Copper Miners ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WLE,WLE.AX,WAM Leaders Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WMA,WMA.AX,WAM Alternative Assets Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WMI,WMI.AX,WAM Microcap Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WMX,WMX.AX,WAM Income Maximiser Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WOT,WOT.AX,Wotso,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WPR,WPR.AX,Waypoint REIT,,Spotlight A-REITS  List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WQG,WQG.AX,WCM Global Growth Limited,,Spotlight LIC List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WRLD,WRLD.AX,Betashares Managed Risk Global Shares Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WVOL,WVOL.AX,iShares Edge MSCI World Minimum Volatility ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WWWW,WWWW.AX,ETFS US Technology ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WXHG,WXHG.AX,SPDR S&P World ex Australia Carbon Aware (Hedged) ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WXOZ,WXOZ.AX,SPDR S&P World ex Australia Carbon Aware ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+WYNC,WYNC.AX,iShares World Equity High Income Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XALG,XALG.AX,Alphinity Global Equity Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XARO,XARO.AX,Ardea Real Outcome Bond Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XASG,XASG.AX,Alphinity Global Sustainable Equity Fund - Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XGOV,XGOV.AX,VanEck 10+ Year Australian Government Bond ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XIFAI,XIFAI.AX,S&P/ASX Infrastructure Index Accumulation,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XJOAI,XJOAI.AX,S&P/ASX 200 Accumulation,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XMET,XMET.AX,Betashares Energy Transition Metals ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XPJAI,XPJAI.AX,S&P/ASX 200 A-REIT Accumulation,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XSOAI,XSOAI.AX,S&P/ASX Small Ords Accumulation,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+XX20,XX20.AX,First Sentier ex-20 Australian Share Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+YANK,YANK.AX,Betashares Strong Us Dollar Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+YMAX,YMAX.AX,Betashares Australian Top 20 Equities Yield Maximiser Complex ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ZILR,ZILR.AX,Ziller Global Fund Active ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ZYAU,ZYAU.AX,Global X S&P/ASX 200 High Dividend ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport
+ZYUS,ZYUS.AX,Global X S&P 500 High Yield Low Volatility ETF,,Spotlight ETP List,2026-08-17T01:53:41Z,2026-08-17 09:53 AWST,ETF/ETP,ASXInvestmentProductsMonthlyReport

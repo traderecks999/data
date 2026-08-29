@@ -1,6 +1,6 @@
 {
-  "runId": "20260822T212604Z",
-  "runDir": "/repo/asx/_runs/20260822T212604Z",
+  "runId": "20260829T212603Z",
+  "runDir": "/repo/asx/_runs/20260829T212603Z",
   "mode": "full",
   "summaryPerRun": 0,
   "qsRatePerMin": 6.0,
@@ -8,7 +8,7 @@
   "attempted": 593,
   "ok": 591,
   "successRate": 0.9966273187183811,
-  "elapsedSeconds": 17730.71,
+  "elapsedSeconds": 17731.502,
   "httpStatusCounts": {
     "404": 2
   },
@@ -16,14 +16,14 @@
     "not_found": 2
   },
   "notFoundSymbols": [
-    "# last_extracted_awst: 2026-08-17 09:53 AWST",
-    "# last_extracted_utc: 2026-08-17T01:53:41Z"
+    "# last_extracted_awst: 2026-08-24 09:56 AWST",
+    "# last_extracted_utc: 2026-08-24T01:56:12Z"
   ],
   "notFoundCount": 2,
-  "quarantineCount": 231,
+  "quarantineCount": 233,
   "cursorBefore": 1411,
   "cursorAfter": 1451,
   "cursorAdvanced": false,
-  "generatedAtUtc": "2026-08-22T21:26:06Z",
+  "generatedAtUtc": "2026-08-29T21:26:05Z",
   "abortReason": null
 }

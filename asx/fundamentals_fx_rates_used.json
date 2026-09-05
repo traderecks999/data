@@ -1,17 +1,17 @@
 {
-  "runId": "20260829T212603Z",
-  "generatedAtUtc": "2026-08-29T21:26:03Z",
+  "runId": "20260905T212600Z",
+  "generatedAtUtc": "2026-09-05T21:26:00Z",
   "addAudConversions": true,
   "audColumnsFilledForAud": true,
   "ratesAudPerUnit": {
-    "SGD": 1.0944487371156022
+    "SGD": 1.0957523161464584
   },
   "pairsUsed": [
     {
       "source": "open.er-api.com",
       "base": "AUD",
       "url": "https://open.er-api.com/v6/latest/AUD",
-      "generatedAtUtc": "2026-08-29T21:26:03Z"
+      "generatedAtUtc": "2026-09-05T21:26:00Z"
     }
   ],
   "wantedCurrencies": [

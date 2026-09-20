@@ -294,9 +294,9 @@
       "nextTryUtc": "2026-05-26T02:24:17Z"
     },
     "JZRO.AX": {
-      "count": 1,
-      "last404Utc": "2026-02-15T16:48:55Z",
-      "nextTryUtc": "2026-03-17T16:48:55Z"
+      "count": 2,
+      "last404Utc": "2026-09-20T02:10:43Z",
+      "nextTryUtc": "2026-10-20T02:10:43Z"
     },
     "KFW.AX": {
       "count": 6,
@@ -1134,9 +1134,9 @@
       "nextTryUtc": "2026-09-07T16:30:59Z"
     },
     "MHG.AX": {
-      "count": 1,
-      "last404Utc": "2026-08-08T19:26:27Z",
-      "nextTryUtc": "2026-09-07T19:26:27Z"
+      "count": 2,
+      "last404Utc": "2026-09-20T03:33:17Z",
+      "nextTryUtc": "2026-10-20T03:33:17Z"
     },
     "# last_extracted_awst: 2026-08-10 10:31 AWST": {
       "count": 1,
@@ -1672,6 +1672,311 @@
       "count": 1,
       "last404Utc": "2026-09-13T11:37:42Z",
       "nextTryUtc": "2026-10-13T11:37:42Z"
+    },
+    "# last_extracted_awst: 2026-09-14 12:52 AWST": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:30:36Z",
+      "nextTryUtc": "2026-10-19T16:30:36Z"
+    },
+    "# last_extracted_utc: 2026-09-14T04:52:11Z": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:30:46Z",
+      "nextTryUtc": "2026-10-19T16:30:46Z"
+    },
+    "1.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:30:56Z",
+      "nextTryUtc": "2026-10-19T16:30:56Z"
+    },
+    "10.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:31:06Z",
+      "nextTryUtc": "2026-10-19T16:31:06Z"
+    },
+    "2.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:35:46Z",
+      "nextTryUtc": "2026-10-19T16:35:46Z"
+    },
+    "3.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:37:26Z",
+      "nextTryUtc": "2026-10-19T16:37:26Z"
+    },
+    "4.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:40:36Z",
+      "nextTryUtc": "2026-10-19T16:40:36Z"
+    },
+    "5.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:42:16Z",
+      "nextTryUtc": "2026-10-19T16:42:16Z"
+    },
+    "6.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:43:57Z",
+      "nextTryUtc": "2026-10-19T16:43:57Z"
+    },
+    "7.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:44:37Z",
+      "nextTryUtc": "2026-10-19T16:44:37Z"
+    },
+    "8.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:44:46Z",
+      "nextTryUtc": "2026-10-19T16:44:46Z"
+    },
+    "9.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:46:27Z",
+      "nextTryUtc": "2026-10-19T16:46:27Z"
+    },
+    "AAT.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T16:56:07Z",
+      "nextTryUtc": "2026-10-19T16:56:07Z"
+    },
+    "AFT.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T17:18:18Z",
+      "nextTryUtc": "2026-10-19T17:18:18Z"
+    },
+    "AQI.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T18:00:30Z",
+      "nextTryUtc": "2026-10-19T18:00:30Z"
+    },
+    "AQL.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T18:00:40Z",
+      "nextTryUtc": "2026-10-19T18:00:40Z"
+    },
+    "BRX.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T19:34:55Z",
+      "nextTryUtc": "2026-10-19T19:34:55Z"
+    },
+    "CIO.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T20:21:37Z",
+      "nextTryUtc": "2026-10-19T20:21:37Z"
+    },
+    "CLB.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T20:25:17Z",
+      "nextTryUtc": "2026-10-19T20:25:17Z"
+    },
+    "CPL.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T20:43:58Z",
+      "nextTryUtc": "2026-10-19T20:43:58Z"
+    },
+    "CRG.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T20:50:08Z",
+      "nextTryUtc": "2026-10-19T20:50:08Z"
+    },
+    "DCL.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T21:19:20Z",
+      "nextTryUtc": "2026-10-19T21:19:20Z"
+    },
+    "DLM.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T21:32:00Z",
+      "nextTryUtc": "2026-10-19T21:32:00Z"
+    },
+    "DMN.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T21:34:10Z",
+      "nextTryUtc": "2026-10-19T21:34:10Z"
+    },
+    "DNK.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T21:35:20Z",
+      "nextTryUtc": "2026-10-19T21:35:20Z"
+    },
+    "EMI.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T22:15:02Z",
+      "nextTryUtc": "2026-10-19T22:15:02Z"
+    },
+    "ETPMPD.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T22:35:13Z",
+      "nextTryUtc": "2026-10-19T22:35:13Z"
+    },
+    "ETPMPM.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T22:35:23Z",
+      "nextTryUtc": "2026-10-19T22:35:23Z"
+    },
+    "ETPMPT.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T22:35:33Z",
+      "nextTryUtc": "2026-10-19T22:35:33Z"
+    },
+    "GM1.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-19T23:55:17Z",
+      "nextTryUtc": "2026-10-19T23:55:17Z"
+    },
+    "GRN.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T00:08:18Z",
+      "nextTryUtc": "2026-10-20T00:08:18Z"
+    },
+    "IBK.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T01:04:00Z",
+      "nextTryUtc": "2026-10-20T01:04:00Z"
+    },
+    "KTG.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T02:29:24Z",
+      "nextTryUtc": "2026-10-20T02:29:24Z"
+    },
+    "LR8.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T02:57:36Z",
+      "nextTryUtc": "2026-10-20T02:57:36Z"
+    },
+    "MBL.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T03:17:46Z",
+      "nextTryUtc": "2026-10-20T03:17:46Z"
+    },
+    "MBX.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T03:17:56Z",
+      "nextTryUtc": "2026-10-20T03:17:56Z"
+    },
+    "MGOC.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T03:30:37Z",
+      "nextTryUtc": "2026-10-20T03:30:37Z"
+    },
+    "MHHT.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T03:33:27Z",
+      "nextTryUtc": "2026-10-20T03:33:27Z"
+    },
+    "MRI.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T04:02:39Z",
+      "nextTryUtc": "2026-10-20T04:02:39Z"
+    },
+    "MTU.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T04:09:49Z",
+      "nextTryUtc": "2026-10-20T04:09:49Z"
+    },
+    "NBS.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T04:22:59Z",
+      "nextTryUtc": "2026-10-20T04:22:59Z"
+    },
+    "NCR.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T04:25:09Z",
+      "nextTryUtc": "2026-10-20T04:25:09Z"
+    },
+    "PEP.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T05:35:23Z",
+      "nextTryUtc": "2026-10-20T05:35:23Z"
+    },
+    "PGS.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T05:42:03Z",
+      "nextTryUtc": "2026-10-20T05:42:03Z"
+    },
+    "PRL.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T06:04:14Z",
+      "nextTryUtc": "2026-10-20T06:04:14Z"
+    },
+    "RAR.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T06:33:55Z",
+      "nextTryUtc": "2026-10-20T06:33:55Z"
+    },
+    "REF.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T06:46:36Z",
+      "nextTryUtc": "2026-10-20T06:46:36Z"
+    },
+    "SGL.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T07:43:49Z",
+      "nextTryUtc": "2026-10-20T07:43:49Z"
+    },
+    "SML.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T08:04:00Z",
+      "nextTryUtc": "2026-10-20T08:04:00Z"
+    },
+    "SOX.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T08:15:11Z",
+      "nextTryUtc": "2026-10-20T08:15:11Z"
+    },
+    "SPP.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T08:19:20Z",
+      "nextTryUtc": "2026-10-20T08:19:20Z"
+    },
+    "SPS.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T08:20:01Z",
+      "nextTryUtc": "2026-10-20T08:20:01Z"
+    },
+    "TI1.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T09:03:33Z",
+      "nextTryUtc": "2026-10-20T09:03:33Z"
+    },
+    "VIP.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T10:05:35Z",
+      "nextTryUtc": "2026-10-20T10:05:35Z"
+    },
+    "VPG.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T10:13:16Z",
+      "nextTryUtc": "2026-10-20T10:13:16Z"
+    },
+    "YTMQF4.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T11:08:29Z",
+      "nextTryUtc": "2026-10-20T11:08:29Z"
+    },
+    "YTMSCP.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T11:08:38Z",
+      "nextTryUtc": "2026-10-20T11:08:38Z"
+    },
+    "YTMSG3.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T11:08:48Z",
+      "nextTryUtc": "2026-10-20T11:08:48Z"
+    },
+    "YTMTL2.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T11:08:59Z",
+      "nextTryUtc": "2026-10-20T11:08:59Z"
+    },
+    "YTMVC1.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T11:09:08Z",
+      "nextTryUtc": "2026-10-20T11:09:08Z"
+    },
+    "YTMVCX.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-20T11:09:19Z",
+      "nextTryUtc": "2026-10-20T11:09:19Z"
     }
   }
 }

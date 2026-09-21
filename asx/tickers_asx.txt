@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-09-14T04:52:11Z
-# last_extracted_awst: 2026-09-14 12:52 AWST
+# last_extracted_utc: 2026-09-21T04:52:18Z
+# last_extracted_awst: 2026-09-21 12:52 AWST
 # one symbol per line
 1.AX
 10.AX
@@ -2434,6 +2434,7 @@ WJL.AX
 WLC.AX
 WLE.AX
 WMA.AX
+WMC.AX
 WMG.AX
 WMI.AX
 WML.AX

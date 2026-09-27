@@ -1977,6 +1977,31 @@
       "count": 1,
       "last404Utc": "2026-09-20T11:09:19Z",
       "nextTryUtc": "2026-10-20T11:09:19Z"
+    },
+    "# last_extracted_awst: 2026-09-21 12:52 AWST": {
+      "count": 1,
+      "last404Utc": "2026-09-26T16:30:37Z",
+      "nextTryUtc": "2026-10-26T16:30:37Z"
+    },
+    "# last_extracted_utc: 2026-09-21T04:52:18Z": {
+      "count": 1,
+      "last404Utc": "2026-09-26T16:30:47Z",
+      "nextTryUtc": "2026-10-26T16:30:47Z"
+    },
+    "DMG.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-26T21:30:10Z",
+      "nextTryUtc": "2026-10-26T21:30:10Z"
+    },
+    "HTG.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-27T00:45:20Z",
+      "nextTryUtc": "2026-10-27T00:45:20Z"
+    },
+    "VAR.AX": {
+      "count": 1,
+      "last404Utc": "2026-09-27T09:35:45Z",
+      "nextTryUtc": "2026-10-27T09:35:45Z"
     }
   }
 }

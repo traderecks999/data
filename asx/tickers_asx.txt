@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-09-21T04:52:18Z
-# last_extracted_awst: 2026-09-21 12:52 AWST
+# last_extracted_utc: 2026-09-28T05:19:46Z
+# last_extracted_awst: 2026-09-28 13:19 AWST
 # one symbol per line
 1.AX
 10.AX
@@ -98,6 +98,7 @@ ADV.AX
 ADX.AX
 ADY.AX
 AEBD.AX
+AEC.AX
 AEE.AX
 AEF.AX
 AEG.AX
@@ -1267,6 +1268,7 @@ JPOZ.AX
 JPR.AX
 JREG.AX
 JRHG.AX
+JRL.AX
 JYC.AX
 JZRO.AX
 KAI.AX
@@ -2399,7 +2401,6 @@ WAM.AX
 WAR.AX
 WAT.AX
 WAX.AX
-WB1.AX
 WBC.AX
 WBE.AX
 WBND.AX

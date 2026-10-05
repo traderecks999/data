@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-09-28T05:19:46Z
-# last_extracted_awst: 2026-09-28 13:19 AWST
+# last_extracted_utc: 2026-10-05T05:33:59Z
+# last_extracted_awst: 2026-10-05 13:33 AWST
 # one symbol per line
 1.AX
 10.AX
@@ -534,7 +534,6 @@ CLU.AX
 CLV.AX
 CLW.AX
 CLX.AX
-CLZ.AX
 CMA.AX
 CMB.AX
 CMD.AX
@@ -615,6 +614,7 @@ CVV.AX
 CWP.AX
 CWY.AX
 CX1.AX
+CX8.AX
 CXL.AX
 CXO.AX
 CXU.AX
@@ -1552,6 +1552,7 @@ MTO.AX
 MTS.AX
 MTU.AX
 MTUM.AX
+MTX.AX
 MVA.AX
 MVB.AX
 MVE.AX

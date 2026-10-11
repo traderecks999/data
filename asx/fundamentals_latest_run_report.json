@@ -1,6 +1,6 @@
 {
-  "runId": "20260927T110538Z",
-  "runDir": "/repo/asx/_runs/20260927T110538Z",
+  "runId": "20261011T110541Z",
+  "runDir": "/repo/asx/_runs/20261011T110541Z",
   "mode": "full",
   "summaryPerRun": 0,
   "qsRatePerMin": 6.0,
@@ -8,7 +8,7 @@
   "attempted": 2233,
   "ok": 2228,
   "successRate": 0.9977608598298253,
-  "elapsedSeconds": 66914.549,
+  "elapsedSeconds": 66914.614,
   "httpStatusCounts": {
     "404": 5
   },
@@ -16,17 +16,17 @@
     "not_found": 5
   },
   "notFoundSymbols": [
-    "# last_extracted_awst: 2026-09-21 12:52 AWST",
-    "# last_extracted_utc: 2026-09-21T04:52:18Z",
-    "DMG.AX",
-    "HTG.AX",
-    "VAR.AX"
+    "# last_extracted_awst: 2026-10-05 13:33 AWST",
+    "# last_extracted_utc: 2026-10-05T05:33:59Z",
+    "AEC.AX",
+    "ENN.AX",
+    "MTX.AX"
   ],
   "notFoundCount": 5,
-  "quarantineCount": 400,
+  "quarantineCount": 405,
   "cursorBefore": 1411,
   "cursorAfter": 1451,
   "cursorAdvanced": false,
-  "generatedAtUtc": "2026-09-27T11:05:45Z",
+  "generatedAtUtc": "2026-10-11T11:05:48Z",
   "abortReason": null
 }

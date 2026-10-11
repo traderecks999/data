@@ -2002,6 +2002,31 @@
       "count": 1,
       "last404Utc": "2026-09-27T09:35:45Z",
       "nextTryUtc": "2026-10-27T09:35:45Z"
+    },
+    "# last_extracted_awst: 2026-10-05 13:33 AWST": {
+      "count": 1,
+      "last404Utc": "2026-10-10T16:30:39Z",
+      "nextTryUtc": "2026-11-09T16:30:39Z"
+    },
+    "# last_extracted_utc: 2026-10-05T05:33:59Z": {
+      "count": 1,
+      "last404Utc": "2026-10-10T16:30:49Z",
+      "nextTryUtc": "2026-11-09T16:30:49Z"
+    },
+    "AEC.AX": {
+      "count": 1,
+      "last404Utc": "2026-10-10T17:10:00Z",
+      "nextTryUtc": "2026-11-09T17:10:00Z"
+    },
+    "ENN.AX": {
+      "count": 1,
+      "last404Utc": "2026-10-10T22:15:55Z",
+      "nextTryUtc": "2026-11-09T22:15:55Z"
+    },
+    "MTX.AX": {
+      "count": 1,
+      "last404Utc": "2026-10-11T04:03:12Z",
+      "nextTryUtc": "2026-11-10T04:03:12Z"
     }
   }
 }

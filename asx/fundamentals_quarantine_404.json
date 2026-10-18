@@ -4,54 +4,54 @@
   },
   "bySymbol": {
     "BW6.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T19:52:58Z",
-      "nextTryUtc": "2026-10-12T19:52:58Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T19:46:11Z",
+      "nextTryUtc": "2026-11-16T19:46:11Z"
     },
     "CASH.AX": {
-      "count": 7,
-      "last404Utc": "2026-09-12T20:01:39Z",
-      "nextTryUtc": "2026-10-12T20:01:39Z"
+      "count": 8,
+      "last404Utc": "2026-10-17T19:53:32Z",
+      "nextTryUtc": "2026-11-16T19:53:32Z"
     },
     "CIM.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T20:29:29Z",
-      "nextTryUtc": "2026-10-12T20:29:29Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T20:20:14Z",
+      "nextTryUtc": "2026-11-16T20:20:14Z"
     },
     "D10.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T21:24:22Z",
-      "nextTryUtc": "2026-10-12T21:24:22Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T21:11:35Z",
+      "nextTryUtc": "2026-11-16T21:11:35Z"
     },
     "DA8.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T21:25:13Z",
-      "nextTryUtc": "2026-10-12T21:25:13Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T21:12:25Z",
+      "nextTryUtc": "2026-11-16T21:12:25Z"
     },
     "DA9.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T21:25:23Z",
-      "nextTryUtc": "2026-10-12T21:25:23Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T21:12:36Z",
+      "nextTryUtc": "2026-11-16T21:12:36Z"
     },
     "DAM.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T21:27:02Z",
-      "nextTryUtc": "2026-10-12T21:27:02Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T21:14:15Z",
+      "nextTryUtc": "2026-11-16T21:14:15Z"
     },
     "DAT.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T21:27:42Z",
-      "nextTryUtc": "2026-10-12T21:27:42Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T21:14:56Z",
+      "nextTryUtc": "2026-11-16T21:14:56Z"
     },
     "DXA.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T22:00:34Z",
-      "nextTryUtc": "2026-10-12T22:00:34Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T21:46:37Z",
+      "nextTryUtc": "2026-11-16T21:46:37Z"
     },
     "FM1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T23:21:48Z",
-      "nextTryUtc": "2026-10-12T23:21:48Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T23:02:51Z",
+      "nextTryUtc": "2026-11-16T23:02:51Z"
     },
     "FM2.AX": {
       "count": 5,
@@ -59,19 +59,19 @@
       "nextTryUtc": "2026-08-03T23:23:46Z"
     },
     "FM3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T23:21:58Z",
-      "nextTryUtc": "2026-10-12T23:21:58Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T23:03:01Z",
+      "nextTryUtc": "2026-11-16T23:03:01Z"
     },
     "FM5.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T23:22:08Z",
-      "nextTryUtc": "2026-10-12T23:22:08Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T23:03:11Z",
+      "nextTryUtc": "2026-11-16T23:03:11Z"
     },
     "# ASX universe tickers (Yahoo symbols, .AX)": {
-      "count": 7,
-      "last404Utc": "2026-09-12T16:30:39Z",
-      "nextTryUtc": "2026-10-12T16:30:39Z"
+      "count": 8,
+      "last404Utc": "2026-10-17T16:30:43Z",
+      "nextTryUtc": "2026-11-16T16:30:43Z"
     },
     "# last_extracted_awst: 2026-02-09 13:48 AWST": {
       "count": 1,
@@ -84,39 +84,39 @@
       "nextTryUtc": "2026-03-17T13:22:56Z"
     },
     "# one symbol per line": {
-      "count": 7,
-      "last404Utc": "2026-09-12T16:31:08Z",
-      "nextTryUtc": "2026-10-12T16:31:08Z"
+      "count": 8,
+      "last404Utc": "2026-10-17T16:31:13Z",
+      "nextTryUtc": "2026-11-16T16:31:13Z"
     },
     "AC2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T16:59:01Z",
-      "nextTryUtc": "2026-10-12T16:59:01Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T16:58:34Z",
+      "nextTryUtc": "2026-11-16T16:58:34Z"
     },
     "AF2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:16:01Z",
-      "nextTryUtc": "2026-10-12T17:16:01Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:15:15Z",
+      "nextTryUtc": "2026-11-16T17:15:15Z"
     },
     "AF4.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:16:11Z",
-      "nextTryUtc": "2026-10-12T17:16:11Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:15:24Z",
+      "nextTryUtc": "2026-11-16T17:15:24Z"
     },
     "AF5.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:16:21Z",
-      "nextTryUtc": "2026-10-12T17:16:21Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:15:35Z",
+      "nextTryUtc": "2026-11-16T17:15:35Z"
     },
     "AF6.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:16:31Z",
-      "nextTryUtc": "2026-10-12T17:16:31Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:15:45Z",
+      "nextTryUtc": "2026-11-16T17:15:45Z"
     },
     "AF7.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:16:41Z",
-      "nextTryUtc": "2026-10-12T17:16:41Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:15:55Z",
+      "nextTryUtc": "2026-11-16T17:15:55Z"
     },
     "AFM01.AX": {
       "count": 3,
@@ -124,29 +124,29 @@
       "nextTryUtc": "2026-05-25T17:21:00Z"
     },
     "AN3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:52:42Z",
-      "nextTryUtc": "2026-10-12T17:52:42Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:50:16Z",
+      "nextTryUtc": "2026-11-16T17:50:16Z"
     },
     "ANV.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:54:52Z",
-      "nextTryUtc": "2026-10-12T17:54:52Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:52:27Z",
+      "nextTryUtc": "2026-11-16T17:52:27Z"
     },
     "AO2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:56:02Z",
-      "nextTryUtc": "2026-10-12T17:56:02Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:53:36Z",
+      "nextTryUtc": "2026-11-16T17:53:36Z"
     },
     "AO3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:56:12Z",
-      "nextTryUtc": "2026-10-12T17:56:12Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:53:46Z",
+      "nextTryUtc": "2026-11-16T17:53:46Z"
     },
     "AP2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T17:58:23Z",
-      "nextTryUtc": "2026-10-12T17:58:23Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T17:55:57Z",
+      "nextTryUtc": "2026-11-16T17:55:57Z"
     },
     "AQY02.AX": {
       "count": 2,
@@ -159,9 +159,9 @@
       "nextTryUtc": "2026-04-20T18:08:51Z"
     },
     "ATB.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T18:24:44Z",
-      "nextTryUtc": "2026-10-12T18:24:44Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T18:19:48Z",
+      "nextTryUtc": "2026-11-16T18:19:48Z"
     },
     "AXW01.AX": {
       "count": 4,
@@ -214,19 +214,19 @@
       "nextTryUtc": "2026-06-29T18:51:51Z"
     },
     "AYU.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T18:51:25Z",
-      "nextTryUtc": "2026-10-12T18:51:25Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T18:46:09Z",
+      "nextTryUtc": "2026-11-16T18:46:09Z"
     },
     "B01.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T18:53:45Z",
-      "nextTryUtc": "2026-10-12T18:53:45Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T18:48:19Z",
+      "nextTryUtc": "2026-11-16T18:48:19Z"
     },
     "BA2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T18:54:56Z",
-      "nextTryUtc": "2026-10-12T18:54:56Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T18:49:29Z",
+      "nextTryUtc": "2026-11-16T18:49:29Z"
     },
     "BAE02.AX": {
       "count": 4,
@@ -249,24 +249,24 @@
       "nextTryUtc": "2026-04-20T19:27:54Z"
     },
     "BP1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T19:35:07Z",
-      "nextTryUtc": "2026-10-12T19:35:07Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T19:29:21Z",
+      "nextTryUtc": "2026-11-16T19:29:21Z"
     },
     "BS1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T19:42:17Z",
-      "nextTryUtc": "2026-10-12T19:42:17Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T19:35:31Z",
+      "nextTryUtc": "2026-11-16T19:35:31Z"
     },
     "IF1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T01:29:43Z",
-      "nextTryUtc": "2026-10-13T01:29:43Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T01:06:37Z",
+      "nextTryUtc": "2026-11-17T01:06:37Z"
     },
     "IFX.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T01:31:24Z",
-      "nextTryUtc": "2026-10-13T01:31:24Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T01:08:17Z",
+      "nextTryUtc": "2026-11-17T01:08:17Z"
     },
     "INS01.AX": {
       "count": 2,
@@ -299,14 +299,14 @@
       "nextTryUtc": "2026-10-20T02:10:43Z"
     },
     "KFW.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T02:32:47Z",
-      "nextTryUtc": "2026-10-13T02:32:47Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:09:09Z",
+      "nextTryUtc": "2026-11-17T02:09:09Z"
     },
     "KI1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T02:33:57Z",
-      "nextTryUtc": "2026-10-13T02:33:57Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:10:20Z",
+      "nextTryUtc": "2026-11-17T02:10:20Z"
     },
     "KIG.AX": {
       "count": 6,
@@ -314,64 +314,64 @@
       "nextTryUtc": "2026-10-13T02:34:07Z"
     },
     "LCN.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T02:53:47Z",
-      "nextTryUtc": "2026-10-13T02:53:47Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:29:00Z",
+      "nextTryUtc": "2026-11-17T02:29:00Z"
     },
     "LI8.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:02:58Z",
-      "nextTryUtc": "2026-10-13T03:02:58Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:38:11Z",
+      "nextTryUtc": "2026-11-17T02:38:11Z"
     },
     "LN1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:10:38Z",
-      "nextTryUtc": "2026-10-13T03:10:38Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:45:22Z",
+      "nextTryUtc": "2026-11-17T02:45:22Z"
     },
     "LN2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:10:48Z",
-      "nextTryUtc": "2026-10-13T03:10:48Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:45:32Z",
+      "nextTryUtc": "2026-11-17T02:45:32Z"
     },
     "LN3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:10:59Z",
-      "nextTryUtc": "2026-10-13T03:10:59Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:45:41Z",
+      "nextTryUtc": "2026-11-17T02:45:41Z"
     },
     "LO1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:13:28Z",
-      "nextTryUtc": "2026-10-13T03:13:28Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:47:51Z",
+      "nextTryUtc": "2026-11-17T02:47:51Z"
     },
     "LP1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:14:38Z",
-      "nextTryUtc": "2026-10-13T03:14:38Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:49:01Z",
+      "nextTryUtc": "2026-11-17T02:49:01Z"
     },
     "LR1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:16:48Z",
-      "nextTryUtc": "2026-10-13T03:16:48Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:51:11Z",
+      "nextTryUtc": "2026-11-17T02:51:11Z"
     },
     "LR3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:16:59Z",
-      "nextTryUtc": "2026-10-13T03:16:59Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:51:21Z",
+      "nextTryUtc": "2026-11-17T02:51:21Z"
     },
     "LR4.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:17:09Z",
-      "nextTryUtc": "2026-10-13T03:17:09Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:51:31Z",
+      "nextTryUtc": "2026-11-17T02:51:31Z"
     },
     "LR5.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:17:19Z",
-      "nextTryUtc": "2026-10-13T03:17:19Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:51:41Z",
+      "nextTryUtc": "2026-11-17T02:51:41Z"
     },
     "LR6.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:17:28Z",
-      "nextTryUtc": "2026-10-13T03:17:28Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T02:51:51Z",
+      "nextTryUtc": "2026-11-17T02:51:51Z"
     },
     "LT9.AX": {
       "count": 3,
@@ -379,84 +379,84 @@
       "nextTryUtc": "2026-05-26T03:28:29Z"
     },
     "MA2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:31:09Z",
-      "nextTryUtc": "2026-10-13T03:31:09Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:03:52Z",
+      "nextTryUtc": "2026-11-17T03:03:52Z"
     },
     "MF3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:48:30Z",
-      "nextTryUtc": "2026-10-13T03:48:30Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:19:43Z",
+      "nextTryUtc": "2026-11-17T03:19:43Z"
     },
     "MF4.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:48:40Z",
-      "nextTryUtc": "2026-10-13T03:48:40Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:19:53Z",
+      "nextTryUtc": "2026-11-17T03:19:53Z"
     },
     "MF5.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:48:50Z",
-      "nextTryUtc": "2026-10-13T03:48:50Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:20:02Z",
+      "nextTryUtc": "2026-11-17T03:20:02Z"
     },
     "MF6.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T03:49:00Z",
-      "nextTryUtc": "2026-10-13T03:49:00Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:20:13Z",
+      "nextTryUtc": "2026-11-17T03:20:13Z"
     },
     "ML2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:02:00Z",
-      "nextTryUtc": "2026-10-13T04:02:00Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:32:34Z",
+      "nextTryUtc": "2026-11-17T03:32:34Z"
     },
     "MM2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:05:00Z",
-      "nextTryUtc": "2026-10-13T04:05:00Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:35:33Z",
+      "nextTryUtc": "2026-11-17T03:35:33Z"
     },
     "MM4.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:05:11Z",
-      "nextTryUtc": "2026-10-13T04:05:11Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T03:35:43Z",
+      "nextTryUtc": "2026-11-17T03:35:43Z"
     },
     "MZ1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:43:43Z",
-      "nextTryUtc": "2026-10-13T04:43:43Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:12:35Z",
+      "nextTryUtc": "2026-11-17T04:12:35Z"
     },
     "MZ2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:43:53Z",
-      "nextTryUtc": "2026-10-13T04:43:53Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:12:46Z",
+      "nextTryUtc": "2026-11-17T04:12:46Z"
     },
     "MZF.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:44:03Z",
-      "nextTryUtc": "2026-10-13T04:44:03Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:12:55Z",
+      "nextTryUtc": "2026-11-17T04:12:55Z"
     },
     "MZT.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:44:12Z",
-      "nextTryUtc": "2026-10-13T04:44:12Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:13:06Z",
+      "nextTryUtc": "2026-11-17T04:13:06Z"
     },
     "NFN.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T04:54:23Z",
-      "nextTryUtc": "2026-10-13T04:54:23Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:22:16Z",
+      "nextTryUtc": "2026-11-17T04:22:16Z"
     },
     "NRO.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:08:14Z",
-      "nextTryUtc": "2026-10-13T05:08:14Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:35:07Z",
+      "nextTryUtc": "2026-11-17T04:35:07Z"
     },
     "NRP.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:08:24Z",
-      "nextTryUtc": "2026-10-13T05:08:24Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:35:17Z",
+      "nextTryUtc": "2026-11-17T04:35:17Z"
     },
     "NW1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:17:34Z",
-      "nextTryUtc": "2026-10-13T05:17:34Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T04:44:27Z",
+      "nextTryUtc": "2026-11-17T04:44:27Z"
     },
     "NWG01.AX": {
       "count": 3,
@@ -464,9 +464,9 @@
       "nextTryUtc": "2026-05-26T05:21:55Z"
     },
     "OR2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:41:35Z",
-      "nextTryUtc": "2026-10-13T05:41:35Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:07:07Z",
+      "nextTryUtc": "2026-11-17T05:07:07Z"
     },
     "ORB01.AX": {
       "count": 2,
@@ -479,39 +479,39 @@
       "nextTryUtc": "2026-04-21T05:48:04Z"
     },
     "OY1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:47:25Z",
-      "nextTryUtc": "2026-10-13T05:47:25Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:13:28Z",
+      "nextTryUtc": "2026-11-17T05:13:28Z"
     },
     "OYS.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:47:35Z",
-      "nextTryUtc": "2026-10-13T05:47:35Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:13:38Z",
+      "nextTryUtc": "2026-11-17T05:13:38Z"
     },
     "PA1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:50:46Z",
-      "nextTryUtc": "2026-10-13T05:50:46Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:16:48Z",
+      "nextTryUtc": "2026-11-17T05:16:48Z"
     },
     "PA2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:50:55Z",
-      "nextTryUtc": "2026-10-13T05:50:55Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:16:58Z",
+      "nextTryUtc": "2026-11-17T05:16:58Z"
     },
     "PA3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:51:06Z",
-      "nextTryUtc": "2026-10-13T05:51:06Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:17:08Z",
+      "nextTryUtc": "2026-11-17T05:17:08Z"
     },
     "PA4.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:51:16Z",
-      "nextTryUtc": "2026-10-13T05:51:16Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:17:18Z",
+      "nextTryUtc": "2026-11-17T05:17:18Z"
     },
     "PA5.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T05:51:26Z",
-      "nextTryUtc": "2026-10-13T05:51:26Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:17:29Z",
+      "nextTryUtc": "2026-11-17T05:17:29Z"
     },
     "PLM01.AX": {
       "count": 1,
@@ -534,79 +534,79 @@
       "nextTryUtc": "2026-08-04T06:34:47Z"
     },
     "POC.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:26:08Z",
-      "nextTryUtc": "2026-10-13T06:26:08Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:50:10Z",
+      "nextTryUtc": "2026-11-17T05:50:10Z"
     },
     "POE.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:26:48Z",
-      "nextTryUtc": "2026-10-13T06:26:48Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:50:50Z",
+      "nextTryUtc": "2026-11-17T05:50:50Z"
     },
     "POF.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:26:57Z",
-      "nextTryUtc": "2026-10-13T06:26:57Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:51:00Z",
+      "nextTryUtc": "2026-11-17T05:51:00Z"
     },
     "POG.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:27:08Z",
-      "nextTryUtc": "2026-10-13T06:27:08Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:51:10Z",
+      "nextTryUtc": "2026-11-17T05:51:10Z"
     },
     "POH.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:27:18Z",
-      "nextTryUtc": "2026-10-13T06:27:18Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:51:20Z",
+      "nextTryUtc": "2026-11-17T05:51:20Z"
     },
     "POI.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:27:27Z",
-      "nextTryUtc": "2026-10-13T06:27:27Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:51:30Z",
+      "nextTryUtc": "2026-11-17T05:51:30Z"
     },
     "POT.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:28:17Z",
-      "nextTryUtc": "2026-10-13T06:28:17Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:52:20Z",
+      "nextTryUtc": "2026-11-17T05:52:20Z"
     },
     "PR4.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:34:08Z",
-      "nextTryUtc": "2026-10-13T06:34:08Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T05:58:10Z",
+      "nextTryUtc": "2026-11-17T05:58:10Z"
     },
     "PS2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:38:18Z",
-      "nextTryUtc": "2026-10-13T06:38:18Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:02:00Z",
+      "nextTryUtc": "2026-11-17T06:02:00Z"
     },
     "PU6.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:41:39Z",
-      "nextTryUtc": "2026-10-13T06:41:39Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:05:10Z",
+      "nextTryUtc": "2026-11-17T06:05:10Z"
     },
     "PU8.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:41:49Z",
-      "nextTryUtc": "2026-10-13T06:41:49Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:05:21Z",
+      "nextTryUtc": "2026-11-17T06:05:21Z"
     },
     "PU9.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:41:58Z",
-      "nextTryUtc": "2026-10-13T06:41:58Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:05:31Z",
+      "nextTryUtc": "2026-11-17T06:05:31Z"
     },
     "PUT.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:42:48Z",
-      "nextTryUtc": "2026-10-13T06:42:48Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:06:11Z",
+      "nextTryUtc": "2026-11-17T06:06:11Z"
     },
     "PUU.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:42:58Z",
-      "nextTryUtc": "2026-10-13T06:42:58Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:06:21Z",
+      "nextTryUtc": "2026-11-17T06:06:21Z"
     },
     "QNB.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:57:29Z",
-      "nextTryUtc": "2026-10-13T06:57:29Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:20:51Z",
+      "nextTryUtc": "2026-11-17T06:20:51Z"
     },
     "RA2.AX": {
       "count": 4,
@@ -614,14 +614,14 @@
       "nextTryUtc": "2026-06-30T07:16:57Z"
     },
     "RA3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T07:04:09Z",
-      "nextTryUtc": "2026-10-13T07:04:09Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:28:02Z",
+      "nextTryUtc": "2026-11-17T06:28:02Z"
     },
     "RAM.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T07:05:49Z",
-      "nextTryUtc": "2026-10-13T07:05:49Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:29:42Z",
+      "nextTryUtc": "2026-11-17T06:29:42Z"
     },
     "RLM02.AX": {
       "count": 4,
@@ -634,24 +634,24 @@
       "nextTryUtc": "2026-06-30T07:49:38Z"
     },
     "SC1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:03:22Z",
-      "nextTryUtc": "2026-10-13T08:03:22Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T07:26:24Z",
+      "nextTryUtc": "2026-11-17T07:26:24Z"
     },
     "SCA.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:03:32Z",
-      "nextTryUtc": "2026-10-13T08:03:32Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T07:26:35Z",
+      "nextTryUtc": "2026-11-17T07:26:35Z"
     },
     "SCW.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:04:42Z",
-      "nextTryUtc": "2026-10-13T08:04:42Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T07:27:45Z",
+      "nextTryUtc": "2026-11-17T07:27:45Z"
     },
     "SFV.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:14:22Z",
-      "nextTryUtc": "2026-10-13T08:14:22Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T07:36:54Z",
+      "nextTryUtc": "2026-11-17T07:36:54Z"
     },
     "SHF05.AX": {
       "count": 2,
@@ -664,9 +664,9 @@
       "nextTryUtc": "2026-04-21T08:30:52Z"
     },
     "SHZ.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:23:43Z",
-      "nextTryUtc": "2026-10-13T08:23:43Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T07:45:35Z",
+      "nextTryUtc": "2026-11-17T07:45:35Z"
     },
     "SKE01.AX": {
       "count": 4,
@@ -674,19 +674,19 @@
       "nextTryUtc": "2026-06-30T08:38:40Z"
     },
     "SP4.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:49:24Z",
-      "nextTryUtc": "2026-10-13T08:49:24Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T08:09:47Z",
+      "nextTryUtc": "2026-11-17T08:09:47Z"
     },
     "SP5.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:49:35Z",
-      "nextTryUtc": "2026-10-13T08:49:35Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T08:09:56Z",
+      "nextTryUtc": "2026-11-17T08:09:56Z"
     },
     "SP6.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T08:49:45Z",
-      "nextTryUtc": "2026-10-13T08:49:45Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T08:10:07Z",
+      "nextTryUtc": "2026-11-17T08:10:07Z"
     },
     "SPM02.AX": {
       "count": 3,
@@ -694,19 +694,19 @@
       "nextTryUtc": "2026-05-26T09:01:35Z"
     },
     "TA1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T09:22:56Z",
-      "nextTryUtc": "2026-10-13T09:22:56Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T08:39:38Z",
+      "nextTryUtc": "2026-11-17T08:39:38Z"
     },
     "TT1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T10:00:08Z",
-      "nextTryUtc": "2026-10-13T10:00:08Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T09:15:49Z",
+      "nextTryUtc": "2026-11-17T09:15:49Z"
     },
     "TT2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T10:00:18Z",
-      "nextTryUtc": "2026-10-13T10:00:18Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T09:15:59Z",
+      "nextTryUtc": "2026-11-17T09:15:59Z"
     },
     "TT6.AX": {
       "count": 3,
@@ -724,9 +724,9 @@
       "nextTryUtc": "2026-03-17T19:34:22Z"
     },
     "VCD.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T10:27:38Z",
-      "nextTryUtc": "2026-10-13T10:27:38Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T09:42:20Z",
+      "nextTryUtc": "2026-11-17T09:42:20Z"
     },
     "WB1.AX": {
       "count": 6,
@@ -734,74 +734,74 @@
       "nextTryUtc": "2026-10-13T11:06:01Z"
     },
     "WE1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:11:21Z",
-      "nextTryUtc": "2026-10-13T11:11:21Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:24:52Z",
+      "nextTryUtc": "2026-11-17T10:24:52Z"
     },
     "WEF.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:12:31Z",
-      "nextTryUtc": "2026-10-13T11:12:31Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:26:03Z",
+      "nextTryUtc": "2026-11-17T10:26:03Z"
     },
     "WEN.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:13:41Z",
-      "nextTryUtc": "2026-10-13T11:13:41Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:27:12Z",
+      "nextTryUtc": "2026-11-17T10:27:12Z"
     },
     "WS1.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:29:22Z",
-      "nextTryUtc": "2026-10-13T11:29:22Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:42:54Z",
+      "nextTryUtc": "2026-11-17T10:42:54Z"
     },
     "WS2.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:29:32Z",
-      "nextTryUtc": "2026-10-13T11:29:32Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:43:04Z",
+      "nextTryUtc": "2026-11-17T10:43:04Z"
     },
     "WSE.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:29:52Z",
-      "nextTryUtc": "2026-10-13T11:29:52Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:43:23Z",
+      "nextTryUtc": "2026-11-17T10:43:23Z"
     },
     "XCL.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:39:52Z",
-      "nextTryUtc": "2026-10-13T11:39:52Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:53:24Z",
+      "nextTryUtc": "2026-11-17T10:53:24Z"
     },
     "XIFAI.AX": {
-      "count": 7,
-      "last404Utc": "2026-09-13T11:41:32Z",
-      "nextTryUtc": "2026-10-13T11:41:32Z"
+      "count": 8,
+      "last404Utc": "2026-10-18T10:55:04Z",
+      "nextTryUtc": "2026-11-17T10:55:04Z"
     },
     "XJOAI.AX": {
-      "count": 7,
-      "last404Utc": "2026-09-13T11:41:42Z",
-      "nextTryUtc": "2026-10-13T11:41:42Z"
+      "count": 8,
+      "last404Utc": "2026-10-18T10:55:14Z",
+      "nextTryUtc": "2026-11-17T10:55:14Z"
     },
     "XNC.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:42:22Z",
-      "nextTryUtc": "2026-10-13T11:42:22Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:55:54Z",
+      "nextTryUtc": "2026-11-17T10:55:54Z"
     },
     "XPJAI.AX": {
-      "count": 7,
-      "last404Utc": "2026-09-13T11:42:32Z",
-      "nextTryUtc": "2026-10-13T11:42:32Z"
+      "count": 8,
+      "last404Utc": "2026-10-18T10:56:05Z",
+      "nextTryUtc": "2026-11-17T10:56:05Z"
     },
     "XSOAI.AX": {
-      "count": 7,
-      "last404Utc": "2026-09-13T11:45:12Z",
-      "nextTryUtc": "2026-10-13T11:45:12Z"
+      "count": 8,
+      "last404Utc": "2026-10-18T10:58:44Z",
+      "nextTryUtc": "2026-11-17T10:58:44Z"
     },
     "XVG.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:45:53Z",
-      "nextTryUtc": "2026-10-13T11:45:53Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T10:59:25Z",
+      "nextTryUtc": "2026-11-17T10:59:25Z"
     },
     "ZOR.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T11:56:03Z",
-      "nextTryUtc": "2026-10-13T11:56:03Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T11:09:35Z",
+      "nextTryUtc": "2026-11-17T11:09:35Z"
     },
     "# last_extracted_awst: 2026-02-16 11:18 AWST": {
       "count": 1,
@@ -814,14 +814,14 @@
       "nextTryUtc": "2026-03-20T16:28:12Z"
     },
     "AC3.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-12T16:59:10Z",
-      "nextTryUtc": "2026-10-12T16:59:10Z"
+      "count": 7,
+      "last404Utc": "2026-10-17T16:58:44Z",
+      "nextTryUtc": "2026-11-16T16:58:44Z"
     },
     "PUV.AX": {
-      "count": 6,
-      "last404Utc": "2026-09-13T06:43:09Z",
-      "nextTryUtc": "2026-10-13T06:43:09Z"
+      "count": 7,
+      "last404Utc": "2026-10-18T06:06:31Z",
+      "nextTryUtc": "2026-11-17T06:06:31Z"
     },
     "# last_extracted_awst: 2026-02-23 11:19 AWST": {
       "count": 1,
@@ -844,9 +844,9 @@
       "nextTryUtc": "2026-04-13T16:30:47Z"
     },
     "HC1.AX": {
-      "count": 5,
-      "last404Utc": "2026-09-13T00:42:52Z",
-      "nextTryUtc": "2026-10-13T00:42:52Z"
+      "count": 6,
+      "last404Utc": "2026-10-18T00:22:15Z",
+      "nextTryUtc": "2026-11-17T00:22:15Z"
     },
     "# last_extracted_awst: 2026-03-16 11:33 AWST": {
       "count": 1,
@@ -889,14 +889,14 @@
       "nextTryUtc": "2026-05-11T16:30:46Z"
     },
     "D11.AX": {
-      "count": 5,
-      "last404Utc": "2026-09-12T21:24:33Z",
-      "nextTryUtc": "2026-10-12T21:24:33Z"
+      "count": 6,
+      "last404Utc": "2026-10-17T21:11:46Z",
+      "nextTryUtc": "2026-11-16T21:11:46Z"
     },
     "PA6.AX": {
-      "count": 5,
-      "last404Utc": "2026-09-13T05:51:36Z",
-      "nextTryUtc": "2026-10-13T05:51:36Z"
+      "count": 6,
+      "last404Utc": "2026-10-18T05:17:39Z",
+      "nextTryUtc": "2026-11-17T05:17:39Z"
     },
     "# last_extracted_awst: 2026-04-13 11:51 AWST": {
       "count": 1,
@@ -939,14 +939,14 @@
       "nextTryUtc": "2026-06-08T16:30:46Z"
     },
     "PR5.AX": {
-      "count": 4,
-      "last404Utc": "2026-09-13T06:34:18Z",
-      "nextTryUtc": "2026-10-13T06:34:18Z"
+      "count": 5,
+      "last404Utc": "2026-10-18T05:58:21Z",
+      "nextTryUtc": "2026-11-17T05:58:21Z"
     },
     "SP7.AX": {
-      "count": 4,
-      "last404Utc": "2026-09-13T08:49:54Z",
-      "nextTryUtc": "2026-10-13T08:49:54Z"
+      "count": 5,
+      "last404Utc": "2026-10-18T08:10:16Z",
+      "nextTryUtc": "2026-11-17T08:10:16Z"
     },
     "# last_extracted_awst: 2026-05-11 12:34 AWST": {
       "count": 1,
@@ -969,9 +969,9 @@
       "nextTryUtc": "2026-06-22T16:30:51Z"
     },
     "PO2.AX": {
-      "count": 3,
-      "last404Utc": "2026-09-13T06:25:57Z",
-      "nextTryUtc": "2026-10-13T06:25:57Z"
+      "count": 4,
+      "last404Utc": "2026-10-18T05:50:00Z",
+      "nextTryUtc": "2026-11-17T05:50:00Z"
     },
     "# last_extracted_awst: 2026-05-25 12:49 AWST": {
       "count": 1,
@@ -984,9 +984,9 @@
       "nextTryUtc": "2026-06-29T16:31:14Z"
     },
     "MM5.AX": {
-      "count": 3,
-      "last404Utc": "2026-09-13T04:05:21Z",
-      "nextTryUtc": "2026-10-13T04:05:21Z"
+      "count": 4,
+      "last404Utc": "2026-10-18T03:35:54Z",
+      "nextTryUtc": "2026-11-17T03:35:54Z"
     },
     "# last_extracted_awst: 2026-06-01 13:14 AWST": {
       "count": 1,
@@ -1009,9 +1009,9 @@
       "nextTryUtc": "2026-07-13T16:30:45Z"
     },
     "PP2.AX": {
-      "count": 3,
-      "last404Utc": "2026-09-13T06:28:58Z",
-      "nextTryUtc": "2026-10-13T06:28:58Z"
+      "count": 4,
+      "last404Utc": "2026-10-18T05:53:00Z",
+      "nextTryUtc": "2026-11-17T05:53:00Z"
     },
     "# last_extracted_awst: 2026-06-15 13:26 AWST": {
       "count": 1,
@@ -1024,14 +1024,14 @@
       "nextTryUtc": "2026-07-20T16:30:46Z"
     },
     "ML3.AX": {
-      "count": 3,
-      "last404Utc": "2026-09-13T04:02:11Z",
-      "nextTryUtc": "2026-10-13T04:02:11Z"
+      "count": 4,
+      "last404Utc": "2026-10-18T03:32:44Z",
+      "nextTryUtc": "2026-11-17T03:32:44Z"
     },
     "OR4.AX": {
-      "count": 3,
-      "last404Utc": "2026-09-13T05:41:45Z",
-      "nextTryUtc": "2026-10-13T05:41:45Z"
+      "count": 4,
+      "last404Utc": "2026-10-18T05:07:18Z",
+      "nextTryUtc": "2026-11-17T05:07:18Z"
     },
     "# last_extracted_awst: 2026-06-22 13:28 AWST": {
       "count": 1,
@@ -1044,9 +1044,9 @@
       "nextTryUtc": "2026-07-27T16:30:47Z"
     },
     "PA7.AX": {
-      "count": 2,
-      "last404Utc": "2026-09-13T05:51:45Z",
-      "nextTryUtc": "2026-10-13T05:51:45Z"
+      "count": 3,
+      "last404Utc": "2026-10-18T05:17:49Z",
+      "nextTryUtc": "2026-11-17T05:17:49Z"
     },
     "# last_extracted_awst: 2026-06-29 12:58 AWST": {
       "count": 1,
@@ -1059,14 +1059,14 @@
       "nextTryUtc": "2026-08-03T16:30:56Z"
     },
     "MF8.AX": {
-      "count": 2,
-      "last404Utc": "2026-09-13T03:49:10Z",
-      "nextTryUtc": "2026-10-13T03:49:10Z"
+      "count": 3,
+      "last404Utc": "2026-10-18T03:20:23Z",
+      "nextTryUtc": "2026-11-17T03:20:23Z"
     },
     "ML4.AX": {
-      "count": 2,
-      "last404Utc": "2026-09-13T04:02:20Z",
-      "nextTryUtc": "2026-10-13T04:02:20Z"
+      "count": 3,
+      "last404Utc": "2026-10-18T03:32:54Z",
+      "nextTryUtc": "2026-11-17T03:32:54Z"
     },
     "# last_extracted_awst: 2026-07-06 12:37 AWST": {
       "count": 1,
@@ -1079,14 +1079,14 @@
       "nextTryUtc": "2026-08-10T16:30:46Z"
     },
     "CX1.AX": {
-      "count": 2,
-      "last404Utc": "2026-09-12T21:17:42Z",
-      "nextTryUtc": "2026-10-12T21:17:42Z"
+      "count": 3,
+      "last404Utc": "2026-10-17T21:04:25Z",
+      "nextTryUtc": "2026-11-16T21:04:25Z"
     },
     "WS3.AX": {
-      "count": 2,
-      "last404Utc": "2026-09-13T11:29:42Z",
-      "nextTryUtc": "2026-10-13T11:29:42Z"
+      "count": 3,
+      "last404Utc": "2026-10-18T10:43:14Z",
+      "nextTryUtc": "2026-11-17T10:43:14Z"
     },
     "# last_extracted_awst: 2026-07-13 11:57 AWST": {
       "count": 1,
@@ -1189,19 +1189,19 @@
       "nextTryUtc": "2026-10-12T16:30:58Z"
     },
     "AC1.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T16:58:50Z",
-      "nextTryUtc": "2026-10-12T16:58:50Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T16:58:24Z",
+      "nextTryUtc": "2026-11-16T16:58:24Z"
     },
     "AC4.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T16:59:20Z",
-      "nextTryUtc": "2026-10-12T16:59:20Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T16:58:54Z",
+      "nextTryUtc": "2026-11-16T16:58:54Z"
     },
     "ACT.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T17:04:00Z",
-      "nextTryUtc": "2026-10-12T17:04:00Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T17:03:34Z",
+      "nextTryUtc": "2026-11-16T17:03:34Z"
     },
     "ADG.AX": {
       "count": 1,
@@ -1219,14 +1219,14 @@
       "nextTryUtc": "2026-10-12T17:21:51Z"
     },
     "AIC.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T17:29:01Z",
-      "nextTryUtc": "2026-10-12T17:29:01Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T17:27:35Z",
+      "nextTryUtc": "2026-11-16T17:27:35Z"
     },
     "AR2.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T18:07:33Z",
-      "nextTryUtc": "2026-10-12T18:07:33Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T18:03:37Z",
+      "nextTryUtc": "2026-11-16T18:03:37Z"
     },
     "ASE.AX": {
       "count": 1,
@@ -1254,9 +1254,9 @@
       "nextTryUtc": "2026-10-12T18:34:34Z"
     },
     "AXX.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T18:49:15Z",
-      "nextTryUtc": "2026-10-12T18:49:15Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T18:43:59Z",
+      "nextTryUtc": "2026-11-16T18:43:59Z"
     },
     "AZL.AX": {
       "count": 1,
@@ -1269,9 +1269,9 @@
       "nextTryUtc": "2026-10-12T19:06:36Z"
     },
     "BHY.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T19:17:47Z",
-      "nextTryUtc": "2026-10-12T19:17:47Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T19:12:11Z",
+      "nextTryUtc": "2026-11-16T19:12:11Z"
     },
     "BMG.AX": {
       "count": 1,
@@ -1289,9 +1289,9 @@
       "nextTryUtc": "2026-10-12T19:55:18Z"
     },
     "C2F.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T19:56:28Z",
-      "nextTryUtc": "2026-10-12T19:56:28Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T19:48:52Z",
+      "nextTryUtc": "2026-11-16T19:48:52Z"
     },
     "CDX.AX": {
       "count": 1,
@@ -1339,19 +1339,14 @@
       "nextTryUtc": "2026-10-12T22:38:16Z"
     },
     "ETP.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T22:46:56Z",
-      "nextTryUtc": "2026-10-12T22:46:56Z"
-    },
-    "EUZ.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T22:49:37Z",
-      "nextTryUtc": "2026-10-12T22:49:37Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T22:30:19Z",
+      "nextTryUtc": "2026-11-16T22:30:19Z"
     },
     "EX2.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T22:54:46Z",
-      "nextTryUtc": "2026-10-12T22:54:46Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T22:36:29Z",
+      "nextTryUtc": "2026-11-16T22:36:29Z"
     },
     "FBM.AX": {
       "count": 1,
@@ -1359,9 +1354,9 @@
       "nextTryUtc": "2026-10-12T23:02:57Z"
     },
     "FCF.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T23:04:37Z",
-      "nextTryUtc": "2026-10-12T23:04:37Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T22:46:10Z",
+      "nextTryUtc": "2026-11-16T22:46:10Z"
     },
     "FTL.AX": {
       "count": 1,
@@ -1369,9 +1364,9 @@
       "nextTryUtc": "2026-10-12T23:35:18Z"
     },
     "G20.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T23:39:29Z",
-      "nextTryUtc": "2026-10-12T23:39:29Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T23:19:52Z",
+      "nextTryUtc": "2026-11-16T23:19:52Z"
     },
     "GBZ.AX": {
       "count": 1,
@@ -1379,14 +1374,14 @@
       "nextTryUtc": "2026-10-12T23:45:39Z"
     },
     "GD8.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T23:48:49Z",
-      "nextTryUtc": "2026-10-12T23:48:49Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T23:29:02Z",
+      "nextTryUtc": "2026-11-16T23:29:02Z"
     },
     "GEA.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-12T23:51:59Z",
-      "nextTryUtc": "2026-10-12T23:51:59Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T23:32:12Z",
+      "nextTryUtc": "2026-11-16T23:32:12Z"
     },
     "GLA.AX": {
       "count": 1,
@@ -1394,19 +1389,19 @@
       "nextTryUtc": "2026-10-13T00:04:40Z"
     },
     "GOL.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T00:16:50Z",
-      "nextTryUtc": "2026-10-13T00:16:50Z"
+      "count": 2,
+      "last404Utc": "2026-10-17T23:57:24Z",
+      "nextTryUtc": "2026-11-16T23:57:24Z"
     },
     "GSB.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T00:27:20Z",
-      "nextTryUtc": "2026-10-13T00:27:20Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T00:06:54Z",
+      "nextTryUtc": "2026-11-17T00:06:54Z"
     },
     "GSI.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T00:28:01Z",
-      "nextTryUtc": "2026-10-13T00:28:01Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T00:07:34Z",
+      "nextTryUtc": "2026-11-17T00:07:34Z"
     },
     "GTR.AX": {
       "count": 1,
@@ -1429,14 +1424,14 @@
       "nextTryUtc": "2026-10-13T01:05:52Z"
     },
     "HYL.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T01:13:33Z",
-      "nextTryUtc": "2026-10-13T01:13:33Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T00:51:26Z",
+      "nextTryUtc": "2026-11-17T00:51:26Z"
     },
     "IIC.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T01:38:04Z",
-      "nextTryUtc": "2026-10-13T01:38:04Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T01:14:56Z",
+      "nextTryUtc": "2026-11-17T01:14:56Z"
     },
     "IPB.AX": {
       "count": 1,
@@ -1464,14 +1459,14 @@
       "nextTryUtc": "2026-10-13T03:12:18Z"
     },
     "LR7.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T03:17:39Z",
-      "nextTryUtc": "2026-10-13T03:17:39Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T02:52:02Z",
+      "nextTryUtc": "2026-11-17T02:52:02Z"
     },
     "LSJ.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T03:21:50Z",
-      "nextTryUtc": "2026-10-13T03:21:50Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T02:55:41Z",
+      "nextTryUtc": "2026-11-17T02:55:41Z"
     },
     "LYK.AX": {
       "count": 1,
@@ -1494,9 +1489,9 @@
       "nextTryUtc": "2026-10-13T04:30:01Z"
     },
     "NNO.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T05:04:03Z",
-      "nextTryUtc": "2026-10-13T05:04:03Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T04:30:57Z",
+      "nextTryUtc": "2026-11-17T04:30:57Z"
     },
     "OPL.AX": {
       "count": 1,
@@ -1509,14 +1504,14 @@
       "nextTryUtc": "2026-10-13T05:41:26Z"
     },
     "PA8.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T05:51:56Z",
-      "nextTryUtc": "2026-10-13T05:51:56Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T05:17:58Z",
+      "nextTryUtc": "2026-11-17T05:17:58Z"
     },
     "PEQ.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T06:03:37Z",
-      "nextTryUtc": "2026-10-13T06:03:37Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T05:28:39Z",
+      "nextTryUtc": "2026-11-17T05:28:39Z"
     },
     "PH2.AX": {
       "count": 1,
@@ -1534,19 +1529,14 @@
       "nextTryUtc": "2026-10-13T06:20:37Z"
     },
     "PMI.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T06:21:47Z",
-      "nextTryUtc": "2026-10-13T06:21:47Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T05:45:49Z",
+      "nextTryUtc": "2026-11-17T05:45:49Z"
     },
     "POJ.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T06:27:38Z",
-      "nextTryUtc": "2026-10-13T06:27:38Z"
-    },
-    "PRB.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T06:34:28Z",
-      "nextTryUtc": "2026-10-13T06:34:28Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T05:51:40Z",
+      "nextTryUtc": "2026-11-17T05:51:40Z"
     },
     "PRS.AX": {
       "count": 1,
@@ -1564,9 +1554,9 @@
       "nextTryUtc": "2026-10-13T06:42:08Z"
     },
     "PYX.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T06:48:19Z",
-      "nextTryUtc": "2026-10-13T06:48:19Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T06:11:40Z",
+      "nextTryUtc": "2026-11-17T06:11:40Z"
     },
     "RPG.AX": {
       "count": 1,
@@ -1584,9 +1574,9 @@
       "nextTryUtc": "2026-10-13T08:23:03Z"
     },
     "SP9.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T08:50:35Z",
-      "nextTryUtc": "2026-10-13T08:50:35Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T08:10:56Z",
+      "nextTryUtc": "2026-11-17T08:10:56Z"
     },
     "SRI.AX": {
       "count": 1,
@@ -1599,9 +1589,9 @@
       "nextTryUtc": "2026-10-13T09:05:45Z"
     },
     "SUG.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T09:10:55Z",
-      "nextTryUtc": "2026-10-13T09:10:55Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T08:28:58Z",
+      "nextTryUtc": "2026-11-17T08:28:58Z"
     },
     "SW1.AX": {
       "count": 1,
@@ -1639,9 +1629,9 @@
       "nextTryUtc": "2026-10-13T10:05:38Z"
     },
     "UUU.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T10:17:49Z",
-      "nextTryUtc": "2026-10-13T10:17:49Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T09:33:10Z",
+      "nextTryUtc": "2026-11-17T09:33:10Z"
     },
     "UVA.AX": {
       "count": 1,
@@ -1664,14 +1654,14 @@
       "nextTryUtc": "2026-10-13T11:06:41Z"
     },
     "WT1.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T11:31:02Z",
-      "nextTryUtc": "2026-10-13T11:31:02Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T10:44:33Z",
+      "nextTryUtc": "2026-11-17T10:44:33Z"
     },
     "X2C.AX": {
-      "count": 1,
-      "last404Utc": "2026-09-13T11:37:42Z",
-      "nextTryUtc": "2026-10-13T11:37:42Z"
+      "count": 2,
+      "last404Utc": "2026-10-18T10:51:14Z",
+      "nextTryUtc": "2026-11-17T10:51:14Z"
     },
     "# last_extracted_awst: 2026-09-14 12:52 AWST": {
       "count": 1,
@@ -2027,6 +2017,21 @@
       "count": 1,
       "last404Utc": "2026-10-11T04:03:12Z",
       "nextTryUtc": "2026-11-10T04:03:12Z"
+    },
+    "# last_extracted_awst: 2026-10-12 13:52 AWST": {
+      "count": 1,
+      "last404Utc": "2026-10-17T16:30:53Z",
+      "nextTryUtc": "2026-11-16T16:30:53Z"
+    },
+    "# last_extracted_utc: 2026-10-12T05:52:21Z": {
+      "count": 1,
+      "last404Utc": "2026-10-17T16:31:03Z",
+      "nextTryUtc": "2026-11-16T16:31:03Z"
+    },
+    "MBM.AX": {
+      "count": 1,
+      "last404Utc": "2026-10-18T03:11:03Z",
+      "nextTryUtc": "2026-11-17T03:11:03Z"
     }
   }
 }

@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-10-19T04:35:17Z
-# last_extracted_awst: 2026-10-19 12:35 AWST
+# last_extracted_utc: 2026-10-26T04:41:40Z
+# last_extracted_awst: 2026-10-26 12:41 AWST
 # one symbol per line
 1.AX
 10.AX
@@ -493,7 +493,6 @@ CDM.AX
 CDO.AX
 CDP.AX
 CDR.AX
-CDT.AX
 CEH.AX
 CEL.AX
 CEN.AX
@@ -1347,7 +1346,6 @@ LGM.AX
 LGP.AX
 LHGG.AX
 LI8.AX
-LIB.AX
 LIC.AX
 LIN.AX
 LIO.AX

@@ -1,40 +1,31 @@
 {
-  "runId": "20261108T114500Z",
-  "runDir": "/repo/asx/_runs/20261108T114500Z",
+  "runId": "20261115T114333Z",
+  "runDir": "/repo/asx/_runs/20261115T114333Z",
   "mode": "full",
   "summaryPerRun": 0,
   "qsRatePerMin": 6.0,
-  "plannedRefresh": 2317,
-  "attempted": 2317,
+  "plannedRefresh": 2308,
+  "attempted": 2308,
   "ok": 2304,
-  "successRate": 0.9943892965041001,
-  "elapsedSeconds": 69275.448,
+  "successRate": 0.9982668977469671,
+  "elapsedSeconds": 69185.793,
   "httpStatusCounts": {
-    "404": 13
+    "404": 4
   },
   "failureCounts": {
-    "not_found": 13
+    "not_found": 4
   },
   "notFoundSymbols": [
-    "# last_extracted_awst: 2026-11-02 13:57 AWST",
-    "# last_extracted_utc: 2026-11-02T05:57:40Z",
-    "CB1.AX",
-    "ECL.AX",
-    "KF1.AX",
-    "LA1.AX",
-    "LR9.AX",
-    "SH1.AX",
-    "SH2.AX",
-    "SS2.AX",
-    "TQ1.AX",
-    "TQ2.AX",
-    "VGX.AX"
+    "# last_extracted_awst: 2026-11-09 14:17 AWST",
+    "# last_extracted_utc: 2026-11-09T06:17:46Z",
+    "AEC.AX",
+    "MTX.AX"
   ],
-  "notFoundCount": 13,
-  "quarantineCount": 426,
+  "notFoundCount": 4,
+  "quarantineCount": 428,
   "cursorBefore": 1411,
   "cursorAfter": 1451,
   "cursorAdvanced": false,
-  "generatedAtUtc": "2026-11-08T11:45:07Z",
+  "generatedAtUtc": "2026-11-15T11:43:40Z",
   "abortReason": null
 }

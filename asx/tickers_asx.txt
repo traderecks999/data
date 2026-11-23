@@ -1,6 +1,6 @@
 # ASX universe tickers (Yahoo symbols, .AX)
-# last_extracted_utc: 2026-11-16T06:20:34Z
-# last_extracted_awst: 2026-11-16 14:20 AWST
+# last_extracted_utc: 2026-11-23T07:29:06Z
+# last_extracted_awst: 2026-11-23 15:29 AWST
 # one symbol per line
 1.AX
 10.AX
@@ -841,7 +841,6 @@ FBR.AX
 FBU.AX
 FCAP.AX
 FCF.AX
-FCG.AX
 FCL.AX
 FCT.AX
 FDC.AX
@@ -1298,7 +1297,6 @@ KLS.AX
 KLV.AX
 KM1.AX
 KMD.AX
-KME.AX
 KNB.AX
 KNG.AX
 KNI.AX
@@ -1815,9 +1813,9 @@ POH.AX
 POI.AX
 POJ.AX
 POL.AX
-POT.AX
 POW.AX
 PP2.AX
+PP3.AX
 PPC.AX
 PPE.AX
 PPK.AX
@@ -1845,7 +1843,6 @@ PTL.AX
 PTN.AX
 PTR.AX
 PTX.AX
-PU6.AX
 PU8.AX
 PU9.AX
 PUR.AX
